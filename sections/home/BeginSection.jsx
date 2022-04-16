@@ -92,6 +92,14 @@ const BeginSection = () => {
             <div style={{width: '80%', margin: 'auto'}}>
                 <BigGlowText><span>$</span>TEAM up with the metaverse’s first Guild 3.0</BigGlowText>
             </div>
+            <ImgContainer style={{ height: 100 }}>
+                <Image
+                    className="teamdao-pulse-delay"
+                    objectFit="contain"
+                    src={CircleDown}
+                    alt=""
+                />
+            </ImgContainer>
         </BeginSectionContainer>
     )
 }
