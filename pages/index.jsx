@@ -17,6 +17,7 @@ import RoadmapSection from "@sections/home/RoadmapSection";
 import RobotGalaxyBottom from "@sections/home/RobotGalaxyBottom";
 import Footer from "@components/Footer";
 import Head from "next/head";
+import PartnersSection from "@sections/home/PartnersSection";
 
 
 export default function Home() {
@@ -24,9 +25,11 @@ export default function Home() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 5000);
+        document.onreadystatechange = () => {
+            setTimeout(() => {
+                setLoading(document.readyState !== 'complete');
+            }, 1000);
+        };
     }, []);
 
     return (
@@ -63,6 +66,7 @@ export default function Home() {
                         <WrappedTeamSection/>
                         <FlyWheelSection/>
                         <RoadmapSection/>
+                        <PartnersSection/>
                         <RobotGalaxyBottom/>
                         <Footer/>
                     </ParallaxProvider>
