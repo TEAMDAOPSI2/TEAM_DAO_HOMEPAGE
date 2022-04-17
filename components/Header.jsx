@@ -3,7 +3,7 @@
 import Hamburger from 'hamburger-react';
 import styled from 'styled-components';
 import TeamLogo from 'public/assets/team-logo.png';
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import NextLink from 'next/link';
 import Image from 'next/image';
 
@@ -17,6 +17,7 @@ const NavContainer = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
+
   a {
     text-decoration: none;
     font-family: 'Technology';
@@ -30,56 +31,67 @@ const NavContainer = styled.div`
   &[data-toggle='false'] {
     a {
       position: relative;
+
       &#marketplace_header {
         &:after {
           content: 'MARKETPLACE';
         }
+
         &:hover {
           &:after {
             content: 'COMING SOON';
           }
         }
       }
+
       &#teamToken_header {
         &:after {
           content: 'ADD TEAM TOKEN';
         }
+
         &:hover {
           &:after {
             content: 'COMING SOON';
           }
         }
       }
+
       &#marketplace_header {
         &:after {
           content: 'MARKETPLACE';
         }
+
         &:hover {
           &:after {
             content: 'COMING SOON';
           }
         }
       }
+
       &#teamToken_header {
         &:after {
           content: 'ADD TEAM TOKEN';
         }
+
         &:hover {
           &:after {
             content: 'COMING SOON';
           }
         }
       }
+
       &#connect_header {
         &:after {
           content: 'CONNECT';
         }
+
         &:hover {
           &:after {
             content: 'COMING SOON';
           }
         }
       }
+
       &:before {
         position: absolute;
         bottom: -4px;
@@ -134,6 +146,14 @@ const HamburgerContainer = styled.div`
   }
 `;
 
+const ContainerLogo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 200px;
+`;
+
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
 
@@ -144,9 +164,15 @@ const Header = () => {
 
     return (
         <HeaderContainer>
-            <NextLink href="/">
-                <Image src={TeamLogo}   alt="logo" />
-            </NextLink>
+            <ContainerLogo>
+                <NextLink href="/">
+                    <Image
+                        src={TeamLogo}
+                        width={131}
+                        height={38}
+                        alt="Team Logo"/>
+                </NextLink>
+            </ContainerLogo>
 
             <NavContainer data-toggle={isOpen}>
                 <NextLink onClick={() => setOpen(false)} href="/#about-us">
@@ -156,13 +182,13 @@ const Header = () => {
                 <NextLink href="/#road-map">Roadmap</NextLink>
                 <NextLink href="/#whitepaper">Whitepaper</NextLink>
                 <NextLink href="media-kit">Mediakit</NextLink>
-                <a id="marketplace_header"  />
-                <a id="teamToken_header"  />
-                <a id="connect_header"  />
+                <a id="marketplace_header"/>
+                <a id="teamToken_header"/>
+                <a id="connect_header"/>
             </NavContainer>
 
             <HamburgerContainer>
-                <Hamburger color="white" toggled={isOpen} toggle={setOpen} />
+                <Hamburger color="white" toggled={isOpen} toggle={setOpen}/>
             </HamburgerContainer>
         </HeaderContainer>
     );
