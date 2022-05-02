@@ -18,6 +18,7 @@ import RobotGalaxyBottom from "@sections/home/RobotGalaxyBottom";
 import Footer from "@components/Footer";
 import Head from "next/head";
 import PartnersSection from "@sections/home/PartnersSection";
+import HomeScreenImg from "public/assets/home_screen_dao.png";
 
 
 export default function Home() {
@@ -36,6 +37,27 @@ export default function Home() {
         <>
             <Head>
                 <title>T.E.A.M DAO</title>
+                <meta name="description" content="TEAM DAO"/>
+                <meta name="keywords" content="$TEAM, TEAM, TEAMDAO, DAO, wTEAM"/>
+                <meta name="robots" content="all"/>
+
+                <meta name="author" content="T.E.A.M DAO"/>
+                <meta name="publisher" content="T.E.A.M DAO"/>
+
+
+                {/*Twitter Card*/}
+                <meta name="twitter:card" content={HomeScreenImg}/>
+                <meta name="twitter:site" content="@TEAM"/>
+                <meta name="twitter:creator" content="@_TEAMDAO"/>
+
+                <link rel="canonical" href="https://teamdao.com"/>
+                <meta property="og:url" content="https://teamdao.com"/>
+                <meta property="og:title" content="T.E.A.M DAO"/>
+                <meta property="og:description" content="linktr.ee/TEAMDAO"/>
+                <meta property="og:image" content="https://teamdao.com"/>
+                <meta property="og:site_name" content="T.E.A.M DAO"/>
+                <meta property="og:ttl" content="3600"/>
+
             </Head>
             <React.StrictMode>
                 <div style={{display: !loading ? 'none' : 'block'}}>
