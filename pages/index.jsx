@@ -53,7 +53,7 @@ export default function Home() {
                 <link rel="canonical" href="https://teamdao.com"/>
                 <meta property="og:url" content="https://teamdao.com"/>
                 <meta property="og:title" content="T.E.A.M DAO"/>
-                <meta property="og:description" content="linktr.ee/TEAMDAO"/>
+                <meta property="og:description" content="TEAM DAO"/>
                 <meta property="og:image" content="https://teamdao.com"/>
                 <meta property="og:site_name" content="T.E.A.M DAO"/>
                 <meta property="og:ttl" content="3600"/>

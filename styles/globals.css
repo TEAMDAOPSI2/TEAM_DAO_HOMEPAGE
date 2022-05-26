@@ -3,6 +3,11 @@
   src: url('/fonts/Technology.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'teamdao';
+  src: url('/fonts/TEAMDAO-Regular.otf') format('truetype');
+}
+
 @keyframes teamdao-shake-anim {
   0% {
     transform: translate(1px, 1px);

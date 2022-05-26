@@ -179,6 +179,17 @@ const MediaKit = () => {
                                 <p>#1b8520 </p>
                             </Item>
                         </Columns>
+                        <div style={{marginBottom: 60}}>
+                            <H3 style={{display: 'inline-block'}}>Fonts</H3>
+                        </div>
+                        <Columns style={{width: '100%', justifyContent: 'space-around', gap: 0}}>
+                            <Item>
+                                <p style={{fontFamily: 'teamdao', color: "#fff", fontSize: '21px', letterSpacing:"12px"}}>T.E.A.M fonts</p>
+                                <Btn
+                                    href="https://drive.google.com/file/d/1nFCg8PkWiKPAQMqvGIT9AxGkJj90WQCd/view?usp=sharing"
+                                    target="_blank" rel="noreferrer">Download</Btn>
+                            </Item>
+                        </Columns>
                     </Container>
                     <Footer/>
                 </div>
