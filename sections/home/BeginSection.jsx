@@ -90,7 +90,7 @@ const BeginSection = () => {
                 </div>
             </ImgContainer>
             <div style={{width: '80%', margin: 'auto'}}>
-                <BigGlowText><span>$</span>TEAM up with the metaverse’s first Guild 3.0</BigGlowText>
+                <BigGlowText><span>$</span>TEAM up with the metaverse’s first</BigGlowText>
             </div>
             <ImgContainer style={{ height: 100 }}>
                 <Image
