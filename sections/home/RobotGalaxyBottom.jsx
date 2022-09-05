@@ -31,6 +31,7 @@ const BeginSectionContainer = styled.div`
   align-items: center;
   min-height: 800px;
   justify-content: center;
+  padding-bottom: 90px;
 `;
 
 const EmailContainer = styled.div`
@@ -98,7 +99,7 @@ const RobotGalaxyBottom = () => {
                 <EmailContainer>
                     <H3>Receive</H3>
                     <H3 style={{marginBottom: 50}}>transmission</H3>
-                    <EmailInput/>
+                    {/*<EmailInput/>*/}
                 </EmailContainer>
             </BeginSectionContainer>
         </BgContainer>

@@ -4,21 +4,19 @@ import AboutSection from "@sections/home/AboutSection";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import RecruimentProcessSection from "@sections/home/RecruimentProcessSection";
-import TokenSection from "@sections/home/TokenSection";
 import MetaverseSection from "@sections/home/MetaverseSection";
 import LogoCarousel from "@sections/home/LogoCarousel";
 import RobotGalaxySection from "@sections/home/RobotGalaxySection";
-import WrappedTeamSection from "@sections/home/WrappedTeamSection";
-import FlyWheelSection from "@sections/home/FlyWheelSection";
 import LoadingScreen from "@components/LoadingScreen";
 import {useEffect, useState} from "react";
 import React from "react";
-import RoadmapSection from "@sections/home/RoadmapSection";
 import RobotGalaxyBottom from "@sections/home/RobotGalaxyBottom";
 import Footer from "@components/Footer";
 import Head from "next/head";
 import PartnersSection from "@sections/home/PartnersSection";
 import HomeScreenImg from "public/assets/home_screen_dao.png";
+import HeaderOld from "@components/HeaderOld";
+import FooterOld from "@components/FooterOld";
 
 
 export default function Home() {
@@ -74,23 +72,24 @@ export default function Home() {
                         position="top-center"
                         hideProgressBar={false}
                         newestOnTop={false}
+                        limit={1}
                         theme="dark"
                     />
                     <ParallaxProvider>
-
+                        <HeaderOld/>
                         <BeginSection/>
                         <AboutSection/>
                         <RecruimentProcessSection/>
-                        <TokenSection/>
+                        {/*<TokenSection/>*/}
                         <MetaverseSection/>
                         <LogoCarousel/>
                         <RobotGalaxySection/>
-                        <WrappedTeamSection/>
-                        <FlyWheelSection/>
-                        <RoadmapSection/>
+                        {/*<WrappedTeamSection/>*/}
+                        {/*<FlyWheelSection/>*/}
+                        {/*<RoadmapSection/>*/}
                         <PartnersSection/>
                         <RobotGalaxyBottom/>
-                        <Footer/>
+                        <FooterOld/>
                     </ParallaxProvider>
                 </div>
             </React.StrictMode>

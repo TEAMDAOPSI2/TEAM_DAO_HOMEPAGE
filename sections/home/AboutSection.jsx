@@ -80,8 +80,8 @@ const AboutSection = () => {
             <BeginSectionContainer id="about-us">
                 <div>
                     <H2>About TEAM</H2>
-                    <Paragraph style={{marginTop: 24, width: 260}}>
-                        TEAM has a proprietary scalable solution for guild management
+                    <Paragraph style={{marginTop: 24, width: 460}}>
+                        TEAM is an incubator for next generation eSports champions
                     </Paragraph>
 
                     <div style={{marginTop: 50, minHeight: 60}}>

@@ -56,7 +56,7 @@ const NumberContainer = styled.div`
 const RecruimentProcessSection = () => (
     <Container>
         <H3 style={{ maxWidth: 562 }}>
-            Automated and scalable recruitment process
+            Automated and scalable process
         </H3>
         <div style={{ position: 'relative', marginTop: 36 }}>
             <NumberContainer>

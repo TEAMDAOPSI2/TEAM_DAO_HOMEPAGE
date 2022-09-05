@@ -9,10 +9,10 @@ const data = {
 };
 
 const buttonStyle = {
-    width: 25,
+    width: 95,
     border: 'none',
     cursor: 'pointer',
-    background: '#171717',
+    background: 'transparent',
     height: '48px'
 };
 
@@ -27,7 +27,7 @@ const InputContainer = styled.div`
 `;
 
 const Input = styled.input`
-  max-width: 250px;
+  max-width: 180px;
   height: 48px;
   border: none;
   outline: none;
@@ -38,6 +38,10 @@ const Input = styled.input`
   font-size: 14px;
   background: #171717;
   padding: 0 43px;
+  
+  @media (max-width: 1024){
+    max-width: 150px;
+  }
 
   &:after {
     content: '>';
@@ -78,7 +82,20 @@ const EmailInput = () => {
             <InputContainer>
                 <Input type="email" name="email" placeholder="Your e-mail"/>
                 <button type="submit" style={buttonStyle}>
-                    <ChevronLeft/>
+                    <div id="con_wallet-txt" className="btn_b w-100">
+                        <div className="btn_b--textwrap h-100">
+                            <div id="con_wallet" className="btn_b--txt d-flex flex-column">
+                                <div id='con_wallet' className='btn_b--txt d-flex flex-column'>
+                                    <span>SUBSCRIBE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="btn_b--bgwrap">
+                            <div className="btn_b--bg">
+                                <div className="btn_b--fill no_full"></div>
+                            </div>
+                        </div>
+                    </div>
                 </button>
             </InputContainer>
         </form>

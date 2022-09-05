@@ -33,6 +33,7 @@ const BgContainer = styled.div`
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
+  padding-top: 60px;
 `;
 
 const Container = styled.div`
@@ -141,6 +142,42 @@ const ColumnPartner = styled.div`
   }
 `;
 
+const ColumnPartner2 = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+
+  > div {
+    width: 15%;
+    flex: 0 1 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    
+    > div {
+      width: 38%;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 528px) {
+
+    > div {
+      width: 29%;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 50px;
+    }
+  }
+`;
+
 const PartnersSection = () => {
     const bgImage = useProgressiveImage(imgBackground.src, imgBackgroundLazy.src);
     return (
@@ -174,7 +211,7 @@ const PartnersSection = () => {
                         <Columns
                             widthSize="100%"
                             style={{width: '100%', justifyContent: 'space-around', gap: 0}}>
-                            <ColumnPartner>
+                            <ColumnPartner2>
                                 <Item>
                                     <img src={imgAlgorand.src} alt="partner"/>
                                 </Item>
@@ -207,7 +244,7 @@ const PartnersSection = () => {
                                     <img src={imgEverseCapital.src} alt="partner"/>
                                 </Item>
 
-                            </ColumnPartner>
+                            </ColumnPartner2>
                         </Columns>
 
 

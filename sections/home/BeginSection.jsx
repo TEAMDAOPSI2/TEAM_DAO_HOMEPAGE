@@ -4,7 +4,6 @@ import Bg1Lazy from 'public/assets/bg1-lazy.png';
 import Robot1 from 'public/assets/robot1.png';
 import CircleDown from 'public/assets/circle-down.png';
 import useProgressiveImage from "../../hooks/useProgressiveImage";
-import Header from "@components/Header";
 import Image from "next/image";
 
 const BeginSectionContainer = styled.div`
@@ -20,6 +19,16 @@ const BeginSectionContainer = styled.div`
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  margin-top: -120px;
+
+  @media (max-width: 1024px) {
+    margin-top: -10px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 90px;
+  }
+  
 `;
 
 const BigGlowText = styled.h2`
@@ -83,14 +92,13 @@ const BeginSection = () => {
     const bgImage = useProgressiveImage(Bg1.src, Bg1Lazy.src);
     return (
         <BeginSectionContainer backgroundImage={bgImage}>
-            <Header/>
             <ImgContainer>
                 <div className="teamdao-flash">
                     <Image className="teamdao-pulse" src={Robot1} alt=""/>
                 </div>
             </ImgContainer>
             <div style={{width: '80%', margin: 'auto'}}>
-                <BigGlowText><span>$</span>TEAM up with the metaverse’s first</BigGlowText>
+                <BigGlowText>$TEAM UP WITH THE METAVERSE'S FIRST PROFESSIONAL ESPORTS TEAMS</BigGlowText>
             </div>
             <ImgContainer style={{ height: 100 }}>
                 <Image
