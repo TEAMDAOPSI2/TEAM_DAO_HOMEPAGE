@@ -119,15 +119,15 @@ const Footer = () => {
             .then(res => res.json())
             .then(res => {
                 // setNotification(res[0].message);
-                // toast.success(res[0].message, {
-                //     position: "bottom-center",
-                //     autoClose: 2000,
-                //     hideProgressBar: false,
-                //     closeOnClick: true,
-                //     pauseOnHover: true,
-                //     draggable: true,
-                //     progress: undefined,
-                // });
+                toast.success(res[0].message, {
+                    position: "bottom-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
             });
     }
 
