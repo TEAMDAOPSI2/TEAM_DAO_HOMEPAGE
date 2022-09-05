@@ -24,9 +24,9 @@ const FooterContainer = styled.div`
   background: #000;
   background: linear-gradient(270deg, #1b8520, #1b8520, #2afe30, #2afe30) 0 0 #000 no-repeat;
   background-size: 100% 5px;
-  padding: 26px 70px;
+  padding: 10px 70px;
   @media (max-width: 1024px) {
-    padding: 26px 10px;
+    padding: 8px 10px;
   }
 `;
 
@@ -45,17 +45,25 @@ const WrapLeft = styled.div`
     margin-left: 10px;
   }
   @media (max-width: 782px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    margin-top: -90px;
-    .LogoFooter {
-      visibility: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    div{
+      margin-left: 0;
+    } 
+  }
+  @media (max-width: 542px) {
+    div:nth-child(1){
+      display: none;
     }
   }
 `
 
 
 const ConnectContainer = styled.div`
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -74,9 +82,9 @@ const SocialMediaContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    margin-top: 40px;
     width: 100%;
     justify-content: space-between;
+    gap: 12px;
   }
 `;
 
@@ -95,6 +103,14 @@ const FooterWrapper = styled.div`
   z-index: 99;
 `;
 
+const ContainerLogo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 120px;
+`;
+
 
 const Footer = () => {
 
@@ -103,15 +119,15 @@ const Footer = () => {
             .then(res => res.json())
             .then(res => {
                 // setNotification(res[0].message);
-                toast.success(res[0].message, {
-                    position: "bottom-center",
-                    autoClose: 2000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                });
+                // toast.success(res[0].message, {
+                //     position: "bottom-center",
+                //     autoClose: 2000,
+                //     hideProgressBar: false,
+                //     closeOnClick: true,
+                //     pauseOnHover: true,
+                //     draggable: true,
+                //     progress: undefined,
+                // });
             });
     }
 
@@ -124,7 +140,9 @@ const Footer = () => {
             <FooterContainer>
                 <ConnectContainer>
                     <WrapLeft>
-                        <Image width={120} className="LogoFooter" src={TeamLogo} alt="logo"/>
+                       <ContainerLogo>
+                           <Image width={111} height={31} className="LogoFooter" src={TeamLogo} alt="logo"/>
+                       </ContainerLogo>
                         <SocialMediaContainer>
                             <NextLink href="https://t.me/TeamAXS" target="_blank" rel="noopener">
                                 <TelegramIcon/>

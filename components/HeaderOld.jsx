@@ -18,12 +18,12 @@ const WrapHeader = styled.div`
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 26px 70px;
+  padding: 10px 70px;
   border-bottom-width: 4px;
   background: linear-gradient(270deg, #1b8520, #1b8520, #2afe30, #2afe30) 0 100% #000 no-repeat;
   background-size: 100% 5px;
   @media (max-width: 1024px) {
-    padding: 26px 10px;
+    padding: 8px 10px;
   }
 `;
 

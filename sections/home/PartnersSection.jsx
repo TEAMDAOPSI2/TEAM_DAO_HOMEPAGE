@@ -18,6 +18,10 @@ import imgGsg from 'public/assets/partners/partners-gsg.png';
 import imgReadWP from 'public/assets/whitepaper-container.png';
 import imgCoinHako from 'public/assets/partners/partners-coinhako.png';
 import imgRisingCapital from 'public/assets/partners/partners-rising-cap.png';
+import imgGainAssociate from 'public/assets/partners/partners-gains-associsates.png';
+import imgNxgen from 'public/assets/partners/partners-nxgen.png';
+import imgBaseLayer from 'public/assets/partners/partners-baselayer.png';
+import imgDwf from 'public/assets/partners/partners-dwf-labs.png';
 import Image from "next/image";
 import useProgressiveImage from "../../hooks/useProgressiveImage";
 
@@ -184,83 +188,88 @@ const PartnersSection = () => {
         <div>
             <BgContainer bgImage={bgImage}>
                 <Container>
-                    <div style={{marginBottom: 150}}>
-                        <H2 style={{display: 'inline-block'}}>Partners</H2>
+                    <div style={{ marginBottom: 150 }}>
+                        <H2 style={{ display: 'inline-block' }}>Partners</H2>
                     </div>
                     <Columns widthSize="17%">
                         <Columns
-                            widthSize="100%"
-                            style={{width: '100%', justifyContent: 'space-around', gap: 0}}>
-                            <ColumnPartner>
+                            widthSize="22%"
+                            style={{ width: '100%', justifyContent: 'space-around', gap: 0 }}
+                        >
+                            <Columns widthSize="45%" style={{ width: '47%' }}>
                                 <Item>
-                                    <img src={imgAnimoca.src} alt="partner"/>
+                                    <img src={imgAnimoca.src} alt="partner" />
                                 </Item>
                                 <Item>
-                                    <img src={imgKrust.src} alt="partner"/>
+                                    <img src={imgKrust.src} alt="partner" />
                                 </Item>
-
+                            </Columns>
+                            <Columns widthSize="45%" style={{ width: '47%' }}>
                                 <Item>
-                                    <img src={imgShima.src} alt="partner"/>
+                                    <img src={imgShima.src} alt="partner" />
                                 </Item>
                                 <Item>
-                                    <img src={imgAntiFund.src} alt="partner"/>
+                                    <img src={imgAntiFund.src} alt="partner" />
                                 </Item>
-                            </ColumnPartner>
+                            </Columns>
                         </Columns>
 
-                        <Columns
-                            widthSize="100%"
-                            style={{width: '100%', justifyContent: 'space-around', gap: 0}}>
-                            <ColumnPartner2>
-                                <Item>
-                                    <img src={imgAlgorand.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgNGC.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgLibraCapitalVentures.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgNexo.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgGsr.src} alt="partner"/>
-                                </Item>
-
-                                <Item>
-                                    <img src={imgExcap.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgCoinHako.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgOctava.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgRisingCapital.src} alt="partner"/>
-                                </Item>
-                                <Item>
-                                    <img src={imgEverseCapital.src} alt="partner"/>
-                                </Item>
-
-                            </ColumnPartner2>
-                        </Columns>
-
-
-                    </Columns>
-
-                    <div style={{margin: '150px 0'}}>
-                        <H2 style={{display: 'inline-block'}}>Advisors</H2>
-                    </div>
-                    <Columns widthSize="32%">
                         <Item>
-                            <img src={imgGsg.src} alt="partner"/>
+                            <img src={imgAlgorand.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgNGC.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgLibraCapitalVentures.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgNexo.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgGsr.src} alt="partner" />
+                        </Item>
+
+                        <Item>
+                            <img src={imgExcap.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgCoinHako.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgOctava.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgRisingCapital.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgEverseCapital.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgDwf.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgNxgen.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgGainAssociate.src} alt="partner" />
+                        </Item>
+                        <Item>
+                            <img src={imgBaseLayer.src} alt="partner" />
                         </Item>
                     </Columns>
 
-                    <div style={{position: 'relative'}}>
-                        <div style={{marginBottom: 80, width: '100%', minWidth: 700}}>
+                    <div style={{ margin: '150px 0' }}>
+                        <H2 style={{ display: 'inline-block' }}>Advisors</H2>
+                    </div>
+                    <Columns widthSize="22%">
+                        <Item>
+                            <img src={imgGsg.src} alt="partner" />
+                        </Item>
+                    </Columns>
+
+                    <div style={{ position: 'relative' }}>
+                        <div style={{ marginBottom: 80, width: '100%', minWidth: 700 }}>
                             <div
                                 id="whitepaper"
                                 style={{
@@ -277,17 +286,17 @@ const PartnersSection = () => {
                                     zIndex: 100
                                 }}
                             >
-                                <H4 style={{textAlign: 'left'}}>Read the Whitepaper</H4>
+                                <H4 style={{ textAlign: 'left' }}>Read the Whitepaper</H4>
                                 <ResponsiveBtn
                                     type="diagonal"
-                                    onClick={() => window.open('https://whitepaper.teamdao.com/')}
+                                    // onClick={() => window.open('https://whitepaper.teamdao.com/')}
                                 >
-                                    Explore
+                                    Coming Soon
                                 </ResponsiveBtn>
                             </div>
                         </div>
 
-                        <Image src={imgReadWP} alt="partner"/>
+                        <Image src={imgReadWP} alt="partner" />
                     </div>
                 </Container>
             </BgContainer>
