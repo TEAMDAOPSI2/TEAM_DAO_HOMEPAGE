@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@trendyol-js/react-carousel": "^2.0.1",
+    "bootstrap": "^5.2.0",
     "hamburger-react": "^2.4.1",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "18.0.0",
     "react-scroll-parallax": "^3.0.5",
     "react-slick": "^0.28.1",

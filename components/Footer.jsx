@@ -3,6 +3,17 @@ import Image from 'next/image';
 import styled from 'styled-components';
 import TwitterIcon from 'public/assets/social-media/twitter.svg';
 import TelegramIcon from 'public/assets/social-media/telegram.svg';
+
+// import FacebookIcon from 'public/assets/social-media/facebook.svg';
+// import TiktokIcon from 'public/assets/social-media/tiktok.png';
+// import MediumIcon from 'public/assets/social-media/medium_white.svg';
+// import DiscordIcon from 'public/assets/social-media/discord_white.svg';
+// import WhitePaperIcon from 'public/assets/social-media/litepaper.png';
+// import GithubIcon from 'public/assets/social-media/github_white.svg';
+// import YoutubeIcon from 'public/assets/social-media/youtube.svg';
+// import TwitchIcon from 'public/assets/social-media/iconmonstr-twitch-1-240.png';
+// import LinksIcon from 'public/assets/social-media/iconmonstr-share-thin-240.png';
+
 import NextLink from "next/link";
 
 const FooterContainer = styled.div`

@@ -36,8 +36,8 @@ const BigGlowText = styled.h2`
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  font-size: 100px;
-  line-height: 105px;
+  font-size: 60px;
+  line-height: 60px;
   text-align: left;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -88,18 +88,32 @@ const ImgContainer = styled.div`
   }
 `;
 
+const WrapHeroContent = styled.div`
+  display: flex;
+  flex-direction: row;
+  max-width: 85%;
+  margin: auto;
+  padding-top: 160px;
+  
+  @media(max-width: 512px){
+    padding-top: 40px;
+  }
+`;
+
 const BeginSection = () => {
     const bgImage = useProgressiveImage(Bg1.src, Bg1Lazy.src);
     return (
         <BeginSectionContainer backgroundImage={bgImage}>
-            <ImgContainer>
-                <div className="teamdao-flash">
-                    <Image className="teamdao-pulse" src={Robot1} alt=""/>
+            <WrapHeroContent>
+                <div style={{width: '80%', margin: 'auto'}}>
+                    <BigGlowText>$TEAM UP WITH THE METAVERSE'S FIRST PROFESSIONAL ESPORTS TEAMS</BigGlowText>
                 </div>
-            </ImgContainer>
-            <div style={{width: '80%', margin: 'auto'}}>
-                <BigGlowText>$TEAM UP WITH THE METAVERSE'S FIRST PROFESSIONAL ESPORTS TEAMS</BigGlowText>
-            </div>
+                <ImgContainer>
+                    <div className="teamdao-flash">
+                        <Image className="teamdao-pulse" src={Robot1} alt=""/>
+                    </div>
+                </ImgContainer>
+            </WrapHeroContent>
             <ImgContainer style={{ height: 100 }}>
                 <Image
                     className="teamdao-pulse-delay"

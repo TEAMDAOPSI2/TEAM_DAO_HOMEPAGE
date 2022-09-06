@@ -1,182 +1,26 @@
-/* eslint-disable jsx-a11y/control-has-associated-label */
-/* eslint-disable jsx-a11y/anchor-has-content */
-import Hamburger from 'hamburger-react';
-import styled from 'styled-components';
-import TeamLogo from 'public/assets/team-logo.png';
-import {useEffect, useState} from 'react';
-import NextLink from 'next/link';
-import Image from 'next/image';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import TeamLogo from 'public/assets/team-logo.png';
+import TeamMeta from 'public/assets/team-meta.png';
+import Image from "next/image";
 
-const WrapHeader = styled.div`
-  position: fixed;
-  width: 100%;
-  background: #000;
-  z-index: 99999999;
-`;
-
-const HeaderContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 70px;
-  border-bottom-width: 4px;
-  background: linear-gradient(270deg, #1b8520, #1b8520, #2afe30, #2afe30) 0 100% #000 no-repeat;
-  background-size: 100% 5px;
-  @media (max-width: 1024px) {
-    padding: 8px 10px;
-  }
-`;
-
-const NavContainer = styled.div`
-  display: flex;
-  gap: 20px;
-  align-items: center;
-
-  a {
-    text-decoration: none;
-    font-family: 'Technology';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 25px;
-    color: #ffffff;
-  }
-
-  &[data-toggle='false'] {
-    a {
-      position: relative;
-
-      &#marketplace_header {
-        &:after {
-          content: 'MARKETPLACE';
-        }
-
-        &:hover {
-          &:after {
-            content: 'COMING SOON';
-          }
-        }
-      }
-
-      &#teamToken_header {
-        &:after {
-          content: 'ADD TEAM TOKEN';
-        }
-
-        &:hover {
-          &:after {
-            content: 'COMING SOON';
-          }
-        }
-      }
-
-      &#marketplace_header {
-        &:after {
-          content: 'MARKETPLACE';
-        }
-
-        &:hover {
-          &:after {
-            content: 'COMING SOON';
-          }
-        }
-      }
-
-      &#teamToken_header {
-        &:after {
-          content: 'ADD TEAM TOKEN';
-        }
-
-        &:hover {
-          &:after {
-            content: 'COMING SOON';
-          }
-        }
-      }
-
-      &#connect_header {
-        &:after {
-          content: 'CONNECT';
-        }
-
-        &:hover {
-          &:after {
-            content: 'COMING SOON';
-          }
-        }
-      }
-
-      &:before {
-        position: absolute;
-        bottom: -4px;
-        content: '';
-        width: 0px;
-        height: 4px;
-        background: #00ff19;
-        transition: all 0.2s ease;
-      }
-
-      &:hover {
-        &:before {
-          width: 100%;
-          transition: all 0.2s ease;
-        }
-      }
-    }
-  }
-
-  @media (max-width: 768px) {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    &[data-toggle='false'] {
-      display: none;
-    }
-
-    &[data-toggle='true'] {
-      padding: 4rem 0;
-      z-index: 1000;
-      display: flex;
-      flex-direction: column;
-      background: rgba(0, 0, 0, 0.8);
-      width: 100vw;
-      height: calc(100% - 8rem);
-      justify-content: space-around;
-
-      a {
-        font-size: 1.75rem;
-      }
-    }
-  }
-`;
-
-const HamburgerContainer = styled.div`
-  z-index: 1000;
-  display: none;
-  @media (max-width: 768px) {
-    display: block;
-  }
-`;
-
-const ContainerLogo = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  max-width: 200px;
-`;
-
-
-const Header = () => {
-    const [isOpen, setOpen] = useState(false);
+const RBNavBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
     const [currentAccount, setCurrentAccount] = useState("");
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     const ifWalletConnected = async () => {
         try {
             // make sure have access window ethereum
-            const {ethereum} = window;
+            const { ethereum } = window;
 
             if (!ethereum) {
                 console.log("No ethereum found");
@@ -185,7 +29,7 @@ const Header = () => {
             }
 
             // check if authorized using wallet connect
-            const accounts = await ethereum.request({method: "eth_accounts"});
+            const accounts = await ethereum.request({ method: "eth_accounts" });
 
             if (accounts.length !== 0) {
                 const account = accounts[0];
@@ -197,7 +41,7 @@ const Header = () => {
         } catch (e) {
             console.log("Error", e);
         }
-    }
+    };
 
     const disconnectWallet = async () => {
         try {
@@ -206,11 +50,10 @@ const Header = () => {
         } catch (e) {
             console.log("Error", e);
         }
-    }
+    };
 
     // connect wallet method
     const connectWallet = async () => {
-
         // // check if authorized using wallet connect
         // const accounts = await ethereum.request({method: "eth_accounts"});
         //
@@ -222,121 +65,175 @@ const Header = () => {
         // }
         // if not doing connect meta mask
         try {
-            const {ethereum} = window;
+            const { ethereum } = window;
             if (!ethereum) {
                 alert("get metamask");
                 return;
             }
 
-            const accounts = await ethereum.request({method: "eth_requestAccounts"});
+            const accounts = await ethereum.request({
+                method: "eth_requestAccounts",
+            });
             console.log("connected", accounts[0]);
             setCurrentAccount(accounts[0]);
         } catch (e) {
             console.log("Error", e);
         }
-    }
+    };
 
     const addTeamToken = async () => {
         const wasAdded = await ethereum.request({
-            method: 'wallet_watchAsset',
+            method: "wallet_watchAsset",
             params: {
-                type: 'ERC20', // Initially only supports ERC20, but eventually more!
+                type: "ERC20", // Initially only supports ERC20, but eventually more!
                 options: {
                     address: "0x9BADA086BAE4962037f14B0e79BaEa62e972dD21", // The address that the token is at.
                     symbol: "TEAM", // A ticker symbol or shorthand, up to 5 chars.
                     decimals: 8, // The number of decimals in the token
-                    image: "https://raw.githubusercontent.com/Team-Exchange/icons/master/TE_SMALL.png", // A string url of the token logo
+                    image:
+                        "https://raw.githubusercontent.com/Team-Exchange/icons/master/TE_SMALL.png", // A string url of the token logo
                 },
             },
         });
-
-    }
+    };
 
     // run function when page loaded
     useEffect(() => {
         ifWalletConnected();
     }, []);
 
-    useEffect(() => {
-        const body = document.getElementsByTagName('body');
-        body[0].setAttribute('data-scroll-lock', `${isOpen}`);
-    }, [isOpen]);
-
+    console.log(isOpen);
     return (
-        <WrapHeader>
-            <HeaderContainer>
-                <ContainerLogo>
-                    <NextLink href="/">
-                        <Image
-                            src={TeamLogo}
-                            width={131}
-                            height={38}
-                            alt="Team Logo"/>
-                    </NextLink>
-                </ContainerLogo>
+        <>
+            <Navbar className='fixed-top bg-black' expand='lg' id='myNavbar'>
+                <div className='container'>
+                    <Link className='navbar-brand text-white' href='/'>
+                        <a>
+                            {/*<img*/}
+                            {/*    src='images/team-logo.png'*/}
+                            {/*    alt='Team Games'*/}
+                            {/*    className={`brand_img`}*/}
+                            {/*/>*/}
+                            <Image src={TeamLogo}/>
+                        </a>
+                    </Link>
+                    <Navbar.Toggle
+                        onClick={() => setIsOpen(!isOpen)}
+                        aria-controls='basic-navbar-nav'
+                    >
+                        <span className={`navbar-toggler-icon ${isOpen ? `close` : ``}`} />
+                    </Navbar.Toggle>
+                    <Navbar.Collapse
+                        id='basic-navbar-nav'
+                        className={`collapse-animation`}
+                    >
+                        <Nav className='ml-auto ms-auto' id='myNavItem'>
+                            <Link href='/marketplace'>
+                                <a className='nav-link'>MARKETPLACE</a>
+                            </Link>
+                            {/*<Link href='#'>*/}
+                            {/*  <a className='nav-link' target='_blank' rel='noreferrer'>*/}
+                            {/*    WHITEPAPER*/}
+                            {/*  </a>*/}
+                            {/*</Link>*/}
+                            <a className={'nav-link'} id="marketplace_header"/>
+                            <Link href='/media-kit'>
+                                <a className='nav-link'>MEDIAKIT</a>
+                            </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>GAMES</a>
+                            </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>SPORTS</a>
+                            </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>ATHLETES</a>
+                            </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>TEAMS</a>
+                            </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>TOURNAMENTS</a>
+                            </Link>
+                        </Nav>
 
-                <NavContainer data-toggle={isOpen}>
-                    <NextLink href="marketplace">marketplace</NextLink>
-                    <NextLink href="https://whitepaper.teamdao.com/">
-                        <a target="_blank" ref="noopener">Whitepaper</a>
-                    </NextLink>
-                    <NextLink href="media-kit">Mediakit</NextLink>
-                    <NextLink href="#">Games</NextLink>
-                    <NextLink href="#">Sports</NextLink>
-                    <NextLink href="#">Athletes</NextLink>
-                    <NextLink href="#">Teams</NextLink>
-                    <NextLink href="#">Tournaments</NextLink>
-
-                    <div onClick={addTeamToken} id="con_wallet-txt" className="btn_b w-100 reflect-left">
-                        <div className="btn_b--textwrap h-100">
-                            <div id="con_wallet" className="btn_b--txt d-flex flex-column text-center"><span
-                                className="neon">Add</span> <br/><span>TEAM Token</span></div>
-                        </div>
-                        <div className="btn_b--bgwrap">
-                            <div className="btn_b--bg">
-                                <div className="btn_b--fill no_full"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div onClick={connectWallet} id="con_wallet-txt" className="btn_b w-100">
-                        <div className="btn_b--textwrap h-100">
-                            <div id="con_wallet" className="btn_b--txt d-flex flex-column">
-                                {!currentAccount ? (
-                                    <div
-                                        id='con_wallet'
-                                        className='btn_b--txt d-flex flex-column'
-                                    >
-                                        <span className='neon'>Connect</span><br/><span>Wallet</span>
+                        <Nav className='ms-auto left-nav-menu' id='myNavItem'>
+                            <div
+                                onClick={addTeamToken}
+                                className='btn_b me-2 reflect-left w-100'
+                            >
+                                <div
+                                    style={{ width: 150 + "px" }}
+                                    className='d-flex btn_b--txt flex-row justify-content-center align-items-center flex-grow-1 add-meta btn_b--textwrap'
+                                >
+                                    <Image src={TeamMeta} className='coin-link' width={25} height={25}/>
+                                    <span className={`text-center d-flex flex-column`}>
+                    <span>
+                      +ADD <span className='neon'>$TEAM</span>
+                    </span>{" "}
+                                        <span>METAMASK</span>
+                  </span>
+                                </div>
+                                <div className='btn_b--bgwrap'>
+                                    <div className='btn_b--bg'>
+                                        <div className='btn_b--fill no_full' />
                                     </div>
-                                ) : (
-                                    <div
-                                        id='con_wallet'
-                                        className='btn_b--txt d-flex align-items-center justify-content-center '>
-                                        {
-                                            <span className='neon'>
-                                                {currentAccount.substr(0, 3)}...
-                                                {currentAccount.substr(currentAccount.length - 4)}
-                                            </span>
-                                        }
+                                </div>
+                            </div>
+                            <div
+                                onClick={connectWallet}
+                                id='con_wallet-txt'
+                                className='btn_b w-100'
+                            >
+                                <div className='btn_b--textwrap h-100'>
+                                    {!currentAccount ? (
+                                        <div
+                                            id='con_wallet'
+                                            className='btn_b--txt d-flex flex-column'
+                                        >
+                                            <span className='neon'>Connect</span> <span>Wallet</span>
+                                        </div>
+                                    ) : (
+                                        <div
+                                            id='con_wallet'
+                                            className='btn_b--txt d-flex align-items-center justify-content-center '
+                                        >
+                                            {
+                                                <span className='neon'>
+                          {currentAccount.substr(0, 3)}...
+                                                    {currentAccount.substr(currentAccount.length - 4)}
+                        </span>
+                                            }
+                                        </div>
+                                    )}
+                                </div>
+                                <div className='btn_b--bgwrap'>
+                                    <div className='btn_b--bg'>
+                                        <div className='btn_b--fill no_full' />
                                     </div>
-                                )}
+                                </div>
                             </div>
-                        </div>
-                        <div className="btn_b--bgwrap">
-                            <div className="btn_b--bg">
-                                <div className="btn_b--fill no_full"></div>
-                            </div>
-                        </div>
-                    </div>
-                </NavContainer>
-
-                <HamburgerContainer>
-                    <Hamburger color="white" toggled={isOpen} toggle={setOpen}/>
-                </HamburgerContainer>
-            </HeaderContainer>
-        </WrapHeader>
+                        </Nav>
+                    </Navbar.Collapse>
+                </div>
+            </Navbar>
+            <Modal
+                show={show}
+                onHide={handleClose}
+                contentClassName='modal-disconnect'
+                centered={true}
+            >
+                <Modal.Header closeButton>
+                    <Modal.Title>Disconnect Wallet</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <button onClick={disconnectWallet} className='btn btn-default'>
+                        Disconnect
+                    </button>
+                </Modal.Body>
+            </Modal>
+        </>
     );
 };
 
-export default Header;
+export default RBNavBar;
