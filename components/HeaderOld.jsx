@@ -131,12 +131,11 @@ const RBNavBar = () => {
                             <Link href='/marketplace'>
                                 <a className='nav-link'>MARKETPLACE</a>
                             </Link>
-                            {/*<Link href='#'>*/}
-                            {/*  <a className='nav-link' target='_blank' rel='noreferrer'>*/}
-                            {/*    WHITEPAPER*/}
-                            {/*  </a>*/}
-                            {/*</Link>*/}
-                            <a className={'nav-link'} id="marketplace_header"/>
+                            <Link href='https://whitepaper.teamdao.com/'>
+                              <a className='nav-link' target='_blank' rel='noreferrer'>
+                                WHITEPAPER
+                              </a>
+                            </Link>
                             <Link href='/media-kit'>
                                 <a className='nav-link'>MEDIAKIT</a>
                             </Link>

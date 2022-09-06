@@ -282,16 +282,16 @@ const PartnersSection = () => {
                                     padding: '2%',
                                     top: '32%',
                                     left: '4%',
-                                    width: 200,
+                                    width: 250,
                                     zIndex: 100
                                 }}
                             >
                                 <H4 style={{ textAlign: 'left' }}>Read the Whitepaper</H4>
                                 <ResponsiveBtn
                                     type="diagonal"
-                                    // onClick={() => window.open('https://whitepaper.teamdao.com/')}
+                                    onClick={() => window.open('https://whitepaper.teamdao.com/')}
                                 >
-                                    Coming Soon
+                                    READ NOW
                                 </ResponsiveBtn>
                             </div>
                         </div>
