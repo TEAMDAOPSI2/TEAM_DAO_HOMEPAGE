@@ -106,7 +106,7 @@ const BeginSection = () => {
         <BeginSectionContainer backgroundImage={bgImage}>
             <WrapHeroContent>
                 <div style={{width: '80%', margin: 'auto'}}>
-                    <BigGlowText>$TEAM UP WITH THE METAVERSE'S FIRST PROFESSIONAL ESPORTS TEAMS</BigGlowText>
+                    <BigGlowText>$TEAM <br/> IS THE <br/> #1 ESPORTS DAO</BigGlowText>
                 </div>
                 <ImgContainer>
                     <div className="teamdao-flash">
