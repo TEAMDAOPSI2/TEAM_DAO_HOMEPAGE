@@ -724,8 +724,10 @@ body::-webkit-scrollbar-track {
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 768px) {
+    .mail-subscription{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 428px) {
