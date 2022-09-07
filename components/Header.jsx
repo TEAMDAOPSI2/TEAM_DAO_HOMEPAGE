@@ -180,7 +180,9 @@ const Header = () => {
                 </NextLink>
                 <NextLink href="/#token">Token</NextLink>
                 <NextLink href="/#road-map">Roadmap</NextLink>
-                <NextLink href="/#whitepaper">Whitepaper</NextLink>
+                <NextLink href="https://whitepaper.teamdao.com/">
+                    <a target="_blank" rel="noreferrer">Whitepaper</a>
+                </NextLink>
                 <NextLink href="media-kit">Mediakit</NextLink>
                 <a id="marketplace_header"/>
                 <a id="teamToken_header"/>
