@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Bg1 from 'public/assets/bg1.png';
+import Bg1 from 'public/assets/bg2.jpg';
 import Bg1Lazy from 'public/assets/bg1-lazy.png';
 import Robot1 from 'public/assets/robot1.png';
 import CircleDown from 'public/assets/circle-down.png';
@@ -19,7 +19,7 @@ const BeginSectionContainer = styled.div`
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  margin-top: -120px;
+  //margin-top: -120px;
 
   @media (max-width: 1024px) {
     margin-top: -10px;
@@ -106,7 +106,7 @@ const BeginSection = () => {
         <BeginSectionContainer backgroundImage={bgImage}>
             <WrapHeroContent>
                 <div style={{width: '80%', margin: 'auto'}}>
-                    <BigGlowText>$TEAM <br/> IS THE <br/> #1 ESPORTS DAO</BigGlowText>
+                    <BigGlowText>$TEAM IS THE <br/> #1 ESPORTS DAO</BigGlowText>
                 </div>
                 <ImgContainer>
                     <div className="teamdao-flash">
