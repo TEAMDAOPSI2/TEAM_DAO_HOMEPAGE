@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styled from "styled-components";
 import Slider from "react-slick";
-import GamesGroup from "public/assets/Games.svg"
+import GamesGroup from "public/assets/Games.png"
 
 const cache = {};
 
@@ -25,7 +25,11 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  img{
+    max-width: 100%;
+  }  
 `;
+
 
 
 const LogoCarousel = () => (
@@ -59,7 +63,7 @@ const LogoCarousel = () => (
         {/*        </div>*/}
         {/*    ))}*/}
         {/*</Slider>*/}
-        <GamesGroup/>
+        <img src={GamesGroup.src}  alt="games group"/>
     </Container>
 );
 
