@@ -13,7 +13,8 @@ const BeginSectionContainer = styled.div`
   rgba(0, 0, 0, 0) 58.51%,
   #000000 90.91%),
   url(${props => props.backgroundImage});
-  min-height: 100vh;
+  //min-height: 100vh;
+  height: 480px;
   background-position: center;
   background-color: black;
   background-size: cover;
@@ -22,29 +23,36 @@ const BeginSectionContainer = styled.div`
   //margin-top: -120px;
 
   @media (max-width: 1024px) {
-    margin-top: -10px;
+    margin-top: 60px;
   }
 
-  @media (max-width: 768px) {
-    margin-top: 90px;
+  @media (max-width: 776px) {
+    margin-top: 60px;
   }
   
 `;
 
 const BigGlowText = styled.h2`
   max-width: 950px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  font-size: 60px;
-  line-height: 60px;
   text-align: left;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #00ff19;
   text-shadow: 0px 0px 20px rgba(0, 255, 25, 0.9);
   margin-top: 0;
   word-break: break-word;
+
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #ff000000;
+  font-weight: 900;
+  font-size: 47px;
+  line-height: 47px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #00FF19;
+  margin-top: 90px;
+  margin-bottom: 24px;
 
   > span {
     color: #e9eee9;
@@ -62,7 +70,7 @@ const BigGlowText = styled.h2`
   }
 
   @media (max-width: 425px) {
-    font-size: 2.1rem;
+    font-size: 1.2rem;
     line-height: 0.9;
     > span {
       font-size: 1.8rem;

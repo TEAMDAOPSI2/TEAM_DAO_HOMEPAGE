@@ -139,21 +139,21 @@ const RBNavBar = () => {
                             <Link href='/media-kit'>
                                 <a className='nav-link'>MEDIAKIT</a>
                             </Link>
-                            <Link href='#'>
-                                <a className='nav-link'>GAMES</a>
-                            </Link>
-                            <Link href='#'>
-                                <a className='nav-link'>SPORTS</a>
-                            </Link>
-                            <Link href='#'>
-                                <a className='nav-link'>ATHLETES</a>
-                            </Link>
-                            <Link href='#'>
-                                <a className='nav-link'>TEAMS</a>
-                            </Link>
-                            <Link href='#'>
-                                <a className='nav-link'>TOURNAMENTS</a>
-                            </Link>
+                            {/*<Link href='#'>*/}
+                            {/*    <a className='nav-link'>GAMES</a>*/}
+                            {/*</Link>*/}
+                            {/*<Link href='#'>*/}
+                            {/*    <a className='nav-link'>SPORTS</a>*/}
+                            {/*</Link>*/}
+                            {/*<Link href='#'>*/}
+                            {/*    <a className='nav-link'>ATHLETES</a>*/}
+                            {/*</Link>*/}
+                            {/*<Link href='#'>*/}
+                            {/*    <a className='nav-link'>TEAMS</a>*/}
+                            {/*</Link>*/}
+                            {/*<Link href='#'>*/}
+                            {/*    <a className='nav-link'>TOURNAMENTS</a>*/}
+                            {/*</Link>*/}
                         </Nav>
 
                         <Nav className='ms-auto left-nav-menu' id='myNavItem'>
