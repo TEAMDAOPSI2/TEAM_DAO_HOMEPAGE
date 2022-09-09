@@ -37,7 +37,7 @@ const BeginSectionContainer = styled.div`
   > div:first-child {
     display: flex;
     flex-direction: column;
-    width: 401px;
+    width: 450px;
     @media (max-width: 768px) {
       align-items: center;
     }
@@ -80,7 +80,7 @@ const AboutSection = () => {
             <BeginSectionContainer id="about-us">
                 <div>
                     <H2>About TEAM</H2>
-                    <Paragraph style={{marginTop: 24, width: 460}}>
+                    <Paragraph style={{marginTop: 24}}>
                         TEAM is an incubator for next generation eSports champions
                     </Paragraph>
 
