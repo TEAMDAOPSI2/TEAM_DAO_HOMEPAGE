@@ -25,7 +25,8 @@ const Wrapper = styled.div`
   background-position: center;
 
   @media (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
     width: 150px;
     height: 200px;
   }
