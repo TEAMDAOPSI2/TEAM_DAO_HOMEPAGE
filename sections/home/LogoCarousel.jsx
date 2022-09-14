@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styled from "styled-components";
 import Slider from "react-slick";
-import GamesGroup from "public/assets/game-section.png"
+import GamesGroup from "public/assets/Games-full.png"
 
 const cache = {};
 
