@@ -318,6 +318,9 @@ const MediaKit = () => {
                                     <BoxColor style={{background: '#1b8520 '}}/>
                                     <p>Accent Color</p>
                                     <p>#1b8520 </p>
+                                    <Btn href="javascript:void(0)" onClick={() => {
+                                        navigator.clipboard.writeText('#1b8520')
+                                    }}>COPY</Btn>
                                 </div>
                             </Item>
                             <Item>
@@ -328,6 +331,9 @@ const MediaKit = () => {
                                     <BoxColor style={{background: '#2afe30 '}}/>
                                     <p>Primary Color</p>
                                     <p>#2afe30 </p>
+                                    <Btn href="javascript:void(0)" onClick={() => {
+                                        navigator.clipboard.writeText('#2afe30')
+                                    }}>COPY</Btn>
                                 </div>
                             </Item>
                         </Columns>
