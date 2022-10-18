@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Bg1 from 'public/assets/bg2.jpg';
+import Bg1 from 'public/assets/bg-bgeins.jpg';
 import Bg1Lazy from 'public/assets/bg1-lazy.png';
 import Robot1 from 'public/assets/robot1.png';
 import CircleDown from 'public/assets/circle-down.png';
@@ -14,7 +14,7 @@ const BeginSectionContainer = styled.div`
   #000000 90.91%),
   url(${props => props.backgroundImage});
   //min-height: 100vh;
-  height: 480px;
+  height: 580px;
   background-position: center;
   background-color: black;
   background-size: cover;
