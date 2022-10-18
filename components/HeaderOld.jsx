@@ -5,7 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import TeamLogo from 'public/assets/team-logo.png';
+import TeamLogo from 'public/assets/team-dao-v2.png';
 import TeamMeta from 'public/assets/team-meta.png';
 import Image from "next/image";
 
@@ -114,7 +114,7 @@ const RBNavBar = () => {
                             {/*    alt='Team Games'*/}
                             {/*    className={`brand_img`}*/}
                             {/*/>*/}
-                            <Image src={TeamLogo}/>
+                            <Image src={TeamLogo} width={150} height={38} />
                         </a>
                     </Link>
                     <Navbar.Toggle

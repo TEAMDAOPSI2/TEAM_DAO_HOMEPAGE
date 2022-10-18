@@ -29,11 +29,10 @@ const BeginSectionContainer = styled.div`
   @media (max-width: 776px) {
     margin-top: 60px;
   }
-  
+
 `;
 
 const BigGlowText = styled.h2`
-  max-width: 950px;
   font-style: normal;
   font-weight: 900;
   text-align: left;
@@ -82,11 +81,7 @@ const ImgContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 100px;
-
-  @media (min-width: 1440px) {
-    margin-top: 200px;
-  }
+  
 
   @media (max-width: 768px) {
     width: 50%;
@@ -102,8 +97,8 @@ const WrapHeroContent = styled.div`
   max-width: 85%;
   margin: auto;
   padding-top: 160px;
-  
-  @media(max-width: 512px){
+
+  @media (max-width: 512px) {
     padding-top: 40px;
   }
 `;
@@ -113,16 +108,16 @@ const BeginSection = () => {
     return (
         <BeginSectionContainer backgroundImage={bgImage}>
             <WrapHeroContent>
-                <div style={{width: '80%', margin: 'auto'}}>
-                    <BigGlowText>$TEAM IS THE <br/> #1 ESPORTS DAO</BigGlowText>
+                <div style={{width: '100%', margin: '0 auto',paddingTop: '280px'}}>
+                    <BigGlowText style={{textAlign: 'center', width: '100%'}}>$TEAM IS THE #1 ESPORTS DAO</BigGlowText>
                 </div>
-                <ImgContainer>
-                    <div className="teamdao-flash">
-                        <Image className="teamdao-pulse" src={Robot1} alt=""/>
-                    </div>
-                </ImgContainer>
+                {/*<ImgContainer style={{display: 'none'}}>*/}
+                {/*    <div className="teamdao-flash">*/}
+                {/*        <Image className="teamdao-pulse" src={Robot1} alt=""/>*/}
+                {/*    </div>*/}
+                {/*</ImgContainer>*/}
             </WrapHeroContent>
-            <ImgContainer style={{ height: 100 }}>
+            <ImgContainer style={{height: 100}}>
                 <Image
                     className="teamdao-pulse-delay"
                     objectFit="contain"
