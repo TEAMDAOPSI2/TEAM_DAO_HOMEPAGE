@@ -27,11 +27,12 @@ const BeginSectionContainer = styled.div`
   }
 
   @media (max-width: 1440px) {
-    background-size: contain;
+    background-size: cover;
   }
 
   @media (max-width: 1024px) {
     height: 780px;
+    background-size: contain;
   }
 
   @media (max-width: 776px) {
@@ -105,7 +106,7 @@ const WrapHeroContent = styled.div`
   flex-direction: row;
   max-width: 85%;
   margin: auto;
-  padding-top: 780px;
+  padding-top: 710px;
   
   @media (max-width: 1024px) {
     padding-top: 610px;
