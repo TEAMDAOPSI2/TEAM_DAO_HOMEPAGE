@@ -50,7 +50,7 @@ const BigGlowText = styled.h2`
   letter-spacing: -0.01em;
   text-transform: uppercase;
   -webkit-text-stroke: 1px #00FF19;
-  margin-top: 90px;
+  margin-top: 250px;
   margin-bottom: 24px;
 
   > span {
