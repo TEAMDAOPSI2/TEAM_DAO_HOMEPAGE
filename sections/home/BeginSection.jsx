@@ -7,26 +7,35 @@ import useProgressiveImage from "../../hooks/useProgressiveImage";
 import Image from "next/image";
 
 const BeginSectionContainer = styled.div`
-  background-image: linear-gradient(180deg,
-  rgba(0, 0, 0, 0) 0%,
-  rgba(0, 0, 0, 0.5) 21.58%,
-  rgba(0, 0, 0, 0) 58.51%,
-  #000000 90.91%),
-  url(${props => props.backgroundImage});
-  //min-height: 100vh;
-  height: 1080px;
+  // background-image: linear-gradient(180deg,
+  // rgba(0, 0, 0, 0) 0%,
+  // rgba(0, 0, 0, 0.5) 21.58%,
+  // rgba(0, 0, 0, 0) 58.51%,
+  // #000000 90.91%),
+  // url(${props => props.backgroundImage});
+   background-image: url(${props => props.backgroundImage});
   background-position: center;
+  height: 100vh;
   background-color: black;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  margin-top: -80px;
+  margin-top: -10px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1920px) {
+    background-size: cover;
+  }
+
+  @media (max-width: 1440px) {
     background-size: contain;
   }
 
+  @media (max-width: 1024px) {
+    height: 780px;
+  }
+
   @media (max-width: 776px) {
+    height: 480px;
     margin-top: 60px;
   }
 
@@ -96,10 +105,16 @@ const WrapHeroContent = styled.div`
   flex-direction: row;
   max-width: 85%;
   margin: auto;
-  padding-top: 160px;
-
+  padding-top: 780px;
+  
+  @media (max-width: 1024px) {
+    padding-top: 610px;
+  }
+  @media (max-width: 768px) {
+    padding-top: 380px;
+  }
   @media (max-width: 512px) {
-    padding-top: 40px;
+    padding-top: 240px;
   }
 `;
 
@@ -107,10 +122,10 @@ const BeginSection = () => {
     const bgImage = useProgressiveImage(Bg1.src, Bg1Lazy.src);
     return (
         <BeginSectionContainer backgroundImage={bgImage}>
-            <WrapHeroContent>
-                <div style={{width: '100%', margin: '0 auto',paddingTop: '280px'}}>
-                    <BigGlowText style={{textAlign: 'center', width: '100%'}}>$TEAM IS THE #1 ESPORTS DAO</BigGlowText>
-                </div>
+            <WrapHeroContent >
+                {/*<div style={{width: '100%', margin: '0 auto',paddingTop: '280px'}}>*/}
+                {/*    <BigGlowText style={{textAlign: 'center', width: '100%'}}>$TEAM IS THE #1 ESPORTS DAO</BigGlowText>*/}
+                {/*</div>*/}
                 {/*<ImgContainer style={{display: 'none'}}>*/}
                 {/*    <div className="teamdao-flash">*/}
                 {/*        <Image className="teamdao-pulse" src={Robot1} alt=""/>*/}

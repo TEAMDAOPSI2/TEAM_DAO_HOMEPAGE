@@ -71,6 +71,51 @@ const ButtonGreen = styled.button`
   }
 `;
 
+const BigGlowText = styled.h2`
+  font-style: normal;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px rgba(0, 255, 25, 0.9);
+  margin-top: 0;
+  word-break: break-word;
+
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #ff000000;
+  font-weight: 900;
+  font-size: 47px;
+  line-height: 47px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #00FF19;
+  margin-top: 250px;
+  margin-bottom: 24px;
+
+  > span {
+    color: #e9eee9;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 83px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+    line-height: 0.9;
+    > span {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    font-size: 1.2rem;
+    line-height: 0.9;
+    > span {
+      font-size: 1.8rem;
+    }
+  }
+`;
+
 const AboutSection = () => {
     const bgImage = useProgressiveImage(bgGalaxy.src, bgLazy.src);
     const [showInput, setShowInput] = useState(false);
@@ -78,6 +123,9 @@ const AboutSection = () => {
     return (
         <BgContainer bgImage={bgImage}>
             <BeginSectionContainer id="about-us">
+                <div style={{width: '100%', margin: '0 auto',paddingTop: '-30px'}}>
+                    <BigGlowText style={{textAlign: 'center', width: '100%'}}>$TEAM IS THE #1 ESPORTS DAO</BigGlowText>
+                </div>
                 <div>
                     <H2>About TEAM</H2>
                     <Paragraph style={{marginTop: 24}}>
