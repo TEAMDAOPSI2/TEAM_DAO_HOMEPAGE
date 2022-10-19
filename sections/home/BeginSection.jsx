@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Bg1 from 'public/assets/bg-bgeins.jpg';
+import Bg1 from 'public/assets/TEAMDAOwebsitewallpaper.jpg';
 import Bg1Lazy from 'public/assets/bg1-lazy.png';
 import Robot1 from 'public/assets/robot1.png';
 import CircleDown from 'public/assets/circle-down.png';
@@ -13,17 +13,17 @@ const BeginSectionContainer = styled.div`
   rgba(0, 0, 0, 0) 58.51%,
   #000000 90.91%),
   url(${props => props.backgroundImage});
-  //min-height: 100vh;
-  height: 580px;
+  min-height: 100vh;
+  //height: 580px;
   background-position: center;
   background-color: black;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  //margin-top: -120px;
+  margin-top: -80px;
 
   @media (max-width: 1024px) {
-    margin-top: 60px;
+    background-size: contain;
   }
 
   @media (max-width: 776px) {
