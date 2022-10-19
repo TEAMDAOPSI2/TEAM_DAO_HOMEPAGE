@@ -321,10 +321,12 @@ body::-webkit-scrollbar-track {
 #con_wallet-txt .h-100 {
     height: 90%;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
+/*navbar*/
 
 .navbar-light .navbar-toggler-icon {
     background-image: url('../public/assets/candy_open.svg');
@@ -392,15 +394,15 @@ body::-webkit-scrollbar-track {
     font-style: normal;
 }
 
-#myNavItem a{
+#myNavItem a {
     position: relative;
 }
 
-#myNavItem #marketplace_header:after{
+#myNavItem #marketplace_header:after {
     content: 'WHITEPAPER'
 }
 
-#myNavItem #marketplace_header:hover:after{
+#myNavItem #marketplace_header:hover:after {
     content: 'COMMING SOON';
 }
 
@@ -456,16 +458,16 @@ body::-webkit-scrollbar-track {
 }
 
 
-
 @media (max-width: 991.98px) {
     .navbar-nav {
         margin-left: initial !important;
     }
+
     .navbar .navbar-collapse .navbar-nav {
         margin-right: 0 !important;
         margin-right: initial !important;
         margin-top: auto;
-        margin-left: 0!important;
+        margin-left: 0 !important;
         margin-bottom: auto;
     }
 }
@@ -725,7 +727,7 @@ body::-webkit-scrollbar-track {
 }
 
 @media screen and (max-width: 768px) {
-    .mail-subscription{
+    .mail-subscription {
         display: none;
     }
 }

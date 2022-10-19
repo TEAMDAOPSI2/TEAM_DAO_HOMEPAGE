@@ -55,7 +55,7 @@ export default function FooterOld() {
 
     return (
         <>
-            <section className="footer fixed-bottom">
+            <section className="footer fixed-bottom" style={{ backgroundColor: 'rgba(0, 0, 0, 0.75) !important'}}>
                 {/*<div className="edge">*/}
                 {/*    <img src="images/footer-edge.svg" alt="footer ege"/>*/}
                 {/*</div>*/}

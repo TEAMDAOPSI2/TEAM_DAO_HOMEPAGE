@@ -105,16 +105,10 @@ const RBNavBar = () => {
     console.log(isOpen);
     return (
         <>
-            <Navbar className='fixed-top bg-black' expand='lg' id='myNavbar'>
+            <Navbar style={{ backgroundColor: 'rgba(0, 0, 0, 0.75) !important'}} className='fixed-top bg-black' expand='lg' id='myNavbar'>
                 <div className='container'>
                     <Link className='navbar-brand text-white' href='/'>
                         <a>
-                            {/*<img*/}
-                            {/*    src='images/team-logo.png'*/}
-                            {/*    alt='Team Games'*/}
-                            {/*    className={`brand_img`}*/}
-                            {/*/>*/}
-                            {/*<Image src={TeamLogo} width={150} height={38} />*/}
                             <img src={TeamLogo.src} style={{width: '210px'}} className={`brand_img`} alt=""/>
                         </a>
                     </Link>
