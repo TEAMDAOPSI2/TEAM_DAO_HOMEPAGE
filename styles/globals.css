@@ -350,9 +350,9 @@ body::-webkit-scrollbar-track {
 }
 
 .navbar {
-    border-bottom-width: 4px;
+    border-bottom-width: 2px;
     background: linear-gradient(to left, #1b8520, #1b8520, #2afe30, #2afe30) left bottom #000 no-repeat;
-    background-size: 100% 5px; /* if linear-gradient, we need to resize it */
+    background-size: 100% 2px; /* if linear-gradient, we need to resize it */
 }
 
 .modal-disconnect {
@@ -589,7 +589,7 @@ body::-webkit-scrollbar-track {
     width: 100%;
 
     background: linear-gradient(to left, #1b8520, #1b8520, #2afe30, #2afe30) left top #000 no-repeat;
-    background-size: 100% 5px; /* if linear-gradient, we need to resize it */
+    background-size: 100% 2px; /* if linear-gradient, we need to resize it */
 }
 
 .fixed-bottom {
