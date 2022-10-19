@@ -114,7 +114,8 @@ const RBNavBar = () => {
                             {/*    alt='Team Games'*/}
                             {/*    className={`brand_img`}*/}
                             {/*/>*/}
-                            <Image src={TeamLogo} width={150} height={38} />
+                            {/*<Image src={TeamLogo} width={150} height={38} />*/}
+                            <img src={TeamLogo.src} style={{width: '210px'}} className={`brand_img`} alt=""/>
                         </a>
                     </Link>
                     <Navbar.Toggle
