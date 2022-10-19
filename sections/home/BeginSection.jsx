@@ -13,8 +13,8 @@ const BeginSectionContainer = styled.div`
   rgba(0, 0, 0, 0) 58.51%,
   #000000 90.91%),
   url(${props => props.backgroundImage});
-  min-height: 100vh;
-  //height: 580px;
+  //min-height: 100vh;
+  height: 1080px;
   background-position: center;
   background-color: black;
   background-size: cover;
