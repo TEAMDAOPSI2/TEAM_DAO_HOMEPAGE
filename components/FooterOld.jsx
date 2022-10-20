@@ -18,6 +18,7 @@ import Image from "next/image";
 
 export default function FooterOld() {
     const [notification, setNotification] = useState('');
+    const [notificationActive, setNotificationActive] = useState(false);
     const [email, setEmail] = useState('');
 
 
@@ -27,13 +28,33 @@ export default function FooterOld() {
             .then(res => {
                 setNotification(res[0].message);
             });
-        setTimeout(() => {
-            setNotification(null)
-        }, 4000);
+        // setTimeout(() => {
+        //     setNotification(null)
+        // }, 10 * 1000);
     }
 
     useEffect(() => {
-        setInterval(fetchNotifications, 8000);
+        const notificationFetch = setInterval(() => {
+            fetch('https://script.google.com/macros/s/AKfycbwYEFQFcl2Anqos_CQ5qnYMtHP07Ej9xZNNykjyGMTabeS3SPVTpa8YIAFsE7JnHrv7bw/exec?action=notif')
+                .then(res => res.json())
+                .then(res => {
+                    setNotification(res[0].message);
+                    setNotificationActive(true)
+                    const ref = document.getElementById('notificationSound');
+                    ref.play();
+                });
+            setTimeout(()=>{
+                setNotificationActive(null);
+            },5 * 1000)
+        }, 10 * 1000);
+
+        return function runningInterval() {
+            clearInterval(notificationFetch);
+        }
+
+
+
+
     }, []);
 
 
@@ -55,7 +76,7 @@ export default function FooterOld() {
 
     return (
         <>
-            <section className="footer fixed-bottom" style={{ backgroundColor: 'rgba(0, 0, 0, 0.75) !important'}}>
+            <section className="footer fixed-bottom" style={{backgroundColor: 'rgba(0, 0, 0, 0.75) !important'}}>
                 {/*<div className="edge">*/}
                 {/*    <img src="images/footer-edge.svg" alt="footer ege"/>*/}
                 {/*</div>*/}
@@ -84,7 +105,7 @@ export default function FooterOld() {
                                 </div>
                                 <div className="social-group">
                                     <a href="https://www.tiktok.com/@teamdao" target="_blank" rel="noreferrer">
-                                       <img src={TiktokIcon.src}/>
+                                        <img src={TiktokIcon.src}/>
                                     </a>
                                 </div>
                                 <div className="social-group">
@@ -153,12 +174,12 @@ export default function FooterOld() {
                     </div>
                 </div>
             </section>
-            <div className={'notification ' + (notification ? 'is-show' : '')}>
+            <div className={'notification ' + (notificationActive ? 'is-show' : 'is-gone')}>
                 <div className="notification-text-wrap">
                     <div className="notification-text d-flex justify-content-between w-100">
                         <span>{notification}</span>
                         <span className="close-btn" onClick={() => {
-                            setNotification(null)
+                            setNotificationActive(false)
                         }}>x</span>
                     </div>
                 </div>
@@ -168,6 +189,9 @@ export default function FooterOld() {
                     </div>
                 </div>
             </div>
+            <audio style={{display:'none'}} id="notificationSound" controls>
+                <source src="assets/music/notification.mp3" type="audio/mp3"/>
+            </audio>
         </>
 
     );

@@ -57,7 +57,8 @@ export default function Home() {
                 <meta property="og:ttl" content="3600"/>
 
             </Head>
-            <React.StrictMode>
+            {/*<React.StrictMode>*/}
+            <div>
                 <div style={{display: !loading ? 'none' : 'block'}}>
                     <LoadingScreen/>
                 </div>
@@ -92,7 +93,7 @@ export default function Home() {
                         <FooterOld/>
                     </ParallaxProvider>
                 </div>
-            </React.StrictMode>
+            </div>
         </>
     )
 }
