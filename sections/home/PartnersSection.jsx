@@ -137,7 +137,7 @@ const Item = styled.div`
   }
   @media (max-width: 1440px) {
    .cover-hover {
-      top: -50%;
+      top: -70%;
     }
   }
 
