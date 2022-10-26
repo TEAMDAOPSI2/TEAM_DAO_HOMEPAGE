@@ -127,13 +127,24 @@ const Item = styled.div`
 
   .cover-hover {
     position: absolute;
-    width: 115%;
-    height: 110%;
+    width: 120%;
+    height: 120%;
     left: 50%;
-    top: 0;
-    transform: translate(-50%, -50%);
+    top: -120px;
+    transform: translateX(-50%);
     transition: 0.2s ease all;
     opacity: 0;
+  }
+  @media (max-width: 1440px) {
+   .cover-hover {
+      top: -50%;
+    }
+  }
+
+  .cover-hover img{
+    //width: 100%;
+    //height: 100%;
+    //object-fit: cover;
   }
 
   &:hover {
@@ -241,18 +252,18 @@ const PartnersSection = () => {
                                     </div>
                                 </Item>
                                 <Item  onClick={() => {window.open('https://www.krustuniverse.com/')}}>
+                                    <img src={imgKrust.src} alt="partner"/>
                                     <div className="cover-hover">
                                         <img src={imgCrossHair.src} alt="cross-hair"/>
                                     </div>
-                                    <img src={imgKrust.src} alt="partner"/>
                                 </Item>
                             </Columns>
                             <Columns widthSize="45%" style={{width: '47%'}}>
                                 <Item  onClick={() => {window.open('https://shima.capital/')}}>
+                                    <img src={imgShima.src} alt="partner"/>
                                     <div className="cover-hover">
                                         <img src={imgCrossHair.src} alt="cross-hair"/>
                                     </div>
-                                    <img src={imgShima.src} alt="partner"/>
                                 </Item>
                                 <Item  onClick={() => {window.open('https://www.antifund.vc/')}}>
                                     <img src={imgAntiFund.src} alt="partner"/>
@@ -316,7 +327,7 @@ const PartnersSection = () => {
                             window.open('https://gsgasset.com')
                         }}>
                             <img src={imgGSGNew.src} alt="partner"/>
-                            <div className="cover-hover" style={{top: '50%'}}>
+                            <div className="cover-hover">
                                 <img src={imgCrossHair.src} alt="cross-hair"/>
                             </div>
                         </Item>
