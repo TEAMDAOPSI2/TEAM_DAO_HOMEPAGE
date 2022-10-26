@@ -114,64 +114,33 @@ const ResponsiveBtn = styled(Button)`
 const Item = styled.div`
   margin-bottom: 80px;
   position: relative;
-
-  //&:after {
-  //  display: block;
-  //  content: '';
-  //  border-bottom: solid 3px #1ae120;
-  //  transform: scaleX(0);
-  //  transition: transform 250ms ease-in-out;
-  //}
-
-  //.preset-back {
-  //  position: absolute;
-  //  top: 0px;
-  //  left: 50%;
-  //  transform: translateX(-50%);
-  //  z-index: 301;
-  //  background-size: cover;
-  //  background-repeat: no-repeat;
-  //  overflow: hidden;
-  //  background-position: 50% 50%;
-  //  filter: blur(10px);
-  //  width: 210px;
-  //  height: 210px;
-  //  visibility: hidden;
-  //  cursor: pointer;
-  //}
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   img {
     cursor: pointer;
     position: relative;
   }
-  
-  .cover-hover{
+
+  .cover-hover {
     position: absolute;
-    width: 110%;
+    width: 115%;
     height: 110%;
     left: 50%;
-    top: 52%;
+    top: 0;
     transform: translate(-50%, -50%);
     transition: 0.2s ease all;
     opacity: 0;
   }
 
   &:hover {
-    .cover-hover{
+    .cover-hover {
       opacity: 1;
     }
-    //// hover after 
-    //&:after {
-    //  transform: scaleX(1);
-    //}
-    //.preset-back {
-    //  visibility: visible;
-    //}
-    //
-    //img {
-    //  transform: scale(1.1);
-    //  filter: scale(1.1);
-    //}
+
   }
 
 `;
@@ -263,19 +232,33 @@ const PartnersSection = () => {
                             style={{width: '100%', justifyContent: 'space-around', gap: 0}}
                         >
                             <Columns widthSize="45%" style={{width: '47%'}}>
-                                <Item>
+                                <Item onClick={() => {
+                                    window.open('https://www.animocabrands.com/')
+                                }}>
                                     <img src={imgAnimoca.src} alt="partner"/>
+                                    <div className="cover-hover">
+                                        <img src={imgCrossHair.src} alt="cross-hair"/>
+                                    </div>
                                 </Item>
-                                <Item>
+                                <Item  onClick={() => {window.open('https://www.krustuniverse.com/')}}>
+                                    <div className="cover-hover">
+                                        <img src={imgCrossHair.src} alt="cross-hair"/>
+                                    </div>
                                     <img src={imgKrust.src} alt="partner"/>
                                 </Item>
                             </Columns>
                             <Columns widthSize="45%" style={{width: '47%'}}>
-                                <Item>
+                                <Item  onClick={() => {window.open('https://shima.capital/')}}>
+                                    <div className="cover-hover">
+                                        <img src={imgCrossHair.src} alt="cross-hair"/>
+                                    </div>
                                     <img src={imgShima.src} alt="partner"/>
                                 </Item>
-                                <Item>
+                                <Item  onClick={() => {window.open('https://www.antifund.vc/')}}>
                                     <img src={imgAntiFund.src} alt="partner"/>
+                                    <div className="cover-hover">
+                                        <img src={imgCrossHair.src} alt="cross-hair"/>
+                                    </div>
                                 </Item>
                             </Columns>
                         </Columns>
@@ -333,10 +316,9 @@ const PartnersSection = () => {
                             window.open('https://gsgasset.com')
                         }}>
                             <img src={imgGSGNew.src} alt="partner"/>
-                            <div className="cover-hover">
+                            <div className="cover-hover" style={{top: '50%'}}>
                                 <img src={imgCrossHair.src} alt="cross-hair"/>
                             </div>
-                            {/*<div className="preset-back" style={{backgroundImage: `url(${imgGSGNew.src})`}}/>*/}
                         </Item>
                     </Columns>
 
