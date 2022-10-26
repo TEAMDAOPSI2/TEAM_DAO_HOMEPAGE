@@ -22,9 +22,11 @@ import imgGainAssociate from 'public/assets/partners/partners-gains-associsates.
 import imgNxgen from 'public/assets/partners/partners-nxgen.png';
 import imgBaseLayer from 'public/assets/partners/partners-baselayer.png';
 import imgDwf from 'public/assets/partners/partners-dwf-labs.png';
+import imgCrossHair from 'public/assets/TEAMcrosshairpng.png';
+import imgGSGNew from 'public/assets/partners/gsg-new-logo.png';
 import Image from "next/image";
 import useProgressiveImage from "../../hooks/useProgressiveImage";
-
+import * as url from "url";
 
 
 const BgContainer = styled.div`
@@ -60,10 +62,13 @@ const Columns = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+
 
   img {
     width: 100%;
   }
+
 
   > div {
     width: ${props => props.widthSize};
@@ -108,6 +113,67 @@ const ResponsiveBtn = styled(Button)`
 
 const Item = styled.div`
   margin-bottom: 80px;
+  position: relative;
+
+  //&:after {
+  //  display: block;
+  //  content: '';
+  //  border-bottom: solid 3px #1ae120;
+  //  transform: scaleX(0);
+  //  transition: transform 250ms ease-in-out;
+  //}
+
+  //.preset-back {
+  //  position: absolute;
+  //  top: 0px;
+  //  left: 50%;
+  //  transform: translateX(-50%);
+  //  z-index: 301;
+  //  background-size: cover;
+  //  background-repeat: no-repeat;
+  //  overflow: hidden;
+  //  background-position: 50% 50%;
+  //  filter: blur(10px);
+  //  width: 210px;
+  //  height: 210px;
+  //  visibility: hidden;
+  //  cursor: pointer;
+  //}
+
+  img {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cover-hover{
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease all;
+    opacity: 0;
+  }
+
+  &:hover {
+    .cover-hover{
+      opacity: 1;
+    }
+    //// hover after 
+    //&:after {
+    //  transform: scaleX(1);
+    //}
+    //.preset-back {
+    //  visibility: visible;
+    //}
+    //
+    //img {
+    //  transform: scale(1.1);
+    //  filter: scale(1.1);
+    //}
+  }
+
 `;
 
 const ColumnPartner = styled.div`
@@ -126,7 +192,7 @@ const ColumnPartner = styled.div`
   }
 
   @media (max-width: 768px) {
-    
+
     > div {
       width: 38%;
       margin-right: 0;
@@ -162,7 +228,7 @@ const ColumnPartner2 = styled.div`
   }
 
   @media (max-width: 768px) {
-    
+
     > div {
       width: 38%;
       margin-right: 0;
@@ -188,88 +254,94 @@ const PartnersSection = () => {
         <div>
             <BgContainer bgImage={bgImage}>
                 <Container>
-                    <div style={{ marginBottom: 150 }}>
-                        <H2 style={{ display: 'inline-block' }}>Partners</H2>
+                    <div style={{marginBottom: 150}}>
+                        <H2 style={{display: 'inline-block'}}>Partners</H2>
                     </div>
                     <Columns widthSize="17%">
                         <Columns
                             widthSize="22%"
-                            style={{ width: '100%', justifyContent: 'space-around', gap: 0 }}
+                            style={{width: '100%', justifyContent: 'space-around', gap: 0}}
                         >
-                            <Columns widthSize="45%" style={{ width: '47%' }}>
+                            <Columns widthSize="45%" style={{width: '47%'}}>
                                 <Item>
-                                    <img src={imgAnimoca.src} alt="partner" />
+                                    <img src={imgAnimoca.src} alt="partner"/>
                                 </Item>
                                 <Item>
-                                    <img src={imgKrust.src} alt="partner" />
+                                    <img src={imgKrust.src} alt="partner"/>
                                 </Item>
                             </Columns>
-                            <Columns widthSize="45%" style={{ width: '47%' }}>
+                            <Columns widthSize="45%" style={{width: '47%'}}>
                                 <Item>
-                                    <img src={imgShima.src} alt="partner" />
+                                    <img src={imgShima.src} alt="partner"/>
                                 </Item>
                                 <Item>
-                                    <img src={imgAntiFund.src} alt="partner" />
+                                    <img src={imgAntiFund.src} alt="partner"/>
                                 </Item>
                             </Columns>
                         </Columns>
 
                         <Item>
-                            <img src={imgAlgorand.src} alt="partner" />
+                            <img src={imgAlgorand.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgNGC.src} alt="partner" />
+                            <img src={imgNGC.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgLibraCapitalVentures.src} alt="partner" />
+                            <img src={imgLibraCapitalVentures.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgNexo.src} alt="partner" />
+                            <img src={imgNexo.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgGsr.src} alt="partner" />
+                            <img src={imgGsr.src} alt="partner"/>
                         </Item>
 
                         <Item>
-                            <img src={imgExcap.src} alt="partner" />
+                            <img src={imgExcap.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgCoinHako.src} alt="partner" />
+                            <img src={imgCoinHako.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgOctava.src} alt="partner" />
+                            <img src={imgOctava.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgRisingCapital.src} alt="partner" />
+                            <img src={imgRisingCapital.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgEverseCapital.src} alt="partner" />
+                            <img src={imgEverseCapital.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgDwf.src} alt="partner" />
+                            <img src={imgDwf.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgNxgen.src} alt="partner" />
+                            <img src={imgNxgen.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgGainAssociate.src} alt="partner" />
+                            <img src={imgGainAssociate.src} alt="partner"/>
                         </Item>
                         <Item>
-                            <img src={imgBaseLayer.src} alt="partner" />
+                            <img src={imgBaseLayer.src} alt="partner"/>
                         </Item>
                     </Columns>
 
-                    <div style={{ margin: '150px 0' }}>
-                        <H2 style={{ display: 'inline-block' }}>Advisors</H2>
+                    <div style={{margin: '150px 0'}}>
+                        <H2 style={{display: 'inline-block'}}>Advisors</H2>
                     </div>
                     <Columns widthSize="22%">
-                        <Item>
-                            <img src={imgGsg.src} alt="partner" />
+                        <Item onClick={() => {
+                            window.open('https://gsgasset.com')
+                        }}>
+                            <img src={imgGSGNew.src} alt="partner"/>
+                            <div className="cover-hover">
+                                <img src={imgCrossHair.src} alt="cross-hair"/>
+                            </div>
+                            {/*<div className="preset-back" style={{backgroundImage: `url(${imgGSGNew.src})`}}/>*/}
                         </Item>
                     </Columns>
 
-                    <div style={{ position: 'relative' }}>
-                        <div style={{ marginBottom: 80, width: '100%', minWidth: 700 }}>
+                    <div style={{position: 'relative'}}>
+                        <div style={{marginBottom: 80, width: '100%', minWidth: 700}}>
                             <div
                                 id="whitepaper"
                                 style={{
@@ -286,7 +358,7 @@ const PartnersSection = () => {
                                     zIndex: 100
                                 }}
                             >
-                                <H4 style={{ textAlign: 'left' }}>Read the Whitepaper</H4>
+                                <H4 style={{textAlign: 'left'}}>Read the Whitepaper</H4>
                                 <ResponsiveBtn
                                     type="diagonal"
                                     onClick={() => window.open('https://whitepaper.teamdao.com/')}
@@ -296,7 +368,7 @@ const PartnersSection = () => {
                             </div>
                         </div>
 
-                        <Image src={imgReadWP} alt="partner" />
+                        <Image src={imgReadWP} alt="partner"/>
                     </div>
                 </Container>
             </BgContainer>
