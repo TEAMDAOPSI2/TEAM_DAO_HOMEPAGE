@@ -13,6 +13,7 @@ const InfoTeamBox = styled.div`
   width: 35%;
   color: white;
   background-color: #1e1e1e;
+  text-transform: uppercase;
 
   .region {
     text-align: center;
@@ -44,6 +45,12 @@ const TeamMemberBox = styled.div`
   margin-left: 10px;
   color: white;
   background-color: #1e1e1e;
+  h3{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Roboto Mono", monospace;
+  }
 `;
 const InfoGroup = styled.div`
   margin-bottom: 20px;
@@ -239,18 +246,18 @@ const DetailSection = ({team}) => {
                                 <i className="fa-solid fa-money-bill-wave-alt"></i>
                             </div>
                             <div className="detail">
-                                <span>Earnings:</span> {
+                                <span>Earnings:</span> $&nbsp;{
                                 new Intl.NumberFormat('en-US', {
                                     style: 'currency',
                                     currency: 'USD',
                                     minimumFractionDigits: 0
-                                }).format(team?.prizeMoney)}
+                                }).format(team?.prizeMoney).replace('$', '')}
                             </div>
                         </div>
                     </InfoGroup>
                 </InfoTeamBox>
                 <TeamMemberBox>
-                    <h3>Team Members</h3>
+                    <h3>Team PLAYERS</h3>
                     <MembersWrapper>
                         {team?.players?.map((member, index) => (
                             <MemberBox className="member" key={index}>

@@ -132,12 +132,12 @@ const ListSection = ({data,page}) => {
                             </div>
                         </td>
                         {/*number format usd using coma style fixed 0*/}
-                        <td style={{textAlign: 'left'}}>{
+                        <td style={{textAlign: 'left'}}>$&nbsp;{
                             new Intl.NumberFormat('en-US', {
                                 style: 'currency',
                                 currency: 'USD',
                                 minimumFractionDigits: 0
-                            }).format(team.prizeMoney)
+                            }).format(team.prizeMoney).replace('$', '')
                         }</td>
                         <td>
                             <span className='c-win'>{team.recordWin}</span>

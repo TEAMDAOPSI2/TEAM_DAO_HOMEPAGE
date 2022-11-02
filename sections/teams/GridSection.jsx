@@ -87,6 +87,7 @@ const InfoGroup = styled.div`
       text-align: left;
       margin-left: 10px;
       font-family: 'technology','Roboto Mono' ,'sans-serif';
+      text-transform: uppercase;
       span{
         font-family: 'Roboto Mono' ,'sans-serif';
       }
@@ -180,12 +181,12 @@ const GridSection = ({page, keyword}) => {
                                                 <i className="fa-solid fa-money-bill-wave-alt"></i>
                                             </div>
                                             <div className="detail">
-                                                <span>Earnings:</span> {
+                                                <span>Earnings:</span> $&nbsp;{
                                                 new Intl.NumberFormat('en-US', {
                                                     style: 'currency',
                                                     currency: 'USD',
                                                     minimumFractionDigits: 0
-                                                }).format(item.prizeMoney)}
+                                                }).format(item.prizeMoney).replace('$', '')}
                                             </div>
                                         </div>
                                     </InfoGroup>
