@@ -33,12 +33,12 @@ const BoxTeamWrapper = styled.div`
         margin-left: 10px;
 
         h3 {
-          font: normal normal 400 16px/22px Verdana, sans-serif;
+          font: normal normal 400 16px/22px 'Roboto Mono', sans-serif;
           color: #ccc;
         }
 
         p {
-          font: normal normal 400 10px/16px Verdana, sans-serif;
+          font: normal normal 400 10px/16px 'Roboto Mono', sans-serif;
           color: #ca7;
           text-align: left;
           overflow: hidden;
@@ -86,6 +86,10 @@ const InfoGroup = styled.div`
       color: #fff;
       text-align: left;
       margin-left: 10px;
+      font-family: 'technology','Roboto Mono' ,'sans-serif';
+      span{
+        font-family: 'Roboto Mono' ,'sans-serif';
+      }
 
       > span:first-child {
         width: 100%;
@@ -99,15 +103,18 @@ const InfoGroup = styled.div`
 
       .c-win {
         color: #0fc713;
+        font-family: 'technology' ,'sans-serif';
       }
 
       .c-lose {
         color: #c0392b;
+        font-family: 'technology' ,'sans-serif';
       }
 
       .c-percent {
         color: #ffffff;
         padding-left: 7px;
+        font-family: 'technology' ,'sans-serif';
       }
     }
 

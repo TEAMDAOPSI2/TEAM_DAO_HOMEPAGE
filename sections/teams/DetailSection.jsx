@@ -21,6 +21,7 @@ const InfoTeamBox = styled.div`
     white-space: nowrap;
     text-overflow: ellipsis;
     font-size: 14x;
+    font-family: "Roboto Mono", monospace;
 
     span {
       font-size: 18px;
@@ -52,6 +53,7 @@ const InfoGroup = styled.div`
     padding: 10px;
     float: left;
     text-align: center;
+    font-family: "Roboto Mono", monospace;
 
     .icon {
       text-align: center;
@@ -63,6 +65,10 @@ const InfoGroup = styled.div`
       display: flex;
       flex-direction: column;
       width: 100%;
+      font-family: 'technology', sans-serif;
+      span{
+        font-family: "Roboto Mono", monospace;
+      }
 
       > span:first-child {
         width: 100%;
@@ -77,15 +83,18 @@ const InfoGroup = styled.div`
 
       .c-win {
         color: #0fc713;
+        font-family: 'technology', sans-serif;
       }
 
       .c-lose {
         color: #c0392b;
+        font-family: 'technology', sans-serif;
       }
 
       .c-percent {
         color: #ffffff;
         padding-left: 7px;
+        font-family: 'technology', sans-serif;
       }
     }
 
@@ -160,13 +169,17 @@ const MemberBox = styled.div`
     flex-direction: column;
     justify-content: space-around;
 
+    div{
+      width: 100%;
+      font-family: "Roboto Mono", monospace;
+    }
     .nick-name {
-      font: normal normal 600 18px/22px Montserrat, sans-serif;
+      font: normal normal 600 18px/22px 'Roboto Mono', sans-serif;
       color: #379341;
     }
 
     .detail {
-      font: normal normal 400 14px/17px Montserrat, sans-serif;
+      font: normal normal 400 14px/17px 'Roboto Mono', sans-serif;
       color: #d5c6b5;
     }
   }

@@ -30,7 +30,7 @@ const Table = styled.table`
     height: 40px;
     vertical-align: middle;
     text-align: left;
-    font: normal normal 400 14px/20px Verdana, sans-serif;
+    font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
     color: #ca7;
     white-space: nowrap;
     overflow: hidden;
@@ -39,7 +39,7 @@ const Table = styled.table`
 
   td {
     height: 40px;
-    font: normal normal 400 14px/20px Verdana, sans-serif;
+    font: normal normal 400 14px/20px 'technology', sans-serif;
   }
 
   tbody tr:nth-of-type(odd) {
@@ -60,7 +60,7 @@ const Table = styled.table`
     width: 100%;
     height: 100%;
     text-decoration: none !important;
-    font: normal normal 400 14px/20px Verdana, sans-serif;
+    font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
     color: #ccc;
     transition: color 100ms ease-in-out;
 
@@ -76,7 +76,7 @@ const Table = styled.table`
     }
 
     span {
-      font: normal normal 400 10px/16px Verdana, sans-serif;
+      font: normal normal 400 10px/16px 'Roboto Mono', sans-serif;
       color: #ccc;
       margin-left: 10px;
     }
@@ -84,14 +84,17 @@ const Table = styled.table`
 
   .c-win {
     color: #0fc713;
+    font-family: 'technology', sans-serif;
   }
 
   .c-lose {
     color: #c0392b;
+    font-family: 'technology', sans-serif;
   }
 
   .c-percent {
     color: #f1c40f;
+    font-family: 'technology', sans-serif;
   }
 `;
 
