@@ -1,6 +1,6 @@
 // use same team/index.jsx
-const Marketplace = () => {
+const Amarketplace = () => {
 
 }
 
-export default Marketplace
+export default Amarketplace

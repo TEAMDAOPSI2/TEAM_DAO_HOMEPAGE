@@ -44,6 +44,9 @@ const Table = styled.table`
     height: 40px;
     font: normal normal 400 14px/20px 'technology', sans-serif;
   }
+  .number{
+    font-size: 20px;
+  }
 
   tbody tr:nth-of-type(odd) {
     background: #1f2125;
@@ -155,7 +158,7 @@ const ListSection = ({data, page}) => {
                     <tr key={index} onClick={() => {
                         window.location.href = `teams/${team.rank}`
                     }}>
-                        <td><div className="cell-title">Rank</div> <span>{team.rank}</span></td>
+                        <td className="number"><div className="cell-title">Rank</div> <span style={{fontSize: '18px'}}>{team.rank}</span></td>
                         <td className=''>
                             <span className="cell-title">Team</span>
                             <div className="team-name">
@@ -167,28 +170,28 @@ const ListSection = ({data, page}) => {
                             </div>
                         </td>
                         {/*number format usd using coma style fixed 0*/}
-                        <td style={{textAlign: 'left'}}><span className="cell-title">Earnings</span>$&nbsp;{
+                        <td className="number" style={{textAlign: 'left'}}><span className="cell-title">Earnings</span>$&nbsp;{
                             new Intl.NumberFormat('en-US', {
                                 style: 'currency',
                                 currency: 'USD',
                                 minimumFractionDigits: 0
                             }).format(team.prizeMoney).replace('$', '')
                         }</td>
-                        <td>
+                        <td className="number">
                             <span className="cell-title">WIN</span>
                             <span className='c-win'>{team.recordWin}</span>
                         </td>
-                        <td>
+                        <td className="number">
                             <span className="cell-title">LOSE</span>
                             <span className='c-lose'>{team.recordLose}</span>&nbsp;
                         </td>
-                        <td>
+                        <td className="number">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
-                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}%
+                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;%
                             </span>
                         </td>
-                        <td><span className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                        <td className="number"><span className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
                     </tr>
                 ))}
                 </tbody>

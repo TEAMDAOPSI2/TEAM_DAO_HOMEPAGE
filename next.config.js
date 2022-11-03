@@ -9,6 +9,14 @@ const nextConfig = {
     });
 
     return config;
+  },
+  async rewrite() {
+    return [
+      {
+        source: '/marketplace',
+        destination: '/teams'
+      }
+    ];
   }
 }
 
