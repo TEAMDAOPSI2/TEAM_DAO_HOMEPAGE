@@ -46,6 +46,10 @@ const FilterWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
 
   input[type="text"] {
@@ -65,12 +69,13 @@ const FilterWrapper = styled.div`
     }
     
     @media (max-width: 526px) {
-      width: 150px;
+      width: 200px;
     }
   }
 
   .search-wrapper {
     display: flex;
+    order: 1;
 
     button {
       display: none;
@@ -78,6 +83,16 @@ const FilterWrapper = styled.div`
 
     .active {
       display: block;
+    }
+  }
+  
+  .filter-mode{
+    order: 3;
+    min-width: 125px;
+    margin-left: 10px;
+    @media(max-width: 768px){
+      order: 2;
+      min-width: 80px;
     }
   }
 
@@ -154,25 +169,27 @@ const Pagination = styled.div`
 
 const GameWrapper = styled.div`
   margin-top: 20px;
-
+  min-width: 350px;
+  order: 2;
+  @media (max-width: 768px) {
+    order: 3;
+    width: 100%;
+  }
   ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0;
     margin: 0;
     list-style: none;
     align-items: center;
+    overflow-x: auto;
 
     .active {
       background-color: #3f701e;
       color: #00ff19;
       border: 1px solid #00ff19;
     }
-
-    @media (max-width: 1024px) {
-      flex-wrap: nowrap;
-      overflow-x: auto;
-    }
+    
 
     li {
       color: white;
@@ -273,6 +290,19 @@ const Index = () => {
                                         className={search !== '' ? 'active' : ''}>Clear
                                 </button>
                             </div>
+                            <GameWrapper>
+                                <ul>
+                                    <li className="active">DOTA</li>
+                                    <li>LOL</li>
+                                    <li>MLBB</li>
+                                    <li>PUBG</li>
+                                    <li>CODM</li>
+                                    <li>FB</li>
+                                    <li>BB</li>
+                                    <li>HORSE</li>
+                                    <li>RACING</li>
+                                </ul>
+                            </GameWrapper>
                             <div className="filter-mode">
                                 <button onClick={() => setShowType(0)} className={`${!showType ? 'active' : ''}`}><i
                                     className="fa-solid fa-list"></i></button>
@@ -280,21 +310,6 @@ const Index = () => {
                                     className="fa-solid fa-grip"></i></button>
                             </div>
                         </div>
-                        <GameWrapper>
-                            <ul>
-                                <li className="active">DOTA</li>
-                                <li>LOL</li>
-                                <li>MLBB</li>
-                                <li>PUBG</li>
-                                <li>CODM</li>
-                                <li>FOOTBALL</li>
-                                <li>BASKETBALL</li>
-                                <li>HORSE</li>
-                                <li>RACING</li>
-                                <li>TENNIS</li>
-                                <li>GOLF</li>
-                            </ul>
-                        </GameWrapper>
                     </FilterWrapper>
 
                     {showType ? <GridSection page={page} data={data}/> : <ListSection data={data} page={page}/>}
