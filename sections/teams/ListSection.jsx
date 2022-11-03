@@ -47,6 +47,9 @@ const Table = styled.table`
   .number{
     font-size: 20px;
   }
+  .symbol{
+    font-size: 16px;
+  }
 
   tbody tr:nth-of-type(odd) {
     background: #1f2125;
@@ -66,7 +69,7 @@ const Table = styled.table`
     width: 100%;
     height: 100%;
     text-decoration: none !important;
-    font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
+    font: normal normal 400 20px/20px 'Roboto Mono', sans-serif;
     color: #ccc;
     transition: color 100ms ease-in-out;
 
@@ -170,7 +173,7 @@ const ListSection = ({data, page}) => {
                             </div>
                         </td>
                         {/*number format usd using coma style fixed 0*/}
-                        <td className="number" style={{textAlign: 'left'}}><span className="cell-title">Earnings</span>$&nbsp;{
+                        <td className="number" style={{textAlign: 'left'}}><span className="cell-title">Earnings</span><span className="symbol">$</span>&nbsp;{
                             new Intl.NumberFormat('en-US', {
                                 style: 'currency',
                                 currency: 'USD',
@@ -188,7 +191,7 @@ const ListSection = ({data, page}) => {
                         <td className="number">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
-                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;%
+                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;<span className="symbol">%</span>
                             </span>
                         </td>
                         <td className="number"><span className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>

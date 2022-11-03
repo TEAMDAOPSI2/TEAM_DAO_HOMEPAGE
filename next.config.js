@@ -10,7 +10,7 @@ const nextConfig = {
 
     return config;
   },
-  async rewrite() {
+  async rewrites() {
     return [
       {
         source: '/marketplace',
