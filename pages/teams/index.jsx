@@ -36,6 +36,7 @@ const FilterWrapper = styled.div`
   flex-direction: column;
   padding: 10px;
   background-color: #1f2125;
+  
   @media (max-width: 763px) {
     max-width: 90%;
   }
@@ -61,6 +62,10 @@ const FilterWrapper = styled.div`
     &:focus {
       border: 1px solid #00ff19;
       outline: none;
+    }
+    
+    @media (max-width: 526px) {
+      width: 150px;
     }
   }
 
@@ -99,6 +104,12 @@ const FilterWrapper = styled.div`
     &.active {
       background-color: #3f701e;
       color: #00ff19;
+    }
+    
+    @media (max-width: 526px) {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 10px 12px;
     }
   }
 `

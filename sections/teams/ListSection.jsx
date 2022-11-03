@@ -33,10 +33,11 @@ const Table = styled.table`
     vertical-align: middle;
     text-align: left;
     font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
-    color: #ca7;
+    color: #00ff19;
     white-space: nowrap;
     overflow: hidden;
     background: #0f1510;
+    text-transform: uppercase;
   }
 
   td {
@@ -113,6 +114,8 @@ const Table = styled.table`
       align-self: flex-start;
       text-align: left;
       white-space: nowrap;
+      text-transform: uppercase;
+      color: #00ff19;
       font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
     }
 
