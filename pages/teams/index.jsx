@@ -33,12 +33,22 @@ const FilterWrapper = styled.div`
   max-width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 10px;
   background-color: #1f2125;
+  @media (max-width: 763px) {
+    max-width: 90%;
+  }
+
+  .filter-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   input[type="text"] {
-    width: 250px;
+    width: 200px;
     padding: 10px;
     border: 1px solid #6c757d;
     border-radius: 5px;
@@ -131,6 +141,49 @@ const Pagination = styled.div`
   }
 `
 
+const GameWrapper = styled.div`
+  margin-top: 20px;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+
+    .active {
+      background-color: #3f701e;
+      color: #00ff19;
+      border: 1px solid #00ff19;
+    }
+
+    @media (max-width: 1024px) {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+
+    li {
+      color: white;
+      padding: 3px 15px;
+      border-radius: 15px;
+      border: 1px solid #6c757d;
+      margin-right: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      font-weight: 500;
+      font-family: "Roboto Mono", monospace;
+      margin-bottom: 10px;
+
+      &:hover {
+        border: 1px solid #00ff19;
+        background-color: #3f701e;
+        color: #00ff19;
+      }
+    }
+  }
+`;
+
 
 const Index = () => {
     const [loading, setLoading] = useState(true);
@@ -189,31 +242,48 @@ const Index = () => {
                     }}>
                     <HeaderOld/>
                     <MainDiv/>
-                    <CenterText>
-                        <h3>Teams</h3>
-                    </CenterText>
+                    {/*<CenterText>*/}
+                    {/*    <h3>Teams</h3>*/}
+                    {/*</CenterText>*/}
 
                     <FilterWrapper>
-                        <div className="search-wrapper">
-                            <input type="text" placeholder="Search" id="keywords" onChange={() => {
-                                handleSearch(event)
-                            }}/>
-                            <button onClick={() => {
-                                // remove text input value
-                                document.getElementById('keywords').value = '';
-                                setSearch('');
-                                setData(dataTeam);
-                                setTotalPages(Math.ceil(dataTeam.length / 15));
-                            }}
-                                    className={search !== '' ? 'active' : ''}>Clear
-                            </button>
+                        <div className="filter-top">
+                            <div className="search-wrapper">
+                                <input type="text" placeholder="Search" id="keywords" onChange={() => {
+                                    handleSearch(event)
+                                }}/>
+                                <button onClick={() => {
+                                    // remove text input value
+                                    document.getElementById('keywords').value = '';
+                                    setSearch('');
+                                    setData(dataTeam);
+                                    setTotalPages(Math.ceil(dataTeam.length / 15));
+                                }}
+                                        className={search !== '' ? 'active' : ''}>Clear
+                                </button>
+                            </div>
+                            <div className="filter-mode">
+                                <button onClick={() => setShowType(0)} className={`${!showType ? 'active' : ''}`}><i
+                                    className="fa-solid fa-list"></i></button>
+                                <button onClick={() => setShowType(1)} className={`${showType ? 'active' : ''}`}><i
+                                    className="fa-solid fa-grip"></i></button>
+                            </div>
                         </div>
-                        <div className="filter-mode">
-                            <button onClick={() => setShowType(0)} className={`${!showType ? 'active' : ''}`}><i
-                                className="fa-solid fa-list"></i></button>
-                            <button onClick={() => setShowType(1)} className={`${showType ? 'active' : ''}`}><i
-                                className="fa-solid fa-grip"></i></button>
-                        </div>
+                        <GameWrapper>
+                            <ul>
+                                <li className="active">DOTA</li>
+                                <li>LOL</li>
+                                <li>MLBB</li>
+                                <li>PUBG</li>
+                                <li>CODM</li>
+                                <li>FOOTBALL</li>
+                                <li>BASKETBALL</li>
+                                <li>HORSE</li>
+                                <li>RACING</li>
+                                <li>TENNIS</li>
+                                <li>GOLF</li>
+                            </ul>
+                        </GameWrapper>
                     </FilterWrapper>
 
                     {showType ? <GridSection page={page} data={data}/> : <ListSection data={data} page={page}/>}
@@ -221,11 +291,18 @@ const Index = () => {
                     {
                         totalPages > 1 ?
                             <Pagination>
-                                <button onClick={() => setPage(page - 1)} className={`${page === 1 ? 'disabled' : ''}`}>
+                                <button onClick={() => {
+                                    if (page > 1) {
+                                        setPage(page - 1);
+                                    }
+                                }} className={`${page === 1 ? 'disabled' : ''}`}>
                                     PREV
                                 </button>
-                                <button onClick={() => setPage(page + 1)}
-                                        className={`${page === totalPages ? 'disabled' : ''}`}>
+                                <button onClick={() => {
+                                    if (page < totalPages) {
+                                        setPage(page + 1);
+                                    }
+                                }} className={`${page === totalPages ? 'disabled' : ''}`}>
                                     NEXT
                                 </button>
                             </Pagination> : ''

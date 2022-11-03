@@ -134,6 +134,9 @@ const RBNavBar = () => {
                             <Link href='/media-kit'>
                                 <a className='nav-link'>MEDIAKIT</a>
                             </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>STAKE</a>
+                            </Link>
                             {/*<Link href='#'>*/}
                             {/*    <a className='nav-link'>GAMES</a>*/}
                             {/*</Link>*/}

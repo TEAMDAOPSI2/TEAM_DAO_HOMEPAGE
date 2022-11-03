@@ -5,6 +5,9 @@ const Row = styled.div`
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 30px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const InfoTeamBox = styled.div`
@@ -14,6 +17,11 @@ const InfoTeamBox = styled.div`
   color: white;
   background-color: #1e1e1e;
   text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-right: 0;
+  }
 
   .region {
     text-align: center;
@@ -45,7 +53,13 @@ const TeamMemberBox = styled.div`
   margin-left: 10px;
   color: white;
   background-color: #1e1e1e;
-  h3{
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h3 {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
@@ -73,7 +87,8 @@ const InfoGroup = styled.div`
       flex-direction: column;
       width: 100%;
       font-family: 'technology', sans-serif;
-      span{
+
+      span {
         font-family: "Roboto Mono", monospace;
       }
 
@@ -112,8 +127,12 @@ const MembersWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+
   div {
     width: 50%;
+    @media (max-width: 568px) {
+      width: 100%;
+    }
   }
 `;
 
@@ -176,10 +195,11 @@ const MemberBox = styled.div`
     flex-direction: column;
     justify-content: space-around;
 
-    div{
+    div {
       width: 100%;
       font-family: "Roboto Mono", monospace;
     }
+
     .nick-name {
       font: normal normal 600 18px/22px 'Roboto Mono', sans-serif;
       color: #379341;

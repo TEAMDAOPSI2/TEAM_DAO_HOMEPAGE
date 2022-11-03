@@ -8,11 +8,22 @@ const GridSectionWrapper = styled.div`
   margin: 40px auto 0;
   flex-grow: 1;
   flex-wrap: wrap;
+  @media (max-width: 763px) {
+    max-width: 90%;
+  }
 `;
 
 const BoxTeamWrapper = styled.div`
   width: calc(100% / 3);
   margin-bottom: 20px;
+  
+  @media(max-width: 1024px) {
+    width: calc(100% / 2);
+  }
+
+  @media(max-width: 528px) {
+    width: calc(100% / 1);
+  }
 
   .box {
     background-color: #0f1510;

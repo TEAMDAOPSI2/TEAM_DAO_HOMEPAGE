@@ -41,8 +41,8 @@ export default function FooterOld() {
                 .then(res => {
                     setNotification(res[0].message);
                     setNotificationActive(true)
-                    const ref = document.getElementById('notificationSound');
-                    ref.play();
+                    // const ref = document.getElementById('notificationSound');
+                    // ref.play();
                 });
             // random number between 1 and 7 except bulletsActive
             let random = Math.floor(Math.random() * 7) + 1;
@@ -194,9 +194,9 @@ export default function FooterOld() {
                     </div>
                 </div>
             </div>
-            <audio style={{display: 'none'}} id="notificationSound" controls>
-                <source src="assets/music/notification.mp3" type="audio/mp3"/>
-            </audio>
+            {/*<audio style={{display: 'none'}} id="notificationSound" controls>*/}
+            {/*    <source src="assets/music/notification.mp3" type="audio/mp3"/>*/}
+            {/*</audio>*/}
         </>
 
     );
