@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React from "react";
 
 const Row = styled.div`
   display: flex;
@@ -17,6 +18,13 @@ const InfoTeamBox = styled.div`
   color: white;
   background-color: #1e1e1e;
   text-transform: uppercase;
+  
+  h3{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  }
 
   @media (max-width: 768px) {
     width: 100%;
@@ -140,6 +148,7 @@ const MemberBox = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  cursor: pointer;
 
   .avatar {
     height: 120px;
@@ -224,6 +233,7 @@ const DetailSection = ({team}) => {
         <>
             <Row>
                 <InfoTeamBox>
+                    <h3>{team?.name}</h3>
                     <div className="logo">
                         <img src={team?.logo} alt={team?.name}/>
                     </div>
@@ -280,7 +290,9 @@ const DetailSection = ({team}) => {
                     <h3>Team PLAYERS</h3>
                     <MembersWrapper>
                         {team?.players?.map((member, index) => (
-                            <MemberBox className="member" key={index}>
+                            <MemberBox className="member" key={index} onClick={() => {
+                                window.location.href = `/teams/player/${member?.realName}`
+                            }} >
                                 <div className="avatar">
                                     <div style={{backgroundImage: `url(${member.avatar})`}}></div>
                                     <div>

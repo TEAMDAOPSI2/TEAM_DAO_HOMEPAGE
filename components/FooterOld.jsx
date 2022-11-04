@@ -13,6 +13,7 @@ import GithubIcon from 'public/assets/social-media/github_white.svg';
 import YoutubeIcon from 'public/assets/social-media/youtube.svg';
 import TwitchIcon from 'public/assets/social-media/iconmonstr-twitch-1-240.png';
 import LinksIcon from 'public/assets/social-media/iconmonstr-share-thin-240.png';
+import GamePadIcon from 'public/assets/social-media/icons8-gamepad-96.png';
 import Image from "next/image";
 
 
@@ -149,6 +150,12 @@ export default function FooterOld() {
                                     <a href="https://linktr.ee/TEAMDAO" target="_blank" rel="noreferrer">
                                         <img style={{width: '20px', height: '20px'}}
                                              src={LinksIcon.src} alt="link"/>
+                                    </a>
+                                </div>
+                                <div className="social-group">
+                                    <a href="https://goo.gl/maps/BjL2WXMcup4NSRqS7" target="_blank" rel="noreferrer">
+                                        <img style={{width: '25px', height: '25px'}}
+                                             src={GamePadIcon.src} alt="link"/>
                                     </a>
                                 </div>
                             </div>

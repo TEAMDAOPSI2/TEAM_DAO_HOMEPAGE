@@ -1,28 +1,15 @@
-import React, {useEffect, useState} from "react";
+import DataPlayers from "@data/player200.json";
+import Head from "next/head";
 import LoadingScreen from "@components/LoadingScreen";
 import {ToastContainer} from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
 import {ParallaxProvider} from "react-scroll-parallax";
-import Head from "next/head";
 import HeaderOld from "@components/HeaderOld";
-import FooterOld from "@components/FooterOld";
-import styled from "styled-components";
-import DetailSection from "@sections/teams/DetailSection";
-import Data from "data/top50.json";
 import Link from "next/link";
+import FooterOld from "@components/FooterOld";
+import React, {useEffect, useState} from "react";
+import styled from "styled-components";
+import PlayerSection from "@sections/teams/PlayerSection";
 
-const TitlePageText = styled.div`
-  text-align: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  color: white;
-  font-family: 'Technology', serif;
-
-  h3 {
-    font-size: 3em;
-  }
-
-`;
 const MainDiv = styled.div`
   height: 1px;
   padding-top: 120px;
@@ -113,23 +100,23 @@ const BreadCrumb = styled.div`
   }
 `;
 
-// get serverside props
 export async function getServerSideProps(context) {
-    const {rank} = context.query;
-    const team = Data.find((team) => team.rank === rank);
-    if(!team) {
+    const {name} = context.query;
+    const player = DataPlayers.find((player) => player.name === name);
+    if(!player) {
         return {
             notFound: true,
         }
     }
     return {
         props: {
-            team,
+            player,
         },
     };
 }
 
-const Team = ({team}) => {
+const Player = ({player}) => {
+
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -138,6 +125,8 @@ const Team = ({team}) => {
         }, 3000);
 
     }, []);
+
+    console.log(player);
 
     return (
         <>
@@ -171,11 +160,12 @@ const Team = ({team}) => {
                                         <a className="a"><span>TEAMS</span></a>
                                     </Link>
                                 </li>
-                                <li><a style={{cursor: 'auto'}} href="#"><span>{team?.name}</span></a></li>
+                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.team}</span></a></li>
+                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.nickName}</span></a></li>
                             </ul>
                         </BreadCrumb>
 
-                        <DetailSection team={team}/>
+                        <PlayerSection player={player}/>
 
                     </MainContainer>
 
@@ -184,7 +174,7 @@ const Team = ({team}) => {
                 </div>
             </ParallaxProvider>
         </>
-    );
-};
+    )
 
-export default Team;
+}
+export default Player;

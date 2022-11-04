@@ -137,6 +137,9 @@ const RBNavBar = () => {
                             <Link href='#'>
                                 <a className='nav-link'>STAKE</a>
                             </Link>
+                            <Link href='https://goo.gl/maps/BjL2WXMcup4NSRqS7'>
+                                <a target='_blank' className='nav-link'>GAMECAFE</a>
+                            </Link>
                             {/*<Link href='#'>*/}
                             {/*    <a className='nav-link'>GAMES</a>*/}
                             {/*</Link>*/}
