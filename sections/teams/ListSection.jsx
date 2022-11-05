@@ -1,5 +1,6 @@
 import dataTeam from "data/top50.json";
 import styled from "styled-components";
+import {useEffect, useState} from "react";
 
 const ListSectionContainer = styled.div`
   max-width: 80%;
@@ -44,10 +45,30 @@ const Table = styled.table`
     height: 40px;
     font: normal normal 400 14px/20px 'technology', sans-serif;
   }
-  .number{
+
+  tr td:nth-child(1) {
+    position: relative;
+    width: 80px;
+
+    .team-symbol {
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #1ae120;
+      position: absolute;
+      margin-left: 10px;
+    }
+  }
+
+
+  .number {
     font-size: 20px;
   }
-  .symbol{
+
+  .symbol {
     font-size: 16px;
   }
 
@@ -105,14 +126,16 @@ const Table = styled.table`
     color: #f1c40f;
     font-family: 'technology', sans-serif;
   }
+
   .cell-title {
     display: none;
   }
 
   @media (max-width: 739px) {
-    tr th{
-        display: none;
+    tr th {
+      display: none;
     }
+
     .cell-title {
       display: inline;
       margin-right: auto;
@@ -131,15 +154,42 @@ const Table = styled.table`
       justify-content: space-around;
       padding-right: 10px;
       padding-left: 10px;
-      .team-name{
+
+      .team-name {
         justify-content: flex-end;
       }
     }
   }
 `;
 
+const SymbolTeam = ({rank, mapRandom}) => {
+    const rankINT = parseInt(rank);
+    const is = mapRandom.has(rankINT);
+    if (is) {
+        return (
+            <span className="team-symbol" suppressHydrationWarning />
+        )
+    }
+}
 
 const ListSection = ({data, page}) => {
+
+    const [mapRandom, setMapRandom] = useState(new Set());
+    // random number min 15 max 50
+    useEffect(() => {
+        let max = (page - 1) + 15;
+        let min = page;
+        if (page > 1) {
+            min = (page - 1) * 15;
+            max = page * 15;
+        }
+        const randomOne = Math.floor(Math.random() * (max - min + 1) + min);
+        const randomTwo = Math.floor(Math.random() * (max - min + 1) + min);
+        const randomThree = Math.floor(Math.random() * (max - min + 1) + min);
+        const randomFour = Math.floor(Math.random() * (max - min + 1) + min);
+
+        setMapRandom(new Set([randomOne, randomTwo, randomThree, randomFour]));
+    }, [page]);
 
     return (
         <ListSectionContainer>
@@ -157,11 +207,17 @@ const ListSection = ({data, page}) => {
                 </thead>
                 <tbody>
                 {data.slice((page - 1) * 15, page * 15).map((team, index) => (
+
                     // going to page team/{team.id}
                     <tr key={index} onClick={() => {
                         window.location.href = `teams/${team.rank}`
                     }}>
-                        <td className="number"><div className="cell-title">Rank</div> <span style={{fontSize: '18px'}}>{team.rank}</span></td>
+                        <td className="number">
+                            <span className="cell-title">Rank</span>
+                            <span style={{fontSize: '18px'}}>{team.rank}</span>
+
+                            <SymbolTeam rank={team.rank} mapRandom={mapRandom}/>
+                        </td>
                         <td className=''>
                             <span className="cell-title">Team</span>
                             <div className="team-name">
@@ -173,7 +229,8 @@ const ListSection = ({data, page}) => {
                             </div>
                         </td>
                         {/*number format usd using coma style fixed 0*/}
-                        <td className="number" style={{textAlign: 'left'}}><span className="cell-title">Earnings</span><span className="symbol">$</span>&nbsp;{
+                        <td className="number" style={{textAlign: 'left'}}><span
+                            className="cell-title">Earnings</span><span className="symbol">$</span>&nbsp;{
                             new Intl.NumberFormat('en-US', {
                                 style: 'currency',
                                 currency: 'USD',
@@ -191,10 +248,13 @@ const ListSection = ({data, page}) => {
                         <td className="number">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
-                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;<span className="symbol">%</span>
+                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;
+                                <span className="symbol">%</span>
                             </span>
                         </td>
-                        <td className="number"><span className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                        <td className="number"><span
+                            className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                        </td>
                     </tr>
                 ))}
                 </tbody>

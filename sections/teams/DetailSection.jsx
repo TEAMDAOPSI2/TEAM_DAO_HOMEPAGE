@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import React from "react";
+import ScopeImage from "public/assets/TEAMcrosshairpng.png";
+import EarningsImg from "public/assets/icons/TEAM-earning-circle.png";
+import PointsImg from "public/assets/icons/TEAM-point -circle.png";
+import RankImg from "public/assets/icons/TEAM-rank-circle.png";
+import RecordImg from "public/assets/icons/TEAM-record-circle.png";
 
 const Row = styled.div`
   display: flex;
@@ -18,8 +23,8 @@ const InfoTeamBox = styled.div`
   color: white;
   background-color: #1e1e1e;
   text-transform: uppercase;
-  
-  h3{
+
+  h3 {
     font-size: 1.7rem;
     margin-bottom: 10px;
     text-align: center;
@@ -86,8 +91,12 @@ const InfoGroup = styled.div`
 
     .icon {
       text-align: center;
-      font-size: 2.1em;
       color: #ca7;
+      img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+      }
     }
 
     .detail {
@@ -149,6 +158,24 @@ const MemberBox = styled.div`
   flex-direction: row;
   margin-bottom: 20px;
   cursor: pointer;
+  position: relative;
+
+  .scope {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 140px !important;
+    height: 140px !important;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 9999;
+  }
+  
+  &:hover {
+    .scope {
+      opacity: 1;
+    }
+  }
 
   .avatar {
     height: 120px;
@@ -159,6 +186,7 @@ const MemberBox = styled.div`
     overflow: hidden;
     margin-right: 20px;
     display: block;
+    
 
 
     div:first-child {
@@ -191,7 +219,7 @@ const MemberBox = styled.div`
         vertical-align: middle;
       }
 
-      img {
+      img.main {
         max-width: 100%;
         max-height: 100%;
         vertical-align: middle;
@@ -241,7 +269,7 @@ const DetailSection = ({team}) => {
                     <InfoGroup>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-ranking-star"></i>
+                                <img src={RankImg.src} alt="rank icon"/>
                             </div>
                             <div className="detail">
                                 <span>Rank:</span> {team?.rank}
@@ -249,7 +277,7 @@ const DetailSection = ({team}) => {
                         </div>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-trophy"></i>
+                                <img src={RecordImg.src} alt="record icon"/>
                             </div>
                             <div className="detail">
                                 <span>Record:</span>
@@ -265,7 +293,7 @@ const DetailSection = ({team}) => {
                         </div>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-star-half-alt"></i>
+                                <img src={PointsImg.src} alt="points icon"/>
                             </div>
                             <div className="detail">
                                 <span>Points:</span> {team?.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
@@ -273,7 +301,7 @@ const DetailSection = ({team}) => {
                         </div>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-money-bill-wave-alt"></i>
+                                <img src={EarningsImg.src} alt="Earnings Icon"/>
                             </div>
                             <div className="detail">
                                 <span>Earnings:</span> $&nbsp;{
@@ -292,12 +320,15 @@ const DetailSection = ({team}) => {
                         {team?.players?.map((member, index) => (
                             <MemberBox className="member" key={index} onClick={() => {
                                 window.location.href = `/teams/player/${member?.realName}`
-                            }} >
+                            }}>
                                 <div className="avatar">
                                     <div style={{backgroundImage: `url(${member.avatar})`}}></div>
                                     <div>
-                                        <img src={member?.avatar} alt={member?.name}/>
+                                        <img className="main" src={member?.avatar} alt={member?.name}/>
                                     </div>
+                                </div>
+                                <div className="scope">
+                                    <img src={ScopeImage.src} loading="lazy" alt="scope"/>
                                 </div>
                                 <div className="bio">
                                     <div className="nick-name">{member?.nickName}</div>

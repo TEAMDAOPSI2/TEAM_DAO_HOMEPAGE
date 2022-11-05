@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import React from "react";
+import TeamImg from "public/assets/round-team-logo.png";
+import PointsImg from "public/assets/icons/TEAM-point -circle.png";
+import RankImg from "public/assets/icons/TEAM-rank-circle.png";
+import RecordImg from "public/assets/icons/TEAM-record-circle.png";
 
 const Row = styled.div`
   display: flex;
@@ -138,6 +142,11 @@ const InfoGroup = styled.div`
       text-align: center;
       font-size: 2.1em;
       color: #ca7;
+      img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+      }
     }
 
     .detail {
@@ -290,7 +299,7 @@ const PlayerSection = ({player}) => {
                     <InfoGroup>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-ranking-star"></i>
+                                <img src={RankImg.src} alt="rank icon"/>
                             </div>
                             <div className="detail">
                                 <span>Rank:</span> {player.rank}
@@ -298,7 +307,7 @@ const PlayerSection = ({player}) => {
                         </div>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-trophy"></i>
+                                <img src={RecordImg.src} alt="record icon"/>
                             </div>
                             <div className="detail">
                                 <span>Record:</span>
@@ -314,7 +323,7 @@ const PlayerSection = ({player}) => {
                         </div>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-star-half-alt"></i>
+                                <img src={PointsImg.src} alt="points icon"/>
                             </div>
                             <div className="detail">
                                 <span>Points:</span> {player?.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
@@ -322,7 +331,7 @@ const PlayerSection = ({player}) => {
                         </div>
                         <div className="info">
                             <div className="icon">
-                                <i className="fa-solid fa-people-group"></i>
+                                <img src={TeamImg.src} alt="team icon"/>
                             </div>
                             <div className="detail text">
                                 <span>Current Team:</span> {player.team}

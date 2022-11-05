@@ -14,6 +14,7 @@ import YoutubeIcon from 'public/assets/social-media/youtube.svg';
 import TwitchIcon from 'public/assets/social-media/iconmonstr-twitch-1-240.png';
 import LinksIcon from 'public/assets/social-media/iconmonstr-share-thin-240.png';
 import GamePadIcon from 'public/assets/social-media/icons8-gamepad-96.png';
+import BigoIcon from 'public/assets/social-media/bigo.png';
 import Image from "next/image";
 
 
@@ -46,9 +47,9 @@ export default function FooterOld() {
                     // ref.play();
                 });
             // random number between 1 and 7 except bulletsActive
-            let random = Math.floor(Math.random() * 7) + 1;
+            let random = Math.floor(Math.random() * 8) + 1;
             while (random === bulletsActive) {
-                random = Math.floor(Math.random() * 7) + 1;
+                random = Math.floor(Math.random() * 8) + 1;
             }
             setBulletsActive(random);
             setTimeout(() => {
@@ -114,6 +115,12 @@ export default function FooterOld() {
                                         <img src={TiktokIcon.src}/>
                                     </a>
                                 </div>
+                                <div className={`social-group ${bulletsActive === 8 ? `active` : ``}`}>
+                                    <a href="https://bigo.tv/teamdao" target="_blank" rel="noreferrer">
+                                        <img style={{width: '25px', height: '25px'}}
+                                             src={BigoIcon.src} alt="link"/>
+                                    </a>
+                                </div>
                                 <div className="social-group">
                                     <a href="https://teamdao.medium.com" target="_blank" rel="noreferrer">
                                         <MediumIcon width="30" height="30"/>
@@ -147,14 +154,8 @@ export default function FooterOld() {
                                     </a>
                                 </div>
                                 <div className="social-group">
-                                    <a href="https://linktr.ee/TEAMDAO" target="_blank" rel="noreferrer">
-                                        <img style={{width: '20px', height: '20px'}}
-                                             src={LinksIcon.src} alt="link"/>
-                                    </a>
-                                </div>
-                                <div className="social-group">
                                     <a href="https://goo.gl/maps/BjL2WXMcup4NSRqS7" target="_blank" rel="noreferrer">
-                                        <img style={{width: '25px', height: '25px'}}
+                                        <img style={{width: '25px', height: '25px', objectFit: 'contain'}}
                                              src={GamePadIcon.src} alt="link"/>
                                     </a>
                                 </div>
