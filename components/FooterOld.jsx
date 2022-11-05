@@ -22,7 +22,7 @@ export default function FooterOld() {
     const [notification, setNotification] = useState('');
     const [notificationActive, setNotificationActive] = useState(false);
     const [email, setEmail] = useState('');
-    const [bulletsActive, setBulletsActive] = useState(1);
+    const [bulletsActive, setBulletsActive] = useState(new Set());
 
 
     const fetchNotifications = () => {
@@ -46,11 +46,17 @@ export default function FooterOld() {
                     // const ref = document.getElementById('notificationSound');
                     // ref.play();
                 });
-            // random number between 1 and 7 except bulletsActive
-            let random = Math.floor(Math.random() * 8) + 1;
-            while (random === bulletsActive) {
-                random = Math.floor(Math.random() * 8) + 1;
+            // random number between 1 and 8 except bulletsActive
+            // let random = Math.floor(Math.random() * 8) + 1;
+            // while (random === bulletsActive) {
+            //     random = Math.floor(Math.random() * 8) + 1;
+            // }
+
+            let random = new Set();
+            while (random.size < 3) {
+                random.add(Math.floor(Math.random() * 8) + 1);
             }
+
             setBulletsActive(random);
             setTimeout(() => {
                 setNotificationActive(null);
@@ -94,28 +100,29 @@ export default function FooterOld() {
                                 <div className="footer-logo mr-1">
                                     <img src={TeamLogo.src} alt="Team game"/>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 1 ? `active` : ``}`}>
+                                {/*add class active if bulletActive have 0*/}
+                                <div className={`social-group ${bulletsActive.has(1) ? `active` : ``} `}>
                                     <a href="https://t.me/TEAMDAO" target="_blank" rel="noreferrer">
                                         {/*<img src="images/telegram_white.svg" alt="Telegram"/>*/}
                                         <TelegramIcon/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 2 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(2) ? `active` : ``}`}>
                                     <a href="https://twitter.com/TEAMDAOcom" target="_blank" rel="noreferrer">
                                         <TwitterIcon/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 3 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(3) ? `active` : ``}`}>
                                     <a href="https://web.facebook.com/TEAMDAOcom" target="_blank" rel="noreferrer">
                                         <FacebookIcon/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 4 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(4) ? `active` : ``}`}>
                                     <a href="https://www.tiktok.com/@teamdao" target="_blank" rel="noreferrer">
                                         <img src={TiktokIcon.src}/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 8 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(5)? `active`:``}`}>
                                     <a href="https://bigo.tv/teamdao" target="_blank" rel="noreferrer">
                                         <img style={{width: '25px', height: '25px'}}
                                              src={BigoIcon.src} alt="link"/>
@@ -126,7 +133,7 @@ export default function FooterOld() {
                                         <MediumIcon width="30" height="30"/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 5 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(6)? `active` : ``}`}>
                                     <a href="https://discord.gg/TEAMDAO" target="_blank" rel="noreferrer">
                                         <DiscordIcon width="30" height="30"/>
                                     </a>
@@ -142,12 +149,12 @@ export default function FooterOld() {
                                         <GithubIcon/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 6 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(7)? `active` : ``}`}>
                                     <a href="https://www.youtube.com/c/TeamDAO" target="_blank" rel="noreferrer">
                                         <YoutubeIcon/>
                                     </a>
                                 </div>
-                                <div className={`social-group ${bulletsActive === 7 ? `active` : ``}`}>
+                                <div className={`social-group ${bulletsActive.has(8)? `active` : ``}`}>
                                     <a href="https://www.twitch.tv/teamdaoTV" target="_blank" rel="noreferrer">
                                         <img style={{width: '20px', height: '20px'}}
                                              src={TwitchIcon.src} alt="Twitch"/>

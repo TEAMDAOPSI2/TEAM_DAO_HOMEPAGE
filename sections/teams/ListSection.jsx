@@ -57,7 +57,8 @@ const Table = styled.table`
       width: 20px;
       height: 20px;
       border-radius: 50%;
-      background: #1ae120;
+      background: #5cfe04;
+      border: 2px solid #2f8317;
       position: absolute;
       margin-left: 10px;
     }

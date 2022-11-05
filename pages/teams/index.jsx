@@ -25,7 +25,7 @@ const CenterText = styled.div`
 `;
 const MainDiv = styled.div`
   height: 1px;
-  padding-top: 120px;
+  padding-top: 70px;
 `;
 
 
