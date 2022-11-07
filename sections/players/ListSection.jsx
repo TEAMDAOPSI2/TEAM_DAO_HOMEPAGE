@@ -68,6 +68,11 @@ const Table = styled.table`
   .number {
     font-size: 20px;
   }
+  
+  .text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+  }
 
   .symbol {
     font-size: 16px;
@@ -197,8 +202,13 @@ const ListSection = ({data, page}) => {
                 <thead>
                 <tr>
                     <th>Rank</th>
-                    <th>Team</th>
-                    <th>Earnings</th>
+                    <th>player</th>
+                    <th>TEAM</th>
+                    <th>country</th>
+                    <th>passport</th>
+                    <th>age</th>
+                    <th>games</th>
+                    <th>EARNINGS</th>
                     <th>WIN</th>
                     <th>LOSE</th>
                     <th>%</th>
@@ -206,54 +216,65 @@ const ListSection = ({data, page}) => {
                 </tr>
                 </thead>
                 <tbody>
-                {data.slice((page - 1) * 15, page * 15).map((team, index) => (
+                {data.slice((page - 1) * 15, page * 15).map((player, index) => (
 
-                    // going to page team/{team.id}
+                    // going to page team/{player.id}
                     <tr key={index} onClick={() => {
-                        window.location.href = `teams/${team.rank}`
+                        window.location.href = `teams/player/${player.name}`
                     }}>
                         <td className="number">
                             <span className="cell-title">Rank</span>
-                            <span style={{fontSize: '18px'}}>{team.rank}</span>
+                            <span style={{fontSize: '18px'}}>{player.rank}</span>
 
-                            <SymbolTeam rank={team.rank} mapRandom={mapRandom}/>
+                            <SymbolTeam rank={player.rank} mapRandom={mapRandom}/>
                         </td>
-                        <td className=''>
-                            <span className="cell-title">Team</span>
+                        <td className='text'>
+                            <span className="cell-title">Player</span>
                             <div className="team-name">
-                                <div className="logo">
-                                    <img src={team.logo} alt={team.name} width="30px" height="30px" loading='lazy'/>
-                                </div>
-                                {team.name}
-                                <span>{team.region}</span>
+                                {player.nickName}
                             </div>
                         </td>
-                        {/*number format usd using coma style fixed 0*/}
-                        <td className="number" style={{textAlign: 'left'}}><span
-                            className="cell-title">Earnings</span><span className="symbol">$</span>&nbsp;{
-                            new Intl.NumberFormat('en-US', {
-                                style: 'currency',
-                                currency: 'USD',
-                                minimumFractionDigits: 0
-                            }).format(team.prizeMoney).replace('$', '')
-                        }</td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Earnings</span>
+                            {player.team}
+                        </td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Team</span>
+                            {player.country}
+                        </td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Passport</span>
+                            -
+                        </td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Age</span>
+                            -
+                        </td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Games</span>
+                            DOTA 2
+                        </td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Age</span>
+                            -
+                        </td>
                         <td className="number">
                             <span className="cell-title">WIN</span>
-                            <span className='c-win'>{team.recordWin}</span>
+                            <span className='c-win'>{player.recordWin}</span>
                         </td>
                         <td className="number">
                             <span className="cell-title">LOSE</span>
-                            <span className='c-lose'>{team.recordLose}</span>&nbsp;
+                            <span className='c-lose'>{player.recordLose}</span>&nbsp;
                         </td>
                         <td className="number">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
-                            {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;
+                            {(parseInt(player.recordWin) / (parseInt(player.recordWin) + parseInt(player.recordLose)) * 100).toFixed(0)}&nbsp;
                                 <span className="symbol">%</span>
                             </span>
                         </td>
                         <td className="number"><span
-                            className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                            className="cell-title">Points</span>{player.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                         </td>
                     </tr>
                 ))}
