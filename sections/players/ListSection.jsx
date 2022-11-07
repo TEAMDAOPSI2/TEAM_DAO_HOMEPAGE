@@ -1,6 +1,7 @@
 import dataTeam from "data/top50.json";
 import styled from "styled-components";
 import {useEffect, useState} from "react";
+import ISOCountry from "helper/ISOCountry";
 
 const ListSectionContainer = styled.div`
   max-width: 80%;
@@ -99,6 +100,14 @@ const Table = styled.table`
     font: normal normal 400 20px/20px 'Roboto Mono', sans-serif;
     color: #ccc;
     transition: color 100ms ease-in-out;
+    
+    //.flag{
+    //  margin-left: 10px;
+    //  img{
+    //    width: 20px;
+    //    height: 20px;
+    //  }
+    //}
 
 
     div {
@@ -179,7 +188,6 @@ const SymbolTeam = ({rank, mapRandom}) => {
 }
 
 const ListSection = ({data, page}) => {
-
     const [mapRandom, setMapRandom] = useState(new Set());
     // random number min 15 max 50
     useEffect(() => {
@@ -240,7 +248,12 @@ const ListSection = ({data, page}) => {
                         </td>
                         <td className="text" style={{textAlign: 'left'}}>
                             <span className="cell-title">Team</span>
-                            {player.country}
+                            <div className="team-name">
+                                <div className="flag">
+                                    <img src={`https://countryflagsapi.com/png/${ISOCountry(player.country) ? ISOCountry(player.country) : player.country}`} alt=""/>
+                                </div>
+                                {player.country}
+                            </div>
                         </td>
                         <td className="text" style={{textAlign: 'left'}}>
                             <span className="cell-title">Passport</span>
