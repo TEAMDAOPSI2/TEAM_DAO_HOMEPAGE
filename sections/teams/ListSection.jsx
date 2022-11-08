@@ -68,6 +68,10 @@ const Table = styled.table`
     position: relative;
     width: 80px;
 
+    @media (max-width: 540px) {
+      width: 70px;
+    }
+
     .team-symbol {
       right: 20px;
       top: 50%;
@@ -150,33 +154,39 @@ const Table = styled.table`
     display: none;
   }
 
-  @media (max-width: 739px) {
-    tr th {
-      display: none;
+  @media (max-width: 540px) {
+    //tr th {
+    //  display: none;
+    //}
+    //
+    //.cell-title {
+    //  display: inline;
+    //  margin-right: auto;
+    //  flex-shrink: 0;
+    //  align-self: flex-start;
+    //  text-align: left;
+    //  white-space: nowrap;
+    //  text-transform: uppercase;
+    //  color: #00ff19;
+    //  font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
+    //}
+    //
+    //td {
+    //  display: flex;
+    //  align-items: center;
+    //  justify-content: space-around;
+    //  padding-right: 10px;
+    //  padding-left: 10px;
+    //
+    //  .team-name {
+    //    justify-content: flex-end;
+    //  }
+    //}
+    .mobile-gone{
+        display: none;
     }
-
-    .cell-title {
-      display: inline;
-      margin-right: auto;
-      flex-shrink: 0;
-      align-self: flex-start;
-      text-align: left;
-      white-space: nowrap;
-      text-transform: uppercase;
-      color: #00ff19;
-      font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
-    }
-
-    td {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      padding-right: 10px;
-      padding-left: 10px;
-
-      .team-name {
-        justify-content: flex-end;
-      }
+    .team-name{
+      font-size: 14px;
     }
   }
 `;
@@ -217,11 +227,11 @@ const ListSection = ({data, page}) => {
                     <th>Rank</th>
                     <th>Team</th>
                     <th>Country</th>
-                    <th>Earnings</th>
-                    <th>WIN</th>
-                    <th>LOSE</th>
-                    <th>%</th>
-                    <th>Points</th>
+                    <th className="mobile-gone">Earnings</th>
+                    <th className="mobile-gone">WIN</th>
+                    <th className="mobile-gone">LOSE</th>
+                    <th className="mobile-gone">%</th>
+                    <th className="mobile-gone">Points</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -247,7 +257,7 @@ const ListSection = ({data, page}) => {
                             </div>
                         </td>
                         <td className="text" style={{textAlign: 'left'}}>
-                            <span className="cell-title">Team</span>
+                            <span className="cell-title">country</span>
                             <div className="team-name">
                                 <div className="flag">
                                     <img src={`https://countryflagsapi.com/png/${ISOCountry(team.region) ? ISOCountry(team.region) : team.region}`} alt=""/>
@@ -256,7 +266,7 @@ const ListSection = ({data, page}) => {
                             </div>
                         </td>
                         {/*number format usd using coma style fixed 0*/}
-                        <td className="number" style={{textAlign: 'left'}}><span
+                        <td className="number mobile-gone" style={{textAlign: 'left'}}><span
                             className="cell-title">Earnings</span><span className="symbol">$</span>&nbsp;{
                             new Intl.NumberFormat('en-US', {
                                 style: 'currency',
@@ -264,22 +274,22 @@ const ListSection = ({data, page}) => {
                                 minimumFractionDigits: 0
                             }).format(team.prizeMoney).replace('$', '')
                         }</td>
-                        <td className="number">
+                        <td className="number mobile-gone">
                             <span className="cell-title">WIN</span>
                             <span className='c-win'>{team.recordWin}</span>
                         </td>
-                        <td className="number">
+                        <td className="number mobile-gone">
                             <span className="cell-title">LOSE</span>
                             <span className='c-lose'>{team.recordLose}</span>&nbsp;
                         </td>
-                        <td className="number">
+                        <td className="number mobile-gone">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
                             {(parseInt(team.recordWin) / (parseInt(team.recordWin) + parseInt(team.recordLose)) * 100).toFixed(0)}&nbsp;
                                 <span className="symbol">%</span>
                             </span>
                         </td>
-                        <td className="number"><span
+                        <td className="number mobile-gone"><span
                             className="cell-title">Points</span>{team.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                         </td>
                     </tr>

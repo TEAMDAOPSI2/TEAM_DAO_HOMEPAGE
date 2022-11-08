@@ -163,35 +163,38 @@ const Table = styled.table`
     display: none;
   }
 
-  @media (max-width: 739px) {
-    tr th {
+  @media (max-width: 524px) {
+  //  tr th {
+  //    display: none;
+  //  }
+  //
+  //  .cell-title {
+  //    display: inline;
+  //    margin-right: auto;
+  //    flex-shrink: 0;
+  //    align-self: flex-start;
+  //    text-align: left;
+  //    white-space: nowrap;
+  //    text-transform: uppercase;
+  //    color: #00ff19;
+  //    font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
+  //  }
+  //
+  //  td {
+  //    display: flex;
+  //    align-items: center;
+  //    justify-content: space-around;
+  //    padding-right: 10px;
+  //    padding-left: 10px;
+  //
+  //    .team-name {
+  //      justify-content: flex-end;
+  //    }
+  //  }
+  //}
+    .mobile-gone{
       display: none;
     }
-
-    .cell-title {
-      display: inline;
-      margin-right: auto;
-      flex-shrink: 0;
-      align-self: flex-start;
-      text-align: left;
-      white-space: nowrap;
-      text-transform: uppercase;
-      color: #00ff19;
-      font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
-    }
-
-    td {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      padding-right: 10px;
-      padding-left: 10px;
-
-      .team-name {
-        justify-content: flex-end;
-      }
-    }
-  }
 `;
 
 const SymbolTeam = ({rank, mapRandom}) => {
@@ -228,16 +231,16 @@ const ListSection = ({data, page}) => {
                 <tr>
                     <th>Rank</th>
                     <th>player</th>
-                    <th>TEAM</th>
+                    <th className="mobile-gone">TEAM</th>
                     <th>country</th>
-                    <th>passport</th>
-                    <th>age</th>
-                    <th>games</th>
-                    <th>EARNINGS</th>
-                    <th>WIN</th>
-                    <th>LOSE</th>
-                    <th>%</th>
-                    <th>Points</th>
+                    <th className="mobile-gone">passport</th>
+                    <th className="mobile-gone">age</th>
+                    <th className="mobile-gone">games</th>
+                    <th className="mobile-gone">EARNINGS</th>
+                    <th className="mobile-gone">WIN</th>
+                    <th className="mobile-gone">LOSE</th>
+                    <th className="mobile-gone">%</th>
+                    <th className="mobile-gone">Points</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -259,8 +262,8 @@ const ListSection = ({data, page}) => {
                                 {player.nickName}
                             </div>
                         </td>
-                        <td className="text" style={{textAlign: 'left'}}>
-                            <span className="cell-title">Earnings</span>
+                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Team</span>
                             {player.team}
                         </td>
                         <td className="text" style={{textAlign: 'left'}}>
@@ -272,38 +275,38 @@ const ListSection = ({data, page}) => {
                                 {player.country}
                             </div>
                         </td>
-                        <td className="text" style={{textAlign: 'left'}}>
+                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Passport</span>
                             -
                         </td>
-                        <td className="text" style={{textAlign: 'left'}}>
+                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Age</span>
                             -
                         </td>
-                        <td className="text" style={{textAlign: 'left'}}>
+                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Games</span>
                             DOTA 2
                         </td>
-                        <td className="text" style={{textAlign: 'left'}}>
+                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Age</span>
                             -
                         </td>
-                        <td className="number">
+                        <td className="number mobile-gone">
                             <span className="cell-title">WIN</span>
                             <span className='c-win'>{player.recordWin}</span>
                         </td>
-                        <td className="number">
+                        <td className="number mobile-gone">
                             <span className="cell-title">LOSE</span>
                             <span className='c-lose'>{player.recordLose}</span>&nbsp;
                         </td>
-                        <td className="number">
+                        <td className="number mobile-gone">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
                             {(parseInt(player.recordWin) / (parseInt(player.recordWin) + parseInt(player.recordLose)) * 100).toFixed(0)}&nbsp;
                                 <span className="symbol">%</span>
                             </span>
                         </td>
-                        <td className="number"><span
+                        <td className="number mobile-gone"><span
                             className="cell-title">Points</span>{player.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                         </td>
                     </tr>
