@@ -2,14 +2,30 @@ import dataTeam from "data/top50.json";
 import styled from 'styled-components';
 
 const GridSectionWrapper = styled.div`
-  max-width: 80%;
   display: flex;
   flex-direction: row;
-  margin: 40px auto 0;
+  margin: 0 auto;
   flex-grow: 1;
   flex-wrap: wrap;
-  @media (max-width: 763px) {
-    max-width: 90%;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
   }
 `;
 

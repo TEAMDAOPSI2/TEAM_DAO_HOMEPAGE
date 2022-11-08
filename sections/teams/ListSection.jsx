@@ -1,15 +1,33 @@
 import dataTeam from "data/top50.json";
 import styled from "styled-components";
 import {useEffect, useState} from "react";
+import ISOCountry from "../../helper/ISOCountry";
 
 const ListSectionContainer = styled.div`
-  max-width: 80%;
+  display: flex;
   margin: auto;
   min-height: 400px;
   position: relative;
   color: #fff;
-  @media (max-width: 763px) {
-    max-width: 90%;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
   }
 `;
 
@@ -198,6 +216,7 @@ const ListSection = ({data, page}) => {
                 <tr>
                     <th>Rank</th>
                     <th>Team</th>
+                    <th>Country</th>
                     <th>Earnings</th>
                     <th>WIN</th>
                     <th>LOSE</th>
@@ -225,7 +244,15 @@ const ListSection = ({data, page}) => {
                                     <img src={team.logo} alt={team.name} width="30px" height="30px" loading='lazy'/>
                                 </div>
                                 {team.name}
-                                <span>{team.region}</span>
+                            </div>
+                        </td>
+                        <td className="text" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Team</span>
+                            <div className="team-name">
+                                <div className="flag">
+                                    <img src={`https://countryflagsapi.com/png/${ISOCountry(team.region) ? ISOCountry(team.region) : team.region}`} alt=""/>
+                                </div>
+                                {team.region}
                             </div>
                         </td>
                         {/*number format usd using coma style fixed 0*/}

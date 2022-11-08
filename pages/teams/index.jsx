@@ -30,16 +30,35 @@ const MainDiv = styled.div`
 
 
 const FilterWrapper = styled.div`
-  max-width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding: 10px;
   background-color: #1f2125;
-  
-  @media (max-width: 763px) {
-    max-width: 90%;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
   }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+  
 
   .filter-top {
     width: 100%;
@@ -67,7 +86,7 @@ const FilterWrapper = styled.div`
       border: 1px solid #00ff19;
       outline: none;
     }
-    
+
     @media (max-width: 526px) {
       width: 200px;
     }
@@ -85,12 +104,12 @@ const FilterWrapper = styled.div`
       display: block;
     }
   }
-  
-  .filter-mode{
+
+  .filter-mode {
     order: 3;
     min-width: 125px;
     margin-left: 10px;
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       order: 2;
       min-width: 80px;
     }
@@ -120,7 +139,7 @@ const FilterWrapper = styled.div`
       background-color: #3f701e;
       color: #00ff19;
     }
-    
+
     @media (max-width: 526px) {
       font-size: 12px;
       font-weight: 700;
@@ -175,6 +194,7 @@ const GameWrapper = styled.div`
     order: 3;
     width: 100%;
   }
+
   ul {
     display: flex;
     flex-wrap: nowrap;
@@ -189,7 +209,7 @@ const GameWrapper = styled.div`
       color: #00ff19;
       border: 1px solid #00ff19;
     }
-    
+
 
     li {
       color: white;
