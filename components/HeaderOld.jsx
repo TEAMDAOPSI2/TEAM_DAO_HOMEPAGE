@@ -126,6 +126,15 @@ const RBNavBar = () => {
                             <Link href='/marketplace'>
                                 <a className='nav-link'>MARKETPLACE</a>
                             </Link>
+                            <Link href='/players'>
+                                <a className='nav-link'>PLAYERS</a>
+                            </Link>
+                            <Link href='#'>
+                                <a className='nav-link'>STAKE</a>
+                            </Link>
+                            <Link href='https://goo.gl/maps/BjL2WXMcup4NSRqS7'>
+                                <a target='_blank' className='nav-link'>GAMECAFE</a>
+                            </Link>
                             <Link href='https://whitepaper.teamdao.com/'>
                               <a className='nav-link' target='_blank' rel='noreferrer'>
                                 WHITEPAPER
@@ -134,15 +143,8 @@ const RBNavBar = () => {
                             <Link href='/media-kit'>
                                 <a className='nav-link'>MEDIAKIT</a>
                             </Link>
-                            <Link href='#'>
-                                <a className='nav-link'>STAKE</a>
-                            </Link>
-                            <Link href='https://goo.gl/maps/BjL2WXMcup4NSRqS7'>
-                                <a target='_blank' className='nav-link'>GAMECAFE</a>
-                            </Link>
-                            <Link href='/players'>
-                                <a className='nav-link'>PLAYERS</a>
-                            </Link>
+
+
                             {/*<Link href='#'>*/}
                             {/*    <a className='nav-link'>GAMES</a>*/}
                             {/*</Link>*/}
