@@ -5,7 +5,6 @@ import ISOCountry from "helper/ISOCountry";
 
 const ListSectionContainer = styled.div`
   margin: auto;
-  min-height: 400px;
   position: relative;
   color: #fff;
   display: flex;
@@ -269,9 +268,9 @@ const ListSection = ({data, page}) => {
                         <td className="text" style={{textAlign: 'left'}}>
                             <span className="cell-title">Team</span>
                             <div className="team-name">
-                                <div className="flag">
-                                    <img src={`https://countryflagsapi.com/png/${ISOCountry(player.country) ? ISOCountry(player.country) : player.country}`} alt=""/>
-                                </div>
+                                {/*<div className="flag">*/}
+                                {/*    <img src={`https://countryflagsapi.com/png/${ISOCountry(player.country) ? ISOCountry(player.country) : player.country}`} alt=""/>*/}
+                                {/*</div>*/}
                                 {player.country}
                             </div>
                         </td>
