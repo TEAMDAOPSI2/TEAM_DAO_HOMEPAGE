@@ -3,6 +3,8 @@ import styled from "styled-components";
 import {useEffect, useState} from "react";
 import ISOCountry from "helper/ISOCountry";
 import getFlagEmoji from "../../helper/GetFlagsEmoji";
+import rank from "../../pages/teams/[rank]";
+import {formatNumber} from "../../helper/number_format";
 
 const ListSectionContainer = styled.div`
   margin: auto;
@@ -86,8 +88,8 @@ const Table = styled.table`
   .number {
     font-size: 20px;
   }
-  
-  .text{
+
+  .text {
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
   }
@@ -117,8 +119,9 @@ const Table = styled.table`
     font: normal normal 400 20px/20px 'Roboto Mono', sans-serif;
     color: #ccc;
     transition: color 100ms ease-in-out;
-    
-    .flag{
+
+    .flag {
+      width: 20px;
       font-family: 'NotoColorEmojiLimited', sans-serif;
     }
 
@@ -160,35 +163,7 @@ const Table = styled.table`
   }
 
   @media (max-width: 524px) {
-  //  tr th {
-  //    display: none;
-  //  }
-  //
-  //  .cell-title {
-  //    display: inline;
-  //    margin-right: auto;
-  //    flex-shrink: 0;
-  //    align-self: flex-start;
-  //    text-align: left;
-  //    white-space: nowrap;
-  //    text-transform: uppercase;
-  //    color: #00ff19;
-  //    font: normal normal 400 14px/20px 'Roboto Mono', sans-serif;
-  //  }
-  //
-  //  td {
-  //    display: flex;
-  //    align-items: center;
-  //    justify-content: space-around;
-  //    padding-right: 10px;
-  //    padding-left: 10px;
-  //
-  //    .team-name {
-  //      justify-content: flex-end;
-  //    }
-  //  }
-  //}
-    .mobile-gone{
+    .mobile-gone {
       display: none;
     }
 `;
@@ -198,13 +173,14 @@ const SymbolTeam = ({rank, mapRandom}) => {
     const is = mapRandom.has(rankINT);
     if (is) {
         return (
-            <span className="team-symbol" suppressHydrationWarning />
+            <span className="team-symbol" suppressHydrationWarning/>
         )
     }
 }
 
 const ListSection = ({data, page}) => {
     const [mapRandom, setMapRandom] = useState(new Set());
+    const [mapRandom2, setMapRandom2] = useState(new Set());
     // random number min 15 max 50
     useEffect(() => {
         let max = (page - 1) + 15;
@@ -215,8 +191,12 @@ const ListSection = ({data, page}) => {
         }
         let random = new Set();
         while (random.size < 4) {
-            random.add( Math.floor(Math.random() * (max - min + 1) + min));
+            random.add(Math.floor(Math.random() * (max - min + 1) + min));
         }
+        while (random.size < 8) {
+            random.add(Math.floor(Math.random() * (max - min + 1) + min));
+        }
+        setMapRandom2(random);
         setMapRandom(random);
     }, [page]);
 
@@ -226,10 +206,10 @@ const ListSection = ({data, page}) => {
                 <thead>
                 <tr>
                     <th>Rank</th>
-                    <th>player</th>
-                    <th className="mobile-gone">TEAM</th>
-                    <th>country</th>
-                    <th className="mobile-gone">passport</th>
+                    <th width={180}>player</th>
+                    <th width={90} className="mobile-gone">TEAM</th>
+                    <th width={210}>country</th>
+                    <th className="mobile-gone">Price</th>
                     <th className="mobile-gone">age</th>
                     <th className="mobile-gone">games</th>
                     <th className="mobile-gone">EARNINGS</th>
@@ -266,14 +246,24 @@ const ListSection = ({data, page}) => {
                             <span className="cell-title">Team</span>
                             <div className="team-name">
                                 <div className="flag">
+                                    {mapRandom2.has(parseInt(player.rank)) ? (`✈️`) : null}
+                                </div>
+                                <div className="flag">
                                     {getFlagEmoji(ISOCountry(player.country))}
                                 </div>
                                 {player.country}
                             </div>
                         </td>
-                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
-                            <span className="cell-title">Passport</span>
-                            -
+                        <td className="number mobile-gone" style={{textAlign: 'left'}}>
+                            <span className="cell-title">Price</span>
+                            {
+                                // random rank 1 is the highest price
+                                player.rank == 1 ? (
+                                    `$ ${formatNumber(8888888)}`
+                                ) : (
+                                    `$ ${formatNumber(((8888888 - 8888) / 200) * (200 - player.rank) + 8888)}`
+                                )
+                            }
                         </td>
                         <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Age</span>
