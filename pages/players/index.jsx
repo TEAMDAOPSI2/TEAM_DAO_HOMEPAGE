@@ -240,9 +240,11 @@ const Index = () => {
             const newData = dataPlayers.filter((item) => {
                 return item.nickName.toLowerCase().includes(e.target.value.toLowerCase());
             });
+            setPage(1);
             setData(newData);
             setTotalPages(Math.ceil(newData.length / 15));
         } else {
+            setPage(1);
             setData(dataPlayers);
             setTotalPages(Math.ceil(dataPlayers.length / 15));
         }

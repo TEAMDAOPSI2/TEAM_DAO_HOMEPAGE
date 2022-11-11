@@ -8,6 +8,12 @@
     src: url('/fonts/TEAMDAO-Regular.otf') format('truetype');
 }
 
+@font-face {
+    font-family: NotoColorEmojiLimited;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url('/fonts/NotoColorEmoji.ttf');
+}
+
 @keyframes teamdao-shake-anim {
     0% {
         transform: translate(1px, 1px);

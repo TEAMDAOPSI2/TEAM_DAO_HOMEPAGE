@@ -258,9 +258,11 @@ const Index = () => {
             const newData = dataTeam.filter((item) => {
                 return item.name.toLowerCase().includes(e.target.value.toLowerCase());
             });
+            setPage(1);
             setData(newData);
             setTotalPages(Math.ceil(newData.length / 15));
         } else {
+            setPage(1);
             setData(dataTeam);
             setTotalPages(Math.ceil(dataTeam.length / 15));
         }

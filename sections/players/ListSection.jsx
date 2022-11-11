@@ -2,6 +2,7 @@ import dataTeam from "data/top50.json";
 import styled from "styled-components";
 import {useEffect, useState} from "react";
 import ISOCountry from "helper/ISOCountry";
+import getFlagEmoji from "../../helper/GetFlagsEmoji";
 
 const ListSectionContainer = styled.div`
   margin: auto;
@@ -117,13 +118,9 @@ const Table = styled.table`
     color: #ccc;
     transition: color 100ms ease-in-out;
     
-    //.flag{
-    //  margin-left: 10px;
-    //  img{
-    //    width: 20px;
-    //    height: 20px;
-    //  }
-    //}
+    .flag{
+      font-family: 'NotoColorEmojiLimited', sans-serif;
+    }
 
 
     div {
@@ -268,9 +265,9 @@ const ListSection = ({data, page}) => {
                         <td className="text" style={{textAlign: 'left'}}>
                             <span className="cell-title">Team</span>
                             <div className="team-name">
-                                {/*<div className="flag">*/}
-                                {/*    <img src={`https://countryflagsapi.com/png/${ISOCountry(player.country) ? ISOCountry(player.country) : player.country}`} alt=""/>*/}
-                                {/*</div>*/}
+                                <div className="flag">
+                                    {getFlagEmoji(ISOCountry(player.country))}
+                                </div>
                                 {player.country}
                             </div>
                         </td>
