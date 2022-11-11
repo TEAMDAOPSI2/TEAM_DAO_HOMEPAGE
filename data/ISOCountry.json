@@ -130,7 +130,7 @@
     "country-code": "064"
   },
   {
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "alpha-2": "BO",
     "country-code": "068"
   },
@@ -610,7 +610,7 @@
     "country-code": "417"
   },
   {
-    "name": "Lao People's Democratic Republic",
+    "name": "Laos",
     "alpha-2": "LA",
     "country-code": "418"
   },
@@ -725,7 +725,7 @@
     "country-code": "583"
   },
   {
-    "name": "Moldova, Republic of",
+    "name": "Moldova",
     "alpha-2": "MD",
     "country-code": "498"
   },
@@ -1205,7 +1205,7 @@
     "country-code": "862"
   },
   {
-    "name": "Viet Nam",
+    "name": "Vietnam",
     "alpha-2": "VN",
     "country-code": "704"
   },
