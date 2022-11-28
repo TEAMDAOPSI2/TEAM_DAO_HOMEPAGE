@@ -9,7 +9,10 @@ import HeaderOld from "@components/HeaderOld";
 import FooterOld from "@components/FooterOld";
 import styled from "styled-components";
 import ListSection from "@sections/players/ListSection";
-import dataPlayers from "@data/player200.json";
+import mlPlayers from "@data/ml.json";
+import pubgmPlayers from "@data/pubgm.json";
+import codPlayers from "@data/cod.json";
+import dota2Players from "@data/dota2.json";
 
 
 const MainDiv = styled.div`
@@ -70,7 +73,7 @@ const FilterWrapper = styled.div`
       border: 1px solid #00ff19;
       outline: none;
     }
-    
+
     @media (max-width: 526px) {
       width: 200px;
     }
@@ -88,12 +91,12 @@ const FilterWrapper = styled.div`
       display: block;
     }
   }
-  
-  .filter-mode{
+
+  .filter-mode {
     order: 3;
     min-width: 125px;
     margin-left: 10px;
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       order: 2;
       min-width: 80px;
     }
@@ -123,7 +126,7 @@ const FilterWrapper = styled.div`
       background-color: #3f701e;
       color: #00ff19;
     }
-    
+
     @media (max-width: 526px) {
       font-size: 12px;
       font-weight: 700;
@@ -178,6 +181,7 @@ const GameWrapper = styled.div`
     order: 3;
     width: 100%;
   }
+
   ul {
     display: flex;
     flex-wrap: nowrap;
@@ -192,7 +196,7 @@ const GameWrapper = styled.div`
       color: #00ff19;
       border: 1px solid #00ff19;
     }
-    
+
 
     li {
       color: white;
@@ -220,9 +224,9 @@ const Index = () => {
     const [loading, setLoading] = useState(true);
     const [page, setPage] = useState(1);
     const [search, setSearch] = useState('');
-    const [showType, setShowType] = useState(0);
     const [totalPages, setTotalPages] = useState(0);
-    const [data, setData] = useState(dataPlayers);
+    const [data, setData] = useState(dota2Players);
+    const [gameFilter, setGameFilter] = useState('dota2');
 
 
     useEffect(() => {
@@ -237,7 +241,7 @@ const Index = () => {
     const handleSearch = (e) => {
         setSearch(e.target.value);
         if (e.target.value.length > 0) {
-            const newData = dataPlayers.filter((item) => {
+            const newData = data.filter((item) => {
                 return item.nickName.toLowerCase().includes(e.target.value.toLowerCase());
             });
             setPage(1);
@@ -245,9 +249,29 @@ const Index = () => {
             setTotalPages(Math.ceil(newData.length / 15));
         } else {
             setPage(1);
-            setData(dataPlayers);
-            setTotalPages(Math.ceil(dataPlayers.length / 15));
+            setData(data);
+            setTotalPages(Math.ceil(data.length / 15));
         }
+    }
+
+    const handleGameFilter = (game) => {
+        setGameFilter(game);
+        setPage(1);
+        switch (game) {
+            case 'dota2':
+                setData(dota2Players);
+                break;
+            case 'pubgm':
+                setData(pubgmPlayers);
+                break;
+            case 'ml':
+                setData(mlPlayers);
+                break;
+            case 'cod':
+                setData(codPlayers);
+                break;
+        }
+        setTotalPages(Math.ceil(data.length / 15));
     }
 
     return (
@@ -296,11 +320,19 @@ const Index = () => {
                             </div>
                             <GameWrapper>
                                 <ul>
-                                    <li className="active">DOTA</li>
+                                    <li onClick={() => handleGameFilter('dota2')}
+                                        className={`${gameFilter === 'dota2' ? 'active' : ''}`}>DOTA
+                                    </li>
+                                    <li onClick={() => handleGameFilter('ml')}
+                                        className={`${gameFilter === 'ml' ? 'active' : ''}`}>MLBB
+                                    </li>
+                                    <li onClick={() => handleGameFilter('pubgm')}
+                                        className={`${gameFilter === 'pubgm' ? 'active' : ''}`}>PUBGM
+                                    </li>
+                                    <li onClick={() => handleGameFilter('cod')}
+                                        className={`${gameFilter === 'cod' ? 'active' : ''}`}>CODM
+                                    </li>
                                     <li>LOL</li>
-                                    <li>MLBB</li>
-                                    <li>PUBG</li>
-                                    <li>CODM</li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>

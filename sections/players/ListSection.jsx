@@ -68,10 +68,13 @@ const Table = styled.table`
 
   tr td:nth-child(1) {
     position: relative;
-    width: 80px;
+    width: 60px;
+    @media (max-width: 576px) {
+      width: 80px;
+    }
 
     .team-symbol {
-      right: 20px;
+      right: 10px;
       top: 50%;
       transform: translateY(-50%);
       width: 20px;
@@ -207,7 +210,7 @@ const ListSection = ({data, page}) => {
                 <tr>
                     <th>Rank</th>
                     <th width={180}>player</th>
-                    <th width={90} className="mobile-gone">TEAM</th>
+                    <th  className="mobile-gone">TEAM</th>
                     <th width={210}>country</th>
                     <th className="mobile-gone">Price</th>
                     <th className="mobile-gone">age</th>
@@ -261,7 +264,8 @@ const ListSection = ({data, page}) => {
                                 player.rank == 1 ? (
                                     `$ ${formatNumber(8888888)}`
                                 ) : (
-                                    `$ ${formatNumber(((8888888 - 8888) / 200) * (200 - player.rank) + 8888)}`
+                                    // max price 8888888 min price 8888 total row is 3000
+                                    `$ ${formatNumber(8888888 - (player.rank * 3000))}`
                                 )
                             }
                         </td>
@@ -269,13 +273,20 @@ const ListSection = ({data, page}) => {
                             <span className="cell-title">Age</span>
                             -
                         </td>
-                        <td className="text mobile-gone" style={{textAlign: 'left'}}>
+                        <td className="text mobile-gone" style={{textAlign: 'left', textTransform: 'uppercase'}}>
                             <span className="cell-title">Games</span>
-                            DOTA 2
+                            {/*DOTA 2*/}
+                            {player.category}
                         </td>
                         <td className="text mobile-gone" style={{textAlign: 'left'}}>
-                            <span className="cell-title">Age</span>
-                            -
+                            <span className="cell-title">Earnings</span>
+                            {
+                                player.approx ? (
+                                    `$ ${formatNumber(player.approx)}`
+                                ) : (
+                                    `-`
+                                )
+                            }
                         </td>
                         <td className="number mobile-gone">
                             <span className="cell-title">WIN</span>

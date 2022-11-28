@@ -2508,5 +2508,19 @@
         "avatar": "https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg"
       }
     ]
+  },
+  {
+    "productLink": "https://shop.palaceskateboards.com/products/obs08zgmgmy8",
+    "name": "PALACE BOLTS",
+    "prizeMoney": "4",
+    "images": [
+      "//cdn.shopify.com/s/files/1/0305/3289/products/Palace-AW16-bolts_DSC3815_90x90_crop_center@2x.jpg?v=1664451015",
+      "//cdn.shopify.com/s/files/1/0305/3289/products/Palace-AW16-bolts_DSC38171_90x90_crop_center@2x.jpg?v=1664451015"
+    ],
+    "details": [],
+    "techDetailsTitle": "",
+    "techDetails": [],
+    "category": "hardware",
+    "points": ""
   }
 ]
