@@ -348,7 +348,7 @@ const Index = () => {
                         </div>
                     </FilterWrapper>
 
-                    <ListSection data={data} page={page}/>
+                    <ListSection data={data} game={gameFilter} page={page}/>
 
                     {
                         totalPages > 1 ?

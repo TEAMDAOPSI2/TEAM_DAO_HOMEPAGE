@@ -181,7 +181,7 @@ const SymbolTeam = ({rank, mapRandom}) => {
     }
 }
 
-const ListSection = ({data, page}) => {
+const ListSection = ({data, game,page}) => {
     const [mapRandom, setMapRandom] = useState(new Set());
     const [mapRandom2, setMapRandom2] = useState(new Set());
     // random number min 15 max 50
@@ -208,7 +208,7 @@ const ListSection = ({data, page}) => {
             <Table>
                 <thead>
                 <tr>
-                    <th>Rank</th>
+                    <th>{game !== 'dota2' ? '#' : 'Rank'}</th>
                     <th width={180}>player</th>
                     <th  className="mobile-gone">TEAM</th>
                     <th width={210}>country</th>
@@ -224,16 +224,18 @@ const ListSection = ({data, page}) => {
                 </thead>
                 <tbody>
                 {data.slice((page - 1) * 15, page * 15).map((player, index) => (
-
                     // going to page team/{player.id}
                     <tr key={index} onClick={() => {
                         window.location.href = `teams/player/${player.name}`
                     }}>
                         <td className="number">
                             <span className="cell-title">Rank</span>
-                            <span style={{fontSize: '18px'}}>{player.rank}</span>
 
-                            <SymbolTeam rank={player.rank} mapRandom={mapRandom}/>
+                            <span style={{fontSize: '18px'}}>
+                                {game !== 'dota2' ? index + 1 : player.rank}
+                            </span>
+
+                            <SymbolTeam rank={game !== 'dota2' ? index + 1 : player.rank} mapRandom={mapRandom}/>
                         </td>
                         <td className='text'>
                             <span className="cell-title">Player</span>
@@ -249,7 +251,9 @@ const ListSection = ({data, page}) => {
                             <span className="cell-title">Team</span>
                             <div className="team-name">
                                 <div className="flag">
-                                    {mapRandom2.has(parseInt(player.rank)) ? (`✈️`) : null}
+                                    {
+                                        mapRandom2.has(parseInt(game !== 'dota2' ? index + 1 : player.rank)) ? (`✈️`) : null
+                                    }
                                 </div>
                                 <div className="flag">
                                     {getFlagEmoji(ISOCountry(player.country))}
@@ -259,15 +263,16 @@ const ListSection = ({data, page}) => {
                         </td>
                         <td className="number mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Price</span>
-                            {
-                                // random rank 1 is the highest price
-                                player.rank == 1 ? (
-                                    `$ ${formatNumber(8888888)}`
-                                ) : (
-                                    // max price 8888888 min price 8888 total row is 3000
-                                    `$ ${formatNumber(8888888 - (player.rank * 3000))}`
-                                )
-                            }
+                            {/*{*/}
+                            {/*    // random rank 1 is the highest price*/}
+                            {/*    // player.rank == 1 ? (*/}
+                            {/*    //     `$ ${formatNumber(8888888)}`*/}
+                            {/*    // ) : (*/}
+                            {/*    //     // max price 8888888 min price 8888 total row is 3000*/}
+                            {/*    //     `$ ${formatNumber(8888888 - (player.rank * 3000))}`*/}
+                            {/*    // )*/}
+                            {/*}*/}
+                            -
                         </td>
                         <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Age</span>
@@ -299,7 +304,13 @@ const ListSection = ({data, page}) => {
                         <td className="number mobile-gone">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
-                            {(parseInt(player.recordWin) / (parseInt(player.recordWin) + parseInt(player.recordLose)) * 100).toFixed(0)}&nbsp;
+                            {
+                                game !== 'dota2' ? (
+                                    '0'
+                                ) : (
+                                    (parseInt(player.recordWin) / (parseInt(player.recordWin) + parseInt(player.recordLose)) * 100).toFixed(0)
+                                )
+                            }&nbsp;
                                 <span className="symbol">%</span>
                             </span>
                         </td>
