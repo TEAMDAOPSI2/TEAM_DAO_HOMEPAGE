@@ -312,8 +312,9 @@ const Index = () => {
                                     // remove text input value
                                     document.getElementById('keywords').value = '';
                                     setSearch('');
-                                    setData(dataPlayers);
-                                    setTotalPages(Math.ceil(dataPlayers.length / 15));
+                                    // setData(data);
+                                    handleGameFilter(gameFilter);
+                                    setTotalPages(Math.ceil(data.length / 15));
                                 }}
                                         className={search !== '' ? 'active' : ''}>Clear
                                 </button>

@@ -59,6 +59,7 @@ const Table = styled.table`
     overflow: hidden;
     background: #0f1510;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   td {
@@ -181,9 +182,15 @@ const SymbolTeam = ({rank, mapRandom}) => {
     }
 }
 
-const ListSection = ({data, game,page}) => {
+
+const ListSection = ({data, game, page}) => {
     const [mapRandom, setMapRandom] = useState(new Set());
     const [mapRandom2, setMapRandom2] = useState(new Set());
+    const [sortData, setSortData] = useState({
+        field: 'rank',
+        order: 'asc'
+    });
+
     // random number min 15 max 50
     useEffect(() => {
         let max = (page - 1) + 15;
@@ -203,19 +210,57 @@ const ListSection = ({data, game,page}) => {
         setMapRandom(random);
     }, [page]);
 
+    const sortFilter = field => {
+        if (sortData.field === field) {
+            setSortData({
+                field: field,
+                order: sortData.order === 'asc' ? 'desc' : 'asc'
+            });
+        } else {
+            setSortData({
+                field: field,
+                order: 'asc'
+            });
+        }
+        if (field === 'rank') {
+            if (sortData.order === 'asc') {
+                data.sort((a, b) => a.rank - b.rank);
+            } else {
+                data.sort((a, b) => b.rank - a.rank);
+            }
+        } else {
+            // sort data by field string
+            if (sortData.order === 'asc') {
+                data.sort((a, b) => a[field]?.toLowerCase().localeCompare(b[field]?.toLowerCase()));
+            } else {
+                data.sort((a, b) => b[field]?.toLowerCase().localeCompare(a[field]?.toLowerCase()));
+            }
+
+        }
+    }
+
+
     return (
         <ListSectionContainer>
             <Table>
                 <thead>
                 <tr>
-                    <th>{game !== 'dota2' ? '#' : 'Rank'}</th>
-                    <th width={180}>player</th>
-                    <th  className="mobile-gone">TEAM</th>
-                    <th width={210}>country</th>
+                    <th onClick={() => sortFilter('rank')}>{game !== 'dota2' ? '#' : 'Rank'}</th>
+                    <th onClick={() => sortFilter('nickName')} width={180}>
+                        player {sortData.field === 'nickName' ? <i className="fa-solid fa-sort"></i> : null}
+                    </th>
+                    <th onClick={() => sortFilter('team')} className="mobile-gone">
+                        TEAM {sortData.field === 'team' ? <i className="fa-solid fa-sort"></i> : null}
+                    </th>
+                    <th onClick={() => sortFilter('country')} width={210}>
+                        country {sortData.field === 'country' ? <i className="fa-solid fa-sort"></i> : null}
+                    </th>
                     <th className="mobile-gone">Price</th>
                     <th className="mobile-gone">age</th>
                     <th className="mobile-gone">games</th>
-                    <th className="mobile-gone">EARNINGS</th>
+                    <th onClick={() => sortFilter('approx')} className="mobile-gone">
+                        EARNINGS {sortData.field === 'approx' ? <i className="fa-solid fa-sort"></i> : null}
+                    </th>
                     <th className="mobile-gone">WIN</th>
                     <th className="mobile-gone">LOSE</th>
                     <th className="mobile-gone">%</th>
@@ -245,11 +290,16 @@ const ListSection = ({data, game,page}) => {
                         </td>
                         <td className="text mobile-gone" style={{textAlign: 'left'}}>
                             <span className="cell-title">Team</span>
-                            {player.team}
+                            {
+                                player.team ? player.team : '*No team'
+                            }
                         </td>
                         <td className="text" style={{textAlign: 'left'}}>
-                            <span className="cell-title">Team</span>
-                            <div className="team-name">
+                            <span className="cell-title">Country</span>
+                            {
+                                    player.country ? null : '*NA'
+                            }
+                            <div className="team-name" style={!player.country ? {display: 'none'} : null }>
                                 <div className="flag">
                                     {
                                         mapRandom2.has(parseInt(game !== 'dota2' ? index + 1 : player.rank)) ? (`✈️`) : null
