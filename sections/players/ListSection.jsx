@@ -222,11 +222,11 @@ const ListSection = ({data, game, page}) => {
                 order: 'asc'
             });
         }
-        if (field === 'rank') {
+        if (field === 'rank' || field === 'approx') {
             if (sortData.order === 'asc') {
-                data.sort((a, b) => a.rank - b.rank);
+                data.sort((a, b) => a[field] - b[field]);
             } else {
-                data.sort((a, b) => b.rank - a.rank);
+                data.sort((a, b) => b[field] - a[field]);
             }
         } else {
             // sort data by field string

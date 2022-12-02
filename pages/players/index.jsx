@@ -12,7 +12,7 @@ import ListSection from "@sections/players/ListSection";
 import mlPlayers from "@data/ml.json";
 import pubgmPlayers from "@data/pubgm.json";
 import codPlayers from "@data/cod.json";
-import dota2Players from "@data/dota2.json";
+import dota2Players from "@data/dota2WithDetailApprox.json";
 
 
 const MainDiv = styled.div`
