@@ -277,7 +277,7 @@ const ListSection = ({data, game, page}) => {
                             <span className="cell-title">Rank</span>
 
                             <span style={{fontSize: '18px'}}>
-                                {game !== 'dota2' ? index + 1 : player.rank}
+                                {game !== 'dota2' ? (page - 1) * 15 + index + 1 : player.rank}
                             </span>
 
                             <SymbolTeam rank={game !== 'dota2' ? index + 1 : player.rank} mapRandom={mapRandom}/>
