@@ -252,7 +252,7 @@ const ListSection = ({data, game, page}) => {
                     <th onClick={() => sortFilter('team')} className="mobile-gone">
                         TEAM {sortData.field === 'team' ? <i className="fa-solid fa-sort"></i> : null}
                     </th>
-                    <th onClick={() => sortFilter('country')} width={210}>
+                    <th onClick={() => sortFilter('country')}>
                         country {sortData.field === 'country' ? <i className="fa-solid fa-sort"></i> : null}
                     </th>
                     <th className="mobile-gone">Price</th>
@@ -306,7 +306,9 @@ const ListSection = ({data, game, page}) => {
                                     }
                                 </div>
                                 <div className="flag">
-                                    {getFlagEmoji(ISOCountry(player.country))}
+                                    {
+                                        getFlagEmoji(ISOCountry(player.country))
+                                    }
                                 </div>
                                 {player.country}
                             </div>

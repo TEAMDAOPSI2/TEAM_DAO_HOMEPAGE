@@ -1080,12 +1080,12 @@
     "country-code": "756"
   },
   {
-    "name": "Syrian Arab Republic",
+    "name": "Syria",
     "alpha-2": "SY",
     "country-code": "760"
   },
   {
-    "name": "Taiwan, Province of China",
+    "name": "Taiwan",
     "alpha-2": "TW",
     "country-code": "158"
   },
@@ -1175,7 +1175,17 @@
     "country-code": "826"
   },
   {
+    "name": "United Kingdom",
+    "alpha-2": "GB",
+    "country-code": "826"
+  },
+  {
     "name": "USA",
+    "alpha-2": "US",
+    "country-code": "840"
+  },
+  {
+    "name": "United States",
     "alpha-2": "US",
     "country-code": "840"
   },
@@ -1200,7 +1210,7 @@
     "country-code": "548"
   },
   {
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "alpha-2": "VE",
     "country-code": "862"
   },
