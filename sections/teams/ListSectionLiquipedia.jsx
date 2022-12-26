@@ -161,7 +161,6 @@ const Table = styled.table`
   }
 
   @media (max-width: 540px) {
-  
     .mobile-gone{
         display: none;
     }
@@ -181,8 +180,7 @@ const SymbolTeam = ({rank, mapRandom}) => {
     }
 }
 
-const ListSection = ({dataGame, page, dataFilter}) => {
-
+const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
     const [data, setData] = useState(dataGame);
     const [mapRandom, setMapRandom] = useState(new Set());
     // random number min 15 max 50
@@ -225,11 +223,11 @@ const ListSection = ({dataGame, page, dataFilter}) => {
 
                     // going to page team/{team.id}
                     <tr key={index} onClick={() => {
-                        window.location.href = `teams/${team?.rank}`
+                        window.location.href = `teams/${game}/${team?.name}`
                     }}>
                         <td className="number">
-                            <span className="cell-title">Rank</span>
-                            <span style={{fontSize: '18px'}}>{team.rank}</span>
+                            <span className="cell-title">Number</span>
+                            <span style={{fontSize: '18px'}}>{ (page - 1) * 15 + index + 1}</span>
 
                             <SymbolTeam rank={team?.rank} mapRandom={mapRandom}/>
                         </td>
@@ -237,7 +235,7 @@ const ListSection = ({dataGame, page, dataFilter}) => {
                             <span className="cell-title">Team</span>
                             <div className="team-name">
                                 <div className="logo">
-                                    <img src={team?.logo} alt={team.name} width="30px" height="30px" loading='lazy'/>
+                                    <img src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-team/${team?.name}.png`} alt={team.name} width="30px" height="30px" loading='lazy'/>
                                 </div>
                                 {team.name}
                             </div>
@@ -264,23 +262,23 @@ const ListSection = ({dataGame, page, dataFilter}) => {
                         }</td>
                         <td className="number mobile-gone">
                             <span className="cell-title">WIN</span>
-                            <span className='c-win'>{team?.recordWin}</span>
+                            <span className='c-win'>{'-'}</span>
                         </td>
                         <td className="number mobile-gone">
                             <span className="cell-title">LOSE</span>
-                            <span className='c-lose'>{team?.recordLose}</span>&nbsp;
+                            <span className='c-lose'>{'-'}</span>&nbsp;
                         </td>
                         <td className="number mobile-gone">
                             <span className="cell-title">%</span>
                             <span className='c-percent'>
                             {
-                                team?.recordWin ? (parseInt(team?.recordWin) / (parseInt(team?.recordWin) + parseInt(team?.recordLose)) * 100).toFixed(0) : "-"
+                                "-"
                             }&nbsp;
-                                <span className="symbol">%</span>
+                                {/*<span className="symbol">%</span>*/}
                             </span>
                         </td>
-                        <td className="number mobile-gone"><span
-                            className="cell-title">Points</span>{team?.points ? team?.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","): ''}
+                        <td className="number mobile-gone text-center"><span
+                            className="cell-title">Points</span>{'-'}
                         </td>
                     </tr>
                 ))}
@@ -290,4 +288,4 @@ const ListSection = ({dataGame, page, dataFilter}) => {
     );
 }
 
-export default ListSection;
+export default ListSectionLiquipedia;

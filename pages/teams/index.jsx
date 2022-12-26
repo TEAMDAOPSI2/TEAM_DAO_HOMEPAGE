@@ -11,6 +11,8 @@ import styled from "styled-components";
 import ListSection from "@sections/teams/ListSection";
 import GridSection from "@sections/teams/GridSection";
 import dataTeam from "../../data/top50.json";
+import codmTeam from "../../data/codm-teams.json";
+import ListSectionLiquipedia from "@sections/teams/ListSectionLiquipedia";
 
 const CenterText = styled.div`
   text-align: center;
@@ -58,7 +60,7 @@ const FilterWrapper = styled.div`
   @media (min-width: 1400px) {
     max-width: 1320px;
   }
-  
+
 
   .filter-top {
     width: 100%;
@@ -240,6 +242,8 @@ const Index = () => {
     const [showType, setShowType] = useState(0);
     const [totalPages, setTotalPages] = useState(0);
     const [data, setData] = useState(dataTeam);
+    const [game, setGame] = useState('dota');
+    const [dataFilter, setDataFilter] = useState(null);
 
 
     useEffect(() => {
@@ -249,22 +253,47 @@ const Index = () => {
         }, 5000);
         // count total page
         setTotalPages(Math.ceil(data.length / 15));
-        // have keyword
     }, []);
+
+    const handleDataGame = () => {
+        switch (game) {
+            case 'codm':
+                setData(codmTeam);
+                break;
+            default:
+                setData(dataTeam);
+                break;
+        }
+    }
 
     const handleSearch = (e) => {
         setSearch(e.target.value);
         if (e.target.value.length > 0) {
-            const newData = dataTeam.filter((item) => {
+            const newData = data.filter((item) => {
                 return item.name.toLowerCase().includes(e.target.value.toLowerCase());
             });
             setPage(1);
-            setData(newData);
+            setDataFilter(newData);
             setTotalPages(Math.ceil(newData.length / 15));
         } else {
             setPage(1);
-            setData(dataTeam);
-            setTotalPages(Math.ceil(dataTeam.length / 15));
+            handleDataGame();
+            setDataFilter(null);
+            setTotalPages(Math.ceil(data.length / 15));
+        }
+    }
+
+    const DataWrap = (props) => {
+        const {showType, page, data, game} = props;
+        handleDataGame();
+        if (showType) {
+            return <GridSection page={page} data={data}/>
+        } else {
+            if (game !== 'dota') {
+                return <ListSectionLiquipedia dataGame={data} page={page} dataFilter={dataFilter} game={game}/>
+            } else {
+                return <ListSection dataGame={data} page={page} dataFilter={dataFilter}/>
+            }
         }
     }
 
@@ -306,7 +335,7 @@ const Index = () => {
                                     // remove text input value
                                     document.getElementById('keywords').value = '';
                                     setSearch('');
-                                    setData(dataTeam);
+                                    setDataFilter(null);
                                     setTotalPages(Math.ceil(dataTeam.length / 15));
                                 }}
                                         className={search !== '' ? 'active' : ''}>Clear
@@ -314,15 +343,19 @@ const Index = () => {
                             </div>
                             <GameWrapper>
                                 <ul>
-                                    <li className="active">DOTA</li>
-                                    <li>LOL</li>
+                                    <li className={`${game === 'dota' && 'active'}`}
+                                        onClick={() => setGame('dota')}>DOTA
+                                    </li>
+                                    <li className={`${game === 'codm' && 'active'}`}
+                                        onClick={() => setGame('codm')}>CODM
+                                    </li>
                                     <li>MLBB</li>
                                     <li>PUBG</li>
-                                    <li>CODM</li>
+                                    <li>LOL</li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>
-                                    <li>RACING</li>
+                                    <li>F1</li>
                                 </ul>
                             </GameWrapper>
                             <div className="filter-mode">
@@ -334,7 +367,7 @@ const Index = () => {
                         </div>
                     </FilterWrapper>
 
-                    {showType ? <GridSection page={page} data={data}/> : <ListSection data={data} page={page}/>}
+                    <DataWrap showType={showType} page={page} data={data} game={game}/>
 
                     {
                         totalPages > 1 ?
