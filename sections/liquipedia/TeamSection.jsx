@@ -1,9 +1,10 @@
 import styled from "styled-components";
-import RankImg from "../../public/assets/icons/TEAM-rank-circle.png";
-import RecordImg from "../../public/assets/icons/TEAM-record-circle.png";
-import PointsImg from "../../public/assets/icons/TEAM-point -circle.png";
-import EarningsImg from "../../public/assets/icons/TEAM-earning-circle.png";
-import ScopeImage from "../../public/assets/TEAMcrosshairpng.png";
+import RankImg from "public/assets/icons/TEAM-rank-circle.png";
+import RecordImg from "public/assets/icons/TEAM-record-circle.png";
+import PointsImg from "public/assets/icons/TEAM-point -circle.png";
+import EarningsImg from "public/assets/icons/TEAM-earning-circle.png";
+import ScopeImage from "public/assets/TEAMcrosshairpng.png";
+import Hexagon from "public/assets/hex-stroke.png";
 import React from "react";
 
 const Row = styled.div`
@@ -182,15 +183,89 @@ const MemberBox = styled.div`
     }
   }
 
+  .poligon {
+    display: inline-block;
+    position: relative;
+    width: 140px;
+    height: 121.23px; /* width * 0.866 */
+    background: #2dfe31;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+
+  .hex-background {
+    position: absolute;
+    background-color: white;
+    top: 2px; /* equal to border thickness */
+    left: 2px; /* equal to border thickness */
+    width: 136px; /* container width - (border thickness * 2) */
+    height: 117.24px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+
+  .poligon img {
+    position: absolute;
+    width: 136px; /* container width - (border thickness * 2) */
+    height: 117,24px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+
   .avatar {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     float: left;
     text-align: center;
-    position: relative;
     overflow: hidden;
     margin-right: 20px;
     display: block;
+    position: absolute;
+    left: 35px;
+    top: 35px;
 
     div:first-child {
       position: absolute;
@@ -234,6 +309,7 @@ const MemberBox = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: 6px;
 
     div {
       width: 100%;
@@ -326,7 +402,21 @@ const TeamSection = ({ team }) => {
                   window.location.href = `/teams/player/${member?.nickName}`;
                 }}
               >
-                <div className='avatar'>
+                <div className='poligon'>
+                  <div className='hex-background'>
+                    <img
+                      style={{ backgroundColor: "#6c6969" }}
+                      className='main'
+                      src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png`}
+                      alt={member?.nickName}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = `https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg`;
+                      }}
+                    />
+                  </div>
+                </div>
+                {/* <div className='avatar'>
                   {
                     <>
                       <div
@@ -348,7 +438,8 @@ const TeamSection = ({ team }) => {
                       </div>
                     </>
                   }
-                </div>
+                </div> */}
+
                 <div className='scope'>
                   <img src={ScopeImage.src} loading='lazy' alt='scope' />
                 </div>
