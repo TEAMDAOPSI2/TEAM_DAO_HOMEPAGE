@@ -1,5 +1,37 @@
 [
   {
+    "name": "T.E.A.M. $KLAY",
+    "uri": "https://liquipedia.net/callofduty/T.E.A.M._$KLAY",
+    "prizeMoney": "0",
+    "region": "Philippines",
+    "players": [
+      {
+        "nickName": "ALBS",
+        "realName": ""
+      },
+      {
+        "nickName": "ASSASSIN",
+        "realName": ""
+      },
+      {
+        "nickName": "DUDA",
+        "realName": ""
+      },
+      {
+        "nickName": "GRASYA",
+        "realName": ""
+      },
+      {
+        "nickName": "MERC",
+        "realName": ""
+      },
+      {
+        "nickName": "SUCREH",
+        "realName": ""
+      }
+    ]
+  },
+  {
     "name": "NYSL Mayhem",
     "uri": "https://liquipedia.net/callofduty/New_York_Subliners_Mayhem",
     "prizeMoney": "104025",

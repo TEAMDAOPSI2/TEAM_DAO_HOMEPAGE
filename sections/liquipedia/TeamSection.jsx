@@ -28,7 +28,7 @@ const InfoTeamBox = styled.div`
     font-size: 1.7rem;
     margin-bottom: 10px;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
   }
 
   @media (max-width: 768px) {
@@ -109,7 +109,7 @@ const InfoGroup = styled.div`
       display: flex;
       flex-direction: column;
       width: 100%;
-      font-family: 'technology', sans-serif;
+      font-family: "technology", sans-serif;
 
       span {
         font-family: "Roboto Mono", monospace;
@@ -128,21 +128,20 @@ const InfoGroup = styled.div`
 
       .c-win {
         color: #0fc713;
-        font-family: 'technology', sans-serif;
+        font-family: "technology", sans-serif;
       }
 
       .c-lose {
         color: #c0392b;
-        font-family: 'technology', sans-serif;
+        font-family: "technology", sans-serif;
       }
 
       .c-percent {
         color: #ffffff;
         padding-left: 7px;
-        font-family: 'technology', sans-serif;
+        font-family: "technology", sans-serif;
       }
     }
-
   }
 `;
 
@@ -193,7 +192,6 @@ const MemberBox = styled.div`
     margin-right: 20px;
     display: block;
 
-
     div:first-child {
       position: absolute;
       z-index: 300;
@@ -243,12 +241,12 @@ const MemberBox = styled.div`
     }
 
     .nick-name {
-      font: normal normal 600 18px/22px 'Roboto Mono', sans-serif;
+      font: normal normal 600 18px/22px "Roboto Mono", sans-serif;
       color: #379341;
     }
 
     .detail {
-      font: normal normal 400 14px/17px 'Roboto Mono', sans-serif;
+      font: normal normal 400 14px/17px "Roboto Mono", sans-serif;
       color: #d5c6b5;
     }
   }
@@ -260,107 +258,117 @@ const MemberBox = styled.div`
   }
 `;
 
-const TeamSection = ({team}) => {
-    return (
-        <>
-            <Row>
-                <InfoTeamBox>
-                    <h3>{team?.name}</h3>
-                    <div className="logo">
+const TeamSection = ({ team }) => {
+  return (
+    <>
+      <Row>
+        <InfoTeamBox>
+          <h3>{team?.name}</h3>
+          <div className='logo'>
+            <img
+              src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-team/${team?.name}.png`}
+              alt={team?.name}
+            />
+          </div>
+          <div className='region'>
+            Country : <span>{team?.region}</span>
+          </div>
+          <InfoGroup>
+            <div className='info'>
+              <div className='icon'>
+                <img src={RankImg.src} alt='rank icon' />
+              </div>
+              <div className='detail'>
+                <span>Rank:</span> -
+              </div>
+            </div>
+            <div className='info'>
+              <div className='icon'>
+                <img src={RecordImg.src} alt='record icon' />
+              </div>
+              <div className='detail'>
+                <span>Record:</span>-
+              </div>
+            </div>
+            <div className='info'>
+              <div className='icon'>
+                <img src={PointsImg.src} alt='points icon' />
+              </div>
+              <div className='detail'>
+                <span>Points:</span> -
+              </div>
+            </div>
+            <div className='info'>
+              <div className='icon'>
+                <img src={EarningsImg.src} alt='Earnings Icon' />
+              </div>
+              <div className='detail'>
+                <span>Earnings:</span> $&nbsp;
+                {new Intl.NumberFormat("en-US", {
+                  style: "currency",
+                  currency: "USD",
+                  minimumFractionDigits: 0,
+                })
+                  .format(team?.prizeMoney)
+                  .replace("$", "")}
+              </div>
+            </div>
+          </InfoGroup>
+        </InfoTeamBox>
+        <TeamMemberBox>
+          <h3>Team PLAYERS</h3>
+          <MembersWrapper>
+            {team?.players?.map((member, index) => (
+              <MemberBox
+                className='member'
+                key={index}
+                onClick={() => {
+                  window.location.href = `/teams/player/${member?.nickName}`;
+                }}
+              >
+                <div className='avatar'>
+                  {
+                    <>
+                      <div
+                        style={{
+                          backgroundImage: `url(https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png)`,
+                        }}
+                      ></div>
+                      <div>
                         <img
-                            src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-team/${team?.name}.png`}
-                            alt={team?.name}/>
-                    </div>
-                    <div className="region">Country : <span>{team?.region}</span></div>
-                    <InfoGroup>
-                        <div className="info">
-                            <div className="icon">
-                                <img src={RankImg.src} alt="rank icon"/>
-                            </div>
-                            <div className="detail">
-                                <span>Rank:</span> -
-                            </div>
-                        </div>
-                        <div className="info">
-                            <div className="icon">
-                                <img src={RecordImg.src} alt="record icon"/>
-                            </div>
-                            <div className="detail">
-                                <span>Record:</span>
-                                -
-                            </div>
-                        </div>
-                        <div className="info">
-                            <div className="icon">
-                                <img src={PointsImg.src} alt="points icon"/>
-                            </div>
-                            <div className="detail">
-                                <span>Points:</span> -
-                            </div>
-                        </div>
-                        <div className="info">
-                            <div className="icon">
-                                <img src={EarningsImg.src} alt="Earnings Icon"/>
-                            </div>
-                            <div className="detail">
-                                <span>Earnings:</span> $&nbsp;{
-                                new Intl.NumberFormat('en-US', {
-                                    style: 'currency',
-                                    currency: 'USD',
-                                    minimumFractionDigits: 0
-                                }).format(team?.prizeMoney).replace('$', '')}
-                            </div>
-                        </div>
-                    </InfoGroup>
-                </InfoTeamBox>
-                <TeamMemberBox>
-                    <h3>Team PLAYERS</h3>
-                    <MembersWrapper>
-                        {
-                            team?.players?.map((member, index) => (
-                                <MemberBox className="member" key={index} onClick={() => {
-                                    window.location.href = `/teams/player/${member?.nickName}`
-                                }}>
-                                    <div className="avatar">
-                                        {
-                                            <>
-                                                <div
-                                                    style={{backgroundImage: `url(https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png)`}}></div>
-                                                <div>
-                                                    <img
-                                                        style={{backgroundColor: '#6c6969'}}
-                                                        className="main"
-                                                        src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png`}
-                                                        alt={member?.nickName}
-                                                        onError={(e) => {
-                                                            e.target.onerror = null;
-                                                            e.target.src = `https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg`
-                                                        }}
-                                                    />
-                                                </div>
-                                            </>
-                                        }
-                                    </div>
-                                    <div className="scope">
-                                        <img src={ScopeImage.src} loading="lazy" alt="scope"/>
-                                    </div>
-                                    <div className="bio">
-                                        <div className="nick-name">{member?.nickName}</div>
-                                        <div className="real-name">{member?.realName}</div>
-                                        <div className="detail">{member?.detail}</div>
-                                    </div>
-                                </MemberBox>
-
-                            ))
-                        }
-                    </MembersWrapper>
-                    {
-                        team.players.length === 0 && <div className="no-member">Currently this team doesn't have active member</div>
-                    }
-                </TeamMemberBox>
-            </Row>
-        </>
-    )
-}
+                          style={{ backgroundColor: "#6c6969" }}
+                          className='main'
+                          src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png`}
+                          alt={member?.nickName}
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = `https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg`;
+                          }}
+                        />
+                      </div>
+                    </>
+                  }
+                </div>
+                <div className='scope'>
+                  <img src={ScopeImage.src} loading='lazy' alt='scope' />
+                </div>
+                <div className='bio'>
+                  <div className='nick-name'>{member?.nickName}</div>
+                  <div className='real-name'>{member?.realName}</div>
+                  <div className='detail'>{member?.detail}</div>
+                </div>
+              </MemberBox>
+            ))}
+          </MembersWrapper>
+          {team.players.length === 0 && (
+            <div className='no-member'>
+              Currently this team doesn't have active member
+            </div>
+          )}
+        </TeamMemberBox>
+      </Row>
+    </>
+  );
+};
 
 export default TeamSection;
