@@ -332,9 +332,9 @@ const TeamSection = ({team}) => {
                                                         className="main"
                                                         src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png`}
                                                         alt={member?.nickName}
-                                                        onError={({currentTarget}) => {
-                                                            currentTarget.onerror = null; // prevents looping
-                                                            currentTarget.src = "https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg";
+                                                        onError={(e) => {
+                                                            e.target.onerror = null;
+                                                            e.target.src = `https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg`
                                                         }}
                                                     />
                                                 </div>
