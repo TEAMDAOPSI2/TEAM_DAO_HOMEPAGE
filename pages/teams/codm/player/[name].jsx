@@ -1,28 +1,15 @@
+import DataPlayers from "@data/cod.json";
+import React, {useEffect, useState} from "react";
 import Head from "next/head";
 import LoadingScreen from "@components/LoadingScreen";
 import {ToastContainer} from "react-toastify";
 import {ParallaxProvider} from "react-scroll-parallax";
 import HeaderOld from "@components/HeaderOld";
 import Link from "next/link";
-import DetailSection from "@sections/teams/DetailSection";
+import PlayerSection from "@sections/liquipedia/PlayerSection";
 import FooterOld from "@components/FooterOld";
-import React, {useEffect, useState} from "react";
 import styled from "styled-components";
-import Data from "@data/codm-teams.json";
-import TeamSection from "@sections/liquipedia/TeamSection";
 
-const TitlePageText = styled.div`
-  text-align: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  color: white;
-  font-family: 'Technology', serif;
-
-  h3 {
-    font-size: 3em;
-  }
-
-`;
 const MainDiv = styled.div`
   height: 1px;
   padding-top: 120px;
@@ -59,6 +46,7 @@ const BreadCrumb = styled.div`
           padding: 0 25px 0 10px;
         }
       }
+     
     }
 
     li:last-child {
@@ -75,6 +63,14 @@ const BreadCrumb = styled.div`
           border-top: 2px solid #379341;
           transform: skew(45deg);
         }
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    li:nth-child(2){
+      @media (max-width: 768px) {
+        display: none;
       }
     }
 
@@ -113,27 +109,22 @@ const BreadCrumb = styled.div`
   }
 `;
 
-// get serverside props
 export async function getServerSideProps(context) {
     const {name} = context.query;
-    const team = Data.find((team) => team.name === name);
-    if (!team) {
+    const player = DataPlayers.find((player) => player.nickName === name);
+    if(!player) {
         return {
             notFound: true,
         }
     }
     return {
         props: {
-            name,
-            team,
+            player,
         },
     };
 }
 
-
-const Name = (props) => {
-    const {team, name} = props;
-
+const Name = ({player}) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -143,10 +134,11 @@ const Name = (props) => {
 
     }, []);
 
+
     return (
         <>
             <Head>
-                <title>T.E.A.M DAO | Teams</title>
+                <title>T.E.A.M DAO | Player</title>
             </Head>
             <div style={{display: !loading ? 'none' : 'block'}}>
                 <LoadingScreen/>
@@ -172,14 +164,15 @@ const Name = (props) => {
                             <ul>
                                 <li>
                                     <Link href="/teams">
-                                        <a className="a"><span>TEAMS</span></a>
+                                        <a className="a"><span>Player</span></a>
                                     </Link>
                                 </li>
-                                <li><a style={{cursor: 'auto'}} href="#"><span>{name}</span></a></li>
+                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.team}</span></a></li>
+                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.nickName}</span></a></li>
                             </ul>
                         </BreadCrumb>
 
-                        <TeamSection team={team} game="codm"/>
+                        <PlayerSection player={player}/>
 
                     </MainContainer>
 
@@ -189,6 +182,8 @@ const Name = (props) => {
             </ParallaxProvider>
         </>
     )
-}
+};
 
-export default Name
+
+export default Name;
+
