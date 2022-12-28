@@ -4,6 +4,7 @@ import TeamImg from "public/assets/round-team-logo.png";
 import PointsImg from "public/assets/icons/TEAM-point -circle.png";
 import RankImg from "public/assets/icons/TEAM-rank-circle.png";
 import RecordImg from "public/assets/icons/TEAM-record-circle.png";
+import Image from "@components/Image";
 
 const Row = styled.div`
   display: flex;
@@ -28,6 +29,72 @@ const InfoTeamBox = styled.div`
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+  }
+
+   .ax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .poligon {
+    display: inline-block;
+    position: relative;
+    width: 140px;
+    height: 121.23px; /* width * 0.866 */
+    background: #2dfe31;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
+  .hex-background {
+    position: absolute;
+    background-color: #1D1d1d;
+    top: 2px; /* equal to border thickness */
+    left: 2px; /* equal to border thickness */
+    width: 136px; /* container width - (border thickness * 2) */
+    height: 117.24px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
+  .poligon img {
+    position: absolute;
+    width: 136px; /* container width - (border thickness * 2) */
+    height: 117.24px; /* container height - (border thickness * 2) */
+    object-fit: cover;
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
   }
 
   @media (max-width: 768px) {
@@ -288,12 +355,14 @@ const PlayerSection = ({player}) => {
             <Row>
                 <InfoTeamBox>
                     <h3>{player?.name}</h3>
-                    <div className="avatar">
-                        <div style={{backgroundImage: `url(${player.avatar})`}}></div>
-                        <div>
-                            <img src={player.avatar} alt={player.name}/>
+                    <div className="ax">
+                        <div className="poligon">
+                            <div className="hex-background">
+                                <Image img={player.avatar}/>
+                            </div>
                         </div>
                     </div>
+                  
                     <div className="region">Country : <span>{player.country}</span></div>
 
                     <InfoGroup>
