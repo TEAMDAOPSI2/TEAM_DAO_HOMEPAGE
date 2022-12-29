@@ -1,4 +1,4 @@
-import DataPlayers from "@data/player200.json";
+import DataPlayers from "@data/dota2WithDetailApprox.json";
 import Head from "next/head";
 import LoadingScreen from "@components/LoadingScreen";
 import {ToastContainer} from "react-toastify";
