@@ -2510,17 +2510,50 @@
     ]
   },
   {
-    "productLink": "https://shop.palaceskateboards.com/products/obs08zgmgmy8",
-    "name": "PALACE BOLTS",
-    "prizeMoney": "4",
-    "images": [
-      "//cdn.shopify.com/s/files/1/0305/3289/products/Palace-AW16-bolts_DSC3815_90x90_crop_center@2x.jpg?v=1664451015",
-      "//cdn.shopify.com/s/files/1/0305/3289/products/Palace-AW16-bolts_DSC38171_90x90_crop_center@2x.jpg?v=1664451015"
-    ],
-    "details": [],
-    "techDetailsTitle": "",
-    "techDetails": [],
-    "category": "hardware",
-    "points": ""
+    "name": "$TEAM DAO ALPHA",
+    "logo": "https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/dota-2/TEAMDAO%20WHISKEY8%20-%20Jersey%20-%20png.png",
+    "region": "Philippines",
+    "rank": "0",
+    "recordWin": "13",
+    "recordLose": "2",
+    "points": "0",
+    "prizeMoney": "0 ",
+    "players": [
+      {
+        "team": "$TEAM DAO ALPHA",
+        "nickName": "谐儿 Xie Er",
+        "realName": "",
+        "detail": "",
+        "avatar": "https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/dota-2/谐儿 Xie Er.png"
+      },
+      {
+        "team": "$TEAM DAO ALPHA",
+        "nickName": "Usagi",
+        "realName": "",
+        "detail": "",
+        "avatar": "https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/dota-2/Usagi.png"
+      },
+      {
+        "team": "$TEAM DAO ALPHA",
+        "nickName": "Tals",
+        "realName": "",
+        "detail": "",
+        "avatar": "https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/dota-2/Tals.png"
+      },
+      {
+        "team": "$TEAM DAO ALPHA",
+        "nickName": "Raziel",
+        "realName": "",
+        "detail": "",
+        "avatar": "https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/dota-2/Raziel.png"
+      },
+      {
+        "team": "$TEAM DAO ALPHA",
+        "nickName": "Xtyl",
+        "realName": "",
+        "detail": "Xtyl",
+        "avatar": "https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/dota-2/Xtyl.png"
+      }
+    ]
   }
 ]
