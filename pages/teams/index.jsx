@@ -12,6 +12,7 @@ import ListSection from "@sections/teams/ListSection";
 import GridSection from "@sections/teams/GridSection";
 import dataTeam from "../../data/top50.json";
 import codmTeam from "../../data/codm-teams.json";
+import pubgmTeam from "../../data/pubgm-team.json";
 import ListSectionLiquipedia from "@sections/teams/ListSectionLiquipedia";
 
 const CenterText = styled.div`
@@ -260,6 +261,9 @@ const Index = () => {
             case 'codm':
                 setData(codmTeam);
                 break;
+            case 'pubgm':
+                setData(pubgmTeam);
+                break;
             default:
                 setData(dataTeam);
                 break;
@@ -350,7 +354,9 @@ const Index = () => {
                                         onClick={() => setGame('codm')}>CODM
                                     </li>
                                     <li>MLBB</li>
-                                    <li>PUBG</li>
+                                    <li className={`${game === 'pubgm' && 'active'}`}
+                                        onClick={() => setGame('pubgm')}>PUBGM
+                                    </li>
                                     <li>LOL</li>
                                     <li>FB</li>
                                     <li>BB</li>

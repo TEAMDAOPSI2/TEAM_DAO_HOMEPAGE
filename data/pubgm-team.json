@@ -1,0 +1,4088 @@
+[
+  {
+    "name": "BLUE BEES",
+    "uri": "https://liquipedia.net/pubgmobile/BLUE_BEES",
+    "prizeMoney": "76979",
+    "region": "Japan",
+    "players": []
+  },
+  {
+    "name": "REJECT Scarlet",
+    "uri": "https://liquipedia.net/pubgmobile/REJECT_Scarlet",
+    "prizeMoney": "77741",
+    "region": "Japan",
+    "players": []
+  },
+  {
+    "name": "REJECT Wistaria",
+    "uri": "https://liquipedia.net/pubgmobile/REJECT_Wistaria",
+    "prizeMoney": "25219",
+    "region": "Japan",
+    "players": []
+  },
+  {
+    "name": "ASA KOREA",
+    "uri": "https://liquipedia.net/pubgmobile/ASA_KOREA",
+    "prizeMoney": "12872",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Sihyun",
+        "realName": "An Si-hyeon"
+      },
+      {
+        "nickName": "JiNi",
+        "realName": "Lee Ho-jin"
+      },
+      {
+        "nickName": "Whale",
+        "realName": "Park Hyeon-jun"
+      },
+      {
+        "nickName": "AWAKEN",
+        "realName": "Kim Ki-ryun"
+      },
+      {
+        "nickName": "asleep",
+        "realName": "Kim Sang-min"
+      },
+      {
+        "nickName": "Pado",
+        "realName": "Park Jae-hyun"
+      }
+    ]
+  },
+  {
+    "name": "DAMWON Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/DAMWON_Gaming",
+    "prizeMoney": "788990",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "FAVIAN",
+        "realName": "Park Sang-cheol"
+      },
+      {
+        "nickName": "FOREST",
+        "realName": "Kim Ryang-woo"
+      },
+      {
+        "nickName": "JUNI",
+        "realName": "Kim Kyung-jun"
+      },
+      {
+        "nickName": "Ssung",
+        "realName": "Lee Seong-geun"
+      },
+      {
+        "nickName": "OSAL",
+        "realName": "Go Han-bin"
+      }
+    ]
+  },
+  {
+    "name": "emTek StormX",
+    "uri": "https://liquipedia.net/pubgmobile/EmTek_StormX",
+    "prizeMoney": "34016",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "AMEN",
+        "realName": "Kim Min-hyuk"
+      },
+      {
+        "nickName": "Chicken",
+        "realName": "Jung Yoo-chan"
+      },
+      {
+        "nickName": "Cyxae",
+        "realName": "Choi Young-jae"
+      },
+      {
+        "nickName": "TIZ1",
+        "realName": "Kim Dong-hyun"
+      }
+    ]
+  },
+  {
+    "name": "Nongshim RedForce",
+    "uri": "https://liquipedia.net/pubgmobile/Nongshim_RedForce",
+    "prizeMoney": "21000",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Dooms",
+        "realName": "Kim Jun-ha"
+      },
+      {
+        "nickName": "IGL",
+        "realName": "An Tae-hee"
+      },
+      {
+        "nickName": "Qx",
+        "realName": "Lee Kyung-seok"
+      },
+      {
+        "nickName": "SPORTA",
+        "realName": "Kim Seong-hyun"
+      },
+      {
+        "nickName": "Sayden",
+        "realName": "Jeon Min-jae"
+      }
+    ]
+  },
+  {
+    "name": "Team Square",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Square",
+    "prizeMoney": "34549",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Gray11",
+        "realName": "Park Jin-hyun"
+      },
+      {
+        "nickName": "SAEWOO",
+        "realName": "Han Tae-woo"
+      },
+      {
+        "nickName": "Y2NMON",
+        "realName": "Lee Min-gyu"
+      },
+      {
+        "nickName": "Suk",
+        "realName": "Jo Yoon-jae"
+      }
+    ]
+  },
+  {
+    "name": "Archer Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Archer_Gaming",
+    "prizeMoney": "30100",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "DS Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/DS_Gaming",
+    "prizeMoney": "97679",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "EGC KR Black",
+    "uri": "https://liquipedia.net/pubgmobile/EGC_KR_Black",
+    "prizeMoney": "22194",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "GC Busan",
+    "uri": "https://liquipedia.net/pubgmobile/GC_Busan",
+    "prizeMoney": "26305",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "Party Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Party_Gaming",
+    "prizeMoney": "3323",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "REJECT Korea",
+    "uri": "https://liquipedia.net/pubgmobile/REJECT_Korea",
+    "prizeMoney": "4781",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "T1",
+    "uri": "https://liquipedia.net/pubgmobile/T1",
+    "prizeMoney": "32900",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "Team TOP",
+    "uri": "https://liquipedia.net/pubgmobile/Team_TOP",
+    "prizeMoney": "2538",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "Warriors Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Warriors_Esports",
+    "prizeMoney": "33981",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "XENON",
+    "uri": "https://liquipedia.net/pubgmobile/XENON",
+    "prizeMoney": "24717",
+    "region": "South Korea",
+    "players": []
+  },
+  {
+    "name": "4Rivals",
+    "uri": "https://liquipedia.net/pubgmobile/4Rivals",
+    "prizeMoney": "267542",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "Appy",
+        "realName": "Muhammad Haziq Hanafi Bin Mad Zin"
+      },
+      {
+        "nickName": "Eypul",
+        "realName": "Mohamad Saiful Anuar"
+      },
+      {
+        "nickName": "PEMBURU",
+        "realName": "Sahrul Daulay"
+      },
+      {
+        "nickName": "Vokey",
+        "realName": "Muhammad Imran Bin Rosli"
+      },
+      {
+        "nickName": "Jumper",
+        "realName": "Muhammad Izzrudin Hashim"
+      }
+    ]
+  },
+  {
+    "name": "Anti Circle",
+    "uri": "https://liquipedia.net/pubgmobile/Anti_Circle",
+    "prizeMoney": "22197",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "Superboi  ",
+        "realName": "Shah Rizuan bin Mohamad Shaari"
+      }
+    ]
+  },
+  {
+    "name": "Axis RedONE",
+    "uri": "https://liquipedia.net/pubgmobile/Axis_RedONE",
+    "prizeMoney": "34547",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "Dell",
+        "realName": "Sveyn Bryndel"
+      },
+      {
+        "nickName": "Kidd",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Don't Break Dreams",
+    "uri": "https://liquipedia.net/pubgmobile/Don%27t_Break_Dreams",
+    "prizeMoney": "27200",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "MosGoku  ",
+        "realName": "Mosleh Subairi"
+      },
+      {
+        "nickName": "Echong  ",
+        "realName": "Aiman Mahadzir"
+      },
+      {
+        "nickName": "Zykz  ",
+        "realName": "Muhammad Haziq"
+      },
+      {
+        "nickName": "JimmyOP  ",
+        "realName": "Hazim Irfan Kamarudin"
+      },
+      {
+        "nickName": "YeN  ",
+        "realName": "Muhammad Syazwan Adrian"
+      },
+      {
+        "nickName": "Raizo  ",
+        "realName": "Mohamad Aaery Ling"
+      }
+    ]
+  },
+  {
+    "name": "Genexus",
+    "uri": "https://liquipedia.net/pubgmobile/Genexus",
+    "prizeMoney": "21300",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "BiuBiu  ",
+        "realName": "Kow Jiunn Jie"
+      },
+      {
+        "nickName": "Looyou  ",
+        "realName": "Loo Tze You"
+      },
+      {
+        "nickName": "Snappie  ",
+        "realName": "Koh Wen Hong"
+      },
+      {
+        "nickName": "LoongSkr  ",
+        "realName": "Ang Yong Song"
+      },
+      {
+        "nickName": "SmallBoY  ",
+        "realName": "Alexis Aw Chee Loong"
+      }
+    ]
+  },
+  {
+    "name": "TABAH NSEA",
+    "uri": "https://liquipedia.net/pubgmobile/NSEA",
+    "prizeMoney": "20571",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "Aduka  ",
+        "realName": "Muhammad Aduka Ikmal"
+      },
+      {
+        "nickName": "XRush  ",
+        "realName": "Muhammad Faiz Aiman"
+      },
+      {
+        "nickName": "Magix  ",
+        "realName": "Muhammad Irfan Jafni"
+      },
+      {
+        "nickName": "FlaxOP  ",
+        "realName": "Muhammad Farish Husaini"
+      },
+      {
+        "nickName": "Franky  ",
+        "realName": "Mohamad Amizul Hafiz"
+      }
+    ]
+  },
+  {
+    "name": "RSG Malaysia",
+    "uri": "https://liquipedia.net/pubgmobile/RSG_Malaysia",
+    "prizeMoney": "50665",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "Brian",
+        "realName": "Brian Tan Cheok Chai"
+      }
+    ]
+  },
+  {
+    "name": "SEM9",
+    "uri": "https://liquipedia.net/pubgmobile/SEM9",
+    "prizeMoney": "182242",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "Dep",
+        "realName": "Azim Hariss Mohd Puhatdi"
+      },
+      {
+        "nickName": "ManParang",
+        "realName": "Aiman Amirul"
+      },
+      {
+        "nickName": "Putra",
+        "realName": "Fairul Iskandar Putra bin Muazamshah"
+      },
+      {
+        "nickName": "Adibz",
+        "realName": "Muhammad Adib Syazwan"
+      },
+      {
+        "nickName": "Harm",
+        "realName": "Muhammad Ilham"
+      }
+    ]
+  },
+  {
+    "name": "Team Bosskurr",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Bosskurr",
+    "prizeMoney": "22992",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "AzfarZ  ",
+        "realName": "Azfar Iqbal Zulfahrizal"
+      },
+      {
+        "nickName": "ZigZag  ",
+        "realName": "Mohamad Yuzaymie bin Karim"
+      },
+      {
+        "nickName": "Aboyy  ",
+        "realName": "Ikmal Hidayat bin Mohd Rais"
+      },
+      {
+        "nickName": "Aiman  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Jakuca  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Malaysia",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Malaysia",
+    "prizeMoney": "3591",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Team Secret",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Secret",
+    "prizeMoney": "305485",
+    "region": "Malaysia",
+    "players": [
+      {
+        "nickName": "IShotz",
+        "realName": "Raymond Tan Boon Sheng"
+      },
+      {
+        "nickName": "MADTOI",
+        "realName": "Aekachai Areesanan"
+      },
+      {
+        "nickName": "Fredo",
+        "realName": "Ahmad Fuad Razali"
+      },
+      {
+        "nickName": "KiD",
+        "realName": "Muhammad Danish Yusniza"
+      },
+      {
+        "nickName": "Xylyn",
+        "realName": "Fardeen Khan"
+      },
+      {
+        "nickName": "Izane",
+        "realName": "Mohd Idham Fauzan"
+      }
+    ]
+  },
+  {
+    "name": "AROV Esports",
+    "uri": "https://liquipedia.net/pubgmobile/AROV_Esports",
+    "prizeMoney": "14080",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Bapak Ah Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Bapak_Ah_Esports",
+    "prizeMoney": "4750",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Bigetron AROV",
+    "uri": "https://liquipedia.net/pubgmobile/Bigetron_AROV",
+    "prizeMoney": "16138",
+    "region": "Malaysia Indonesia",
+    "players": []
+  },
+  {
+    "name": "Dingoz MPX",
+    "uri": "https://liquipedia.net/pubgmobile/Dingoz_MPX",
+    "prizeMoney": "27440",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "EVOS ViP",
+    "uri": "https://liquipedia.net/pubgmobile/EVOS_ViP",
+    "prizeMoney": "18612",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Farang Lejund",
+    "uri": "https://liquipedia.net/pubgmobile/Farang_Lejund",
+    "prizeMoney": "47214",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Geek Fam Girls",
+    "uri": "https://liquipedia.net/pubgmobile/Geek_Fam_Girls",
+    "prizeMoney": "300",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Junior Talent",
+    "uri": "https://liquipedia.net/pubgmobile/Junior_Talent",
+    "prizeMoney": "5950",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Team SMG",
+    "uri": "https://liquipedia.net/pubgmobile/Team_SMG/Malaysia",
+    "prizeMoney": "60518",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Victorious In Play",
+    "uri": "https://liquipedia.net/pubgmobile/Victorious_In_Play",
+    "prizeMoney": "24440",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Wulf Arov",
+    "uri": "https://liquipedia.net/pubgmobile/Wulf_Arov",
+    "prizeMoney": "26412",
+    "region": "Malaysia",
+    "players": []
+  },
+  {
+    "name": "Elites United Team",
+    "uri": "https://liquipedia.net/pubgmobile/Elites_United_Team",
+    "prizeMoney": "6127",
+    "region": "United Arab Emirates",
+    "players": []
+  },
+  {
+    "name": "iKURD E-SPORTS",
+    "uri": "https://liquipedia.net/pubgmobile/IKURD_E-SPORTS",
+    "prizeMoney": "35187",
+    "region": "Iraq",
+    "players": [
+      {
+        "nickName": "Kawan  ",
+        "realName": "Kawan Rajab Mirkhan"
+      },
+      {
+        "nickName": "Krmanj  ",
+        "realName": "Krmac Saeed Rajab"
+      },
+      {
+        "nickName": "Baro  ",
+        "realName": "Barzan Yassin Mohameed"
+      },
+      {
+        "nickName": "Rawn  ",
+        "realName": "Rawan Saeed Rajab"
+      },
+      {
+        "nickName": "Kayhan  ",
+        "realName": "Kayhan Salh Qadr"
+      }
+    ]
+  },
+  {
+    "name": "NASR Esports",
+    "uri": "https://liquipedia.net/pubgmobile/NASR_Esports",
+    "prizeMoney": "86850",
+    "region": "United Arab Emirates",
+    "players": [
+      {
+        "nickName": "BaTiKhA",
+        "realName": "Wassem Nafiz Abd Al Kareem"
+      },
+      {
+        "nickName": "ALI21",
+        "realName": "Ali Aljbawi"
+      },
+      {
+        "nickName": "Gringo",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "One Million E-sports",
+    "uri": "https://liquipedia.net/pubgmobile/ONE_MILLION_ESPORTS",
+    "prizeMoney": "52300",
+    "region": "Morocco",
+    "players": [
+      {
+        "nickName": "ELCHAPO",
+        "realName": "Mouad El Mokhtari"
+      },
+      {
+        "nickName": "LAZY",
+        "realName": "Oussama Tourki"
+      },
+      {
+        "nickName": "MARSHALL",
+        "realName": "Salah Eddine El Khomri"
+      },
+      {
+        "nickName": "Senku",
+        "realName": "Omar Mrabet"
+      },
+      {
+        "nickName": "Venom",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "R8 Esports",
+    "uri": "https://liquipedia.net/pubgmobile/R8_Esports",
+    "prizeMoney": "318319",
+    "region": "Saudi Arabia",
+    "players": [
+      {
+        "nickName": "PrEStlGe",
+        "realName": "Abdulrahman saleh Alfahhad"
+      },
+      {
+        "nickName": "SKTON",
+        "realName": "Mohammed Saleh aljuaithin"
+      },
+      {
+        "nickName": "CR7",
+        "realName": ""
+      },
+      {
+        "nickName": "iD7",
+        "realName": "Abdulrhman Alarawi"
+      },
+      {
+        "nickName": "Carryboy",
+        "realName": "Zakaria Cherka"
+      },
+      {
+        "nickName": "Mambay",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "RTG Esports",
+    "uri": "https://liquipedia.net/pubgmobile/RTG_Esports",
+    "prizeMoney": "102683",
+    "region": "Jordan",
+    "players": [
+      {
+        "nickName": "Ali",
+        "realName": "Ali Sherzad Saeed"
+      },
+      {
+        "nickName": "Groza",
+        "realName": "Blnd Kamaran Ahmad"
+      },
+      {
+        "nickName": "KALAGA",
+        "realName": "Chenar Hikmat Ali"
+      },
+      {
+        "nickName": "Reva",
+        "realName": "Revan Luqman Hussien"
+      },
+      {
+        "nickName": "Rio",
+        "realName": "Muhammed Frsat Rashid"
+      },
+      {
+        "nickName": "SRoD",
+        "realName": "Srod Salih Mekail"
+      },
+      {
+        "nickName": "GOLDEN",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "SWAT69",
+    "uri": "https://liquipedia.net/pubgmobile/SWAT69",
+    "prizeMoney": "36240",
+    "region": "Saudi Arabia",
+    "players": [
+      {
+        "nickName": "Booot  ",
+        "realName": "Abdullah Alshmmery"
+      },
+      {
+        "nickName": "Aziz  ",
+        "realName": "Abdulaziz Alshmmery"
+      },
+      {
+        "nickName": "Tayfon  ",
+        "realName": "Abdullah"
+      },
+      {
+        "nickName": "Fire  ",
+        "realName": "Ibrahim"
+      },
+      {
+        "nickName": "Mjrm  ",
+        "realName": "Mohammed"
+      },
+      {
+        "nickName": "Bugatti  ",
+        "realName": "Ahmad Alzahrani"
+      },
+      {
+        "nickName": "BuFlaH  ",
+        "realName": "Mohammed alkhanbouli"
+      }
+    ]
+  },
+  {
+    "name": "Sixty Nine Team",
+    "uri": "https://liquipedia.net/pubgmobile/Sixty_Nine_Team",
+    "prizeMoney": "36800",
+    "region": "Saudi Arabia",
+    "players": [
+      {
+        "nickName": "SAEMON  ",
+        "realName": "SAEMON"
+      },
+      {
+        "nickName": "PNL  ",
+        "realName": "Mohammed"
+      },
+      {
+        "nickName": "ONESHOT  ",
+        "realName": "Mohammed"
+      },
+      {
+        "nickName": "S4M  ",
+        "realName": "Samyan"
+      },
+      {
+        "nickName": "KUSTyy  ",
+        "realName": "Abbas"
+      }
+    ]
+  },
+  {
+    "name": "Team Falcons",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Falcons",
+    "prizeMoney": "638778",
+    "region": "Saudi Arabia",
+    "players": [
+      {
+        "nickName": "Damar",
+        "realName": "Ahmed Alqhtani"
+      },
+      {
+        "nickName": "LAST",
+        "realName": "Mohammed Ahmed AbdulKarim"
+      },
+      {
+        "nickName": "Rashed",
+        "realName": "Rashed Mohammed Al-Damikhi"
+      },
+      {
+        "nickName": "NvrAlone",
+        "realName": "Faisal Radhi Aldhafeeri"
+      },
+      {
+        "nickName": "YOUSSEF",
+        "realName": "Youssef Khatib"
+      },
+      {
+        "nickName": "Powerful",
+        "realName": "Majid Alasmari"
+      }
+    ]
+  },
+  {
+    "name": "Team RA'AD",
+    "uri": "https://liquipedia.net/pubgmobile/Team_RA%27AD",
+    "prizeMoney": "57204",
+    "region": "Egypt",
+    "players": [
+      {
+        "nickName": "DESHA999  ",
+        "realName": "Mostafa El fekyy"
+      },
+      {
+        "nickName": "DELHAAP  ",
+        "realName": "Mohamed Shawkat"
+      },
+      {
+        "nickName": "SADAT  ",
+        "realName": "Ahmed Sadat"
+      },
+      {
+        "nickName": "MOUNIR99  ",
+        "realName": "Mounir El shamy"
+      },
+      {
+        "nickName": "Kaito  ",
+        "realName": "Ahmad Salma"
+      },
+      {
+        "nickName": "REX  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Team Umbra",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Umbra",
+    "prizeMoney": "44874",
+    "region": "Morocco",
+    "players": [
+      {
+        "nickName": "Morteza",
+        "realName": "Morteza Mojaddidi"
+      },
+      {
+        "nickName": "Nacho",
+        "realName": "Ignacio Menoni Nogueira"
+      },
+      {
+        "nickName": "PRZ",
+        "realName": "Manuel Pérez Moral"
+      },
+      {
+        "nickName": "SHADOWEN",
+        "realName": "Adam Maâd"
+      },
+      {
+        "nickName": "Wasted",
+        "realName": "Wassim Moussalli"
+      }
+    ]
+  },
+  {
+    "name": "The Snipers",
+    "uri": "https://liquipedia.net/pubgmobile/The_Snipers",
+    "prizeMoney": "26488",
+    "region": "Egypt",
+    "players": [
+      {
+        "nickName": "CitiZenX  ",
+        "realName": "Abdullah Adel El Antably"
+      },
+      {
+        "nickName": "AmrSokr  ",
+        "realName": "Amr Tarek Ahmed Ezzat"
+      },
+      {
+        "nickName": "KlaBSh  ",
+        "realName": "Mazen Adly EL Bashsa"
+      },
+      {
+        "nickName": "ZAiD  ",
+        "realName": "Zaid Alzubaidi"
+      },
+      {
+        "nickName": "MARCO  ",
+        "realName": "Marco Eman khater"
+      }
+    ]
+  },
+  {
+    "name": "Twisted Minds",
+    "uri": "https://liquipedia.net/pubgmobile/Twisted_Minds",
+    "prizeMoney": "75591",
+    "region": "Saudi Arabia",
+    "players": [
+      {
+        "nickName": "Damii  ",
+        "realName": "‏Khalid Saud Alabdulaziz"
+      },
+      {
+        "nickName": "Vigors  ",
+        "realName": "‏Abdulaziz Saud Alabdulaziz"
+      },
+      {
+        "nickName": "Anas  ",
+        "realName": "‏‏Anas Shaheen"
+      },
+      {
+        "nickName": "Fhidan  ",
+        "realName": "‏‏Fahad Bns Aljaber"
+      },
+      {
+        "nickName": "RAGNARoK  ",
+        "realName": "‏‏Mohammad Addasi"
+      }
+    ]
+  },
+  {
+    "name": "YaLLa Esports",
+    "uri": "https://liquipedia.net/pubgmobile/YaLLa_Esports",
+    "prizeMoney": "207790",
+    "region": "United Arab Emirates",
+    "players": [
+      {
+        "nickName": "Bommpa",
+        "realName": "Sultan Ahmad Alhzoom"
+      },
+      {
+        "nickName": "LAITH",
+        "realName": "Laith Hasan Moahmmad Mehidat"
+      },
+      {
+        "nickName": "SaiF",
+        "realName": ""
+      },
+      {
+        "nickName": "Qahtan",
+        "realName": ""
+      },
+      {
+        "nickName": "VOLT",
+        "realName": "Mohammed Hogr Omar"
+      }
+    ]
+  },
+  {
+    "name": "46 LOOT",
+    "uri": "https://liquipedia.net/pubgmobile/46_LOOT",
+    "prizeMoney": "20100",
+    "region": "Middle East",
+    "players": []
+  },
+  {
+    "name": "6N Team",
+    "uri": "https://liquipedia.net/pubgmobile/6N_Team",
+    "prizeMoney": "14100",
+    "region": "Saudi Arabia",
+    "players": []
+  },
+  {
+    "name": "ALPHA Legends",
+    "uri": "https://liquipedia.net/pubgmobile/ALPHA_Legends",
+    "prizeMoney": "24650",
+    "region": "Middle East",
+    "players": []
+  },
+  {
+    "name": "Arab Madness",
+    "uri": "https://liquipedia.net/pubgmobile/Arab_Madness",
+    "prizeMoney": "19207",
+    "region": "Saudi Arabia",
+    "players": []
+  },
+  {
+    "name": "Cryptics",
+    "uri": "https://liquipedia.net/pubgmobile/Cryptics",
+    "prizeMoney": "106375",
+    "region": "Morocco",
+    "players": []
+  },
+  {
+    "name": "FATE Esports",
+    "uri": "https://liquipedia.net/pubgmobile/FATE_Esports",
+    "prizeMoney": "67138",
+    "region": "Jordan",
+    "players": []
+  },
+  {
+    "name": "FRAG Machines",
+    "uri": "https://liquipedia.net/pubgmobile/FRAG_Machines",
+    "prizeMoney": "33700",
+    "region": "Iraq",
+    "players": []
+  },
+  {
+    "name": "Gunz Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Gunz_Esports",
+    "prizeMoney": "134000",
+    "region": "Lebanon",
+    "players": []
+  },
+  {
+    "name": "HeadQuarters",
+    "uri": "https://liquipedia.net/pubgmobile/HeadQuarters",
+    "prizeMoney": "25250",
+    "region": "Saudi Arabia",
+    "players": []
+  },
+  {
+    "name": "IRAQI ELITE",
+    "uri": "https://liquipedia.net/pubgmobile/IRAQI_ELITE",
+    "prizeMoney": "9600",
+    "region": "Iraq",
+    "players": []
+  },
+  {
+    "name": "KHK Esports",
+    "uri": "https://liquipedia.net/pubgmobile/KHK_Esports",
+    "prizeMoney": "5100",
+    "region": "Saudi Arabia",
+    "players": []
+  },
+  {
+    "name": "Kurd Squad",
+    "uri": "https://liquipedia.net/pubgmobile/Kurd_Squad",
+    "prizeMoney": "57950",
+    "region": "Iraq",
+    "players": []
+  },
+  {
+    "name": "LiveToKill",
+    "uri": "https://liquipedia.net/pubgmobile/LiveToKill",
+    "prizeMoney": "5200",
+    "region": "Middle East",
+    "players": []
+  },
+  {
+    "name": "ME Assassins",
+    "uri": "https://liquipedia.net/pubgmobile/ME_Assassins",
+    "prizeMoney": "17265",
+    "region": "Middle East",
+    "players": []
+  },
+  {
+    "name": "The Real Deal",
+    "uri": "https://liquipedia.net/pubgmobile/The_Real_Deal",
+    "prizeMoney": "25883",
+    "region": "Middle East Iraq",
+    "players": []
+  },
+  {
+    "name": "19esports",
+    "uri": "https://liquipedia.net/pubgmobile/19esports",
+    "prizeMoney": "49117",
+    "region": "Mexico United States",
+    "players": [
+      {
+        "nickName": "Aeson",
+        "realName": ""
+      },
+      {
+        "nickName": "Brain",
+        "realName": ""
+      },
+      {
+        "nickName": "Rad",
+        "realName": ""
+      },
+      {
+        "nickName": "Salty",
+        "realName": ""
+      },
+      {
+        "nickName": "SoulFly",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Execute",
+    "uri": "https://liquipedia.net/pubgmobile/Execute_Esports",
+    "prizeMoney": "42106",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "ItsFate  ",
+        "realName": "Cristian Figueroa"
+      },
+      {
+        "nickName": "Iris  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Jason  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Telli  ",
+        "realName": "Tyler Ellison"
+      },
+      {
+        "nickName": "SoLo  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Sixless  ",
+        "realName": "Brandon Cole Patterson"
+      }
+    ]
+  },
+  {
+    "name": "Ghost Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Ghost_Gaming",
+    "prizeMoney": "118613",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Jagger  ",
+        "realName": "Jagger Morales"
+      },
+      {
+        "nickName": "HH24  ",
+        "realName": "Brayan Melamed"
+      },
+      {
+        "nickName": "Beowulf  ",
+        "realName": "Jack Schultz"
+      }
+    ]
+  },
+  {
+    "name": "Knights",
+    "uri": "https://liquipedia.net/pubgmobile/Knights",
+    "prizeMoney": "246903",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Koops",
+        "realName": "Joshua Estrada"
+      },
+      {
+        "nickName": "Tensa",
+        "realName": "Andre De Jesus"
+      },
+      {
+        "nickName": "Spec",
+        "realName": "David Guzman"
+      },
+      {
+        "nickName": "Sythe",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Nova Esports NA",
+    "uri": "https://liquipedia.net/pubgmobile/Nova_Esports_NA",
+    "prizeMoney": "101525",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Xifan  ",
+        "realName": "Zifan Wu"
+      },
+      {
+        "nickName": "Rinnn  ",
+        "realName": "King Liang Li"
+      },
+      {
+        "nickName": "Yi  ",
+        "realName": "Wang Jinhui"
+      },
+      {
+        "nickName": "Koi  ",
+        "realName": "Wang Ziyi"
+      },
+      {
+        "nickName": "Kindness  ",
+        "realName": "Jinhao Liu"
+      }
+    ]
+  },
+  {
+    "name": "The Unnamed",
+    "uri": "https://liquipedia.net/pubgmobile/The_Unnamed",
+    "prizeMoney": "49380",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Bucky  ",
+        "realName": "Quang Nguyen Viet"
+      },
+      {
+        "nickName": "PiuPiu  ",
+        "realName": "Hoa Q Nguyen"
+      },
+      {
+        "nickName": "Ran  ",
+        "realName": "Son Quyen Le"
+      },
+      {
+        "nickName": "FameBoiz  ",
+        "realName": "Dat Vo"
+      },
+      {
+        "nickName": "Jason666  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Hisu  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Cloud9",
+    "uri": "https://liquipedia.net/pubgmobile/Cloud9",
+    "prizeMoney": "120129",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Gankstars",
+    "uri": "https://liquipedia.net/pubgmobile/Gankstars",
+    "prizeMoney": "19000",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Lazarus",
+    "uri": "https://liquipedia.net/pubgmobile/Lazarus",
+    "prizeMoney": "31889",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Lights Out",
+    "uri": "https://liquipedia.net/pubgmobile/Lights_Out",
+    "prizeMoney": "17560",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "OMEN Elite",
+    "uri": "https://liquipedia.net/pubgmobile/OMEN_Elite",
+    "prizeMoney": "32782",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Polar Ace",
+    "uri": "https://liquipedia.net/pubgmobile/Polar_Ace",
+    "prizeMoney": "21328",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Spacestation Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Spacestation_Gaming",
+    "prizeMoney": "47380",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Tempo Storm",
+    "uri": "https://liquipedia.net/pubgmobile/Tempo_Storm",
+    "prizeMoney": "212932",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Tribe Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Tribe_Gaming",
+    "prizeMoney": "22873",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Wildcard Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Wildcard_Gaming",
+    "prizeMoney": "90593",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "X-Quest Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/X-Quest_Gaming",
+    "prizeMoney": "27300",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "XSET",
+    "uri": "https://liquipedia.net/pubgmobile/XSET",
+    "prizeMoney": "89949",
+    "region": "United States",
+    "players": []
+  },
+  {
+    "name": "Angkor PUBGM",
+    "uri": "https://liquipedia.net/pubgmobile/Angkor_PUBGM",
+    "prizeMoney": "14600",
+    "region": "Cambodia",
+    "players": [
+      {
+        "nickName": "AstroX  ",
+        "realName": "Lim Vanna"
+      },
+      {
+        "nickName": "Zero  ",
+        "realName": ""
+      },
+      {
+        "nickName": "DeeZyOP  ",
+        "realName": "Keat Sopheavody"
+      },
+      {
+        "nickName": "SkyNin  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Keymind  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Yangon Galacticos",
+    "uri": "https://liquipedia.net/pubgmobile/Yangon_Galacticos",
+    "prizeMoney": "40248",
+    "region": "Myanmar",
+    "players": [
+      {
+        "nickName": "1Sec",
+        "realName": "Aung Thurain Khaing"
+      },
+      {
+        "nickName": "Marnett",
+        "realName": "Soung Wai Phyo"
+      },
+      {
+        "nickName": "Romeo",
+        "realName": "Khant Zaw Hein"
+      },
+      {
+        "nickName": "Sando",
+        "realName": "Lin Htet Kyaw"
+      },
+      {
+        "nickName": "Loki",
+        "realName": "Aung Thu Ya"
+      },
+      {
+        "nickName": "Power",
+        "realName": "Kaung Htet Kyaw"
+      },
+      {
+        "nickName": "WT",
+        "realName": "Htet Naing"
+      }
+    ]
+  },
+  {
+    "name": "Blacklist International",
+    "uri": "https://liquipedia.net/pubgmobile/Blacklist_International",
+    "prizeMoney": "16278",
+    "region": "Philippines",
+    "players": []
+  },
+  {
+    "name": "DEUS Esport",
+    "uri": "https://liquipedia.net/pubgmobile/DEUS_Esport",
+    "prizeMoney": "17621",
+    "region": "Myanmar",
+    "players": []
+  },
+  {
+    "name": "Orange Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Orange_Esports",
+    "prizeMoney": "32725",
+    "region": "Cambodia",
+    "players": []
+  },
+  {
+    "name": "9z Team",
+    "uri": "https://liquipedia.net/pubgmobile/9z_Team",
+    "prizeMoney": "13800",
+    "region": "Argentina",
+    "players": [
+      {
+        "nickName": "AdreN",
+        "realName": ""
+      },
+      {
+        "nickName": "Aiklon",
+        "realName": ""
+      },
+      {
+        "nickName": "Alexiss",
+        "realName": ""
+      },
+      {
+        "nickName": "Chiquito",
+        "realName": ""
+      },
+      {
+        "nickName": "DESX",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Alpha7 Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Alpha7_Esports",
+    "prizeMoney": "491988",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Swaguin",
+        "realName": "Caio Henrique Lima"
+      },
+      {
+        "nickName": "Carrilho",
+        "realName": "Lucas Miguel da Silva Carrilho"
+      },
+      {
+        "nickName": "Revo",
+        "realName": "Roan Henrique Aléssio"
+      },
+      {
+        "nickName": "Mafioso",
+        "realName": "Daniel Henrique vaz"
+      },
+      {
+        "nickName": "Mythic",
+        "realName": "Matheus Moitinho Arantes"
+      }
+    ]
+  },
+  {
+    "name": "Aton Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Aton_Esports",
+    "prizeMoney": "147700",
+    "region": "Mexico",
+    "players": [
+      {
+        "nickName": "Choco",
+        "realName": "Jorge Cruz García"
+      },
+      {
+        "nickName": "Fran",
+        "realName": "Francisco Aguilar Rodríguez"
+      },
+      {
+        "nickName": "SenaTexa",
+        "realName": "Alessandro Augusto Prado Brito"
+      },
+      {
+        "nickName": "NitsuMEB",
+        "realName": "Agustin Román De La Rovere"
+      }
+    ]
+  },
+  {
+    "name": "BRK Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/BRK_Gaming",
+    "prizeMoney": "50950",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "HYDEIKI",
+        "realName": ""
+      },
+      {
+        "nickName": "Azzix",
+        "realName": ""
+      },
+      {
+        "nickName": "Baeta",
+        "realName": ""
+      },
+      {
+        "nickName": "Godz",
+        "realName": ""
+      },
+      {
+        "nickName": "Thrz",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Black Dragons e-Sports",
+    "uri": "https://liquipedia.net/pubgmobile/Black_Dragons_e-Sports",
+    "prizeMoney": "50200",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Dex  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Martins  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Talentz  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Buluc Chabtan",
+    "uri": "https://liquipedia.net/pubgmobile/Buluc_Chabtan",
+    "prizeMoney": "92125",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Madeon",
+        "realName": "Carlos Montoya"
+      },
+      {
+        "nickName": "Booy",
+        "realName": ""
+      },
+      {
+        "nickName": "Rodz",
+        "realName": ""
+      },
+      {
+        "nickName": "M2M",
+        "realName": ""
+      },
+      {
+        "nickName": "Wacho",
+        "realName": ""
+      },
+      {
+        "nickName": "Cardi",
+        "realName": "Nicolas Cardoso Ferrali"
+      },
+      {
+        "nickName": "Frady",
+        "realName": ""
+      },
+      {
+        "nickName": "Moso",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Enxame Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Enxame_Gaming",
+    "prizeMoney": "18788",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Baeta",
+        "realName": ""
+      },
+      {
+        "nickName": "Dulauro",
+        "realName": ""
+      },
+      {
+        "nickName": "Fabricio",
+        "realName": ""
+      },
+      {
+        "nickName": "Minidrop",
+        "realName": ""
+      },
+      {
+        "nickName": "Rafa1king",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Estorm",
+    "uri": "https://liquipedia.net/pubgmobile/Estorm",
+    "prizeMoney": "34875",
+    "region": "Mexico",
+    "players": [
+      {
+        "nickName": "Cabrito",
+        "realName": ""
+      },
+      {
+        "nickName": "Deeper",
+        "realName": ""
+      },
+      {
+        "nickName": "Ignacio",
+        "realName": ""
+      },
+      {
+        "nickName": "Jader",
+        "realName": ""
+      },
+      {
+        "nickName": "Paquito",
+        "realName": ""
+      },
+      {
+        "nickName": "Zynk",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Flamengo Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Flamengo_Esports",
+    "prizeMoney": "28878",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Sparta",
+        "realName": ""
+      },
+      {
+        "nickName": "ggplay",
+        "realName": ""
+      },
+      {
+        "nickName": "Foox",
+        "realName": "Athylla Rennan"
+      },
+      {
+        "nickName": "Gcgod",
+        "realName": "Guilherme  Caetano Palavesin"
+      },
+      {
+        "nickName": "Gigante",
+        "realName": ""
+      },
+      {
+        "nickName": "Toico",
+        "realName": "Alan Krulikowski Martiniak"
+      }
+    ]
+  },
+  {
+    "name": "Furious Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Furious_Gaming",
+    "prizeMoney": "226150",
+    "region": "Chile",
+    "players": [
+      {
+        "nickName": "Trigga",
+        "realName": "Sergio Rodriguez"
+      },
+      {
+        "nickName": "Milovan",
+        "realName": "Misael Rubio"
+      },
+      {
+        "nickName": "ElianKidd",
+        "realName": ""
+      },
+      {
+        "nickName": "Fernan",
+        "realName": ""
+      },
+      {
+        "nickName": "Milos",
+        "realName": "Ricardo Rojas Cano"
+      }
+    ]
+  },
+  {
+    "name": "Honored Souls",
+    "uri": "https://liquipedia.net/pubgmobile/Honored_Souls",
+    "prizeMoney": "66333",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Myth  ",
+        "realName": "Higor Bezerra"
+      },
+      {
+        "nickName": "Arturzin  ",
+        "realName": "Artur Dornelas"
+      },
+      {
+        "nickName": "Ratoboy  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Nicolas  ",
+        "realName": ""
+      },
+      {
+        "nickName": "goodZIN  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "iNCO Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/INCO_Gaming",
+    "prizeMoney": "47500",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Becker",
+        "realName": "Gabriel Engraf Becker"
+      },
+      {
+        "nickName": "ViTU2K",
+        "realName": "Vitor Stavarengo"
+      },
+      {
+        "nickName": "Vitali",
+        "realName": "João Felipe"
+      },
+      {
+        "nickName": "NENEBETE",
+        "realName": "Derci Júnior de Cristo"
+      },
+      {
+        "nickName": "Squash",
+        "realName": "Arthur Cavalcante"
+      }
+    ]
+  },
+  {
+    "name": "INTZ",
+    "uri": "https://liquipedia.net/pubgmobile/INTZ",
+    "prizeMoney": "64100",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Ren4n",
+        "realName": "Renan Pereira de Farias"
+      },
+      {
+        "nickName": "SEM1",
+        "realName": ""
+      },
+      {
+        "nickName": "PAPAKILL",
+        "realName": ""
+      },
+      {
+        "nickName": "Cardoso",
+        "realName": ""
+      },
+      {
+        "nickName": "Higor",
+        "realName": "Higor Melo Germendorff"
+      }
+    ]
+  },
+  {
+    "name": "Influence Chemin Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Influence_Chemin_Esports",
+    "prizeMoney": "119936",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Law  ",
+        "realName": "Enzo Nakamura"
+      },
+      {
+        "nickName": "LiLBOY  ",
+        "realName": "Carlos Roberto dos Santos"
+      },
+      {
+        "nickName": "Caiowski  ",
+        "realName": "Caio Caldatto"
+      },
+      {
+        "nickName": "Federal  ",
+        "realName": "Kauan Milagres"
+      },
+      {
+        "nickName": "Piguu  ",
+        "realName": "Paulina Lopez"
+      },
+      {
+        "nickName": "Gxlden  ",
+        "realName": "Bryan Gabriel Batista De Lima"
+      }
+    ]
+  },
+  {
+    "name": "Loops",
+    "uri": "https://liquipedia.net/pubgmobile/Loops",
+    "prizeMoney": "303205",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Cardozin",
+        "realName": "Davi Felipe Dórea Cardoso"
+      },
+      {
+        "nickName": "Chieff",
+        "realName": "Anderson Rocha Nunes"
+      },
+      {
+        "nickName": "DuDu",
+        "realName": "Eduardo Garcia"
+      },
+      {
+        "nickName": "Ntx",
+        "realName": "Gabriel Garcia de Lima Neto"
+      }
+    ]
+  },
+  {
+    "name": "Mezexis Dreams",
+    "uri": "https://liquipedia.net/pubgmobile/Mezexis_Dreams",
+    "prizeMoney": "50300",
+    "region": "Argentina",
+    "players": [
+      {
+        "nickName": "Axeel",
+        "realName": "Axel Gavotti"
+      },
+      {
+        "nickName": "Jere",
+        "realName": ""
+      },
+      {
+        "nickName": "Marco",
+        "realName": "Marco Poppitti"
+      },
+      {
+        "nickName": "Rema",
+        "realName": "Federico Manuel Mendoza"
+      },
+      {
+        "nickName": "Roleex",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Red Canids",
+    "uri": "https://liquipedia.net/pubgmobile/Red_Canids",
+    "prizeMoney": "32548",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Levy  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Killerzada  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Mucilon  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Chatin  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Cerkinha  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Lagadinha  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Rise Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Rise_Esports",
+    "prizeMoney": "112604",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Mufasa  ",
+        "realName": "Talison Américo"
+      },
+      {
+        "nickName": "rafinha  ",
+        "realName": "Rafael Miaki"
+      },
+      {
+        "nickName": "Ninho  ",
+        "realName": "Alexandre Silveira da Silva"
+      },
+      {
+        "nickName": "Dimenor  ",
+        "realName": "Gabriel Carmona"
+      }
+    ]
+  },
+  {
+    "name": "Royals of War",
+    "uri": "https://liquipedia.net/pubgmobile/Royals_of_War",
+    "prizeMoney": "27450",
+    "region": "Chile",
+    "players": [
+      {
+        "nickName": "Sare  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Aiende  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Kinder  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Leandro  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Team Codasolid",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Codasolid",
+    "prizeMoney": "27412",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Foox  ",
+        "realName": "Athylla Rennan"
+      },
+      {
+        "nickName": "OldSky  ",
+        "realName": "Andersson Roberto"
+      },
+      {
+        "nickName": "nicolas  ",
+        "realName": "David Cunha"
+      },
+      {
+        "nickName": "Garcia  ",
+        "realName": "José Leandro"
+      },
+      {
+        "nickName": "Guuuii  ",
+        "realName": "Guilherme Moura"
+      }
+    ]
+  },
+  {
+    "name": "Team Queso",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Queso",
+    "prizeMoney": "214415",
+    "region": "Argentina",
+    "players": [
+      {
+        "nickName": "Ayala",
+        "realName": "Gonzalo Ayala"
+      },
+      {
+        "nickName": "Reyes",
+        "realName": "Ervin Antonio Reyes Molina"
+      },
+      {
+        "nickName": "ScreaaM",
+        "realName": "Joaquín Escobar"
+      },
+      {
+        "nickName": "Mystic",
+        "realName": "Miguel Ramoha"
+      },
+      {
+        "nickName": "Potro",
+        "realName": "Jose Pacheco Pacheco"
+      }
+    ]
+  },
+  {
+    "name": "Team SOG",
+    "uri": "https://liquipedia.net/pubgmobile/Team_SOG",
+    "prizeMoney": "11950",
+    "region": "Argentina",
+    "players": []
+  },
+  {
+    "name": "ACE1",
+    "uri": "https://liquipedia.net/pubgmobile/ACE1",
+    "prizeMoney": "32580",
+    "region": "Chile",
+    "players": []
+  },
+  {
+    "name": "B4 eSports",
+    "uri": "https://liquipedia.net/pubgmobile/B4_eSports",
+    "prizeMoney": "73745",
+    "region": "Brazil",
+    "players": []
+  },
+  {
+    "name": "Brazilian Effect",
+    "uri": "https://liquipedia.net/pubgmobile/Brazilian_Effect",
+    "prizeMoney": "7000",
+    "region": "Brazil",
+    "players": []
+  },
+  {
+    "name": "Brazilian Rampage",
+    "uri": "https://liquipedia.net/pubgmobile/Brazilian_Rampage",
+    "prizeMoney": "7500",
+    "region": "Brazil",
+    "players": []
+  },
+  {
+    "name": "Chivas eSports",
+    "uri": "https://liquipedia.net/pubgmobile/Chivas_eSports",
+    "prizeMoney": "30500",
+    "region": "Mexico",
+    "players": []
+  },
+  {
+    "name": "Claw Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Claw_Gaming",
+    "prizeMoney": "1100",
+    "region": "Mexico",
+    "players": []
+  },
+  {
+    "name": "Cream Real Betis SA",
+    "uri": "https://liquipedia.net/pubgmobile/Cream_Real_Betis_SA",
+    "prizeMoney": "3200",
+    "region": "Argentina",
+    "players": []
+  },
+  {
+    "name": "EVO Esports",
+    "uri": "https://liquipedia.net/pubgmobile/index.php?title=EVO_Esports&action=edit&redlink=1",
+    "prizeMoney": "",
+    "region": "",
+    "players": []
+  },
+  {
+    "name": "IRMÃOS METRALHA",
+    "uri": "https://liquipedia.net/pubgmobile/IRM%C3%83OS_METRALHA",
+    "prizeMoney": "17900",
+    "region": "Brazil",
+    "players": []
+  },
+  {
+    "name": "Nova Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Nova_Esports/Brazil",
+    "prizeMoney": "6329",
+    "region": "",
+    "players": []
+  },
+  {
+    "name": "Trem Carreta Furacão",
+    "uri": "https://liquipedia.net/pubgmobile/Trem_Carreta_Furac%C3%A3o",
+    "prizeMoney": "6600",
+    "region": "Brazil",
+    "players": []
+  },
+  {
+    "name": "7Sea Esports",
+    "uri": "https://liquipedia.net/pubgmobile/7Sea_Esports_(Indian_team)",
+    "prizeMoney": "104191",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Aladin",
+        "realName": "Taha Khamkar"
+      },
+      {
+        "nickName": "SPRAYGOD",
+        "realName": "Harsh Malik"
+      },
+      {
+        "nickName": "Sarang",
+        "realName": "Sarangajyoti Deka"
+      },
+      {
+        "nickName": "Sparkey",
+        "realName": "Yogendra Singh Rathore"
+      }
+    ]
+  },
+  {
+    "name": "Chemin Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Chemin_Esports",
+    "prizeMoney": "42481",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Destro",
+        "realName": "Ammar Khan"
+      },
+      {
+        "nickName": "DeltaPG",
+        "realName": "Parth Garg"
+      },
+      {
+        "nickName": "Justin",
+        "realName": "Justin nadar"
+      },
+      {
+        "nickName": "Robin",
+        "realName": "Robin Singh Shekhawat"
+      },
+      {
+        "nickName": "BopeDope",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Enigma Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Enigma_Gaming",
+    "prizeMoney": "64844",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Avii",
+        "realName": "Avinash Chari"
+      },
+      {
+        "nickName": "EGGY",
+        "realName": "Bhargav Gohil"
+      },
+      {
+        "nickName": "REXX",
+        "realName": "Robin Singh"
+      },
+      {
+        "nickName": "EvoO",
+        "realName": "Mohamed Shahil"
+      }
+    ]
+  },
+  {
+    "name": "Entity Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Entity_Gaming",
+    "prizeMoney": "111190",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Darklord",
+        "realName": "Ubed Khatri"
+      },
+      {
+        "nickName": "NOOB",
+        "realName": "Ajmal Shaikh"
+      },
+      {
+        "nickName": "Shadow7",
+        "realName": "Tenzing Kelsang"
+      },
+      {
+        "nickName": "Troye",
+        "realName": "Shiven Pawar"
+      }
+    ]
+  },
+  {
+    "name": "Global Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Global_Esports",
+    "prizeMoney": "64103",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Dark",
+        "realName": "Hrithik Saxena"
+      },
+      {
+        "nickName": "Iconic",
+        "realName": "Vinay Gahlot"
+      },
+      {
+        "nickName": "Aj",
+        "realName": ""
+      },
+      {
+        "nickName": "Jokerr",
+        "realName": ""
+      },
+      {
+        "nickName": "manya",
+        "realName": ""
+      },
+      {
+        "nickName": "NakuL",
+        "realName": ""
+      },
+      {
+        "nickName": "Rony",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "GodLike Esports",
+    "uri": "https://liquipedia.net/pubgmobile/GodLike_Esports",
+    "prizeMoney": "200767",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "ClutchGod",
+        "realName": "Vivek Aabhas Horo"
+      },
+      {
+        "nickName": "GHATAK",
+        "realName": "Abhijeet Harishchandra Andhare"
+      },
+      {
+        "nickName": "JONATHAN",
+        "realName": "Jonathan Jude Amaral"
+      },
+      {
+        "nickName": "Neyoo",
+        "realName": "Suraj Nityanand Majumdar"
+      },
+      {
+        "nickName": "ZGOD",
+        "realName": "Abhishek Choudhary"
+      },
+      {
+        "nickName": "GiLL",
+        "realName": "Arshpreet Singh"
+      },
+      {
+        "nickName": "SHADOW",
+        "realName": "Arjun Mandhalkar"
+      }
+    ]
+  },
+  {
+    "name": "Gods Reign",
+    "uri": "https://liquipedia.net/pubgmobile/Gods_Reign",
+    "prizeMoney": "21846",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Hyderabad Hydras",
+    "uri": "https://liquipedia.net/pubgmobile/Hyderabad_Hydras",
+    "prizeMoney": "23814",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "ADITYA",
+        "realName": "Aditya Rawat"
+      },
+      {
+        "nickName": "Ksr7",
+        "realName": "Kaushal Singh rajput"
+      },
+      {
+        "nickName": "RageGod",
+        "realName": ""
+      },
+      {
+        "nickName": "Sinister",
+        "realName": "Sarthak Chauhan"
+      }
+    ]
+  },
+  {
+    "name": "Marcos Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Marcos_Gaming",
+    "prizeMoney": "25808",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Ronak",
+        "realName": "Hunarpreet Singh"
+      },
+      {
+        "nickName": "CG",
+        "realName": "Chetan Gandhi"
+      }
+    ]
+  },
+  {
+    "name": "OREsports",
+    "uri": "https://liquipedia.net/pubgmobile/OREsports",
+    "prizeMoney": "193524",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Anto",
+        "realName": "Joe Micheal"
+      },
+      {
+        "nickName": "Aditya",
+        "realName": "Aditya Mathe"
+      },
+      {
+        "nickName": "Jelly",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Orangutan",
+    "uri": "https://liquipedia.net/pubgmobile/Orangutan",
+    "prizeMoney": "35477",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Ash",
+        "realName": "Ashish Bhatnagar"
+      },
+      {
+        "nickName": "Believe",
+        "realName": "Manoj Kumar"
+      },
+      {
+        "nickName": "Drigger",
+        "realName": "Shubham Singh Quiriyal"
+      },
+      {
+        "nickName": "AK",
+        "realName": "Ankit Shukla"
+      },
+      {
+        "nickName": "WizzGOD",
+        "realName": "Faraz Khan"
+      }
+    ]
+  },
+  {
+    "name": "Revenant Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Revenant_Esports",
+    "prizeMoney": "24145",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Encore",
+        "realName": "Rishabh Katoch"
+      },
+      {
+        "nickName": "Paradox",
+        "realName": "Parichay Bansal"
+      },
+      {
+        "nickName": "Topdawg",
+        "realName": "Ankit Mehra"
+      },
+      {
+        "nickName": "KyOya",
+        "realName": "Jaideep Mankar"
+      },
+      {
+        "nickName": "Sayyam",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "REVENGE ESPORTS",
+    "uri": "https://liquipedia.net/pubgmobile/REVENGE_ESPORTS",
+    "prizeMoney": "75467",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Akshay",
+        "realName": "Akshay Dewangan"
+      },
+      {
+        "nickName": "FinalBoss",
+        "realName": ""
+      },
+      {
+        "nickName": "SoniC",
+        "realName": "Arkam Rashid"
+      },
+      {
+        "nickName": "Tsunami",
+        "realName": ""
+      },
+      {
+        "nickName": "Anonymous",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Rivalry Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Rivalry_Esports",
+    "prizeMoney": "11951",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "ADMINO",
+        "realName": ""
+      },
+      {
+        "nickName": "Nova",
+        "realName": "Rahul Dhankhar"
+      },
+      {
+        "nickName": "Sangwan",
+        "realName": "Dhruv Sangwan"
+      },
+      {
+        "nickName": "Slayer",
+        "realName": "Kanishk Shah"
+      },
+      {
+        "nickName": "Smxkie",
+        "realName": "Shekhar Patil"
+      }
+    ]
+  },
+  {
+    "name": "TEAM iNSANE",
+    "uri": "https://liquipedia.net/pubgmobile/TEAM_iNSANE",
+    "prizeMoney": "45688",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Aadi",
+        "realName": "Aditya Dawar"
+      },
+      {
+        "nickName": "Sayyam",
+        "realName": "Sayyam Ostwal"
+      },
+      {
+        "nickName": "Jazzyy",
+        "realName": ""
+      },
+      {
+        "nickName": "Mac",
+        "realName": ""
+      },
+      {
+        "nickName": "PARAM",
+        "realName": ""
+      },
+      {
+        "nickName": "Tsunami",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "TSM",
+    "uri": "https://liquipedia.net/pubgmobile/TSM",
+    "prizeMoney": "121976",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "AquaNox",
+        "realName": "Harsh Rao"
+      },
+      {
+        "nickName": "Blaze",
+        "realName": "Hamza Khozema Hyderabadwala"
+      },
+      {
+        "nickName": "NinjaJOD",
+        "realName": "Shubham Ranjan Sahoo"
+      },
+      {
+        "nickName": "Wanted",
+        "realName": "Chirag Dua"
+      }
+    ]
+  },
+  {
+    "name": "Team SouL",
+    "uri": "https://liquipedia.net/pubgmobile/Team_SouL",
+    "prizeMoney": "358005",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "VipeR",
+        "realName": "Yash Paresh Soni"
+      },
+      {
+        "nickName": "Mortal",
+        "realName": "Naman Sandeep Mathur"
+      },
+      {
+        "nickName": "AkshaT",
+        "realName": "Akshat Goel"
+      },
+      {
+        "nickName": "Omega",
+        "realName": "Sahil Jakhar"
+      },
+      {
+        "nickName": "Goblin",
+        "realName": "Harsh Paudwal"
+      },
+      {
+        "nickName": "Hector",
+        "realName": "Sohail Shaikh"
+      }
+    ]
+  },
+  {
+    "name": "Team Tamilas",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Tamilas",
+    "prizeMoney": "12011",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "AceBlack",
+        "realName": ""
+      },
+      {
+        "nickName": "CarryOP",
+        "realName": "Bharath Waji"
+      },
+      {
+        "nickName": "MantyOP",
+        "realName": "Ashwin Vijay Anand"
+      },
+      {
+        "nickName": "Maxy",
+        "realName": ""
+      },
+      {
+        "nickName": "Striker",
+        "realName": "Prasanth C"
+      },
+      {
+        "nickName": "BeardBaba",
+        "realName": ""
+      },
+      {
+        "nickName": "Yuva",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Team Vitality",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Vitality",
+    "prizeMoney": "",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Team XO",
+    "uri": "https://liquipedia.net/pubgmobile/Team_XO",
+    "prizeMoney": "99192",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "IMMORTAL",
+        "realName": "Harsh Shrivastava"
+      },
+      {
+        "nickName": "Punkk",
+        "realName": "Ashutosh Singh"
+      },
+      {
+        "nickName": "SENSEI",
+        "realName": "Deepak Negi"
+      },
+      {
+        "nickName": "Fierce",
+        "realName": "Ritesh Nawandar"
+      }
+    ]
+  },
+  {
+    "name": "TeamXSpark",
+    "uri": "https://liquipedia.net/pubgmobile/TeamXSpark",
+    "prizeMoney": "14806",
+    "region": "India",
+    "players": [
+      {
+        "nickName": "Mavi",
+        "realName": "Harmandeep Singh"
+      },
+      {
+        "nickName": "Sc0utOP",
+        "realName": "Tanmay Singh"
+      },
+      {
+        "nickName": "SyedOP",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "52 Esports",
+    "uri": "https://liquipedia.net/pubgmobile/52_Esports",
+    "prizeMoney": "68378",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "JOKER",
+        "realName": "Mir Murtaza"
+      },
+      {
+        "nickName": "AMOOR",
+        "realName": "Amir Balouch"
+      },
+      {
+        "nickName": "CHOTO",
+        "realName": "Ebrahim Faisal"
+      },
+      {
+        "nickName": "HASSAN",
+        "realName": "Hassan Muhammad"
+      },
+      {
+        "nickName": "JALLAD",
+        "realName": "Sultan Jasim"
+      },
+      {
+        "nickName": "WALOOD",
+        "realName": "Waleed Mohammad Balouch"
+      }
+    ]
+  },
+  {
+    "name": "AGONxi8 Esports",
+    "uri": "https://liquipedia.net/pubgmobile/AGONxi8_Esports",
+    "prizeMoney": "131973",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "BLADE",
+        "realName": "Abir Kazimi"
+      },
+      {
+        "nickName": "GHOOST",
+        "realName": "Adil Yousef"
+      },
+      {
+        "nickName": "IQ",
+        "realName": "Shayan Asad"
+      },
+      {
+        "nickName": "TRYNDA",
+        "realName": "Shahbaz Ahmed"
+      },
+      {
+        "nickName": "UZM",
+        "realName": "Uzair Ahmed"
+      },
+      {
+        "nickName": "FALAK",
+        "realName": "Falak Sher"
+      }
+    ]
+  },
+  {
+    "name": "F4 eSports",
+    "uri": "https://liquipedia.net/pubgmobile/F4_eSports",
+    "prizeMoney": "43832",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "BILZ",
+        "realName": ""
+      },
+      {
+        "nickName": "HADI",
+        "realName": ""
+      },
+      {
+        "nickName": "MrUFF",
+        "realName": ""
+      },
+      {
+        "nickName": "RAPTOR420",
+        "realName": ""
+      },
+      {
+        "nickName": "SALMAN",
+        "realName": ""
+      },
+      {
+        "nickName": "SHAN",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Free Style",
+    "uri": "https://liquipedia.net/pubgmobile/Free_Style",
+    "prizeMoney": "26634",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "Black",
+        "realName": "Haseeb Nasir"
+      },
+      {
+        "nickName": "Malik",
+        "realName": "Abdul Malik"
+      },
+      {
+        "nickName": "Wasi",
+        "realName": ""
+      },
+      {
+        "nickName": "ZARBAAF",
+        "realName": ""
+      },
+      {
+        "nickName": "MOMTU",
+        "realName": "Hussain Khan"
+      }
+    ]
+  },
+  {
+    "name": "Magnus Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Magnus_Esports",
+    "prizeMoney": "16245",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "ARHAM",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Quantum Rage",
+    "uri": "https://liquipedia.net/pubgmobile/Quantum_Rage",
+    "prizeMoney": "17674",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "JD",
+        "realName": "Muhammad Junaid Ali"
+      },
+      {
+        "nickName": "SPARK",
+        "realName": "Essa Khan"
+      },
+      {
+        "nickName": "SENIOR",
+        "realName": ""
+      },
+      {
+        "nickName": "GOKU",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "R3D Esports",
+    "uri": "https://liquipedia.net/pubgmobile/R3D_Esports",
+    "prizeMoney": "26310",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "ANUBIS",
+        "realName": "Batish Ameer Khan"
+      },
+      {
+        "nickName": "WALKER",
+        "realName": ""
+      },
+      {
+        "nickName": "SHAW",
+        "realName": "Abdullah Butt"
+      },
+      {
+        "nickName": "HAWK",
+        "realName": ""
+      },
+      {
+        "nickName": "FADDY",
+        "realName": ""
+      },
+      {
+        "nickName": "DESTROYER",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "R3GICIDE",
+    "uri": "https://liquipedia.net/pubgmobile/R3GICIDE",
+    "prizeMoney": "25941",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "INSANE",
+        "realName": "Sangar Khan"
+      },
+      {
+        "nickName": "Jhonny",
+        "realName": "Ahmed Farooq"
+      },
+      {
+        "nickName": "Ashad",
+        "realName": ""
+      },
+      {
+        "nickName": "Nock Nock",
+        "realName": ""
+      },
+      {
+        "nickName": "NOCTO",
+        "realName": "Muhammad Abdullah"
+      },
+      {
+        "nickName": "VAAZ",
+        "realName": "Muhammad Abdallah"
+      }
+    ]
+  },
+  {
+    "name": "Team Bablu",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Bablu",
+    "prizeMoney": "31908",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "DANi",
+        "realName": "Danish Khan"
+      },
+      {
+        "nickName": "PiKACHU",
+        "realName": "Muhammad Wasi Butt"
+      },
+      {
+        "nickName": "TeenWolf",
+        "realName": "Addi Ameer Khan"
+      },
+      {
+        "nickName": "PAN",
+        "realName": "Hassan Malik"
+      },
+      {
+        "nickName": "Reveuse",
+        "realName": "Anail Uzair"
+      },
+      {
+        "nickName": "WASI",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Team H2e",
+    "uri": "https://liquipedia.net/pubgmobile/Team_H2e",
+    "prizeMoney": "27208",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "Dread",
+        "realName": ""
+      },
+      {
+        "nickName": "Asad",
+        "realName": ""
+      },
+      {
+        "nickName": "JAYDEE",
+        "realName": ""
+      },
+      {
+        "nickName": "Tarzan",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Team Pakistan",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Pakistan",
+    "prizeMoney": "",
+    "region": "Pakistan",
+    "players": []
+  },
+  {
+    "name": "Team QWERTY",
+    "uri": "https://liquipedia.net/pubgmobile/Team_QWERTY",
+    "prizeMoney": "34076",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "KHAN",
+        "realName": "Temour Ali Khan"
+      },
+      {
+        "nickName": "WOLVERIE",
+        "realName": "Hambal Abid"
+      },
+      {
+        "nickName": "420Boy",
+        "realName": "Abdullah Khan"
+      },
+      {
+        "nickName": "VOLTRUX",
+        "realName": "Syed Shahwar Hussain Naqvi"
+      }
+    ]
+  },
+  {
+    "name": "Team TUF",
+    "uri": "https://liquipedia.net/pubgmobile/Team_TUF",
+    "prizeMoney": "38816",
+    "region": "Pakistan",
+    "players": [
+      {
+        "nickName": "EDGAR",
+        "realName": "Muhammad Saad"
+      },
+      {
+        "nickName": "ESP",
+        "realName": "Abdullah Bin Masood"
+      },
+      {
+        "nickName": "VIRUS",
+        "realName": "Saad Nadeem Dogar"
+      },
+      {
+        "nickName": "THOR",
+        "realName": "Imad Ud Din"
+      },
+      {
+        "nickName": "JOKERsir",
+        "realName": "Haris Ali"
+      }
+    ]
+  },
+  {
+    "name": "Abrupt Slayers",
+    "uri": "https://liquipedia.net/pubgmobile/Abrupt_Slayers",
+    "prizeMoney": "63813",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "Charii",
+        "realName": "Tarun Rauniyar"
+      },
+      {
+        "nickName": "Gangsta",
+        "realName": ""
+      },
+      {
+        "nickName": "HeavenXD",
+        "realName": "Prajwal Deep Thulung Rai"
+      },
+      {
+        "nickName": "Joker",
+        "realName": "Binay Shrestha"
+      },
+      {
+        "nickName": "Leon",
+        "realName": "Saurav Acharya"
+      },
+      {
+        "nickName": "Sleepy",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "DRS GAMING",
+    "uri": "https://liquipedia.net/pubgmobile/DRS_GAMING",
+    "prizeMoney": "224634",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "DeltaX",
+        "realName": "Deepesh Gurung"
+      },
+      {
+        "nickName": "KillerYT",
+        "realName": "Shahas Bhandari"
+      },
+      {
+        "nickName": "RuLzSR",
+        "realName": "Subin Kumar Prajapati"
+      },
+      {
+        "nickName": "Gyantey",
+        "realName": "Sameer Gurung"
+      }
+    ]
+  },
+  {
+    "name": "Deadeyes Guys",
+    "uri": "https://liquipedia.net/pubgmobile/Deadeyes_Guys",
+    "prizeMoney": "120508",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "Illusion",
+        "realName": "Shrijan Thapa"
+      },
+      {
+        "nickName": "Shifu",
+        "realName": "Albert Pangmi"
+      },
+      {
+        "nickName": "OnTop",
+        "realName": "Shahil Verma"
+      },
+      {
+        "nickName": "Turulove",
+        "realName": "Mousham Gurung"
+      },
+      {
+        "nickName": "Slayer",
+        "realName": ""
+      },
+      {
+        "nickName": "PREC10US",
+        "realName": ""
+      },
+      {
+        "nickName": "SumitYT (Substitute)",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "ElementriX",
+    "uri": "https://liquipedia.net/pubgmobile/ElementriX",
+    "prizeMoney": "57598",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "MrHyozu  ",
+        "realName": "Safal Hyozu"
+      },
+      {
+        "nickName": "Orangee  ",
+        "realName": "Manjil Shrestha"
+      },
+      {
+        "nickName": "HaitDami  ",
+        "realName": "Prabesh Gurung"
+      },
+      {
+        "nickName": "HeavenXD  ",
+        "realName": "Prajwal Deep Thulung Rai"
+      }
+    ]
+  },
+  {
+    "name": "High Voltage",
+    "uri": "https://liquipedia.net/pubgmobile/High_Voltage",
+    "prizeMoney": "32252",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "Malik",
+        "realName": "Manish Bikram Karki"
+      },
+      {
+        "nickName": "JiGGL3",
+        "realName": "Suprim Adhikari"
+      }
+    ]
+  },
+  {
+    "name": "Hype",
+    "uri": "https://liquipedia.net/pubgmobile/Hype",
+    "prizeMoney": "11766",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "YounGguns  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Brooklyn  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Roger  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Winter  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Kamod  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "JyanMaara",
+    "uri": "https://liquipedia.net/pubgmobile/JyanMaara",
+    "prizeMoney": "55782",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "Gunner  ",
+        "realName": "Ang Tshering Tamang"
+      },
+      {
+        "nickName": "Samir  ",
+        "realName": "Samir Limbu"
+      },
+      {
+        "nickName": "SnipeYT  ",
+        "realName": "Yaman Shrestha"
+      },
+      {
+        "nickName": "NoFear  ",
+        "realName": "Aayush Lama"
+      },
+      {
+        "nickName": "Wadu G  ",
+        "realName": "Nitin"
+      },
+      {
+        "nickName": "Gyalzen  ",
+        "realName": "Pemba Gyalzen Lama"
+      }
+    ]
+  },
+  {
+    "name": "RAW Esports",
+    "uri": "https://liquipedia.net/pubgmobile/RAW_Esports",
+    "prizeMoney": "34091",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "SusX  ",
+        "realName": "Sushant Shah"
+      },
+      {
+        "nickName": "Liquid  ",
+        "realName": "Manoz Lama"
+      },
+      {
+        "nickName": "Incus  ",
+        "realName": "Prashanna Magar"
+      },
+      {
+        "nickName": "MrSmokie  ",
+        "realName": "Pukar Adhikari"
+      },
+      {
+        "nickName": "SlipKnot  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Skylightz Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Skylightz_Gaming",
+    "prizeMoney": "87506",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "AJ",
+        "realName": "Ajay Shrestha"
+      },
+      {
+        "nickName": "MafiaNinja",
+        "realName": "Ugyen Lama"
+      },
+      {
+        "nickName": "MrBoro",
+        "realName": "Anjan Rai"
+      },
+      {
+        "nickName": "Nima",
+        "realName": "Nima Tamang"
+      },
+      {
+        "nickName": "NoFear",
+        "realName": "Aayush Lama"
+      }
+    ]
+  },
+  {
+    "name": "Trained to Kill",
+    "uri": "https://liquipedia.net/pubgmobile/Trained_to_Kill",
+    "prizeMoney": "117012",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "Legend  ",
+        "realName": "Abhishek Singh"
+      },
+      {
+        "nickName": "Suyog  ",
+        "realName": "Suyog Mulmi"
+      },
+      {
+        "nickName": "Jane  ",
+        "realName": "Basanta Gautam"
+      },
+      {
+        "nickName": "SAND3SH  ",
+        "realName": "Sandesh Pradhan"
+      },
+      {
+        "nickName": "Rigg  ",
+        "realName": "Rigden Bajracharya"
+      },
+      {
+        "nickName": "Wiffeyy  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "VIBES Esports",
+    "uri": "https://liquipedia.net/pubgmobile/VIBES_Esports",
+    "prizeMoney": "25698",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "RYU",
+        "realName": ""
+      },
+      {
+        "nickName": "DOK",
+        "realName": ""
+      },
+      {
+        "nickName": "EAST",
+        "realName": ""
+      },
+      {
+        "nickName": "RAMBO",
+        "realName": ""
+      },
+      {
+        "nickName": "APEX",
+        "realName": ""
+      },
+      {
+        "nickName": "Archer",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Venom Legends",
+    "uri": "https://liquipedia.net/pubgmobile/Venom_Legends",
+    "prizeMoney": "49869",
+    "region": "Bangladesh",
+    "players": [
+      {
+        "nickName": "Ripson  ",
+        "realName": "Ripson Shrestha"
+      },
+      {
+        "nickName": "GangSta  ",
+        "realName": "Gurung Ronish"
+      },
+      {
+        "nickName": "SUZAN  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Kabin  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Lazer  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Wizzes Club",
+    "uri": "https://liquipedia.net/pubgmobile/Wizzes_Club",
+    "prizeMoney": "34836",
+    "region": "Nepal",
+    "players": [
+      {
+        "nickName": "OctopuS  ",
+        "realName": "Ashim Katwal"
+      },
+      {
+        "nickName": "Domain  ",
+        "realName": ""
+      },
+      {
+        "nickName": "WOOFIZZ  ",
+        "realName": "Samman Singh"
+      },
+      {
+        "nickName": "Samir  ",
+        "realName": "Sämir Lamichhane"
+      },
+      {
+        "nickName": "Reus  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "A1 eSports",
+    "uri": "https://liquipedia.net/pubgmobile/A1_eSports",
+    "prizeMoney": "70848",
+    "region": "Bangladesh",
+    "players": [
+      {
+        "nickName": "SiNiSTER  ",
+        "realName": "MD Abdul Jabbar Shakil"
+      },
+      {
+        "nickName": "NIGHTWING  ",
+        "realName": "Aditya Talukder"
+      },
+      {
+        "nickName": "Sk3tch  ",
+        "realName": "Mohammad Saif Islam"
+      },
+      {
+        "nickName": "Hitman  ",
+        "realName": "Tasinul Islam Sami"
+      },
+      {
+        "nickName": "Khoa  ",
+        "realName": "Imran Hossain"
+      },
+      {
+        "nickName": "Gajor  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "7Sea Esports",
+    "uri": "https://liquipedia.net/pubgmobile/7Sea_Esports",
+    "prizeMoney": "33742",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Celtz",
+    "uri": "https://liquipedia.net/pubgmobile/Celtz",
+    "prizeMoney": "43047",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Fnatic",
+    "uri": "https://liquipedia.net/pubgmobile/Fnatic",
+    "prizeMoney": "80077",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "FutureStation Esports",
+    "uri": "https://liquipedia.net/pubgmobile/FutureStation_Esports",
+    "prizeMoney": "7740",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "INDIAN TIGERS",
+    "uri": "https://liquipedia.net/pubgmobile/INDIAN_TIGERS",
+    "prizeMoney": "22107",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "MegaStars",
+    "uri": "https://liquipedia.net/pubgmobile/MegaStars",
+    "prizeMoney": "48443",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Nigma Galaxy",
+    "uri": "https://liquipedia.net/pubgmobile/Nigma_Galaxy",
+    "prizeMoney": "60141",
+    "region": "United Arab Emirates",
+    "players": []
+  },
+  {
+    "name": "Skylightz Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Skylightz_Gaming_(Indian_team)",
+    "prizeMoney": "98352",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "SynerGE",
+    "uri": "https://liquipedia.net/pubgmobile/SynerGE",
+    "prizeMoney": "59184",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "TSM Entity",
+    "uri": "https://liquipedia.net/pubgmobile/TSM_Entity",
+    "prizeMoney": "87144",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Team Insidious",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Insidious",
+    "prizeMoney": "33996",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "TeamIND",
+    "uri": "https://liquipedia.net/pubgmobile/TeamIND",
+    "prizeMoney": "69779",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Umumba eSports",
+    "uri": "https://liquipedia.net/pubgmobile/index.php?title=Umumba_eSports&action=edit&redlink=1",
+    "prizeMoney": "",
+    "region": "",
+    "players": []
+  },
+  {
+    "name": "VSG Crawlers",
+    "uri": "https://liquipedia.net/pubgmobile/VSG_Crawlers",
+    "prizeMoney": "11991",
+    "region": "India",
+    "players": []
+  },
+  {
+    "name": "Bacon Time",
+    "uri": "https://liquipedia.net/pubgmobile/Bacon_Time",
+    "prizeMoney": "129444",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "ICEs  ",
+        "realName": "Oatsawayut Aueafueaphan"
+      },
+      {
+        "nickName": "MalonZ  ",
+        "realName": "Karunkorn Junyaprasert"
+      },
+      {
+        "nickName": "AumStyle  ",
+        "realName": "Ananda Wichaiphin"
+      },
+      {
+        "nickName": "9Noizz  ",
+        "realName": "Phanuwat Thanaratsutthikul"
+      },
+      {
+        "nickName": "ShirtyS  ",
+        "realName": "Apisak Laksanasuwan"
+      }
+    ]
+  },
+  {
+    "name": "Buriram United Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Buriram_United_Esports",
+    "prizeMoney": "36066",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "KENGZO  ",
+        "realName": "Nathakit Khongsranoi"
+      },
+      {
+        "nickName": "OnLine24  ",
+        "realName": "Aphicha Sonsakun"
+      },
+      {
+        "nickName": "Myn4meP  ",
+        "realName": "Peeraphong Phopirom"
+      },
+      {
+        "nickName": "cSkyOnly  ",
+        "realName": "Sirawit Thongyot"
+      },
+      {
+        "nickName": "TIGERx  ",
+        "realName": "Anupon Pankhom"
+      }
+    ]
+  },
+  {
+    "name": "FaZe Clan",
+    "uri": "https://liquipedia.net/pubgmobile/FaZe_Clan",
+    "prizeMoney": "198669",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "BulShark  ",
+        "realName": "Ratchapol Maneerat"
+      },
+      {
+        "nickName": "Vintorez  ",
+        "realName": "Tharit Pluksang"
+      },
+      {
+        "nickName": "MR5  ",
+        "realName": "Thiraphong Murasri"
+      },
+      {
+        "nickName": "TonyK  ",
+        "realName": "Nattawut Muensa"
+      },
+      {
+        "nickName": "Beer11  ",
+        "realName": "Pheeraphol Phumrat"
+      }
+    ]
+  },
+  {
+    "name": "King of Gamers Club",
+    "uri": "https://liquipedia.net/pubgmobile/King_of_Gamers_Club",
+    "prizeMoney": "108313",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "JeeNatpichaP  ",
+        "realName": "Natpicha Pisarnpongchana"
+      },
+      {
+        "nickName": "UNKNOWN  ",
+        "realName": "Pracharat Darapen"
+      },
+      {
+        "nickName": "BOATSHI  ",
+        "realName": "Tanapong Yanapoj"
+      },
+      {
+        "nickName": "Fiattoy  ",
+        "realName": "Pattarkorn Suwannachot"
+      },
+      {
+        "nickName": "GODDARD  ",
+        "realName": "Sompong Kaewsawang"
+      },
+      {
+        "nickName": "CONCEPT  ",
+        "realName": "Peerawitch Jangpromma"
+      },
+      {
+        "nickName": "VELMOTH  ",
+        "realName": "Supakorn Ektechawut"
+      }
+    ]
+  },
+  {
+    "name": "MS Chonburi",
+    "uri": "https://liquipedia.net/pubgmobile/MS_Chonburi",
+    "prizeMoney": "70146",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "PONDz  ",
+        "realName": "Worapanya Loyma"
+      },
+      {
+        "nickName": "PopZ  ",
+        "realName": "Sahassawut Boonmee"
+      },
+      {
+        "nickName": "Jazperr  ",
+        "realName": "Benjarong Thaitiamsing"
+      },
+      {
+        "nickName": "Nc2  ",
+        "realName": "Nitisat Chumsap"
+      },
+      {
+        "nickName": "SiRBOY  ",
+        "realName": "Sarawut Boonpa"
+      }
+    ]
+  },
+  {
+    "name": "TEM Entertainment",
+    "uri": "https://liquipedia.net/pubgmobile/TEM_Entertainment",
+    "prizeMoney": "77137",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "Bevi  ",
+        "realName": "Watcharapon Vangdongbang"
+      },
+      {
+        "nickName": "FLUK666  ",
+        "realName": "Nattawut Sermsaiprasit"
+      },
+      {
+        "nickName": "MORMAN  ",
+        "realName": "Sathit Thanormchit"
+      },
+      {
+        "nickName": "Essozip  ",
+        "realName": "Suwath Kasiprong"
+      },
+      {
+        "nickName": "Onzenxs  ",
+        "realName": "Kitsada Dontee"
+      }
+    ]
+  },
+  {
+    "name": "The Infinity",
+    "uri": "https://liquipedia.net/pubgmobile/The_Infinity",
+    "prizeMoney": "321798",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "NEaR  ",
+        "realName": "Sadayut Mukdasawat"
+      },
+      {
+        "nickName": "Logan  ",
+        "realName": "Logan Martin"
+      },
+      {
+        "nickName": "GodTunny  ",
+        "realName": "Phuwiwat Tanee"
+      },
+      {
+        "nickName": "MELA  ",
+        "realName": "Nuttapat Chitprommetta"
+      },
+      {
+        "nickName": "nOOzy  ",
+        "realName": "Sikarin Nopparat"
+      }
+    ]
+  },
+  {
+    "name": "Valdus Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Valdus_Esports",
+    "prizeMoney": "89299",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "MARTIN  ",
+        "realName": "Tinnapop Benjawong"
+      },
+      {
+        "nickName": "SYX  ",
+        "realName": "Thitikorn Burananantakarn"
+      },
+      {
+        "nickName": "Nobita  ",
+        "realName": "Peerajade Dejapinunchai"
+      },
+      {
+        "nickName": "G9  ",
+        "realName": "Pachachai Han"
+      },
+      {
+        "nickName": "Kimmy  ",
+        "realName": "Thanakon Thodsapa"
+      },
+      {
+        "nickName": "LOBBYx  ",
+        "realName": "Patsakron"
+      },
+      {
+        "nickName": "Gewwy  ",
+        "realName": "Arsin Songcharoen"
+      }
+    ]
+  },
+  {
+    "name": "Vampire Esports",
+    "uri": "https://liquipedia.net/pubgmobile/Vampire_Esports",
+    "prizeMoney": "763538",
+    "region": "Thailand",
+    "players": [
+      {
+        "nickName": "2Stopz",
+        "realName": "Kritsada Penglek"
+      },
+      {
+        "nickName": "Fluketh",
+        "realName": "Natchapone Somtus"
+      },
+      {
+        "nickName": "Rvenclaw",
+        "realName": "Thanarat Makhotsa"
+      },
+      {
+        "nickName": "SchwepXz",
+        "realName": "Supachai Singkaew"
+      },
+      {
+        "nickName": "Stoned",
+        "realName": "Purin Rongkhankaew"
+      }
+    ]
+  },
+  {
+    "name": "Armory Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Armory_Gaming",
+    "prizeMoney": "4221",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Daytrade Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Daytrade_Gaming",
+    "prizeMoney": "320",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "EVOS Burnout",
+    "uri": "https://liquipedia.net/pubgmobile/EVOS_Burnout",
+    "prizeMoney": "29607",
+    "region": "Indonesia",
+    "players": []
+  },
+  {
+    "name": "ahq e-Sports Club",
+    "uri": "https://liquipedia.net/pubgmobile/index.php?title=Ahq_e-Sports_Club/Mobile&action=edit&redlink=1",
+    "prizeMoney": "",
+    "region": "",
+    "players": []
+  },
+  {
+    "name": "Golden Cat",
+    "uri": "https://liquipedia.net/pubgmobile/Golden_Cat",
+    "prizeMoney": "23374",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "ILLUMINATE The Murder",
+    "uri": "https://liquipedia.net/pubgmobile/ILLUMINATE_The_Murder",
+    "prizeMoney": "123592",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Illuminate.GenZ",
+    "uri": "https://liquipedia.net/pubgmobile/Illuminate.GenZ",
+    "prizeMoney": "9978",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "LYNX TH",
+    "uri": "https://liquipedia.net/pubgmobile/LYNX_TH/Mobile",
+    "prizeMoney": "9021",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "LittleGroot EUFROSINE",
+    "uri": "https://liquipedia.net/pubgmobile/LittleGroot_EUFROSINE",
+    "prizeMoney": "2793",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "MEGA Conqueror",
+    "uri": "https://liquipedia.net/pubgmobile/MEGA_Conqueror",
+    "prizeMoney": "98075",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Made in Thailand",
+    "uri": "https://liquipedia.net/pubgmobile/Made_in_Thailand",
+    "prizeMoney": "20978",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Narok Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Narok_Gaming",
+    "prizeMoney": "8126",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Onyx Esport",
+    "uri": "https://liquipedia.net/pubgmobile/Onyx_Esport",
+    "prizeMoney": "17286",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "POWER888 KPS",
+    "uri": "https://liquipedia.net/pubgmobile/POWER888_KPS",
+    "prizeMoney": "62335",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Purple Mood E-Sport",
+    "uri": "https://liquipedia.net/pubgmobile/Purple_Mood_E-Sport",
+    "prizeMoney": "39318",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Pyramid Esport X",
+    "uri": "https://liquipedia.net/pubgmobile/Pyramid_Esport_X",
+    "prizeMoney": "5384",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "QC.20 Something",
+    "uri": "https://liquipedia.net/pubgmobile/QC.20_Something",
+    "prizeMoney": "3137",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "RRQ Athena",
+    "uri": "https://liquipedia.net/pubgmobile/RRQ_Athena",
+    "prizeMoney": "571971",
+    "region": "Indonesia",
+    "players": []
+  },
+  {
+    "name": "Secret Jin",
+    "uri": "https://liquipedia.net/pubgmobile/Secret_Jin",
+    "prizeMoney": "56454",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Snow LYNX",
+    "uri": "https://liquipedia.net/pubgmobile/Snow_LYNX",
+    "prizeMoney": "19842",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "SuicideSquade",
+    "uri": "https://liquipedia.net/pubgmobile/SuicideSquade",
+    "prizeMoney": "12226",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Team Flash",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Flash/Thailand",
+    "prizeMoney": "3400",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "Team Secret TH",
+    "uri": "https://liquipedia.net/pubgmobile/Team_Secret_TH/Mobile",
+    "prizeMoney": "22853",
+    "region": "Thailand",
+    "players": []
+  },
+  {
+    "name": "BN United",
+    "uri": "https://liquipedia.net/pubgmobile/BN_United",
+    "prizeMoney": "47383",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "Capone",
+        "realName": "Ngô Lê Ngọc Hiển"
+      },
+      {
+        "nickName": "Silence",
+        "realName": "Hồ Đăng Thành"
+      },
+      {
+        "nickName": "XuNoaz",
+        "realName": "Vày Lầm Quay"
+      },
+      {
+        "nickName": "MaxLV",
+        "realName": "Nguyễn Văn Thuận"
+      },
+      {
+        "nickName": "TusK",
+        "realName": "Huỳnh Tuấn Kha"
+      }
+    ]
+  },
+  {
+    "name": "Box Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/Box_Gaming",
+    "prizeMoney": "237369",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "BreaK",
+        "realName": "Ngô Ngọc Hải"
+      },
+      {
+        "nickName": "Soaz",
+        "realName": "Nguyễn Việt Quân"
+      },
+      {
+        "nickName": "Bensu",
+        "realName": "Đặng Hoàng Tiến"
+      },
+      {
+        "nickName": "Triisme",
+        "realName": "Phan Văn Trí"
+      },
+      {
+        "nickName": "Skryy",
+        "realName": "Nguyễn Viết Long"
+      }
+    ]
+  },
+  {
+    "name": "Eagle Esport",
+    "uri": "https://liquipedia.net/pubgmobile/Eagle_Esport",
+    "prizeMoney": "86056",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "CHUA",
+        "realName": "Ngô Đình Quang Anh"
+      },
+      {
+        "nickName": "F1",
+        "realName": "Phạm Quốc Hùng"
+      },
+      {
+        "nickName": "NamShinn",
+        "realName": "Nguyễn Khương Nam"
+      },
+      {
+        "nickName": "TuanZ",
+        "realName": "Trần Quốc Tuấn"
+      },
+      {
+        "nickName": "DatKonn",
+        "realName": "Trần Phương Đạt"
+      },
+      {
+        "nickName": "Myun",
+        "realName": "Đào Công Minh"
+      }
+    ]
+  },
+  {
+    "name": "Infinity IQ",
+    "uri": "https://liquipedia.net/pubgmobile/Infinity_IQ",
+    "prizeMoney": "33763",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "CaiDauLanh",
+        "realName": "Lê Văn Nam"
+      },
+      {
+        "nickName": "Ferrari",
+        "realName": "Đặng Tuấn Anh"
+      },
+      {
+        "nickName": "Lucas",
+        "realName": "Trịnh Hoàng Anh"
+      },
+      {
+        "nickName": "HieuMeo",
+        "realName": "Hoàng Trung Hiếu"
+      },
+      {
+        "nickName": "HuyGa",
+        "realName": "Hoàng Thanh Huy"
+      }
+    ]
+  },
+  {
+    "name": "V Gaming",
+    "uri": "https://liquipedia.net/pubgmobile/V_Gaming",
+    "prizeMoney": "56622",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "MaarT",
+        "realName": "Vũ Huỳnh Đăng Quang"
+      },
+      {
+        "nickName": "MitLaren",
+        "realName": "Nguyễn Đăng Tiến"
+      },
+      {
+        "nickName": "ParaJin",
+        "realName": "Nguyễn Đình Chiến"
+      },
+      {
+        "nickName": "Porsche",
+        "realName": "Lê Hoài Nam"
+      },
+      {
+        "nickName": "Lazy1",
+        "realName": "Trịnh Hiền Phát"
+      }
+    ]
+  },
+  {
+    "name": "Godlike Stalwart",
+    "uri": "https://liquipedia.net/pubgmobile/Godlike_Stalwart",
+    "prizeMoney": "615558",
+    "region": "Mongolia",
+    "players": [
+      {
+        "nickName": "Action",
+        "realName": "Suhbat Galtsalam"
+      },
+      {
+        "nickName": "PikA",
+        "realName": "UnuBold Erkhembayar"
+      },
+      {
+        "nickName": "Skryyy",
+        "realName": "Bilguutei Bayasgalan"
+      },
+      {
+        "nickName": "TOP",
+        "realName": "Burenbayar Altangerel"
+      },
+      {
+        "nickName": "NIRZED",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "IHC ESPORTS",
+    "uri": "https://liquipedia.net/pubgmobile/IHC_ESPORTS",
+    "prizeMoney": "261906",
+    "region": "Mongolia",
+    "players": [
+      {
+        "nickName": "RAMBO  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Hustla  ",
+        "realName": ""
+      },
+      {
+        "nickName": "Ferhad  ",
+        "realName": ""
+      },
+      {
+        "nickName": "APEX  ",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "SEAL Esports",
+    "uri": "https://liquipedia.net/pubgmobile/SEAL_Esports",
+    "prizeMoney": "50210",
+    "region": "Mongolia",
+    "players": [
+      {
+        "nickName": "AERO",
+        "realName": ""
+      },
+      {
+        "nickName": "BEKA",
+        "realName": ""
+      },
+      {
+        "nickName": "ROGUE",
+        "realName": ""
+      },
+      {
+        "nickName": "SANCHIR",
+        "realName": "Sanchirbold Galbadrakh"
+      }
+    ]
+  },
+  {
+    "name": "Astra Academy",
+    "uri": "https://liquipedia.net/pubgmobile/Astra_Academy",
+    "prizeMoney": "49876",
+    "region": "Mongolia",
+    "players": []
+  },
+  {
+    "name": "FROMHELL E-Sport",
+    "uri": "https://liquipedia.net/pubgmobile/FROMHELL_E-Sport",
+    "prizeMoney": "11700",
+    "region": "Mongolia",
+    "players": []
+  }
+]

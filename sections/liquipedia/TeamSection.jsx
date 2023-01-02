@@ -330,6 +330,18 @@ const MemberBox = styled.div`
 `;
 
 const TeamSection = ({team, game}) => {
+    let gameImage = '';
+    let playerImage = '';
+    switch (game) {
+        case "pubgm":
+            gameImage = "pubgm-team";
+            playerImage = "pubgm-player"
+            break;
+        case "codm":
+            gameImage = "codm-team";
+            playerImage = "codm-player"
+            break;
+    }
     return (
         <>
             <Row>
@@ -337,7 +349,7 @@ const TeamSection = ({team, game}) => {
                     <h3>{team?.name}</h3>
                     <div className='logo'>
                         <img
-                            src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-team/${team?.name}.png`}
+                            src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`}
                             alt={team?.name}
                         />
                     </div>
@@ -401,7 +413,7 @@ const TeamSection = ({team, game}) => {
                                     <div className='poligon'>
                                         <div className='hex-background'>
                                             <Image
-                                                img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${member.nickName}.png`}/>
+                                                img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${playerImage}/${member.nickName}.png`}/>
                                         </div>
                                     </div>
                                     <div className='scope'>
