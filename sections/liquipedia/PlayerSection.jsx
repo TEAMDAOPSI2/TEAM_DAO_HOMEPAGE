@@ -75,7 +75,7 @@ const InfoTeamBox = styled.div`
     position: absolute;
     width: 136px; /* container width - (border thickness * 2) */
     height: 117.24px; /* container height - (border thickness * 2) */
-    object-fit: cover;
+    object-fit: contain;
     -webkit-clip-path: polygon(0% 50%,
     25% 0%,
     75% 0%,
@@ -350,7 +350,7 @@ const HeroCard = styled.div`
 `
 
 
-const PlayerSection = ({player}) => {
+const PlayerSection = ({player, game}) => {
     return (
         <>
             <Row>
@@ -359,7 +359,7 @@ const PlayerSection = ({player}) => {
                     <div className="ax">
                         <div className="poligon">
                             <div className="hex-background">
-                                <Image img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/codm-player/${player.nickName}.png`}/>
+                                <Image img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${game}-player/${player.nickName}.png`}/>
                             </div>
                         </div>
                     </div>

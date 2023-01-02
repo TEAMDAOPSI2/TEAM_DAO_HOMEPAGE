@@ -172,7 +172,7 @@ const Name = ({player}) => {
                             </ul>
                         </BreadCrumb>
 
-                        <PlayerSection player={player}/>
+                        <PlayerSection player={player} game="codm"/>
 
                     </MainContainer>
 

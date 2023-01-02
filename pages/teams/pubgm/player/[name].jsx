@@ -1,4 +1,4 @@
-import DataPlayers from "@data/cod.json";
+import DataPlayers from "@data/pubgm.json";
 import React, {useEffect, useState} from "react";
 import Head from "next/head";
 import LoadingScreen from "@components/LoadingScreen";
@@ -172,7 +172,7 @@ const Name = ({player}) => {
                             </ul>
                         </BreadCrumb>
 
-                        <PlayerSection player={player}/>
+                        <PlayerSection player={player} game="pubgm"/>
 
                     </MainContainer>
 
