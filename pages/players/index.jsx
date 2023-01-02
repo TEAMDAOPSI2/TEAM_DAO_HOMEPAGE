@@ -267,7 +267,7 @@ const Index = () => {
             case 'ml':
                 setData(mlPlayers);
                 break;
-            case 'cod':
+            case 'codm':
                 setData(codPlayers);
                 break;
         }
@@ -330,8 +330,8 @@ const Index = () => {
                                     <li onClick={() => handleGameFilter('pubgm')}
                                         className={`${gameFilter === 'pubgm' ? 'active' : ''}`}>PUBGM
                                     </li>
-                                    <li onClick={() => handleGameFilter('cod')}
-                                        className={`${gameFilter === 'cod' ? 'active' : ''}`}>CODM
+                                    <li onClick={() => handleGameFilter('codm')}
+                                        className={`${gameFilter === 'codm' ? 'active' : ''}`}>CODM
                                     </li>
                                     <li>LOL</li>
                                     <li>FB</li>

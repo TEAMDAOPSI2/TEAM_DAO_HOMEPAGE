@@ -269,9 +269,9 @@ const ListSection = ({data, game, page}) => {
                 </thead>
                 <tbody>
                 {data.slice((page - 1) * 15, page * 15).map((player, index) => (
-                    // going to page team/{player.id}
                     <tr key={index} onClick={() => {
-                        window.location.href = `teams/player/${player.name}`
+                        game === 'dota2' ? window.location.href = `teams/player/${player.name}`
+                            : window.location.href = `teams/${game}/player/${player.nickName}`
                     }}>
                         <td className="number">
                             <span className="cell-title">Rank</span>
