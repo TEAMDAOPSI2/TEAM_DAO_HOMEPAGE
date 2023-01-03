@@ -1,5 +1,61 @@
 [
   {
+    "name": "ALPHA Indonesia",
+    "uri": "http://www.alpha-indo.com",
+    "prizeMoney": 0,
+    "region": "Indonesia",
+    "players": [
+      {
+        "nickName": "Lorraine",
+        "realName": ""
+      },
+      {
+        "nickName": "Tompu",
+        "realName": ""
+      },
+      {
+        "nickName": "Ultear",
+        "realName": ""
+      },
+      {
+        "nickName": "Haipoo",
+        "realName": ""
+      },
+      {
+        "nickName": "Natco",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "ALPHA Philippines",
+    "uri": "http://www.alpha-indo.com",
+    "prizeMoney": 0,
+    "region": "Philippines",
+    "players": [
+      {
+        "nickName": "ALPHA PH - 1",
+        "realName": ""
+      },
+      {
+        "nickName": "ALPHA PH - 2",
+        "realName": ""
+      },
+      {
+        "nickName": "ALPHA PH - 3",
+        "realName": ""
+      },
+      {
+        "nickName": "ALPHA PH - 4",
+        "realName": ""
+      },
+      {
+        "nickName": "ALPHA PH - 6",
+        "realName": ""
+      }
+    ]
+  },
+  {
     "name": "ArkAngel",
     "uri": "https://liquipedia.net/mobilelegends/ArkAngel",
     "prizeMoney": "55925",

@@ -32,6 +32,66 @@
     ]
   },
   {
+    "name": "T.E.A.M OSCAR4",
+    "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
+    "prizeMoney": "0",
+    "region": "Philippines",
+    "players" : [
+      {
+        "nickName": "OSCAR4-2740",
+        "realName": ""
+      },
+      {
+        "nickName": "OSCAR4-2749",
+        "realName": ""
+      },
+      {
+        "nickName": "OSCAR4-2750",
+        "realName": ""
+      },
+      {
+        "nickName" : "OSCAR4-2753",
+        "realName" : ""
+      },
+      {
+        "nickName" : "OSCAR4-3482",
+        "realName" : ""
+      },
+      {
+        "nickName" : "OSCAR4-3843",
+        "realName" : ""
+      }
+    ]
+  },
+  {
+    "name": "T.E.A.M ROMEO4",
+    "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
+    "prizeMoney": "0",
+    "region": "Philippines",
+    "players" : [
+      {
+        "nickName": "ROMEO4-2846",
+        "realName": ""
+      },
+      {
+        "nickName": "ROMEO4-2848",
+        "realName": ""
+      },
+      {
+        "nickName": "ROMEO4-2851",
+        "realName": ""
+      },
+      {
+        "nickName" : "ROMEO4-2887",
+        "realName" : ""
+      },
+      {
+        "nickName" : "ROMEO4-3143",
+        "realName" : ""
+      }
+    ]
+  },
+  {
     "name": "NYSL Mayhem",
     "uri": "https://liquipedia.net/callofduty/New_York_Subliners_Mayhem",
     "prizeMoney": "104025",

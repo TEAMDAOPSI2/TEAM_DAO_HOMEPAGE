@@ -186,4 +186,3 @@ const Name = ({player}) => {
 
 
 export default Name;
-
