@@ -50,7 +50,39 @@
         "realName": ""
       },
       {
+        "nickName": "ALPHA PH - 5",
+        "realName": ""
+      },
+      {
         "nickName": "ALPHA PH - 6",
+        "realName": ""
+      }
+    ]
+  },
+  {
+    "name": "Bravo PH",
+    "uri": "http://www.alpha-indo.com",
+    "prizeMoney": 0,
+    "region": "Philippines",
+    "players": [
+      {
+        "nickName": "BRAVO-2159",
+        "realName": ""
+      },
+      {
+        "nickName": "BRAVO-2144",
+        "realName": ""
+      },
+      {
+        "nickName": "BRAVO-2049",
+        "realName": ""
+      },
+      {
+        "nickName": "BRAVO-2116",
+        "realName": ""
+      },
+      {
+        "nickName": "BRAVO-2158",
         "realName": ""
       }
     ]
