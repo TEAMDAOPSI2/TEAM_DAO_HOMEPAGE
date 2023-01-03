@@ -191,6 +191,30 @@ const GameWrapper = styled.div`
     align-items: center;
     overflow-x: auto;
 
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 3px;
+      background-color: black;
+    }
+
+    ::-webkit-scrollbar-track {
+      border-radius: 2px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #00ff19;
+    }
+
+    ::-webkit-scrollbar:vertical {
+      display: none;
+    }
+    .active {
+      background-color: #3f701e;
+      color: #00ff19;
+      border: 1px solid #00ff19;
+    }
+
     .active {
       background-color: #3f701e;
       color: #00ff19;
@@ -264,7 +288,7 @@ const Index = () => {
             case 'pubgm':
                 setData(pubgmPlayers);
                 break;
-            case 'ml':
+            case 'mlbb':
                 setData(mlPlayers);
                 break;
             case 'codm':
@@ -324,8 +348,8 @@ const Index = () => {
                                     <li onClick={() => handleGameFilter('dota2')}
                                         className={`${gameFilter === 'dota2' ? 'active' : ''}`}>DOTA
                                     </li>
-                                    <li onClick={() => handleGameFilter('ml')}
-                                        className={`${gameFilter === 'ml' ? 'active' : ''}`}>MLBB
+                                    <li onClick={() => handleGameFilter('mlbb')}
+                                        className={`${gameFilter === 'mlbb' ? 'active' : ''}`}>MLBB
                                     </li>
                                     <li onClick={() => handleGameFilter('pubgm')}
                                         className={`${gameFilter === 'pubgm' ? 'active' : ''}`}>PUBGM
@@ -334,6 +358,8 @@ const Index = () => {
                                         className={`${gameFilter === 'codm' ? 'active' : ''}`}>CODM
                                     </li>
                                     <li>LOL</li>
+                                    <li>FREE FIRE</li>
+                                    <li>FORTNITE</li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>

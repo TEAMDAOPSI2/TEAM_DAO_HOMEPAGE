@@ -13,6 +13,7 @@ import GridSection from "@sections/teams/GridSection";
 import dataTeam from "../../data/top50.json";
 import codmTeam from "../../data/codm-teams.json";
 import pubgmTeam from "../../data/pubgm-team.json";
+import mlbbTeam from "../../data/ml-teams.json";
 import ListSectionLiquipedia from "@sections/teams/ListSectionLiquipedia";
 
 const CenterText = styled.div`
@@ -207,6 +208,24 @@ const GameWrapper = styled.div`
     align-items: center;
     overflow-x: auto;
 
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 3px;
+      background-color: black;
+    }
+
+    ::-webkit-scrollbar-track {
+      border-radius: 2px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #00ff19;
+    }
+
+    ::-webkit-scrollbar:vertical {
+      display: none;
+    }
     .active {
       background-color: #3f701e;
       color: #00ff19;
@@ -263,6 +282,9 @@ const Index = () => {
                 break;
             case 'pubgm':
                 setData(pubgmTeam);
+                break;
+            case 'mlbb':
+                setData(mlbbTeam);
                 break;
             default:
                 setData(dataTeam);
@@ -353,11 +375,14 @@ const Index = () => {
                                     <li className={`${game === 'codm' && 'active'}`}
                                         onClick={() => setGame('codm')}>CODM
                                     </li>
-                                    <li>MLBB</li>
+                                    <li className={`${game === 'mlbb' && 'active'}`}
+                                        onClick={() => setGame('mlbb')}>MLBB</li>
                                     <li className={`${game === 'pubgm' && 'active'}`}
                                         onClick={() => setGame('pubgm')}>PUBGM
                                     </li>
                                     <li>LOL</li>
+                                    <li>FREEFIRE</li>
+                                    <li>FORTNITE</li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>

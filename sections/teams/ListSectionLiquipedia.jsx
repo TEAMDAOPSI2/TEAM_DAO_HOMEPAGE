@@ -190,6 +190,9 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
         case "codm":
             gameImage = "codm-team";
             break;
+        case 'mlbb':
+            gameImage = "ml-team";
+            break;
     }
 
     // random number min 15 max 50

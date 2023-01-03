@@ -109,6 +109,7 @@ body::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
+
 .teamdao-pulse {
     animation-name: teamdao-pulse-anim;
     animation-duration: 4s;
