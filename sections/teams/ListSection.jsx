@@ -57,6 +57,7 @@ const Table = styled.table`
     overflow: hidden;
     background: #0f1510;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   td {
@@ -117,7 +118,7 @@ const Table = styled.table`
     color: #ccc;
     transition: color 100ms ease-in-out;
 
-    .flag{
+    .flag {
       font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
       'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -161,11 +162,12 @@ const Table = styled.table`
   }
 
   @media (max-width: 540px) {
-  
-    .mobile-gone{
-        display: none;
+
+    .mobile-gone {
+      display: none;
     }
-    .team-name{
+
+    .team-name {
       font-size: 14px;
     }
   }
@@ -176,7 +178,7 @@ const SymbolTeam = ({rank, mapRandom}) => {
     const is = mapRandom.has(rankINT);
     if (is) {
         return (
-            <span className="team-symbol" suppressHydrationWarning />
+            <span className="team-symbol" suppressHydrationWarning/>
         )
     }
 }
@@ -185,6 +187,10 @@ const ListSection = ({dataGame, page, dataFilter}) => {
 
     const [data, setData] = useState(dataGame);
     const [mapRandom, setMapRandom] = useState(new Set());
+    const [sortData, setSortData] = useState({
+        field: 'rank',
+        order: 'asc'
+    });
     // random number min 15 max 50
     useEffect(() => {
         let max = (page - 1) + 15;
@@ -195,7 +201,7 @@ const ListSection = ({dataGame, page, dataFilter}) => {
         }
         let random = new Set();
         while (random.size < 4) {
-            random.add( Math.floor(Math.random() * (max - min + 1) + min));
+            random.add(Math.floor(Math.random() * (max - min + 1) + min));
         }
         setMapRandom(random);
         if (dataFilter) {
@@ -205,15 +211,50 @@ const ListSection = ({dataGame, page, dataFilter}) => {
         }
     }, [page, dataFilter]);
 
+    const sortFilter = field => {
+        if (sortData.field === field) {
+            setSortData({field: field, order: sortData.order === 'asc' ? 'desc' : 'asc'});
+        } else {
+            setSortData({field: field, order: 'asc'});
+        }
+        if (field === 'rank' || field === 'approx') {
+            if (sortData.order === 'asc') {
+                data.sort((a, b) => a[field] - b[field]);
+            } else {
+                data.sort((a, b) => b[field] - a[field]);
+            }
+        } else {
+            // sort data by field string
+            if (sortData.order === 'asc') {
+                data.sort((a, b) => a[field]?.toLowerCase().localeCompare(b[field]?.toLowerCase()));
+            } else {
+                data.sort((a, b) => b[field]?.toLowerCase().localeCompare(a[field]?.toLowerCase()));
+            }
+
+        }
+    }
+
     return (
         <ListSectionContainer>
             <Table>
                 <thead>
                 <tr>
-                    <th>Rank</th>
-                    <th>Team</th>
-                    <th>Country</th>
-                    <th className="mobile-gone">Earnings</th>
+                    <th onClick={() => sortFilter('rank')}>
+                        Rank {sortData.field === 'rank' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
+                    <th onClick={() => sortFilter('name')}>
+                        Team {sortData.field === 'name' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
+                    <th onClick={() => sortFilter('region')}>
+                        Country {sortData.field === 'region' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
+                    <th className="mobile-gone" onClick={() => sortFilter('prizeMoney')}>
+                        Earnings {sortData.field === 'prizeMoney' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
                     <th className="mobile-gone">WIN</th>
                     <th className="mobile-gone">LOSE</th>
                     <th className="mobile-gone">%</th>
@@ -280,7 +321,7 @@ const ListSection = ({dataGame, page, dataFilter}) => {
                             </span>
                         </td>
                         <td className="number mobile-gone"><span
-                            className="cell-title">Points</span>{team?.points ? team?.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","): ''}
+                            className="cell-title">Points</span>{team?.points ? team?.points.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : ''}
                         </td>
                     </tr>
                 ))}

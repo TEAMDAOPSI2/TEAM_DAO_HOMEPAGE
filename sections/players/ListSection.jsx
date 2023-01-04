@@ -245,21 +245,33 @@ const ListSection = ({data, game, page}) => {
             <Table>
                 <thead>
                 <tr>
-                    <th onClick={() => sortFilter('rank')}>{game !== 'dota2' ? '#' : 'Rank'}</th>
+                    <th onClick={() => sortFilter('rank')}>
+                        {game !== 'dota2' ? '#' : 'Rank '}
+                        {
+                            game === 'dota2' && (
+                                sortData.field === 'rank' ? <i className="fa-solid fa-sort text-white"></i> :
+                                    <i className="fa-solid fa-sort"></i>
+                            )
+                        }
+                    </th>
                     <th onClick={() => sortFilter('nickName')} width={180}>
-                        player {sortData.field === 'nickName' ? <i className="fa-solid fa-sort"></i> : null}
+                        player {sortData.field === 'nickName' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
                     </th>
                     <th onClick={() => sortFilter('team')} className="mobile-gone">
-                        TEAM {sortData.field === 'team' ? <i className="fa-solid fa-sort"></i> : null}
+                        TEAM {sortData.field === 'team' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
                     </th>
                     <th onClick={() => sortFilter('country')}>
-                        country {sortData.field === 'country' ? <i className="fa-solid fa-sort"></i> : null}
+                        country {sortData.field === 'country' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
                     </th>
                     <th className="mobile-gone">Price</th>
                     <th className="mobile-gone">age</th>
                     <th className="mobile-gone">games</th>
                     <th onClick={() => sortFilter('approx')} className="mobile-gone">
-                        EARNINGS {sortData.field === 'approx' ? <i className="fa-solid fa-sort"></i> : null}
+                        EARNINGS {sortData.field === 'approx' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
                     </th>
                     <th className="mobile-gone">WIN</th>
                     <th className="mobile-gone">LOSE</th>
@@ -297,9 +309,9 @@ const ListSection = ({data, game, page}) => {
                         <td className="text" style={{textAlign: 'left'}}>
                             <span className="cell-title">Country</span>
                             {
-                                    player.country ? null : '*NA'
+                                player.country ? null : '*NA'
                             }
-                            <div className="team-name" style={!player.country ? {display: 'none'} : null }>
+                            <div className="team-name" style={!player.country ? {display: 'none'} : null}>
                                 <div className="flag">
                                     {
                                         mapRandom2.has(parseInt(game !== 'dota2' ? index + 1 : player.rank)) ? (`✈️`) : null

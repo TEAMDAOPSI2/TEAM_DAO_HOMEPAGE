@@ -184,6 +184,10 @@ const SymbolTeam = ({rank, mapRandom, teamName}) => {
 const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
     const [data, setData] = useState(dataGame);
     const [mapRandom, setMapRandom] = useState(new Set());
+    const [sortData, setSortData] = useState({
+        field: 'rank',
+        order: 'asc'
+    });
     let gameImage = "";
     switch (game) {
         case "pubgm":
@@ -217,15 +221,56 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
         }
     }, [page, dataFilter]);
 
+    const sortFilter = field => {
+        if (sortData.field === field) {
+            setSortData({
+                field: field,
+                order: sortData.order === 'asc' ? 'desc' : 'asc'
+            });
+        } else {
+            setSortData({
+                field: field,
+                order: 'asc'
+            });
+        }
+        if (field === 'rank' || field === 'prizeMoney') {
+            if (sortData.order === 'asc') {
+                data.sort((a, b) => a[field] - b[field]);
+            } else {
+                data.sort((a, b) => b[field] - a[field]);
+            }
+        } else {
+            // sort data by field string
+            if (sortData.order === 'asc') {
+                data.sort((a, b) => a[field]?.toLowerCase().localeCompare(b[field]?.toLowerCase()));
+            } else {
+                data.sort((a, b) => b[field]?.toLowerCase().localeCompare(a[field]?.toLowerCase()));
+            }
+        }
+    }
+
+
+
     return (
         <ListSectionContainer>
             <Table>
                 <thead>
                 <tr>
-                    <th>Rank</th>
-                    <th>Team</th>
-                    <th>Country</th>
-                    <th className='mobile-gone'>Earnings</th>
+                    <th>#</th>
+                    <th onClick={() => sortFilter('name')}>
+                        Team {sortData.field === 'name' ? <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
+                    <th onClick={() => sortFilter('region')}>
+                        Country  {sortData.field === 'region' ?
+                        <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
+                    <th className='mobile-gone' onClick={() => sortFilter('prizeMoney')}>
+                        Earnings {sortData.field === 'prizeMoney' ?
+                        <i className="fa-solid fa-sort text-white"></i> :
+                        <i className="fa-solid fa-sort"></i>}
+                    </th>
                     <th className='mobile-gone'>WIN</th>
                     <th className='mobile-gone'>LOSE</th>
                     <th className='mobile-gone'>%</th>
@@ -253,7 +298,8 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
                             <span className='cell-title'>Team</span>
                             <div className='team-name'>
                                 <div className='logo'>
-                                    <Image img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`}/>
+                                    <img
+                                        src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`} alt="team"/>
                                 </div>
                                 {team.name}
                             </div>
