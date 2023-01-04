@@ -141,7 +141,10 @@ const RBNavBar = () => {
                               </a>
                             </Link>
                             <Link href='/media-kit'>
-                                <a className='nav-link'>MEDIAKIT</a>
+                                <a target="_blank" className='nav-link'>MEDIAKIT</a>
+                            </Link>
+                            <Link href='https://www.team.foundation/treasury'>
+                                <a className='nav-link'>TREASURY</a>
                             </Link>
                             <Link href='#'>
                                 <a className='nav-link'>SCHOLARSHIPS</a>

@@ -62,12 +62,18 @@ const FilterWrapper = styled.div`
     width: 200px;
     padding: 10px;
     border: 1px solid #6c757d;
-    border-radius: 5px;
     background-color: #1f2125;
     color: #00ff19;
     font-size: 14px;
     font-weight: 700;
     margin-right: 10px;
+    margin-left: 10px;
+    transform: skew(-20deg);
+
+    .skew-fix{
+      display:inline-block;
+      transform: skew(20deg);
+    }
 
     &:focus {
       border: 1px solid #00ff19;
@@ -82,6 +88,7 @@ const FilterWrapper = styled.div`
   .search-wrapper {
     display: flex;
     order: 1;
+    
 
     button {
       display: none;
@@ -105,7 +112,6 @@ const FilterWrapper = styled.div`
   button {
     background-color: #153300;
     border: 1px solid #00ff19;
-    border-radius: 5px;
     box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.15),
     0px 19px 16px rgba(0, 0, 0, 0.09);
     font-size: 14px;
@@ -116,6 +122,12 @@ const FilterWrapper = styled.div`
     transition: all 0.2s ease-in-out;
     color: #00ff19;
     margin-right: 7px;
+    transform: skew(-20deg);
+
+    .skew-fix{
+      display:inline-block;
+      transform: skew(20deg);
+    }
 
     &:hover {
       background-color: #3f701e;
@@ -139,11 +151,11 @@ const Pagination = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  gap: 10px;
 
   button {
     background-color: #153300;
     border: 1px solid #00ff19;
-    border-radius: 5px;
     box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.15),
     0px 19px 16px rgba(0, 0, 0, 0.09);
     font-size: 14px;
@@ -154,6 +166,12 @@ const Pagination = styled.div`
     transition: all 0.2s ease-in-out;
     color: #00ff19;
     margin-right: 7px;
+    transform: skew(-20deg);
+
+    .skew-fix{
+      display:inline-block;
+      transform: skew(20deg);
+    }
 
     &:hover {
       background-color: #3f701e;
@@ -185,11 +203,11 @@ const GameWrapper = styled.div`
   ul {
     display: flex;
     flex-wrap: nowrap;
-    padding: 0;
     margin: 0;
     list-style: none;
     align-items: center;
     overflow-x: auto;
+    padding: 0 0 0 10px;
 
     ::-webkit-scrollbar {
       width: 4px;
@@ -209,6 +227,7 @@ const GameWrapper = styled.div`
     ::-webkit-scrollbar:vertical {
       display: none;
     }
+
     .active {
       background-color: #3f701e;
       color: #00ff19;
@@ -225,7 +244,6 @@ const GameWrapper = styled.div`
     li {
       color: white;
       padding: 3px 15px;
-      border-radius: 15px;
       border: 1px solid #6c757d;
       margin-right: 8px;
       cursor: pointer;
@@ -233,6 +251,12 @@ const GameWrapper = styled.div`
       font-weight: 500;
       font-family: "Roboto Mono", monospace;
       margin-bottom: 10px;
+      transform: skew(-20deg);
+
+      .skew-fix {
+        display: inline-block;
+        transform: skew(20deg);
+      }
 
       &:hover {
         border: 1px solid #00ff19;
@@ -274,6 +298,7 @@ const Index = () => {
         } else {
             setPage(1);
             setData(data);
+            handleGameFilter(gameFilter);
             setTotalPages(Math.ceil(data.length / 15));
         }
     }
@@ -358,7 +383,7 @@ const Index = () => {
                                         className={`${gameFilter === 'codm' ? 'active' : ''}`}>CODM
                                     </li>
                                     <li>LOL</li>
-                                    <li>FREE FIRE</li>
+                                    <li>FREEFIRE</li>
                                     <li>FORTNITE</li>
                                     <li>FB</li>
                                     <li>BB</li>

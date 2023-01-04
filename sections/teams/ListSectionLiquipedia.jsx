@@ -171,10 +171,12 @@ const Table = styled.table`
   }
 `;
 
-const SymbolTeam = ({rank, mapRandom}) => {
+const SymbolTeam = ({rank, mapRandom, teamName}) => {
     const rankINT = parseInt(rank);
     const is = mapRandom.has(rankINT);
-    if (is) {
+    const isTeam = teamName.includes("T.E.A.M");
+    console.log(isTeam);
+    if (is || isTeam) {
         return <span className='team-symbol' suppressHydrationWarning/>;
     }
 };
@@ -245,7 +247,7 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
                   {(page - 1) * 15 + index + 1}
                 </span>
 
-                            <SymbolTeam rank={team?.rank} mapRandom={mapRandom}/>
+                            <SymbolTeam rank={team?.rank} mapRandom={mapRandom} teamName={team?.name}/>
                         </td>
                         <td className=''>
                             <span className='cell-title'>Team</span>
