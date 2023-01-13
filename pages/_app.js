@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Head from "next/head";
+import favicon from "public/assets/round-team-logo.png";
 
 function MyApp({Component, pageProps}) {
     return (
@@ -10,7 +11,7 @@ function MyApp({Component, pageProps}) {
                     rel="icon"
                     type="image/png"
                     sizes="32x32"
-                    href="assets/round-team-logo.png"
+                    href={favicon.src}
                 />
 
 

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.7",
     "@trendyol-js/react-carousel": "^2.0.1",
     "bootstrap": "^5.2.0",
     "hamburger-react": "^2.4.1",
