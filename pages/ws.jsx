@@ -1,61 +1,31 @@
-import {useEffect, useState} from "react";
-import {io} from "socket.io-client";
+import {useContext, useEffect, useState} from "react";
+import socketContext from "../context/WSContext";
 
 const ws = () => {
-    const [stakes, setStakes] = useState([]);
-    const [status, setStatus] = useState('connecting');
-    const [team, setTeam] = useState('empty');
-
-    const socket = io("https://stake.teamdao.app/api", {
-        transports: ["websocket"],
-        withCredentials: true,
-        extraHeaders: {
-            "api-key": "hjXz4mj9Tlkk5Qm6ifuA"
-        }
-    })
+    const [data, setData] = useState(null);
+    const socket = useContext(socketContext);
 
     useEffect(() => {
-        socket.on('connect', () => {
-            console.log('connected to the server');
-            setStatus('connected');
-        });
-        socket.on('disconnect', () => {
-            console.log('disconnected from the server');
-            setStatus('disconnected');
-        });
-
-        socket.on('status', (data) => {
-            console.log('get status from server:', data.status);
-        })
-
-        socket.on('new_stake', (data) => {
-            console.log('new bet:', data);
-            setStakes((prevStakes) => [...prevStakes, data]);
-            setTeam(data.teamName);
-        });
-        socket.on('error', (error) => {
-            console.log('error:', error);
-            setStatus('error');
-        });
-        return () => socket.disconnect();
+        socket.on("connect", () => setData({...data, isConnected: true}))
+        socket.on("disconnect", () => setData({ ...data, isConnected: false }))
+        socket.on("new_stake", (stake)=> setData({ ...data, stakesData: [...data?.stakesData, stake] }))
     }, []);
-
-
 
 
     return (
         <div style={{color: 'white'}}>
             <h1>Test Stake</h1>
+            <h2>Is Connected: {data?.isConnected ? 'true' : 'false'}</h2>
+            <h2>Stakes: {data?.stakesData?.length}</h2>
             <div>
-                Status: {status} | {team}
-            </div>
-            <div>
-                <p>New Data will be here:</p>
-                {stakes.map((stake) => (
-                    <div key={stake.betID}>
-                        {stake.name} bet {stake.amount} on {stake.teamName}
-                    </div>
-                ))}
+                {
+                    data?.stakesData?.map((stake, index) => (
+                        <div key={index}>
+                            <h3>Stake: {stake.teamName}</h3>
+                            <h3>Stake: {stake.amount}</h3>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     );
