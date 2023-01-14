@@ -3,6 +3,8 @@ import HeaderOld from "@components/HeaderOld";
 import FooterOld from "@components/FooterOld";
 import styled from "styled-components";
 import ListStakes from "@sections/stakes/ListStakes";
+import {useEffect, useState} from "react";
+import {io} from "socket.io-client";
 
 const MainDiv = styled.div`
   height: 1px;
@@ -10,7 +12,13 @@ const MainDiv = styled.div`
   padding-bottom: 120px;
 `;
 
+// const ListStakes = dynamic(() => import("@sections/stakes/ListStakes"), {
+//   ssr: false,
+// });
+
 const Stakes = () => {
+
+
     return (
         <>
             <Head>
