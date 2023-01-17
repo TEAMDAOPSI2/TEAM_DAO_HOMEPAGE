@@ -12,6 +12,7 @@ import ListSection from "@sections/players/ListSection";
 import mlPlayers from "@data/ml.json";
 import pubgmPlayers from "@data/pubgm.json";
 import codPlayers from "@data/cod.json";
+import lolPlayers from "@data/lolPlayers.json";
 import dota2Players from "@data/dota2WithDetailApprox.json";
 
 
@@ -70,8 +71,8 @@ const FilterWrapper = styled.div`
     margin-left: 10px;
     transform: skew(-20deg);
 
-    .skew-fix{
-      display:inline-block;
+    .skew-fix {
+      display: inline-block;
       transform: skew(20deg);
     }
 
@@ -88,7 +89,7 @@ const FilterWrapper = styled.div`
   .search-wrapper {
     display: flex;
     order: 1;
-    
+
 
     button {
       display: none;
@@ -124,8 +125,8 @@ const FilterWrapper = styled.div`
     margin-right: 7px;
     transform: skew(-20deg);
 
-    .skew-fix{
-      display:inline-block;
+    .skew-fix {
+      display: inline-block;
       transform: skew(20deg);
     }
 
@@ -168,8 +169,8 @@ const Pagination = styled.div`
     margin-right: 7px;
     transform: skew(-20deg);
 
-    .skew-fix{
-      display:inline-block;
+    .skew-fix {
+      display: inline-block;
       transform: skew(20deg);
     }
 
@@ -316,6 +317,9 @@ const Index = () => {
             case 'mlbb':
                 setData(mlPlayers);
                 break;
+            case "lol":
+                setData(lolPlayers);
+                break;
             case 'codm':
                 setData(codPlayers);
                 break;
@@ -382,7 +386,9 @@ const Index = () => {
                                     <li onClick={() => handleGameFilter('codm')}
                                         className={`${gameFilter === 'codm' ? 'active' : ''}`}>CODM
                                     </li>
-                                    <li>LOL</li>
+                                    <li  onClick={() => handleGameFilter('lol')}
+                                         className={`${gameFilter === 'lol' ? 'active' : ''}`}>LOL
+                                    </li>
                                     <li>FREEFIRE</li>
                                     <li>FORTNITE</li>
                                     <li>FB</li>

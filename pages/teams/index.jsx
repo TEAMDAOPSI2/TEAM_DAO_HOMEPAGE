@@ -14,6 +14,7 @@ import dataTeam from "../../data/top50.json";
 import codmTeam from "../../data/codm-teams.json";
 import pubgmTeam from "../../data/pubgm-team.json";
 import mlbbTeam from "../../data/ml-teams.json";
+import lolTeam from "../../data/lol-teams.json";
 import ListSectionLiquipedia from "@sections/teams/ListSectionLiquipedia";
 
 const CenterText = styled.div`
@@ -86,7 +87,7 @@ const FilterWrapper = styled.div`
     margin-right: 10px;
     margin-left: 10px;
     transform: skew(-20deg);
-    
+
 
     &:focus {
       border: 1px solid #00ff19;
@@ -136,8 +137,8 @@ const FilterWrapper = styled.div`
     margin-right: 7px;
     transform: skew(-20deg);
 
-    .skew-fix{
-      display:inline-block;
+    .skew-fix {
+      display: inline-block;
       transform: skew(20deg);
     }
 
@@ -180,8 +181,8 @@ const Pagination = styled.div`
     margin-right: 7px;
     transform: skew(-20deg);
 
-    .skew-fix{
-      display:inline-block;
+    .skew-fix {
+      display: inline-block;
       transform: skew(20deg);
     }
 
@@ -306,6 +307,9 @@ const Index = () => {
             case 'mlbb':
                 setData(mlbbTeam);
                 break;
+            case 'lol':
+                setData(lolTeam);
+                break;
             default:
                 setData(dataTeam);
                 break;
@@ -396,11 +400,14 @@ const Index = () => {
                                         onClick={() => setGame('codm')}>CODM
                                     </li>
                                     <li className={`${game === 'mlbb' && 'active'}`}
-                                        onClick={() => setGame('mlbb')}>MLBB</li>
+                                        onClick={() => setGame('mlbb')}>MLBB
+                                    </li>
                                     <li className={`${game === 'pubgm' && 'active'}`}
                                         onClick={() => setGame('pubgm')}>PUBGM
                                     </li>
-                                    <li>LOL</li>
+                                    <li className={`${game === 'lol' && 'active'}`}
+                                        onClick={() => setGame('lol')}>LOL
+                                    </li>
                                     <li>FREEFIRE</li>
                                     <li>FORTNITE</li>
                                     <li>FB</li>
