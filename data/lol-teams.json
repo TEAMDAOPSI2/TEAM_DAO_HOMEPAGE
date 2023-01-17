@@ -1,5 +1,41 @@
 [
   {
+    "name": "T.A.E.M YANKEE10",
+    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
+    "prizeMoney": "0",
+    "region": "Philippines",
+    "players": [
+      {
+        "nickName": "YANKEE10-4911",
+        "realName": ""
+      },
+      {
+        "nickName": "YANKEE10-3290",
+        "realName": ""
+      },
+      {
+        "nickName": "YANKEE10-3265",
+        "realName": ""
+      },
+      {
+        "nickName": "YANKEE10-3263",
+        "realName": ""
+      },
+      {
+        "nickName": "YANKEE10-3262",
+        "realName": ""
+      },
+      {
+        "nickName": "YANKEE10-3260",
+        "realName": ""
+      },
+      {
+        "nickName": "YANKEE10-3179",
+        "realName": ""
+      }
+    ]
+  },
+  {
     "name": "100Thieves",
     "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
     "prizeMoney": "548594",
