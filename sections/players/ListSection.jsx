@@ -182,6 +182,10 @@ const SymbolTeam = ({rank, mapRandom}) => {
     }
 }
 
+// change # to %23
+const changeHash = (str) => {
+    return str.replace('#', '%23');
+}
 
 const ListSection = ({data, game, page}) => {
     const [mapRandom, setMapRandom] = useState(new Set());
@@ -283,7 +287,7 @@ const ListSection = ({data, game, page}) => {
                 {data.slice((page - 1) * 15, page * 15).map((player, index) => (
                     <tr key={index} onClick={() => {
                         game === 'dota2' ? window.location.href = `teams/player/${player.name}`
-                            : window.location.href = `teams/${game}/player/${player.nickName}`
+                            : window.location.href = `teams/${game}/player/${changeHash(player.nickName)}`
                     }}>
                         <td className="number">
                             <span className="cell-title">Rank</span>

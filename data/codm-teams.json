@@ -1,93 +1,117 @@
 [
   {
-    "name": "T.E.A.M $KLAY",
+    "name": "T.E.A.M KLAY",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._$KLAY",
     "prizeMoney": "0",
     "region": "Philippines",
     "players": [
       {
-        "nickName": "ALBS",
-        "realName": ""
+        "nickName": "$KLAY SUCREH",
+        "realName": "CARL RASUGANTE",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "ASSASSIN",
-        "realName": ""
+        "nickName": "$KLAY ASSASSIN",
+        "realName": "HARYL MAGPANTAY",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "DUDA",
-        "realName": ""
+        "nickName": "$KLAY MERC",
+        "realName": "PAUL JOSEPH GONZALES",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "GRASYA",
-        "realName": ""
+        "nickName": "$KLAY DUDA",
+        "realName": "TREZ P. BORLONGAN",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "MERC",
-        "realName": ""
+        "nickName": "$KLAY ALBS",
+        "realName": "ALBERT DANIELLE FLORES",
+        "detail": "MAIN 5"
       },
       {
-        "nickName": "SUCREH",
-        "realName": ""
+        "nickName": "$KLAY GRASYA",
+        "realName": "FEMANNUELLE GRACE CARPIO",
+        "detail": "MANAGER"
       }
     ]
   },
   {
-    "name": "T.E.A.M VITAS",
+    "name": "T.E.A.M ALGO",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
-    "prizeMoney": "0",
+    "prizeMoney": "1920",
     "region": "Philippines",
     "players" : [
       {
-        "nickName": "OSCAR4-2740",
-        "realName": ""
+        "nickName": "$ALGO JABEE",
+        "realName": "Constantinni Mallare",
+        "detail": "Main 4"
       },
       {
-        "nickName": "OSCAR4-2749",
-        "realName": ""
+        "nickName": "$ALGO KUZMA",
+        "realName": "James Billy Gatbonton",
+        "detail": "Main 4"
       },
       {
-        "nickName": "OSCAR4-2750",
-        "realName": ""
+        "nickName": "$ALGO O10",
+        "realName": "Hans Gabriel Dacutanan",
+        "detail": "Main 4"
       },
       {
-        "nickName" : "OSCAR4-2753",
-        "realName" : ""
+        "nickName" : "$ALGO RORA",
+        "realName" : "Dale Ramos Carandang ",
+        "detail": "Main 4"
       },
       {
-        "nickName" : "OSCAR4-3482",
-        "realName" : ""
+        "nickName" : "$ALGO MEOW",
+        "realName" : "$ALGO MEOW",
+        "detail": "Sub player"
       },
       {
-        "nickName" : "OSCAR4-3843",
-        "realName" : ""
+        "nickName" : "$ALGO GAYLE",
+        "realName" : "ElaizaGayle Bagalanon",
+        "detail": "Manager"
       }
     ]
   },
   {
-    "name": "T.E.A.M CONQUERORS",
+    "name": "T.E.A.M SAND",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
-    "prizeMoney": "0",
+    "prizeMoney": "1663",
     "region": "Philippines",
     "players" : [
       {
-        "nickName": "ROMEO4-2846",
-        "realName": ""
+        "nickName": "$SAND SÈCRÉ",
+        "realName": "Gabrielle Paolo Diaz",
+        "imgHard": "%24SAND%20SÈCRÉ.png",
+        "detail": "Main 4"
       },
       {
-        "nickName": "ROMEO4-2848",
-        "realName": ""
+        "nickName": "$SAND KURAMA",
+        "realName": "Patrick Sindanum",
+        "detail": "Sub Player"
       },
       {
-        "nickName": "ROMEO4-2851",
-        "realName": ""
+        "nickName": "$SAND SHINICHI",
+        "realName": "Keith Jared Payos",
+        "detail": "Main 4"
       },
       {
-        "nickName" : "ROMEO4-2887",
-        "realName" : ""
+        "nickName" : "$SAND BLÂNK",
+        "realName" : "Juan Paolo Eugenio",
+        "imgHard": "%24SAND%20BLA%CC%82NK.png",
+        "detail": "Main 4"
       },
       {
-        "nickName" : "ROMEO4-3143",
-        "realName" : ""
+        "nickName" : "$SAND Đrei",
+        "realName" : "Marc Andrie Salazar",
+        "detail": "Main 4"
+      },
+      {
+        "nickName" : "$SAND ARSYN",
+        "realName" : "Jadyn De Leon",
+        "detail": "Manager"
       }
     ]
   },

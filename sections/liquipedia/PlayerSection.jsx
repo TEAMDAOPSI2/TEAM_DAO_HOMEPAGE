@@ -29,6 +29,7 @@ const InfoTeamBox = styled.div`
     align-items: center;
     justify-content: center;
   }
+
   .poligon {
     display: inline-block;
     position: relative;
@@ -359,7 +360,14 @@ const PlayerSection = ({player, game}) => {
                     <div className="ax">
                         <div className="poligon">
                             <div className="hex-background">
-                                <Image img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${game}-player/${player.nickName}.png`}/>
+                                {
+                                    player?.imgHard ?
+                                        <Image
+                                            img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${game}-player/${player.imgHard}`}/>
+                                        :
+                                        <Image
+                                            img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${game}-player/${player.nickName}.png`}/>
+                                }
                             </div>
                         </div>
                     </div>

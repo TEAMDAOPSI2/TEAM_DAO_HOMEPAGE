@@ -6,7 +6,7 @@ const Image = ({img}) => {
     const handleError = () => {
         setImage(noImg.src);
     }
-    if (image == 'https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg'){
+    if (image === 'https://cdn1-v3.gamesports.net/img/themes/general/edb_player_default.jpg'){
         setImage(noImg.src);
     }
     return (

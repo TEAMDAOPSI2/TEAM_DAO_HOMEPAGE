@@ -182,7 +182,8 @@ const MemberBox = styled.div`
       opacity: 1;
     }
   }
-  .ax{
+
+  .ax {
     margin: 0 auto;
   }
 
@@ -329,6 +330,7 @@ const MemberBox = styled.div`
   }
 `;
 
+
 const TeamSection = ({team, game}) => {
     let gameImage = '';
     let playerImage = '';
@@ -344,6 +346,10 @@ const TeamSection = ({team, game}) => {
         case "lol":
             gameImage = "lol-team";
             playerImage = "lol-player"
+            break;
+        case "freefire":
+            gameImage = "freefire-team";
+            playerImage = "freefire-player"
             break;
         case "mlbb":
             gameImage = "ml-team";
@@ -420,8 +426,14 @@ const TeamSection = ({team, game}) => {
                                 <div className="ax">
                                     <div className='poligon'>
                                         <div className='hex-background'>
-                                            <Image
-                                                img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${playerImage}/${member.nickName}.png`}/>
+                                            {
+                                                member?.imgHard ?
+                                                    <Image
+                                                        img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${playerImage}/${member.imgHard}`}/>
+                                                    :
+                                                    <Image
+                                                        img={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${playerImage}/${member.nickName}.png`}/>
+                                            }
                                         </div>
                                     </div>
                                     <div className='scope'>

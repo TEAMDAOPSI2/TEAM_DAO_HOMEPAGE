@@ -199,6 +199,9 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
         case "lol":
             gameImage = "lol-team";
             break;
+        case "freefire":
+            gameImage = "freefire-team";
+            break;
         case 'mlbb':
             gameImage = "ml-team";
             break;
@@ -253,7 +256,6 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
     }
 
 
-
     return (
         <ListSectionContainer>
             <Table>
@@ -265,7 +267,7 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
                         <i className="fa-solid fa-sort"></i>}
                     </th>
                     <th onClick={() => sortFilter('region')}>
-                        Country  {sortData.field === 'region' ?
+                        Country {sortData.field === 'region' ?
                         <i className="fa-solid fa-sort text-white"></i> :
                         <i className="fa-solid fa-sort"></i>}
                     </th>
@@ -302,7 +304,8 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
                             <div className='team-name'>
                                 <div className='logo'>
                                     <img
-                                        src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`} alt="team"/>
+                                        src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`}
+                                        alt="team"/>
                                 </div>
                                 {team.name}
                             </div>

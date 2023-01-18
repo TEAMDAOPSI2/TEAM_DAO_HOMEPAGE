@@ -1,37 +1,51 @@
 [
   {
-    "name": "T.E.A.M YANKEE10",
+    "name": "T.E.A.M DAO YWN",
     "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
     "prizeMoney": "0",
     "region": "Philippines",
     "players": [
       {
-        "nickName": "YANKEE10-4911",
-        "realName": ""
+        "nickName": "TEAM DAO Sh1n#YWN",
+        "realName": "Shane V. Vidal",
+        "detail": "Captain/Baron Lane",
+        "imgHard": "TEAM%20DAO%20Sh1n%23YWN.png"
       },
       {
-        "nickName": "YANKEE10-3290",
-        "realName": ""
+        "nickName": "TEAM DAO Parmie#YWN",
+        "realName": "Raisen Nille R. Salazar",
+        "detail": "Jungle",
+        "imgHard": "TEAM%20DAO%20Parmie%23YWN.png"
       },
       {
-        "nickName": "YANKEE10-3265",
-        "realName": ""
+        "nickName": "TEAM DAO N1LLE#YWN",
+        "realName": "Alfie Anthony Binuya",
+        "detail": "MID",
+        "imgHard": "TEAM%20DAO%20N1LLE%23YWN.png"
       },
       {
-        "nickName": "YANKEE10-3263",
-        "realName": ""
+        "nickName": "TEAM DAO Zia#YWN",
+        "realName": "Romie Parayo",
+        "detail": "Support",
+        "imgHard": "TEAM%20DAO%20Zia%23YWN.png"
       },
       {
-        "nickName": "YANKEE10-3262",
-        "realName": ""
+        "nickName": "TEAM DAO G4BO#T1NN",
+        "realName": "Clint Bulacan",
+        "detail": "AD Carry",
+        "imgHard": "TEAM%20DAO%20G4BO%23T1NN.png"
       },
       {
-        "nickName": "YANKEE10-3260",
-        "realName": ""
+        "nickName": "TEAM DAO Jules1#YWN",
+        "realName": "c Bonrostro",
+        "detail": "support",
+        "imgHard": "TEAM%20DAO%20Jules1%23YWN.png"
       },
       {
-        "nickName": "YANKEE10-3179",
-        "realName": ""
+        "nickName": "TEAM DAO XXX#YWN",
+        "realName": "Nicoli Emmanuel Montenegro ",
+        "detail": "BRL/COACH",
+        "imgHard": "TEAM%20DAO%20XXX%23YWN.png"
       }
     ]
   },

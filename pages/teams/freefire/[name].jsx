@@ -1,15 +1,28 @@
-import DataPlayers from "@data/lolPlayers.json";
-import React, {useEffect, useState} from "react";
 import Head from "next/head";
 import LoadingScreen from "@components/LoadingScreen";
 import {ToastContainer} from "react-toastify";
 import {ParallaxProvider} from "react-scroll-parallax";
 import HeaderOld from "@components/HeaderOld";
 import Link from "next/link";
-import PlayerSection from "@sections/liquipedia/PlayerSection";
+import DetailSection from "@sections/teams/DetailSection";
 import FooterOld from "@components/FooterOld";
+import React, {useEffect, useState} from "react";
 import styled from "styled-components";
+import Data from "@data/freefire-team.json";
+import TeamSection from "@sections/liquipedia/TeamSection";
 
+const TitlePageText = styled.div`
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: 'Technology', serif;
+
+  h3 {
+    font-size: 3em;
+  }
+
+`;
 const MainDiv = styled.div`
   height: 1px;
   padding-top: 120px;
@@ -46,7 +59,6 @@ const BreadCrumb = styled.div`
           padding: 0 25px 0 10px;
         }
       }
-     
     }
 
     li:last-child {
@@ -63,14 +75,6 @@ const BreadCrumb = styled.div`
           border-top: 2px solid #379341;
           transform: skew(45deg);
         }
-      }
-      @media (max-width: 768px) {
-        display: none;
-      }
-    }
-    li:nth-child(2){
-      @media (max-width: 768px) {
-        display: none;
       }
     }
 
@@ -109,23 +113,27 @@ const BreadCrumb = styled.div`
   }
 `;
 
+// get serverside props
 export async function getServerSideProps(context) {
     const {name} = context.query;
-    const player = DataPlayers.find((player) => player.nickName === name);
-    console.log(player);
-    if(!player) {
+    const team = Data.find((team) => team.name === name);
+    if (!team) {
         return {
             notFound: true,
         }
     }
     return {
         props: {
-            player,
+            name,
+            team,
         },
     };
 }
 
-const Name = ({player}) => {
+
+const Name = (props) => {
+    const {team, name} = props;
+
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -135,11 +143,10 @@ const Name = ({player}) => {
 
     }, []);
 
-
     return (
         <>
             <Head>
-                <title>T.E.A.M DAO | Player</title>
+                <title>T.E.A.M DAO | Teams</title>
             </Head>
             <div style={{display: !loading ? 'none' : 'block'}}>
                 <LoadingScreen/>
@@ -165,15 +172,14 @@ const Name = ({player}) => {
                             <ul>
                                 <li>
                                     <Link href="/teams">
-                                        <a className="a"><span>Player</span></a>
+                                        <a className="a"><span>TEAMS</span></a>
                                     </Link>
                                 </li>
-                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.team}</span></a></li>
-                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.nickName}</span></a></li>
+                                <li><a style={{cursor: 'auto'}} href="#"><span>{name}</span></a></li>
                             </ul>
                         </BreadCrumb>
 
-                        <PlayerSection player={player} game="lol"/>
+                        <TeamSection team={team} game="freefire"/>
 
                     </MainContainer>
 
@@ -183,8 +189,6 @@ const Name = ({player}) => {
             </ParallaxProvider>
         </>
     )
-};
+}
 
-
-export default Name;
-
+export default Name

@@ -15,6 +15,7 @@ import codmTeam from "../../data/codm-teams.json";
 import pubgmTeam from "../../data/pubgm-team.json";
 import mlbbTeam from "../../data/ml-teams.json";
 import lolTeam from "../../data/lol-teams.json";
+import freefireTeam from "../../data/freefire-team.json";
 import ListSectionLiquipedia from "@sections/teams/ListSectionLiquipedia";
 
 const CenterText = styled.div`
@@ -310,6 +311,9 @@ const Index = () => {
             case 'lol':
                 setData(lolTeam);
                 break;
+            case 'freefire':
+                setData(freefireTeam);
+                break;
             default:
                 setData(dataTeam);
                 break;
@@ -408,7 +412,9 @@ const Index = () => {
                                     <li className={`${game === 'lol' && 'active'}`}
                                         onClick={() => setGame('lol')}>LOL
                                     </li>
-                                    <li>FREEFIRE</li>
+                                    <li className={`${game === 'freefire' && 'active'}`}
+                                        onClick={() => setGame('freefire')}>FREE FIRE
+                                    </li>
                                     <li>FORTNITE</li>
                                     <li>FB</li>
                                     <li>BB</li>

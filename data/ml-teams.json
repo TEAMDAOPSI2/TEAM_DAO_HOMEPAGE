@@ -44,56 +44,67 @@
     "region": "Philippines",
     "players": [
       {
-        "nickName": "ALPHA PH - 1",
-        "realName": ""
+        "nickName": "DAO VINNSKIE",
+        "realName": "alvin jade tado cagas",
+        "detail": "MM/GOLD"
       },
       {
-        "nickName": "ALPHA PH - 2",
-        "realName": ""
+        "nickName": "DAO BRENTH",
+        "realName": "brian kenth sitchon",
+        "detail": "RAOM/TANK"
       },
       {
-        "nickName": "ALPHA PH - 3",
-        "realName": ""
+        "nickName": "DAO SUPER JOMS",
+        "realName": "Jomarie Maqquidang",
+        "detail": "POS4"
       },
       {
-        "nickName": "ALPHA PH - 4",
-        "realName": ""
+        "nickName": "DAO VANN",
+        "realName": "john carlo palmero",
+        "detail": "CORE/JUNGLER"
       },
       {
-        "nickName": "ALPHA PH - 5",
-        "realName": ""
+        "nickName": "DAO NOLI",
+        "realName": "Noli A Ancog",
+        "detail": "EXP LANE"
       },
       {
-        "nickName": "ALPHA PH - 6",
-        "realName": ""
+        "nickName": "DAO MHELCRISZY",
+        "realName": "Zyrus Suarez",
+        "detail": "COACH"
       }
     ]
   },
   {
-    "name": "T.E.A.M DAO Bravo PH",
+    "name": "T.E.A.M DAO BRAVO",
     "uri": "http://www.alpha-indo.com",
-    "prizeMoney": 0,
+    "prizeMoney":  522 ,
     "region": "Philippines",
     "players": [
       {
-        "nickName": "BRAVO-2159",
-        "realName": ""
+        "nickName": "Nept Su",
+        "realName": "Joseph Saramones",
+        "detail": "POS4/CORE"
       },
       {
-        "nickName": "BRAVO-2144",
-        "realName": ""
+        "nickName": "DAO JO1",
+        "realName": "jojan jay buenaventura",
+        "detail": "MAGE/SUP"
       },
       {
-        "nickName": "BRAVO-2049",
-        "realName": ""
+        "nickName": "Roxo.",
+        "realName": "Mark Allan Malabag",
+        "detail": "CORE"
       },
       {
-        "nickName": "BRAVO-2116",
-        "realName": ""
+        "nickName": "OHMYSUPERLORDROYCE",
+        "realName": "Royce Jelo M Salazar",
+        "detail": "GOLD LANE"
       },
       {
-        "nickName": "BRAVO-2158",
-        "realName": ""
+        "nickName": "SUPER ZIPZAP",
+        "realName": "Robinson Malabag",
+        "detail": "ROAMER"
       }
     ]
   },

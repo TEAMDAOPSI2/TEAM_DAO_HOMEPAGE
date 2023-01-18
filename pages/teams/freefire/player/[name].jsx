@@ -1,4 +1,4 @@
-import DataPlayers from "@data/lolPlayers.json";
+import DataPlayers from "@data/cod.json";
 import React, {useEffect, useState} from "react";
 import Head from "next/head";
 import LoadingScreen from "@components/LoadingScreen";
@@ -112,7 +112,6 @@ const BreadCrumb = styled.div`
 export async function getServerSideProps(context) {
     const {name} = context.query;
     const player = DataPlayers.find((player) => player.nickName === name);
-    console.log(player);
     if(!player) {
         return {
             notFound: true,
@@ -173,7 +172,7 @@ const Name = ({player}) => {
                             </ul>
                         </BreadCrumb>
 
-                        <PlayerSection player={player} game="lol"/>
+                        <PlayerSection player={player} game="codm"/>
 
                     </MainContainer>
 
