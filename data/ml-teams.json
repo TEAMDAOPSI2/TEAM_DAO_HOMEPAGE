@@ -6,24 +6,34 @@
     "region": "Indonesia",
     "players": [
       {
-        "nickName": "Lorraine",
-        "realName": ""
+        "nickName": "Lorraine-",
+        "realName": "Sathyananda Linggam Deva",
+        "detail": "Explaner"
       },
       {
         "nickName": "Tompu",
-        "realName": ""
+        "realName": "Putu Adi Mardika Wijaya",
+        "detail": "Midlaner"
       },
       {
         "nickName": "Ultear",
-        "realName": ""
+        "realName": "Erick Zen Redondo",
+        "detail": "Jungler"
       },
       {
         "nickName": "Haipoo",
-        "realName": ""
+        "realName": "KM Andre Valentino Nugraha ",
+        "detail": "Roamer"
       },
       {
         "nickName": "Natco",
-        "realName": ""
+        "realName": "Nicodemus Dustin Koesnadi",
+        "detail": "Goldlaner"
+      },
+      {
+        "nickName": "Coach Nyoong",
+        "realName": "Leonardus",
+        "detail": "Coach"
       }
     ]
   },
