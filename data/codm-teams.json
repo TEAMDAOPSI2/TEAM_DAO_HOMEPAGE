@@ -1,6 +1,6 @@
 [
   {
-    "name": "T.E.A.M KLAY",
+    "name": "$T.E.A.M KLAY",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._$KLAY",
     "prizeMoney": "0",
     "region": "Philippines",
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "name": "T.E.A.M ALGO",
+    "name": "$T.E.A.M ALGO",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
     "prizeMoney": "1920",
     "region": "Philippines",
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "name": "T.E.A.M SAND",
+    "name": "$T.E.A.M SAND",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
     "prizeMoney": "1663",
     "region": "Philippines",
@@ -84,7 +84,7 @@
       {
         "nickName": "$SAND SÈCRÉ",
         "realName": "Gabrielle Paolo Diaz",
-        "imgHard": "%24SAND%20SÈCRÉ.png",
+        "imgHard": "%24SAND%20SÈCRÉ.png",
         "detail": "Main 4"
       },
       {
@@ -100,7 +100,7 @@
       {
         "nickName" : "$SAND BLÂNK",
         "realName" : "Juan Paolo Eugenio",
-        "imgHard": "%24SAND%20BLA%CC%82NK.png",
+        "imgHard": "%24SAND%20BLÂNK.png",
         "detail": "Main 4"
       },
       {
