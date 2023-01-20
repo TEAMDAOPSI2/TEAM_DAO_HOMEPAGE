@@ -351,6 +351,10 @@ const TeamSection = ({team, game}) => {
             gameImage = "freefire-team";
             playerImage = "freefire-player"
             break;
+        case "fortnite":
+            gameImage = "fortnite-team";
+            playerImage = "fortnite-player"
+            break;
         case "mlbb":
             gameImage = "ml-team";
             playerImage = "ml-player"

@@ -14,6 +14,8 @@ import pubgmPlayers from "@data/pubgm.json";
 import codPlayers from "@data/cod.json";
 import lolPlayers from "@data/lolPlayers.json";
 import dota2Players from "@data/dota2WithDetailApprox.json";
+import fortnitePlayers from "@data/fortnite.json";
+import freefirePlayers from "@data/freefire.json";
 
 
 const MainDiv = styled.div`
@@ -320,6 +322,12 @@ const Index = () => {
             case "lol":
                 setData(lolPlayers);
                 break;
+            case 'freefire':
+                setData(freefirePlayers);
+                break;
+            case 'fortnite':
+                setData(fortnitePlayers);
+                break;
             case 'codm':
                 setData(codPlayers);
                 break;
@@ -386,11 +394,13 @@ const Index = () => {
                                     <li onClick={() => handleGameFilter('codm')}
                                         className={`${gameFilter === 'codm' ? 'active' : ''}`}>CODM
                                     </li>
-                                    <li  onClick={() => handleGameFilter('lol')}
-                                         className={`${gameFilter === 'lol' ? 'active' : ''}`}>LOL
+                                    <li onClick={() => handleGameFilter('lol')}
+                                        className={`${gameFilter === 'lol' ? 'active' : ''}`}>LOL
                                     </li>
-                                    <li>FREEFIRE</li>
-                                    <li>FORTNITE</li>
+                                    <li onClick={() => handleGameFilter('freefire')}
+                                        className={`${gameFilter === 'freefire' ? 'active' : ''}`}>FREEFIRE</li>
+                                    <li onClick={() => handleGameFilter('fortnite')}
+                                        className={`${gameFilter === 'fortnite' ? 'active' : ''}`}>FORTNITE</li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>

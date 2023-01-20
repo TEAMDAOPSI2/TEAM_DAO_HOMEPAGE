@@ -202,6 +202,9 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
         case "freefire":
             gameImage = "freefire-team";
             break;
+        case "fortnite":
+            gameImage = "fortnite-team";
+            break;
         case 'mlbb':
             gameImage = "ml-team";
             break;
