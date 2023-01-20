@@ -32,6 +32,73 @@ const InfoTeamBox = styled.div`
     font-family: "Roboto Mono", monospace;
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .poligon {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 129.9px; /* width * 0.866 */
+    background: #2dfe31;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
+  .hex-background {
+    position: absolute;
+    background-color: #1D1d1d;
+    top: 2px; /* equal to border thickness */
+    left: 2px; /* equal to border thickness */
+    width: 146px; /* container width - (border thickness * 2) */
+    height: 125.9px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
+  .poligon img {
+    position: absolute;
+    width: 146px; /* container width - (border thickness * 2) */
+    height: 125.9px; /* container height - (border thickness * 2) */
+    object-fit: contain;
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     margin-right: 0;
@@ -58,11 +125,6 @@ const InfoTeamBox = styled.div`
     width: 100%;
     height: 200px;
     object-fit: contain;
-
-    img {
-      width: 150px;
-      object-fit: contain;
-    }
   }
 `;
 
@@ -366,10 +428,14 @@ const TeamSection = ({team, game}) => {
                 <InfoTeamBox>
                     <h3>{team?.name}</h3>
                     <div className='logo'>
-                        <img
-                            src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`}
-                            alt={team?.name}
-                        />
+                        <div className="poligon">
+                            <div className="hex-background">
+                                <img
+                                    src={`https://raw.githubusercontent.com/teamdao-psi3/esport-team/main/${gameImage}/${team?.name}.png`}
+                                    alt={team?.name}
+                                />
+                            </div>
+                        </div>
                     </div>
                     <div className='region'>
                         Country : <span>{team?.region}</span>
