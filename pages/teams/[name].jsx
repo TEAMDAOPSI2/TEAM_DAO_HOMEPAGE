@@ -115,8 +115,8 @@ const BreadCrumb = styled.div`
 
 // get serverside props
 export async function getServerSideProps(context) {
-    const {rank} = context.query;
-    const team = Data.find((team) => team.rank === rank);
+    const {name} = context.query;
+    const team = Data.find((team) => team.name === name);
     if(!team) {
         return {
             notFound: true,

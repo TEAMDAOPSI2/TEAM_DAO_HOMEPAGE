@@ -266,7 +266,7 @@ const ListSection = ({dataGame, page, dataFilter}) => {
 
                     // going to page team/{team.id}
                     <tr key={index} onClick={() => {
-                        window.location.href = `teams/${team?.rank}`
+                        window.location.href = `teams/${team?.name}`
                     }}>
                         <td className="number">
                             <span className="cell-title">Rank</span>

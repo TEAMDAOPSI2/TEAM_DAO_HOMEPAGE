@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {useEffect, useState} from "react";
 import ISOCountry from "helper/ISOCountry";
 import getFlagEmoji from "../../helper/GetFlagsEmoji";
-import rank from "../../pages/teams/[rank]";
+import rank from "../../pages/teams/[name]";
 import {formatNumber} from "../../helper/number_format";
 
 const ListSectionContainer = styled.div`

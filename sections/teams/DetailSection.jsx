@@ -54,10 +54,70 @@ const InfoTeamBox = styled.div`
 
   .logo {
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 200px;
+  }
+
+  .poligon {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 129.9px; /* width * 0.866 */
+    background: #2dfe31;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
+  .hex-background {
+    position: absolute;
+    background-color: #1D1d1d;
+    top: 2px; /* equal to border thickness */
+    left: 2px; /* equal to border thickness */
+    width: 146px; /* container width - (border thickness * 2) */
+    height: 125.9px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+  }
+
+  .poligon img {
+    padding: 5px;
+    position: absolute;
+    width: 146px; /* container width - (border thickness * 2) */
+    height: 125.9px; /* container height - (border thickness * 2) */
     object-fit: contain;
+    -webkit-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
+    -moz-clip-path: polygon(0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%);
   }
 `;
 
@@ -336,7 +396,11 @@ const DetailSection = ({ team }) => {
         <InfoTeamBox>
           <h3>{team?.name}</h3>
           <div className='logo'>
-            <img src={team?.logo} alt={team?.name} />
+            <div className="poligon">
+              <div className="hex-background">
+                <img src={team?.logo} alt={team?.name} />
+              </div>
+            </div>
           </div>
           <div className='region'>
             Country : <span>{team?.region}</span>
