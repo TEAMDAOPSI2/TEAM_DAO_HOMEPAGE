@@ -25,7 +25,8 @@
     "react-tsparticles": "^1.42.4",
     "slick-carousel": "^1.8.1",
     "socket.io-client": "^4.5.4",
-    "styled-components": "5.3.1"
+    "styled-components": "5.3.1",
+    "recharts": "^2.1.16"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",
