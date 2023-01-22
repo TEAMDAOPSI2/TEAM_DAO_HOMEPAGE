@@ -14,6 +14,11 @@
     src: url('/fonts/NotoColorEmoji.ttf');
 }
 
+@font-face {
+    font-family: 'Formula1';
+    src: url('/fonts/Formula1-Regular.otf') format('truetype');
+}
+
 @keyframes teamdao-shake-anim {
     0% {
         transform: translate(1px, 1px);

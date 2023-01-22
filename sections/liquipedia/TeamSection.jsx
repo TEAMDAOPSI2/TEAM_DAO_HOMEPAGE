@@ -367,16 +367,18 @@ const MemberBox = styled.div`
 
     div {
       width: 100%;
-      font-family: "Roboto Mono", monospace;
+      font-family: 'Formula1','Roboto Mono', monospace;
     }
 
     .nick-name {
       font: normal normal 600 18px/22px "Roboto Mono", sans-serif;
+      font-family: 'Formula1','Roboto Mono', monospace;
       color: #379341;
     }
 
     .detail {
       font: normal normal 400 14px/17px "Roboto Mono", sans-serif;
+      font-family: 'Formula1','Roboto Mono', monospace;
       color: #d5c6b5;
     }
 
