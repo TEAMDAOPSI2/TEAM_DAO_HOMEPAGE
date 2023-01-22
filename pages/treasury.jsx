@@ -25,7 +25,7 @@ const treasury = ({treasuryData, marketCap}) => {
     return (
         <>
             <Head>
-                <title>T.E.A.M FOUNDATION</title>
+                <title>T.E.A.M | Treasury</title>
             </Head>
             <Navbar/>
             <TreasuryWrap>
