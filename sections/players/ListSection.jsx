@@ -250,12 +250,10 @@ const ListSection = ({data, game, page}) => {
                 <thead>
                 <tr>
                     <th onClick={() => sortFilter('rank')}>
-                        {game !== 'dota2' ? '#' : 'Rank '}
+                        RANK {` `}
                         {
-                            game === 'dota2' && (
-                                sortData.field === 'rank' ? <i className="fa-solid fa-sort text-white"></i> :
-                                    <i className="fa-solid fa-sort"></i>
-                            )
+                            sortData.field === 'rank' ? <i className="fa-solid fa-sort text-white"></i> :
+                                <i className="fa-solid fa-sort"></i>
                         }
                     </th>
                     <th onClick={() => sortFilter('nickName')} width={180}>
@@ -293,7 +291,7 @@ const ListSection = ({data, game, page}) => {
                             <span className="cell-title">Rank</span>
 
                             <span style={{fontSize: '18px'}}>
-                                {game !== 'dota2' ? (page - 1) * 15 + index + 1 : player.rank}
+                                {player.rank}
                             </span>
 
                             <SymbolTeam rank={game !== 'dota2' ? index + 1 : player.rank} mapRandom={mapRandom}/>

@@ -297,7 +297,7 @@ const ListSectionLiquipedia = ({dataGame, page, dataFilter, game}) => {
                         <td className='number'>
                             <span className='cell-title'>Number</span>
                             <span style={{fontSize: "18px"}}>
-                  {(page - 1) * 15 + index + 1}
+                                {team?.rank}
                 </span>
 
                             <SymbolTeam rank={team?.rank} mapRandom={mapRandom} teamName={team?.name}/>

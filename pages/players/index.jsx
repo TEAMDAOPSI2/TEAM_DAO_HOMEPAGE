@@ -285,7 +285,9 @@ const Index = () => {
             setLoading(false);
         }, 5000);
         // count total page
-        setTotalPages(Math.ceil(data.length / 15));
+        setTimeout(() => {
+            setTotalPages(Math.ceil(data.length / 15));
+        }, 1000);
         // have keyword
     }, []);
 

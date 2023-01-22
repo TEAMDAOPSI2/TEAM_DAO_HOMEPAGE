@@ -1,389 +1,139 @@
 [
   {
-    "name": "T.E.A.M DAO YWN",
-    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
-    "prizeMoney": "0",
-    "region": "Philippines",
+    "name": "T1",
+    "uri": "https://liquipedia.net/leagueoflegends/T1",
+    "prizeMoney": "6774619",
+    "region": "South Korea",
     "players": [
       {
-        "nickName": "TEAM DAO Sh1n#YWN",
-        "realName": "Shane V. Vidal",
-        "detail": "Captain/Baron Lane",
-        "imgHard": "TEAM%20DAO%20Sh1n%23YWN.png"
+        "nickName": "Dal",
+        "realName": "Moon Jeong-wan"
       },
       {
-        "nickName": "TEAM DAO Parmie#YWN",
-        "realName": "Raisen Nille R. Salazar",
-        "detail": "Jungle",
-        "imgHard": "TEAM%20DAO%20Parmie%23YWN.png"
+        "nickName": "Forest",
+        "realName": "Lee Hyeon-seo"
       },
       {
-        "nickName": "TEAM DAO N1LLE#YWN",
-        "realName": "Alfie Anthony Binuya",
-        "detail": "MID",
-        "imgHard": "TEAM%20DAO%20N1LLE%23YWN.png"
+        "nickName": "Bay",
+        "realName": "Park Jun-byeong"
       },
       {
-        "nickName": "TEAM DAO Zia#YWN",
-        "realName": "Romie Parayo",
-        "detail": "Support",
-        "imgHard": "TEAM%20DAO%20Zia%23YWN.png"
+        "nickName": "Smash",
+        "realName": "Sin Geum-jae"
       },
       {
-        "nickName": "TEAM DAO G4BO#T1NN",
-        "realName": "Clint Bulacan",
-        "detail": "AD Carry",
-        "imgHard": "TEAM%20DAO%20G4BO%23T1NN.png"
+        "nickName": "Baut",
+        "realName": "Han Jin-sol"
       },
       {
-        "nickName": "TEAM DAO Jules1#YWN",
-        "realName": "c Bonrostro",
-        "detail": "support",
-        "imgHard": "TEAM%20DAO%20Jules1%23YWN.png"
-      },
-      {
-        "nickName": "TEAM DAO XXX#YWN",
-        "realName": "Nicoli Emmanuel Montenegro ",
-        "detail": "BRL/COACH",
-        "imgHard": "TEAM%20DAO%20XXX%23YWN.png"
+        "nickName": "Minous",
+        "realName": "Kang Min-woo"
       }
-    ]
+    ],
+    "rank": 1
   },
   {
-    "name": "100Thieves",
-    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
-    "prizeMoney": "548594",
-    "region": "United States",
+    "name": "RoyalNever Give Up",
+    "uri": "https://liquipedia.net/leagueoflegends/Royal_Never_Give_Up",
+    "prizeMoney": "3917922",
+    "region": "China",
     "players": [
       {
-        "nickName": "Tenacity",
-        "realName": "Milan Oleksij"
+        "nickName": "Breathe",
+        "realName": "Chen Chen"
       },
       {
-        "nickName": "Closer",
-        "realName": "Can Çelik"
+        "nickName": "Wei",
+        "realName": "Yan Yangwei"
       },
       {
-        "nickName": "Bjergsen",
-        "realName": "Søren Bjerg"
+        "nickName": "Angel",
+        "realName": "Xiang Tao"
       },
       {
-        "nickName": "Doublelift",
-        "realName": "Yiliang Peng"
+        "nickName": "Tangyuan",
+        "realName": ""
       },
       {
-        "nickName": "Busio",
-        "realName": "Alan Cwalina"
+        "nickName": "GALA",
+        "realName": "Chen Wei"
+      },
+      {
+        "nickName": "Bunny",
+        "realName": "Liu Wenkang"
+      },
+      {
+        "nickName": "ziyou",
+        "realName": ""
       }
-    ]
+    ],
+    "rank": 2
   },
   {
-    "name": "Cloud9",
-    "uri": "https://liquipedia.net/leagueoflegends/Cloud9",
-    "prizeMoney": "2050014",
-    "region": "United States",
+    "name": "InvictusGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Invictus_Gaming",
+    "prizeMoney": "3806989",
+    "region": "China",
     "players": [
       {
-        "nickName": "Fudge",
-        "realName": "Ibrahim Allami"
+        "nickName": "neny",
+        "realName": "Zhao Zhi-Hao"
       },
       {
-        "nickName": "Blaber",
-        "realName": "Robert Huang"
+        "nickName": "YSKM",
+        "realName": "Chau Shu-tak"
       },
       {
-        "nickName": "Diplex",
-        "realName": "Dimitri Ponomarev"
+        "nickName": "GIDEON",
+        "realName": "Kim Min-seong"
       },
       {
-        "nickName": "Berserker",
-        "realName": "Kim Min-cheol"
+        "nickName": "Dove",
+        "realName": "Kim Jae-yeon"
       },
       {
-        "nickName": "Zven",
-        "realName": "Jesper Svenningsen"
+        "nickName": "Ahn",
+        "realName": ""
+      },
+      {
+        "nickName": "Wink",
+        "realName": "Zhang Rui"
       }
-    ]
+    ],
+    "rank": 3
   },
   {
-    "name": "CLG",
-    "uri": "https://liquipedia.net/leagueoflegends/Counter_Logic_Gaming",
-    "prizeMoney": "609975",
-    "region": "United States",
+    "name": "EDwardGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/EDward_Gaming",
+    "prizeMoney": "3238556",
+    "region": "China",
     "players": [
       {
-        "nickName": "Jenkins",
-        "realName": "Thomas Tran"
+        "nickName": "Ale",
+        "realName": "Hu Jiale"
       },
       {
-        "nickName": "Kevy",
-        "realName": "Shane Allen"
+        "nickName": "Jiejie",
+        "realName": "Zhao Lijie"
       },
       {
-        "nickName": "Copy",
-        "realName": "Jouhan Pathmanathan"
+        "nickName": "Fisher",
+        "realName": "Lee Jeong-tae"
       },
       {
-        "nickName": "Meech",
-        "realName": "Brandon Choi"
+        "nickName": "FoFo",
+        "realName": "Chu Chun-lan"
       },
       {
-        "nickName": "breezyyy",
-        "realName": "Brindon Keesey"
+        "nickName": "Leave",
+        "realName": "Hu Hongchao"
+      },
+      {
+        "nickName": "Meiko",
+        "realName": "Tian Ye"
       }
-    ]
-  },
-  {
-    "name": "Dignitas",
-    "uri": "https://liquipedia.net/leagueoflegends/Dignitas",
-    "prizeMoney": "145000",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Hoon",
-        "realName": "Lee Jang-hoon"
-      },
-      {
-        "nickName": "Exyu",
-        "realName": "Lawrence Xu"
-      },
-      {
-        "nickName": "Insanity",
-        "realName": "David Challe"
-      },
-      {
-        "nickName": "Tomo",
-        "realName": "Frank Lam"
-      },
-      {
-        "nickName": "Diamond",
-        "realName": "David Bérubé"
-      }
-    ]
-  },
-  {
-    "name": "EvilGeniuses",
-    "uri": "https://liquipedia.net/leagueoflegends/Evil_Geniuses",
-    "prizeMoney": "287744",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Soul",
-        "realName": "Alex Luo"
-      },
-      {
-        "nickName": "Sheiden",
-        "realName": "Jade Libut"
-      },
-      {
-        "nickName": "Ryoma",
-        "realName": "Tommy Le"
-      },
-      {
-        "nickName": "K1ng",
-        "realName": "Calvin Truong"
-      },
-      {
-        "nickName": "Smoothie",
-        "realName": "Andy Ta"
-      }
-    ]
-  },
-  {
-    "name": "FlyQuest",
-    "uri": "https://liquipedia.net/leagueoflegends/FlyQuest",
-    "prizeMoney": "206725",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Impact",
-        "realName": "Jeong Eon-young"
-      },
-      {
-        "nickName": "Spica",
-        "realName": "Mingyi Lu"
-      },
-      {
-        "nickName": "VicLa",
-        "realName": "Lee Dae-kwang"
-      },
-      {
-        "nickName": "Prince",
-        "realName": "Lee Chae-hwan"
-      },
-      {
-        "nickName": "Eyla",
-        "realName": "Bill Nguyen"
-      }
-    ]
-  },
-  {
-    "name": "GoldenGuardians",
-    "uri": "https://liquipedia.net/leagueoflegends/Golden_Guardians",
-    "prizeMoney": "17100",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Concept",
-        "realName": "Micheal Su"
-      },
-      {
-        "nickName": "RoseThorn",
-        "realName": "Kim Tae-ho"
-      },
-      {
-        "nickName": "Young",
-        "realName": "Youngho Choi"
-      },
-      {
-        "nickName": "Array",
-        "realName": "Jackson Moldenhauer"
-      },
-      {
-        "nickName": "Prismal",
-        "realName": "Jacob Feinstein"
-      }
-    ]
-  },
-  {
-    "name": "Immortals",
-    "uri": "https://liquipedia.net/leagueoflegends/Immortals",
-    "prizeMoney": "150057",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Revenge",
-        "realName": "Mohamed Kaddoura"
-      },
-      {
-        "nickName": "Kenvi",
-        "realName": "Shane Espinoza"
-      },
-      {
-        "nickName": "Ablazeolive",
-        "realName": "Nicholas Antonio Abbott"
-      },
-      {
-        "nickName": "Tactical",
-        "realName": "Edward Ra"
-      },
-      {
-        "nickName": "Fleshy",
-        "realName": "Kadir Kemiksiz"
-      }
-    ]
-  },
-  {
-    "name": "TSM",
-    "uri": "https://liquipedia.net/leagueoflegends/TSM",
-    "prizeMoney": "1583988",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Hauntzer",
-        "realName": "Kevin Yarnell"
-      },
-      {
-        "nickName": "Svenskeren",
-        "realName": "Dennis Johnsen"
-      },
-      {
-        "nickName": "WildTurtle",
-        "realName": "Jason Tran"
-      },
-      {
-        "nickName": "Dragku",
-        "realName": "Dragon Guo"
-      }
-    ]
-  },
-  {
-    "name": "TeamLiquid",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_Liquid",
-    "prizeMoney": "1524982",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Bradley",
-        "realName": "Bradley Benneyworth"
-      },
-      {
-        "nickName": "Mir",
-        "realName": "Park Mi-reu"
-      },
-      {
-        "nickName": "APA",
-        "realName": "Eain Stearns"
-      },
-      {
-        "nickName": "Arrow",
-        "realName": "Noh Dong-hyeon"
-      },
-      {
-        "nickName": "Kim Down",
-        "realName": "Ethan Song"
-      }
-    ]
-  },
-  {
-    "name": "Astralis",
-    "uri": "https://liquipedia.net/leagueoflegends/Astralis",
-    "prizeMoney": "",
-    "region": "Denmark",
-    "players": [
-      {
-        "nickName": "Finn",
-        "realName": "Finn Wiestål"
-      },
-      {
-        "nickName": "113",
-        "realName": "Doğukan Balcı"
-      },
-      {
-        "nickName": "Dajor",
-        "realName": "Oliver Ryppa"
-      },
-      {
-        "nickName": "Kobbe",
-        "realName": "Kasper Kobberup"
-      },
-      {
-        "nickName": "JeongHoon",
-        "realName": "Lee Jeong-hoon"
-      }
-    ]
-  },
-  {
-    "name": "ExcelEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Excel_Esports",
-    "prizeMoney": "53557",
-    "region": "United Kingdom",
-    "players": [
-      {
-        "nickName": "Odoamne",
-        "realName": "Andrei Pascu"
-      },
-      {
-        "nickName": "Xerxe",
-        "realName": "Andrei Dragomir"
-      },
-      {
-        "nickName": "Vetheo",
-        "realName": "Vincent Berrié"
-      },
-      {
-        "nickName": "Patrik",
-        "realName": "Patrik Jírů"
-      },
-      {
-        "nickName": "Targamas",
-        "realName": "Raphaël Crabbé"
-      },
-      {
-        "nickName": "Abbedagge",
-        "realName": "Felix Braun"
-      }
-    ]
+    ],
+    "rank": 4
   },
   {
     "name": "Fnatic",
@@ -411,7 +161,8 @@
         "nickName": "Advienne",
         "realName": "Henk Reijenga"
       }
-    ]
+    ],
+    "rank": 5
   },
   {
     "name": "G2Esports",
@@ -439,235 +190,37 @@
         "nickName": "Mikyx",
         "realName": "Mihael Mehle"
       }
-    ]
+    ],
+    "rank": 6
   },
   {
-    "name": "KOI",
-    "uri": "https://liquipedia.net/leagueoflegends/KOI",
-    "prizeMoney": "7325",
-    "region": "Spain",
+    "name": "Cloud9",
+    "uri": "https://liquipedia.net/leagueoflegends/Cloud9",
+    "prizeMoney": "2050014",
+    "region": "United States",
     "players": [
       {
-        "nickName": "Sinmivak",
-        "realName": "Jakub Rucki"
+        "nickName": "Fudge",
+        "realName": "Ibrahim Allami"
       },
       {
-        "nickName": "Koldo",
-        "realName": "Luis Pérez"
+        "nickName": "Blaber",
+        "realName": "Robert Huang"
       },
       {
-        "nickName": "Baca",
-        "realName": "João Miguel Novais Bigas"
+        "nickName": "Diplex",
+        "realName": "Dimitri Ponomarev"
       },
       {
-        "nickName": "Lucker",
-        "realName": "Damian Konefał"
+        "nickName": "Berserker",
+        "realName": "Kim Min-cheol"
       },
       {
-        "nickName": "seaz",
-        "realName": "Daniel Binderhofer"
+        "nickName": "Zven",
+        "realName": "Jesper Svenningsen"
       }
-    ]
-  },
-  {
-    "name": "MADLions",
-    "uri": "https://liquipedia.net/leagueoflegends/MAD_Lions",
-    "prizeMoney": "551809",
-    "region": "Spain",
-    "players": [
-      {
-        "nickName": "Chasy",
-        "realName": "Kim Dong-hyeon"
-      },
-      {
-        "nickName": "Elyoya",
-        "realName": "Javier Prades"
-      },
-      {
-        "nickName": "Nisqy",
-        "realName": "Yasin Dinçer"
-      },
-      {
-        "nickName": "Carzzy",
-        "realName": "Matyáš Orság"
-      },
-      {
-        "nickName": "Hylissang",
-        "realName": "Zdravets Iliev Galabov"
-      }
-    ]
-  },
-  {
-    "name": "SKGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/SK_Gaming",
-    "prizeMoney": "260145",
-    "region": "Germany",
-    "players": [
-      {
-        "nickName": "Jenax",
-        "realName": "Janik Bartels"
-      },
-      {
-        "nickName": "Lurox",
-        "realName": "Lukas Thoma"
-      },
-      {
-        "nickName": "FEBIVEN",
-        "realName": "Fabian Diepstraten"
-      },
-      {
-        "nickName": "Keduii",
-        "realName": "Tim Willers"
-      },
-      {
-        "nickName": "Prime",
-        "realName": "Olivier Payet"
-      }
-    ]
-  },
-  {
-    "name": "TeamBDS",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_BDS",
-    "prizeMoney": "4746",
-    "region": "Switzerland",
-    "players": [
-      {
-        "nickName": "Agresivoo",
-        "realName": "Tobiasz Ciba"
-      },
-      {
-        "nickName": "Maxi",
-        "realName": "Magnus Kristensen"
-      },
-      {
-        "nickName": "Reeker",
-        "realName": "Steven Chen"
-      },
-      {
-        "nickName": "xMatty",
-        "realName": "Matthew Coombs"
-      },
-      {
-        "nickName": "Erdote",
-        "realName": "Robert Nowak"
-      }
-    ]
-  },
-  {
-    "name": "TeamHeretics",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_Heretics",
-    "prizeMoney": "53487",
-    "region": "Spain",
-    "players": [
-      {
-        "nickName": "iBo",
-        "realName": "Marcin Lebuda"
-      },
-      {
-        "nickName": "bluerzor",
-        "realName": "Subicz Dániel"
-      },
-      {
-        "nickName": "Zwyroo",
-        "realName": "Artur Szymon Trojan"
-      },
-      {
-        "nickName": "Flakked",
-        "realName": "Victor Lirola"
-      },
-      {
-        "nickName": "marlon",
-        "realName": "Igor Tomczyk"
-      }
-    ]
-  },
-  {
-    "name": "TeamVitality",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_Vitality",
-    "prizeMoney": "249119",
-    "region": "France",
-    "players": [
-      {
-        "nickName": "PatkicaA",
-        "realName": "Aleksandar Stefanović"
-      },
-      {
-        "nickName": "Daglas",
-        "realName": "Kacper Dagiel"
-      },
-      {
-        "nickName": "Czajek",
-        "realName": "Mateusz Czajka"
-      },
-      {
-        "nickName": "Innaxe",
-        "realName": "Nihat Dzhelal Aliev"
-      },
-      {
-        "nickName": "Jactroll",
-        "realName": "Jakub Skurzyński"
-      }
-    ]
-  },
-  {
-    "name": "BrionEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Brion_Esports",
-    "prizeMoney": "22491",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Frim",
-        "realName": "Kim Yeong-jun"
-      },
-      {
-        "nickName": "DDoiV",
-        "realName": "Bang Moon-yeong"
-      },
-      {
-        "nickName": "Ivory",
-        "realName": "Jeong Ye-chan"
-      },
-      {
-        "nickName": "Gamin",
-        "realName": "Ga Min-joon"
-      },
-      {
-        "nickName": "Pollu",
-        "realName": "Oh Dong-gyu"
-      }
-    ]
-  },
-  {
-    "name": "DRX",
-    "uri": "https://liquipedia.net/leagueoflegends/DRX",
-    "prizeMoney": "1142594",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Clear",
-        "realName": "Song Hyeon-min"
-      },
-      {
-        "nickName": "Sponge",
-        "realName": "Bae Young-jun"
-      },
-      {
-        "nickName": "SeTab",
-        "realName": "Song Kyeong-jin"
-      },
-      {
-        "nickName": "Starlit",
-        "realName": "Jung Byeol"
-      },
-      {
-        "nickName": "Pleata",
-        "realName": "Son Min-woo"
-      },
-      {
-        "nickName": "Piero",
-        "realName": "Kim Jeong-hoon"
-      }
-    ]
+    ],
+    "rank": 7
   },
   {
     "name": "Dplus",
@@ -707,339 +260,8 @@
         "nickName": "Loopy",
         "realName": "Kim Dong-hyeon"
       }
-    ]
-  },
-  {
-    "name": "Freecs",
-    "uri": "https://liquipedia.net/leagueoflegends/Freecs",
-    "prizeMoney": "517301",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "IlllIma",
-        "realName": "Ma Tae-seok"
-      },
-      {
-        "nickName": "Courage",
-        "realName": "Jeon Hyun-min"
-      },
-      {
-        "nickName": "Cleaver",
-        "realName": "Son Jin-won"
-      },
-      {
-        "nickName": "Bull",
-        "realName": "Song Seon-gyu"
-      },
-      {
-        "nickName": "Andil",
-        "realName": "Moon Gwan-bin"
-      },
-      {
-        "nickName": "Lancer",
-        "realName": "Han Jeong-heum"
-      }
-    ]
-  },
-  {
-    "name": "Gen.GEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Gen.G_Esports",
-    "prizeMoney": "1115994",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Zest",
-        "realName": "Kim Dong-min"
-      },
-      {
-        "nickName": "Casting",
-        "realName": "Shin Min-jae"
-      },
-      {
-        "nickName": "Winner",
-        "realName": "Woo Joo-sung"
-      },
-      {
-        "nickName": "Quid",
-        "realName": "Lim Hyeon-seung"
-      },
-      {
-        "nickName": "Carfe",
-        "realName": "Lee Ju-chan"
-      },
-      {
-        "nickName": "Lospa",
-        "realName": "Park Joon-hyeong"
-      }
-    ]
-  },
-  {
-    "name": "HanwhaLife Esports",
-    "uri": "https://liquipedia.net/leagueoflegends/Hanwha_Life_Esports",
-    "prizeMoney": "203821",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Rooster",
-        "realName": "Shin Yun-hwan"
-      },
-      {
-        "nickName": "Guwon",
-        "realName": "Koo Gwan-mo"
-      },
-      {
-        "nickName": "Grizzly",
-        "realName": ""
-      },
-      {
-        "nickName": "Roamer",
-        "realName": "Cho Woo-jin"
-      },
-      {
-        "nickName": "Loki",
-        "realName": "Lee Sang-min"
-      },
-      {
-        "nickName": "Lure",
-        "realName": "Shin Jae-yoon"
-      },
-      {
-        "nickName": "Duro",
-        "realName": "Joo Min-kyu"
-      }
-    ]
-  },
-  {
-    "name": "KTRolster",
-    "uri": "https://liquipedia.net/leagueoflegends/KT_Rolster",
-    "prizeMoney": "799669",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Castle",
-        "realName": "Cho Hyeon-seong"
-      },
-      {
-        "nickName": "PerfecT",
-        "realName": "Lee Seung-min"
-      },
-      {
-        "nickName": "HamBak",
-        "realName": "Ham Yoo-jin"
-      },
-      {
-        "nickName": "Feisty",
-        "realName": "Jeong Seong-hoon"
-      },
-      {
-        "nickName": "Hype",
-        "realName": "Byeon Jeong-hyeon"
-      },
-      {
-        "nickName": "Rebel",
-        "realName": "Park Geun-woo"
-      },
-      {
-        "nickName": "Way",
-        "realName": "Han Gil"
-      }
-    ]
-  },
-  {
-    "name": "NongshimRedForce",
-    "uri": "https://liquipedia.net/leagueoflegends/Nongshim_RedForce",
-    "prizeMoney": "39993",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Mihile",
-        "realName": "Baek Sang-hwi"
-      },
-      {
-        "nickName": "Sounda",
-        "realName": "Kong In-hyuk"
-      },
-      {
-        "nickName": "Calix",
-        "realName": "Syun Hyun-bin"
-      },
-      {
-        "nickName": "callme",
-        "realName": "Oh Ji-hoon"
-      },
-      {
-        "nickName": "Jiwoo",
-        "realName": "Jung Ji-woo"
-      },
-      {
-        "nickName": "HH",
-        "realName": "Lee Hyun-ho"
-      }
-    ]
-  },
-  {
-    "name": "SANDBOXGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/SANDBOX_Gaming",
-    "prizeMoney": "112714",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "DDahyuk",
-        "realName": "An Min-hyuk"
-      },
-      {
-        "nickName": "Vincenzo",
-        "realName": "Ha Seung-min"
-      },
-      {
-        "nickName": "Guti",
-        "realName": "Moon Jeong-hwan"
-      },
-      {
-        "nickName": "Diable",
-        "realName": "Nam Dae-geun"
-      },
-      {
-        "nickName": "PlanB",
-        "realName": "Hong Jun-seok"
-      },
-      {
-        "nickName": "DangMoo",
-        "realName": "Jeon Su-jin"
-      }
-    ]
-  },
-  {
-    "name": "T1",
-    "uri": "https://liquipedia.net/leagueoflegends/T1",
-    "prizeMoney": "6774619",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Dal",
-        "realName": "Moon Jeong-wan"
-      },
-      {
-        "nickName": "Forest",
-        "realName": "Lee Hyeon-seo"
-      },
-      {
-        "nickName": "Bay",
-        "realName": "Park Jun-byeong"
-      },
-      {
-        "nickName": "Smash",
-        "realName": "Sin Geum-jae"
-      },
-      {
-        "nickName": "Baut",
-        "realName": "Han Jin-sol"
-      },
-      {
-        "nickName": "Minous",
-        "realName": "Kang Min-woo"
-      }
-    ]
-  },
-  {
-    "name": "Anyone'sLegend",
-    "uri": "https://liquipedia.net/leagueoflegends/Anyone%27s_Legend",
-    "prizeMoney": "22855",
-    "region": "China",
-    "players": [
-      {
-        "nickName": "Zdz",
-        "realName": "Zhu Dezhang"
-      },
-      {
-        "nickName": "Xiaohao",
-        "realName": "Peng Hao"
-      },
-      {
-        "nickName": "Harder",
-        "realName": "Zhou Shihao"
-      },
-      {
-        "nickName": "pinz",
-        "realName": "Lin Lipin"
-      },
-      {
-        "nickName": "Betty",
-        "realName": "Lu Yu-hung"
-      },
-      {
-        "nickName": "SwordArT",
-        "realName": "Hu Shuo-chieh"
-      }
-    ]
-  },
-  {
-    "name": "BilibiliGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Bilibili_Gaming",
-    "prizeMoney": "178331",
-    "region": "China",
-    "players": [
-      {
-        "nickName": "Bin",
-        "realName": "Chen Zebin"
-      },
-      {
-        "nickName": "Can",
-        "realName": "Zou Wei"
-      },
-      {
-        "nickName": "XUN",
-        "realName": "Peng Lixun"
-      },
-      {
-        "nickName": "Yagao",
-        "realName": "Zeng Qi"
-      },
-      {
-        "nickName": "Elk",
-        "realName": "Zhao Jiahao"
-      },
-      {
-        "nickName": "ON",
-        "realName": "Luo Wenjun"
-      },
-      {
-        "nickName": "Jwei",
-        "realName": "Sun Junwei"
-      }
-    ]
-  },
-  {
-    "name": "EDwardGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/EDward_Gaming",
-    "prizeMoney": "3238556",
-    "region": "China",
-    "players": [
-      {
-        "nickName": "Ale",
-        "realName": "Hu Jiale"
-      },
-      {
-        "nickName": "Jiejie",
-        "realName": "Zhao Lijie"
-      },
-      {
-        "nickName": "Fisher",
-        "realName": "Lee Jeong-tae"
-      },
-      {
-        "nickName": "FoFo",
-        "realName": "Chu Chun-lan"
-      },
-      {
-        "nickName": "Leave",
-        "realName": "Hu Hongchao"
-      },
-      {
-        "nickName": "Meiko",
-        "realName": "Tian Ye"
-      }
-    ]
+    ],
+    "rank": 8
   },
   {
     "name": "FunPlusPhoenix",
@@ -1079,39 +301,95 @@
         "nickName": "Xingye",
         "realName": ""
       }
-    ]
+    ],
+    "rank": 9
   },
   {
-    "name": "InvictusGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Invictus_Gaming",
-    "prizeMoney": "3806989",
+    "name": "TSM",
+    "uri": "https://liquipedia.net/leagueoflegends/TSM",
+    "prizeMoney": "1583988",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Hauntzer",
+        "realName": "Kevin Yarnell"
+      },
+      {
+        "nickName": "Svenskeren",
+        "realName": "Dennis Johnsen"
+      },
+      {
+        "nickName": "WildTurtle",
+        "realName": "Jason Tran"
+      },
+      {
+        "nickName": "Dragku",
+        "realName": "Dragon Guo"
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "name": "TeamLiquid",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_Liquid",
+    "prizeMoney": "1524982",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Bradley",
+        "realName": "Bradley Benneyworth"
+      },
+      {
+        "nickName": "Mir",
+        "realName": "Park Mi-reu"
+      },
+      {
+        "nickName": "APA",
+        "realName": "Eain Stearns"
+      },
+      {
+        "nickName": "Arrow",
+        "realName": "Noh Dong-hyeon"
+      },
+      {
+        "nickName": "Kim Down",
+        "realName": "Ethan Song"
+      }
+    ],
+    "rank": 11
+  },
+  {
+    "name": "TopEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Top_Esports",
+    "prizeMoney": "1475372",
     "region": "China",
     "players": [
       {
-        "nickName": "neny",
-        "realName": "Zhao Zhi-Hao"
+        "nickName": "Qingtian",
+        "realName": "Yu Zihan"
       },
       {
-        "nickName": "YSKM",
-        "realName": "Chau Shu-tak"
+        "nickName": "Wayward",
+        "realName": "Huang Renxing"
       },
       {
-        "nickName": "GIDEON",
-        "realName": "Kim Min-seong"
+        "nickName": "Tian",
+        "realName": "Gao Tianliang"
       },
       {
-        "nickName": "Dove",
-        "realName": "Kim Jae-yeon"
+        "nickName": "Rookie",
+        "realName": "Song Eui-jin"
       },
       {
-        "nickName": "Ahn",
-        "realName": ""
+        "nickName": "JackeyLove",
+        "realName": "Yu Wenbo"
       },
       {
-        "nickName": "Wink",
-        "realName": "Zhang Rui"
+        "nickName": "Mark",
+        "realName": "Ling Xu"
       }
-    ]
+    ],
+    "rank": 12
   },
   {
     "name": "JDGaming",
@@ -1147,7 +425,359 @@
         "nickName": "Yimeng",
         "realName": "Chen Mingyong"
       }
-    ]
+    ],
+    "rank": 13
+  },
+  {
+    "name": "TeamWE",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_WE",
+    "prizeMoney": "1325064",
+    "region": "China",
+    "players": [
+      {
+        "nickName": "Biubiu",
+        "realName": "Yu Leixin"
+      },
+      {
+        "nickName": "Demon",
+        "realName": ""
+      },
+      {
+        "nickName": "Heng",
+        "realName": "Yang Cuiheng"
+      },
+      {
+        "nickName": "Shanks",
+        "realName": "Cui Xiaojun"
+      },
+      {
+        "nickName": "Hope",
+        "realName": "Wang Jie"
+      },
+      {
+        "nickName": "Iwandy",
+        "realName": "Liao Dingyang"
+      }
+    ],
+    "rank": 14
+  },
+  {
+    "name": "DRX",
+    "uri": "https://liquipedia.net/leagueoflegends/DRX",
+    "prizeMoney": "1142594",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Clear",
+        "realName": "Song Hyeon-min"
+      },
+      {
+        "nickName": "Sponge",
+        "realName": "Bae Young-jun"
+      },
+      {
+        "nickName": "SeTab",
+        "realName": "Song Kyeong-jin"
+      },
+      {
+        "nickName": "Starlit",
+        "realName": "Jung Byeol"
+      },
+      {
+        "nickName": "Pleata",
+        "realName": "Son Min-woo"
+      },
+      {
+        "nickName": "Piero",
+        "realName": "Kim Jeong-hoon"
+      }
+    ],
+    "rank": 15
+  },
+  {
+    "name": "Gen.GEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Gen.G_Esports",
+    "prizeMoney": "1115994",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Zest",
+        "realName": "Kim Dong-min"
+      },
+      {
+        "nickName": "Casting",
+        "realName": "Shin Min-jae"
+      },
+      {
+        "nickName": "Winner",
+        "realName": "Woo Joo-sung"
+      },
+      {
+        "nickName": "Quid",
+        "realName": "Lim Hyeon-seung"
+      },
+      {
+        "nickName": "Carfe",
+        "realName": "Lee Ju-chan"
+      },
+      {
+        "nickName": "Lospa",
+        "realName": "Park Joon-hyeong"
+      }
+    ],
+    "rank": 16
+  },
+  {
+    "name": "DetonatioNFocusMe",
+    "uri": "https://liquipedia.net/leagueoflegends/DetonatioN_FocusMe",
+    "prizeMoney": "816755",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "Tol2",
+        "realName": "Haruki Shibata"
+      },
+      {
+        "nickName": "Steal",
+        "realName": "Moon Geon-yeong"
+      },
+      {
+        "nickName": "Aria",
+        "realName": "Lee Ga-eul"
+      },
+      {
+        "nickName": "Yutapon",
+        "realName": "Yuta Sugiura"
+      },
+      {
+        "nickName": "Harp",
+        "realName": "Lee Ji-yoong"
+      }
+    ],
+    "rank": 17
+  },
+  {
+    "name": "KTRolster",
+    "uri": "https://liquipedia.net/leagueoflegends/KT_Rolster",
+    "prizeMoney": "799669",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Castle",
+        "realName": "Cho Hyeon-seong"
+      },
+      {
+        "nickName": "PerfecT",
+        "realName": "Lee Seung-min"
+      },
+      {
+        "nickName": "HamBak",
+        "realName": "Ham Yoo-jin"
+      },
+      {
+        "nickName": "Feisty",
+        "realName": "Jeong Seong-hoon"
+      },
+      {
+        "nickName": "Hype",
+        "realName": "Byeon Jeong-hyeon"
+      },
+      {
+        "nickName": "Rebel",
+        "realName": "Park Geun-woo"
+      },
+      {
+        "nickName": "Way",
+        "realName": "Han Gil"
+      }
+    ],
+    "rank": 18
+  },
+  {
+    "name": "CLG",
+    "uri": "https://liquipedia.net/leagueoflegends/Counter_Logic_Gaming",
+    "prizeMoney": "609975",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Jenkins",
+        "realName": "Thomas Tran"
+      },
+      {
+        "nickName": "Kevy",
+        "realName": "Shane Allen"
+      },
+      {
+        "nickName": "Copy",
+        "realName": "Jouhan Pathmanathan"
+      },
+      {
+        "nickName": "Meech",
+        "realName": "Brandon Choi"
+      },
+      {
+        "nickName": "breezyyy",
+        "realName": "Brindon Keesey"
+      }
+    ],
+    "rank": 19
+  },
+  {
+    "name": "OhMy God",
+    "uri": "https://liquipedia.net/leagueoflegends/Oh_My_God",
+    "prizeMoney": "565448",
+    "region": "China",
+    "players": [
+      {
+        "nickName": "shanji",
+        "realName": "Deng Zijian"
+      },
+      {
+        "nickName": "Munian",
+        "realName": ""
+      },
+      {
+        "nickName": "AKi",
+        "realName": "Mao An"
+      },
+      {
+        "nickName": "Creme",
+        "realName": "Lin Jian"
+      },
+      {
+        "nickName": "Able",
+        "realName": "Dai Zhichun"
+      },
+      {
+        "nickName": "Jerry",
+        "realName": "Zhou Kexue"
+      },
+      {
+        "nickName": "ppgod",
+        "realName": "Guo Peng"
+      }
+    ],
+    "rank": 20
+  },
+  {
+    "name": "MADLions",
+    "uri": "https://liquipedia.net/leagueoflegends/MAD_Lions",
+    "prizeMoney": "551809",
+    "region": "Spain",
+    "players": [
+      {
+        "nickName": "Chasy",
+        "realName": "Kim Dong-hyeon"
+      },
+      {
+        "nickName": "Elyoya",
+        "realName": "Javier Prades"
+      },
+      {
+        "nickName": "Nisqy",
+        "realName": "Yasin Dinçer"
+      },
+      {
+        "nickName": "Carzzy",
+        "realName": "Matyáš Orság"
+      },
+      {
+        "nickName": "Hylissang",
+        "realName": "Zdravets Iliev Galabov"
+      }
+    ],
+    "rank": 21
+  },
+  {
+    "name": "100Thieves",
+    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
+    "prizeMoney": "548594",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Tenacity",
+        "realName": "Milan Oleksij"
+      },
+      {
+        "nickName": "Closer",
+        "realName": "Can Çelik"
+      },
+      {
+        "nickName": "Bjergsen",
+        "realName": "Søren Bjerg"
+      },
+      {
+        "nickName": "Doublelift",
+        "realName": "Yiliang Peng"
+      },
+      {
+        "nickName": "Busio",
+        "realName": "Alan Cwalina"
+      }
+    ],
+    "rank": 22
+  },
+  {
+    "name": "Freecs",
+    "uri": "https://liquipedia.net/leagueoflegends/Freecs",
+    "prizeMoney": "517301",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "IlllIma",
+        "realName": "Ma Tae-seok"
+      },
+      {
+        "nickName": "Courage",
+        "realName": "Jeon Hyun-min"
+      },
+      {
+        "nickName": "Cleaver",
+        "realName": "Son Jin-won"
+      },
+      {
+        "nickName": "Bull",
+        "realName": "Song Seon-gyu"
+      },
+      {
+        "nickName": "Andil",
+        "realName": "Moon Gwan-bin"
+      },
+      {
+        "nickName": "Lancer",
+        "realName": "Han Jeong-heum"
+      }
+    ],
+    "rank": 23
+  },
+  {
+    "name": "GAMEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/GAM_Esports",
+    "prizeMoney": "450471",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "Kiaya",
+        "realName": "Trần Duy Sang"
+      },
+      {
+        "nickName": "Levi",
+        "realName": "Đỗ Duy Khánh"
+      },
+      {
+        "nickName": "Kati",
+        "realName": "Đặng Thanh Phê"
+      },
+      {
+        "nickName": "playcool",
+        "realName": "Bùi Văn Chu"
+      },
+      {
+        "nickName": "Style",
+        "realName": "Nguyễn Hoàng Sơn"
+      }
+    ],
+    "rank": 24
   },
   {
     "name": "LGDGaming",
@@ -1179,7 +809,322 @@
         "nickName": "Jinjiao",
         "realName": "Xie Jinshan"
       }
-    ]
+    ],
+    "rank": 25
+  },
+  {
+    "name": "PSGTalon",
+    "uri": "https://liquipedia.net/leagueoflegends/PSG_Talon",
+    "prizeMoney": "297750",
+    "region": "Hong Kong",
+    "players": [
+      {
+        "nickName": "Azhi",
+        "realName": "Huang Shang-chih"
+      },
+      {
+        "nickName": "Husha",
+        "realName": "Huang Zi-wei"
+      },
+      {
+        "nickName": "HongSuo",
+        "realName": ""
+      },
+      {
+        "nickName": "ubao",
+        "realName": "Chen Chang-chu"
+      },
+      {
+        "nickName": "Wako",
+        "realName": "Tsou Wei-yang"
+      },
+      {
+        "nickName": "Woody",
+        "realName": "Lin Hung-yu"
+      }
+    ],
+    "rank": 26
+  },
+  {
+    "name": "EvilGeniuses",
+    "uri": "https://liquipedia.net/leagueoflegends/Evil_Geniuses",
+    "prizeMoney": "287744",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Soul",
+        "realName": "Alex Luo"
+      },
+      {
+        "nickName": "Sheiden",
+        "realName": "Jade Libut"
+      },
+      {
+        "nickName": "Ryoma",
+        "realName": "Tommy Le"
+      },
+      {
+        "nickName": "K1ng",
+        "realName": "Calvin Truong"
+      },
+      {
+        "nickName": "Smoothie",
+        "realName": "Andy Ta"
+      }
+    ],
+    "rank": 27
+  },
+  {
+    "name": "SKGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/SK_Gaming",
+    "prizeMoney": "260145",
+    "region": "Germany",
+    "players": [
+      {
+        "nickName": "Jenax",
+        "realName": "Janik Bartels"
+      },
+      {
+        "nickName": "Lurox",
+        "realName": "Lukas Thoma"
+      },
+      {
+        "nickName": "FEBIVEN",
+        "realName": "Fabian Diepstraten"
+      },
+      {
+        "nickName": "Keduii",
+        "realName": "Tim Willers"
+      },
+      {
+        "nickName": "Prime",
+        "realName": "Olivier Payet"
+      }
+    ],
+    "rank": 28
+  },
+  {
+    "name": "TeamVitality",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_Vitality",
+    "prizeMoney": "249119",
+    "region": "France",
+    "players": [
+      {
+        "nickName": "PatkicaA",
+        "realName": "Aleksandar Stefanović"
+      },
+      {
+        "nickName": "Daglas",
+        "realName": "Kacper Dagiel"
+      },
+      {
+        "nickName": "Czajek",
+        "realName": "Mateusz Czajka"
+      },
+      {
+        "nickName": "Innaxe",
+        "realName": "Nihat Dzhelal Aliev"
+      },
+      {
+        "nickName": "Jactroll",
+        "realName": "Jakub Skurzyński"
+      }
+    ],
+    "rank": 29
+  },
+  {
+    "name": "paiNGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/PaiN_Gaming",
+    "prizeMoney": "232723",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Wizer",
+        "realName": "Choi Ui-seok"
+      },
+      {
+        "nickName": "Cariok",
+        "realName": "Marcos Santos de Oliveira Junior"
+      },
+      {
+        "nickName": "dyNquedo",
+        "realName": "Matheus Rossini"
+      },
+      {
+        "nickName": "Bvoy",
+        "realName": "Ju Yeong-hoon"
+      },
+      {
+        "nickName": "Damage",
+        "realName": "Yan Sales Neves"
+      },
+      {
+        "nickName": "ProDelta",
+        "realName": "Fábio Marques"
+      }
+    ],
+    "rank": 30
+  },
+  {
+    "name": "JTeam",
+    "uri": "https://liquipedia.net/leagueoflegends/J_Team",
+    "prizeMoney": "215617",
+    "region": "Taiwan",
+    "players": [
+      {
+        "nickName": "RYue",
+        "realName": ""
+      },
+      {
+        "nickName": "Fung",
+        "realName": ""
+      },
+      {
+        "nickName": "Lauva",
+        "realName": ""
+      },
+      {
+        "nickName": "Minji",
+        "realName": "Lu Po-wei"
+      },
+      {
+        "nickName": "Bruce",
+        "realName": "Chiu Chih-chun"
+      },
+      {
+        "nickName": "Whale",
+        "realName": "Chang Tzu-wah"
+      },
+      {
+        "nickName": "Enso",
+        "realName": "Liang En-shuo"
+      }
+    ],
+    "rank": 31
+  },
+  {
+    "name": "KaBuM!Esports",
+    "uri": "https://liquipedia.net/leagueoflegends/KaBuM!_Esports",
+    "prizeMoney": "214948",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Lonely",
+        "realName": "Han Gyu-joon"
+      },
+      {
+        "nickName": "Scary",
+        "realName": "Artur Queiroz"
+      },
+      {
+        "nickName": "Yuri",
+        "realName": "Cha Hee-min"
+      },
+      {
+        "nickName": "DudsTheBoy",
+        "realName": "Igor Lima Homem"
+      },
+      {
+        "nickName": "Scuro",
+        "realName": "Gabriel Scuro"
+      }
+    ],
+    "rank": 32
+  },
+  {
+    "name": "Isurus",
+    "uri": "https://liquipedia.net/leagueoflegends/Isurus",
+    "prizeMoney": "207709",
+    "region": "Mexico",
+    "players": [
+      {
+        "nickName": "Pan",
+        "realName": "Luis Andres Bonilla Rodriguez"
+      },
+      {
+        "nickName": "Grell",
+        "realName": "Jesús Loya"
+      },
+      {
+        "nickName": "Kaze",
+        "realName": "Lucas Sebastián Fe"
+      },
+      {
+        "nickName": "Gavotto",
+        "realName": "Omar André Gavotto Félix"
+      },
+      {
+        "nickName": "Jelly",
+        "realName": "Son Ho-gyeong"
+      }
+    ],
+    "rank": 33
+  },
+  {
+    "name": "FlyQuest",
+    "uri": "https://liquipedia.net/leagueoflegends/FlyQuest",
+    "prizeMoney": "206725",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Impact",
+        "realName": "Jeong Eon-young"
+      },
+      {
+        "nickName": "Spica",
+        "realName": "Mingyi Lu"
+      },
+      {
+        "nickName": "VicLa",
+        "realName": "Lee Dae-kwang"
+      },
+      {
+        "nickName": "Prince",
+        "realName": "Lee Chae-hwan"
+      },
+      {
+        "nickName": "Eyla",
+        "realName": "Bill Nguyen"
+      }
+    ],
+    "rank": 34
+  },
+  {
+    "name": "HanwhaLife Esports",
+    "uri": "https://liquipedia.net/leagueoflegends/Hanwha_Life_Esports",
+    "prizeMoney": "203821",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Rooster",
+        "realName": "Shin Yun-hwan"
+      },
+      {
+        "nickName": "Guwon",
+        "realName": "Koo Gwan-mo"
+      },
+      {
+        "nickName": "Grizzly",
+        "realName": ""
+      },
+      {
+        "nickName": "Roamer",
+        "realName": "Cho Woo-jin"
+      },
+      {
+        "nickName": "Loki",
+        "realName": "Lee Sang-min"
+      },
+      {
+        "nickName": "Lure",
+        "realName": "Shin Jae-yoon"
+      },
+      {
+        "nickName": "Duro",
+        "realName": "Joo Min-kyu"
+      }
+    ],
+    "rank": 35
   },
   {
     "name": "LNGEsports",
@@ -1219,271 +1164,376 @@
         "nickName": "Xin",
         "realName": "Deng Jie"
       }
-    ]
+    ],
+    "rank": 36
   },
   {
-    "name": "OhMy God",
-    "uri": "https://liquipedia.net/leagueoflegends/Oh_My_God",
-    "prizeMoney": "565448",
-    "region": "China",
+    "name": "INTZ",
+    "uri": "https://liquipedia.net/leagueoflegends/INTZ",
+    "prizeMoney": "201048",
+    "region": "Brazil",
     "players": [
       {
-        "nickName": "shanji",
-        "realName": "Deng Zijian"
+        "nickName": "Zzk",
+        "realName": "Kwon Hee-won"
       },
       {
-        "nickName": "Munian",
-        "realName": ""
+        "nickName": "Yampi",
+        "realName": "Yan Petermann"
       },
       {
-        "nickName": "AKi",
-        "realName": "Mao An"
+        "nickName": "NOsFerus",
+        "realName": "Júlio César Cruz"
       },
       {
-        "nickName": "Creme",
-        "realName": "Lin Jian"
+        "nickName": "NinjaKiwi",
+        "realName": "Yudi Miyashiro"
       },
       {
-        "nickName": "Able",
-        "realName": "Dai Zhichun"
-      },
-      {
-        "nickName": "Jerry",
-        "realName": "Zhou Kexue"
-      },
-      {
-        "nickName": "ppgod",
-        "realName": "Guo Peng"
+        "nickName": "Nia",
+        "realName": "Woo Jun-sung"
       }
-    ]
+    ],
+    "rank": 37
   },
   {
-    "name": "RareAtom",
-    "uri": "https://liquipedia.net/leagueoflegends/Rare_Atom",
-    "prizeMoney": "91916",
+    "name": "BilibiliGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Bilibili_Gaming",
+    "prizeMoney": "178331",
     "region": "China",
     "players": [
       {
-        "nickName": "Cube",
-        "realName": "Dai Yi"
+        "nickName": "Bin",
+        "realName": "Chen Zebin"
       },
       {
-        "nickName": "Leyan",
-        "realName": "Lu Jue"
-      },
-      {
-        "nickName": "Strive",
-        "realName": "Chen Liang"
-      },
-      {
-        "nickName": "Assum",
+        "nickName": "Can",
         "realName": "Zou Wei"
       },
       {
-        "nickName": "Southwind",
-        "realName": "Su Zhilin"
+        "nickName": "XUN",
+        "realName": "Peng Lixun"
       },
       {
-        "nickName": "Bkr",
-        "realName": "Zhang Yuanbao"
+        "nickName": "Yagao",
+        "realName": "Zeng Qi"
+      },
+      {
+        "nickName": "Elk",
+        "realName": "Zhao Jiahao"
+      },
+      {
+        "nickName": "ON",
+        "realName": "Luo Wenjun"
+      },
+      {
+        "nickName": "Jwei",
+        "realName": "Sun Junwei"
       }
-    ]
+    ],
+    "rank": 38
   },
   {
-    "name": "RoyalNever Give Up",
-    "uri": "https://liquipedia.net/leagueoflegends/Royal_Never_Give_Up",
-    "prizeMoney": "3917922",
-    "region": "China",
+    "name": "DireWolves",
+    "uri": "https://liquipedia.net/leagueoflegends/Dire_Wolves",
+    "prizeMoney": "166238",
+    "region": "New Zealand",
     "players": [
       {
-        "nickName": "Breathe",
-        "realName": "Chen Chen"
+        "nickName": "Zorenous",
+        "realName": "Cameron Abbott"
       },
       {
-        "nickName": "Wei",
-        "realName": "Yan Yangwei"
+        "nickName": "Poltron",
+        "realName": "Kim Zheng Nicholls"
       },
       {
-        "nickName": "Angel",
-        "realName": "Xiang Tao"
+        "nickName": "Chazz",
+        "realName": "Jesse Mahoney"
       },
       {
-        "nickName": "Tangyuan",
-        "realName": ""
+        "nickName": "Praedyth",
+        "realName": "Mark Lewis"
       },
       {
-        "nickName": "GALA",
-        "realName": "Chen Wei"
+        "nickName": "Decoy",
+        "realName": "Daniel Ealam"
       },
       {
-        "nickName": "Bunny",
-        "realName": "Liu Wenkang"
-      },
-      {
-        "nickName": "ziyou",
-        "realName": ""
+        "nickName": "Vxpir",
+        "realName": "Rhett Wiggins"
       }
-    ]
+    ],
+    "rank": 39
   },
   {
-    "name": "TeamWE",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_WE",
-    "prizeMoney": "1325064",
-    "region": "China",
+    "name": "REDCanids",
+    "uri": "https://liquipedia.net/leagueoflegends/RED_Canids",
+    "prizeMoney": "164280",
+    "region": "Brazil",
     "players": [
       {
-        "nickName": "Biubiu",
-        "realName": "Yu Leixin"
+        "nickName": "Boal",
+        "realName": "Felipe Boal"
       },
       {
-        "nickName": "Demon",
-        "realName": ""
+        "nickName": "Aegis",
+        "realName": "Gabriel Vinicius Saes de Lemos"
       },
       {
-        "nickName": "Heng",
-        "realName": "Yang Cuiheng"
+        "nickName": "Avenger",
+        "realName": "Adriano Perassoli"
       },
       {
-        "nickName": "Shanks",
-        "realName": "Cui Xiaojun"
+        "nickName": "TitaN",
+        "realName": "Alexandre Lima"
       },
       {
-        "nickName": "Hope",
-        "realName": "Wang Jie"
-      },
-      {
-        "nickName": "Iwandy",
-        "realName": "Liao Dingyang"
+        "nickName": "Kuri",
+        "realName": "Choi Won-yeong"
       }
-    ]
+    ],
+    "rank": 40
   },
   {
-    "name": "ThunderTalkGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/ThunderTalk_Gaming",
-    "prizeMoney": "43010",
-    "region": "China",
+    "name": "Rainbow7",
+    "uri": "https://liquipedia.net/leagueoflegends/Rainbow7",
+    "prizeMoney": "160585",
+    "region": "Mexico",
     "players": [
       {
-        "nickName": "Hoya",
-        "realName": "Yoon Yong-ho"
+        "nickName": "Bong",
+        "realName": "Cho Bo-woong"
       },
       {
-        "nickName": "Beichuan",
-        "realName": "Yang Ling"
+        "nickName": "Oddie",
+        "realName": "Sebastián Alonso Niño Zavaleta"
       },
       {
-        "nickName": "Ucal",
-        "realName": "Son Woo-hyeon"
+        "nickName": "Mireu",
+        "realName": "Jeong Jo-bin"
       },
       {
-        "nickName": "huanfeng",
-        "realName": "Tang Huanfeng"
+        "nickName": "Ceo",
+        "realName": "Lorenzo Tévez"
       },
       {
-        "nickName": "Pudding",
-        "realName": "Bi Haotian"
-      },
-      {
-        "nickName": "XinLiu",
-        "realName": "Li Tanpanao"
+        "nickName": "Lyonz",
+        "realName": "Pedro Luis Peralta"
       }
-    ]
+    ],
+    "rank": 41
   },
   {
-    "name": "TopEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Top_Esports",
-    "prizeMoney": "1475372",
-    "region": "China",
+    "name": "Cloud9Academy",
+    "uri": "https://liquipedia.net/leagueoflegends/Cloud9_Academy",
+    "prizeMoney": "159100",
+    "region": "United States",
     "players": [
       {
-        "nickName": "Qingtian",
-        "realName": "Yu Zihan"
+        "nickName": "FakeGod",
+        "realName": "Aaron Lee"
       },
       {
-        "nickName": "Wayward",
-        "realName": "Huang Renxing"
+        "nickName": "Tomio",
+        "realName": "Tomio Chan"
       },
       {
-        "nickName": "Tian",
-        "realName": "Gao Tianliang"
+        "nickName": "EMENES",
+        "realName": "Jang Min-soo"
       },
       {
-        "nickName": "Rookie",
-        "realName": "Song Eui-jin"
+        "nickName": "Lost",
+        "realName": "Lawrence Sze Yuy Hui"
       },
       {
-        "nickName": "JackeyLove",
-        "realName": "Yu Wenbo"
-      },
-      {
-        "nickName": "Mark",
-        "realName": "Ling Xu"
+        "nickName": "Zeyzal",
+        "realName": "Tristan Stidam"
       }
-    ]
+    ],
+    "rank": 42
   },
   {
-    "name": "UltraPrime",
-    "uri": "https://liquipedia.net/leagueoflegends/Ultra_Prime",
-    "prizeMoney": "",
-    "region": "China",
+    "name": "Immortals",
+    "uri": "https://liquipedia.net/leagueoflegends/Immortals",
+    "prizeMoney": "150057",
+    "region": "United States",
     "players": [
       {
-        "nickName": "zs",
-        "realName": "Zhang Shuai"
+        "nickName": "Revenge",
+        "realName": "Mohamed Kaddoura"
       },
       {
-        "nickName": "Hery",
-        "realName": "Wang Heyong"
+        "nickName": "Kenvi",
+        "realName": "Shane Espinoza"
       },
       {
-        "nickName": "Ning",
-        "realName": "Gao Zhenning"
+        "nickName": "Ablazeolive",
+        "realName": "Nicholas Antonio Abbott"
       },
       {
-        "nickName": "Qing",
-        "realName": "Hu Jia-Ju"
+        "nickName": "Tactical",
+        "realName": "Edward Ra"
       },
       {
-        "nickName": "Doggo",
-        "realName": "Chiu Tzu-chuan"
-      },
-      {
-        "nickName": "Baolan",
-        "realName": "Wang Liuyi"
+        "nickName": "Fleshy",
+        "realName": "Kadir Kemiksiz"
       }
-    ]
+    ],
+    "rank": 43
   },
   {
-    "name": "WeiboGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Weibo_Gaming",
-    "prizeMoney": "30209",
-    "region": "China",
+    "name": "Infinity",
+    "uri": "https://liquipedia.net/leagueoflegends/Infinity",
+    "prizeMoney": "148929",
+    "region": "Mexico",
     "players": [
       {
-        "nickName": "TheShy",
-        "realName": "Kang Seung-lok"
+        "nickName": "Zerito",
+        "realName": "Tomas Colangelo"
       },
       {
-        "nickName": "Karsa",
-        "realName": "Hung Hau-hsuan"
+        "nickName": "SolidSnake",
+        "realName": "Diego Vallejo Trujillo"
       },
       {
-        "nickName": "KennyChan",
-        "realName": "Chan Chi-yung"
+        "nickName": "Keine",
+        "realName": "Kim Joon-cheol"
       },
       {
-        "nickName": "Xiaohu",
-        "realName": "Li Yuanhao"
+        "nickName": "5Kid",
+        "realName": "Park Jeong-hyeon"
       },
       {
-        "nickName": "Light",
-        "realName": "Wang Guangyu"
-      },
-      {
-        "nickName": "Crisp",
-        "realName": "Liu Qingsong"
+        "nickName": "Ackerman",
+        "realName": "Gabriel Aparicio"
       }
-    ]
+    ],
+    "rank": 44
+  },
+  {
+    "name": "Dignitas",
+    "uri": "https://liquipedia.net/leagueoflegends/Dignitas",
+    "prizeMoney": "145000",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Hoon",
+        "realName": "Lee Jang-hoon"
+      },
+      {
+        "nickName": "Exyu",
+        "realName": "Lawrence Xu"
+      },
+      {
+        "nickName": "Insanity",
+        "realName": "David Challe"
+      },
+      {
+        "nickName": "Tomo",
+        "realName": "Frank Lam"
+      },
+      {
+        "nickName": "Diamond",
+        "realName": "David Bérubé"
+      }
+    ],
+    "rank": 45
+  },
+  {
+    "name": "ChiefsEsports Club",
+    "uri": "https://liquipedia.net/leagueoflegends/Chiefs_Esports_Club",
+    "prizeMoney": "122019",
+    "region": "Australia",
+    "players": [
+      {
+        "nickName": "BioPanther",
+        "realName": "Brandon Alexander"
+      },
+      {
+        "nickName": "Babip",
+        "realName": "Leo Romer"
+      },
+      {
+        "nickName": "Kisee",
+        "realName": "Ronald Vo"
+      },
+      {
+        "nickName": "Raes",
+        "realName": "Quin Korebrits"
+      },
+      {
+        "nickName": "Aladoric",
+        "realName": "Ryan Gregory Richardson"
+      },
+      {
+        "nickName": "Thien",
+        "realName": "Romeo Tran"
+      }
+    ],
+    "rank": 46
+  },
+  {
+    "name": "LiquidAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_Liquid_Academy",
+    "prizeMoney": "114200",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Bradley",
+        "realName": "Bradley Benneyworth"
+      },
+      {
+        "nickName": "Mir",
+        "realName": "Park Mi-reu"
+      },
+      {
+        "nickName": "APA",
+        "realName": "Eain Stearns"
+      },
+      {
+        "nickName": "Arrow",
+        "realName": "Noh Dong-hyeon"
+      },
+      {
+        "nickName": "Kim Down",
+        "realName": "Ethan Song"
+      }
+    ],
+    "rank": 47
+  },
+  {
+    "name": "SANDBOXGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/SANDBOX_Gaming",
+    "prizeMoney": "112714",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "DDahyuk",
+        "realName": "An Min-hyuk"
+      },
+      {
+        "nickName": "Vincenzo",
+        "realName": "Ha Seung-min"
+      },
+      {
+        "nickName": "Guti",
+        "realName": "Moon Jeong-hwan"
+      },
+      {
+        "nickName": "Diable",
+        "realName": "Nam Dae-geun"
+      },
+      {
+        "nickName": "PlanB",
+        "realName": "Hong Jun-seok"
+      },
+      {
+        "nickName": "DangMoo",
+        "realName": "Jeon Su-jin"
+      }
+    ],
+    "rank": 48
   },
   {
     "name": "BeyondGaming",
@@ -1515,595 +1565,33 @@
         "nickName": "RenYe",
         "realName": "Yang Yu-jen"
       }
-    ]
+    ],
+    "rank": 49
   },
   {
-    "name": "CTBCFlying Oyster",
-    "uri": "https://liquipedia.net/leagueoflegends/CTBC_Flying_Oyster",
-    "prizeMoney": "96844",
-    "region": "Taiwan",
+    "name": "V3Esports",
+    "uri": "https://liquipedia.net/leagueoflegends/V3_Esports",
+    "prizeMoney": "107449",
+    "region": "Japan",
     "players": [
       {
-        "nickName": "Rest",
-        "realName": "Hsu Shih-chieh"
+        "nickName": "Washiday",
+        "realName": "Daito Suzuki"
       },
       {
-        "nickName": "Gemini",
-        "realName": "Huang Chu-xuan"
+        "nickName": "HRK",
+        "realName": "Hiroki Lida"
       },
       {
-        "nickName": "JimieN",
-        "realName": "Tseng Hao-chun"
+        "nickName": "Ace",
+        "realName": "Kotoji Mugita"
       },
       {
-        "nickName": "Shunn",
-        "realName": "Chao Ying-shun"
-      },
-      {
-        "nickName": "S1aytrue",
-        "realName": "Lin Sheng-Po"
+        "nickName": "dresscode",
+        "realName": "Yoshiki Hashimoto"
       }
-    ]
-  },
-  {
-    "name": "DeepCross Gaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Deep_Cross_Gaming",
-    "prizeMoney": "14000",
-    "region": "Taiwan",
-    "players": [
-      {
-        "nickName": "Hanabi",
-        "realName": "Su Chia-hsiang"
-      },
-      {
-        "nickName": "Hana",
-        "realName": "Chen Chih-hao"
-      },
-      {
-        "nickName": "665",
-        "realName": "Wu Yi-han"
-      },
-      {
-        "nickName": "Nestea",
-        "realName": "Hsu Bao-yuan"
-      },
-      {
-        "nickName": "Cryscata",
-        "realName": "Chang Che-lin"
-      },
-      {
-        "nickName": "Orca",
-        "realName": "Kuo Cheng-Han"
-      }
-    ]
-  },
-  {
-    "name": "DewishTeam",
-    "uri": "https://liquipedia.net/leagueoflegends/Dewish_Team",
-    "prizeMoney": "2000",
-    "region": "Taiwan",
-    "players": [
-      {
-        "nickName": "Lacunae",
-        "realName": "Huang Xu-chen"
-      },
-      {
-        "nickName": "WSL",
-        "realName": "Le Shao-wei"
-      },
-      {
-        "nickName": "aoliao",
-        "realName": "Li Junyao"
-      },
-      {
-        "nickName": "BangTwo",
-        "realName": "Huang Jyun-kai"
-      },
-      {
-        "nickName": "EnHoa",
-        "realName": "Cai Hao-en"
-      },
-      {
-        "nickName": "Happiness",
-        "realName": "Chen Hsin-Fu"
-      }
-    ]
-  },
-  {
-    "name": "FrankEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Frank_Esports",
-    "prizeMoney": "9000",
-    "region": "Hong Kong",
-    "players": [
-      {
-        "nickName": "Kirt",
-        "realName": "Tsang Ka-kit"
-      },
-      {
-        "nickName": "Holo",
-        "realName": "Tsang Dek-lam"
-      },
-      {
-        "nickName": "Pretender",
-        "realName": "Jason Ng Cheuk-lun"
-      },
-      {
-        "nickName": "MnM",
-        "realName": "Wong Ka-chun"
-      },
-      {
-        "nickName": "K2",
-        "realName": "Law Chi-kit"
-      },
-      {
-        "nickName": "Rebirth",
-        "realName": "Fu Chun-kit"
-      }
-    ]
-  },
-  {
-    "name": "Impunity",
-    "uri": "https://liquipedia.net/leagueoflegends/Impunity",
-    "prizeMoney": "12377",
-    "region": "Singapore",
-    "players": [
-      {
-        "nickName": "Driver",
-        "realName": "Shen Zong-hua"
-      },
-      {
-        "nickName": "Alex",
-        "realName": "Chen Yu-ming"
-      },
-      {
-        "nickName": "M1ssion",
-        "realName": "Chen Hsiao-hsien"
-      },
-      {
-        "nickName": "Anex",
-        "realName": "Chou Chun-an"
-      },
-      {
-        "nickName": "Atlen",
-        "realName": "Sung Ya-lun"
-      },
-      {
-        "nickName": "Natur3",
-        "realName": ""
-      }
-    ]
-  },
-  {
-    "name": "JTeam",
-    "uri": "https://liquipedia.net/leagueoflegends/J_Team",
-    "prizeMoney": "215617",
-    "region": "Taiwan",
-    "players": [
-      {
-        "nickName": "RYue",
-        "realName": ""
-      },
-      {
-        "nickName": "Fung",
-        "realName": ""
-      },
-      {
-        "nickName": "Lauva",
-        "realName": ""
-      },
-      {
-        "nickName": "Minji",
-        "realName": "Lu Po-wei"
-      },
-      {
-        "nickName": "Bruce",
-        "realName": "Chiu Chih-chun"
-      },
-      {
-        "nickName": "Whale",
-        "realName": "Chang Tzu-wah"
-      },
-      {
-        "nickName": "Enso",
-        "realName": "Liang En-shuo"
-      }
-    ]
-  },
-  {
-    "name": "PSGTalon",
-    "uri": "https://liquipedia.net/leagueoflegends/PSG_Talon",
-    "prizeMoney": "297750",
-    "region": "Hong Kong",
-    "players": [
-      {
-        "nickName": "Azhi",
-        "realName": "Huang Shang-chih"
-      },
-      {
-        "nickName": "Husha",
-        "realName": "Huang Zi-wei"
-      },
-      {
-        "nickName": "HongSuo",
-        "realName": ""
-      },
-      {
-        "nickName": "ubao",
-        "realName": "Chen Chang-chu"
-      },
-      {
-        "nickName": "Wako",
-        "realName": "Tsou Wei-yang"
-      },
-      {
-        "nickName": "Woody",
-        "realName": "Lin Hung-yu"
-      }
-    ]
-  },
-  {
-    "name": "ASEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/AS_Esports",
-    "prizeMoney": "3184",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "LLT",
-        "realName": "Đào Văn Tuân"
-      },
-      {
-        "nickName": "Hyo",
-        "realName": "Nguyễn Trung Hiếu"
-      },
-      {
-        "nickName": "2T",
-        "realName": "Tri Nguyen Trong"
-      },
-      {
-        "nickName": "EasyLove",
-        "realName": "Hứa Thành An"
-      },
-      {
-        "nickName": "Ouzi",
-        "realName": "Lại Trương Viết"
-      },
-      {
-        "nickName": "Zin",
-        "realName": "Nguyễn Tuấn Thọ"
-      }
-    ]
-  },
-  {
-    "name": "CERBERUSEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/CERBERUS_Esports",
-    "prizeMoney": "55692",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "Pun",
-        "realName": "Nguyễn Đăng Khoa"
-      },
-      {
-        "nickName": "Draktharr",
-        "realName": "Lê Ngọc Toàn"
-      },
-      {
-        "nickName": "Yado",
-        "realName": "Đoàn Minh Trung"
-      },
-      {
-        "nickName": "Artemis",
-        "realName": "Trần Quốc Hưng"
-      },
-      {
-        "nickName": "Ronop",
-        "realName": "Lê Thiên Hàn"
-      },
-      {
-        "nickName": "Hieu3",
-        "realName": "Ngô Minh Hiếu"
-      }
-    ]
-  },
-  {
-    "name": "CNJesports",
-    "uri": "https://liquipedia.net/leagueoflegends/CNJ_esports",
-    "prizeMoney": "",
-    "region": "South Korea",
-    "players": [
-      {
-        "nickName": "Hasmed",
-        "realName": "Lâm Huỳnh Gia Huy"
-      },
-      {
-        "nickName": "Bean J",
-        "realName": "Trần Văn Chính"
-      },
-      {
-        "nickName": "Froggy",
-        "realName": "Bùi Hải Minh"
-      },
-      {
-        "nickName": "Shogun",
-        "realName": "Nguyễn Văn Huy"
-      },
-      {
-        "nickName": "Taki",
-        "realName": "Đinh Anh Tài"
-      },
-      {
-        "nickName": "P",
-        "realName": "Nguyễn Hoàng Phú"
-      }
-    ]
-  },
-  {
-    "name": "GAMEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/GAM_Esports",
-    "prizeMoney": "450471",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "Kiaya",
-        "realName": "Trần Duy Sang"
-      },
-      {
-        "nickName": "Levi",
-        "realName": "Đỗ Duy Khánh"
-      },
-      {
-        "nickName": "Kati",
-        "realName": "Đặng Thanh Phê"
-      },
-      {
-        "nickName": "playcool",
-        "realName": "Bùi Văn Chu"
-      },
-      {
-        "nickName": "Style",
-        "realName": "Nguyễn Hoàng Sơn"
-      }
-    ]
-  },
-  {
-    "name": "GeniusEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Genius_Esports",
-    "prizeMoney": "2759",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "Coated",
-        "realName": "Đinh Văn Tráng"
-      },
-      {
-        "nickName": "YiJin",
-        "realName": "Nguyễn Lê Hải Đăng"
-      },
-      {
-        "nickName": "Blazes",
-        "realName": "Đỗ Đình Sang"
-      },
-      {
-        "nickName": "Killer",
-        "realName": "Nguyễn Trọng Nghĩa"
-      }
-    ]
-  },
-  {
-    "name": "SBTCEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/SBTC_Esports",
-    "prizeMoney": "17290",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "NPer",
-        "realName": "Trần Đình Tuấn"
-      },
-      {
-        "nickName": "DNK",
-        "realName": "Đỗ Ngọc Khải"
-      },
-      {
-        "nickName": "SPOT",
-        "realName": "Nguyễn Phan Đình Khôi"
-      },
-      {
-        "nickName": "Dia1",
-        "realName": "Lê Phú Quý"
-      },
-      {
-        "nickName": "Slayder",
-        "realName": "Nguyễn Linh Vương"
-      },
-      {
-        "nickName": "Palette",
-        "realName": "Nguyễn Hải Trung"
-      },
-      {
-        "nickName": "Vinboiz",
-        "realName": "Lê Trần Quang Vinh"
-      }
-    ]
-  },
-  {
-    "name": "TeamSecret",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_Secret",
-    "prizeMoney": "33898",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "Hiro02",
-        "realName": "Trần Lê Trung Hậu"
-      },
-      {
-        "nickName": "Penguin",
-        "realName": "Nguyễn Đăng Khoa"
-      },
-      {
-        "nickName": "Skewed",
-        "realName": "Nguyễn Hoàng Sơn"
-      },
-      {
-        "nickName": "Artifact",
-        "realName": "Nguyễn Văn Hậu"
-      },
-      {
-        "nickName": "Eddie",
-        "realName": "Nghĩa Hoàng"
-      },
-      {
-        "nickName": "Xuhao",
-        "realName": "Bùi Hoàng Sơn Vương"
-      }
-    ]
-  },
-  {
-    "name": "TeamWhales",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_Whales",
-    "prizeMoney": "4245",
-    "region": "Vietnam",
-    "players": [
-      {
-        "nickName": "Nagiya",
-        "realName": "Nguyễn Võ Anh Hoàng"
-      },
-      {
-        "nickName": "Killerqueen",
-        "realName": "Lê Lưu Bách Đạt"
-      },
-      {
-        "nickName": "Glory",
-        "realName": "Lê Ngọc Vinh"
-      },
-      {
-        "nickName": "Vit",
-        "realName": "Lê Hoài An"
-      },
-      {
-        "nickName": "CBL",
-        "realName": "Nguyễn Võ Thành Luân"
-      },
-      {
-        "nickName": "Bie",
-        "realName": "Trần Đức Hiếu"
-      },
-      {
-        "nickName": "Calm",
-        "realName": "Đinh Trọng Quyết"
-      }
-    ]
-  },
-  {
-    "name": "FURIAEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/FURIA_Esports",
-    "prizeMoney": "45910",
-    "region": "Brazil",
-    "players": [
-      {
-        "nickName": "fNb",
-        "realName": "Francisco Natanael Braz do Espirito Santo Miranda"
-      },
-      {
-        "nickName": "Goot",
-        "realName": "Gabriel Goot"
-      },
-      {
-        "nickName": "Envy",
-        "realName": "Bruno Farias"
-      },
-      {
-        "nickName": "Trigo",
-        "realName": "Matheus Trigo"
-      },
-      {
-        "nickName": "RedBert",
-        "realName": "Ygor Freitas"
-      }
-    ]
-  },
-  {
-    "name": "Fluxo",
-    "uri": "https://liquipedia.net/leagueoflegends/Fluxo",
-    "prizeMoney": "",
-    "region": "Brazil",
-    "players": [
-      {
-        "nickName": "Tay",
-        "realName": "Rodrigo Panisa"
-      },
-      {
-        "nickName": "Disamis",
-        "realName": "Pedro Gonçalves"
-      },
-      {
-        "nickName": "Hauz",
-        "realName": "Bruno Ferreira"
-      },
-      {
-        "nickName": "Brance",
-        "realName": "Diego Amaral"
-      },
-      {
-        "nickName": "Jojo",
-        "realName": "Gabriel Dzelme de Oliveira"
-      }
-    ]
-  },
-  {
-    "name": "INTZ",
-    "uri": "https://liquipedia.net/leagueoflegends/INTZ",
-    "prizeMoney": "201048",
-    "region": "Brazil",
-    "players": [
-      {
-        "nickName": "Zzk",
-        "realName": "Kwon Hee-won"
-      },
-      {
-        "nickName": "Yampi",
-        "realName": "Yan Petermann"
-      },
-      {
-        "nickName": "NOsFerus",
-        "realName": "Júlio César Cruz"
-      },
-      {
-        "nickName": "NinjaKiwi",
-        "realName": "Yudi Miyashiro"
-      },
-      {
-        "nickName": "Nia",
-        "realName": "Woo Jun-sung"
-      }
-    ]
-  },
-  {
-    "name": "KaBuM!Esports",
-    "uri": "https://liquipedia.net/leagueoflegends/KaBuM!_Esports",
-    "prizeMoney": "214948",
-    "region": "Brazil",
-    "players": [
-      {
-        "nickName": "Lonely",
-        "realName": "Han Gyu-joon"
-      },
-      {
-        "nickName": "Scary",
-        "realName": "Artur Queiroz"
-      },
-      {
-        "nickName": "Yuri",
-        "realName": "Cha Hee-min"
-      },
-      {
-        "nickName": "DudsTheBoy",
-        "realName": "Igor Lima Homem"
-      },
-      {
-        "nickName": "Scuro",
-        "realName": "Gabriel Scuro"
-      }
-    ]
+    ],
+    "rank": 50
   },
   {
     "name": "KeydStars",
@@ -2131,367 +1619,153 @@
         "nickName": "Bounty",
         "realName": "Gabriel Vieira Donner"
       }
-    ]
+    ],
+    "rank": 51
   },
   {
-    "name": "LOUD",
-    "uri": "https://liquipedia.net/leagueoflegends/LOUD",
-    "prizeMoney": "62251",
-    "region": "Brazil",
+    "name": "CTBCFlying Oyster",
+    "uri": "https://liquipedia.net/leagueoflegends/CTBC_Flying_Oyster",
+    "prizeMoney": "96844",
+    "region": "Taiwan",
     "players": [
       {
-        "nickName": "Robo",
-        "realName": "Leonardo Souza"
+        "nickName": "Rest",
+        "realName": "Hsu Shih-chieh"
       },
       {
-        "nickName": "Croc",
-        "realName": "Park Jong-hoon"
+        "nickName": "Gemini",
+        "realName": "Huang Chu-xuan"
       },
       {
-        "nickName": "TinOwns",
-        "realName": "Thiago Sartori"
+        "nickName": "JimieN",
+        "realName": "Tseng Hao-chun"
       },
       {
-        "nickName": "Route",
-        "realName": "Moon Geom-su"
+        "nickName": "Shunn",
+        "realName": "Chao Ying-shun"
       },
       {
-        "nickName": "Ceos",
-        "realName": "Denilson Oliveira Gonçalves"
+        "nickName": "S1aytrue",
+        "realName": "Lin Sheng-Po"
       }
-    ]
+    ],
+    "rank": 52
   },
   {
-    "name": "Liberty",
-    "uri": "https://liquipedia.net/leagueoflegends/Liberty",
-    "prizeMoney": "28256",
-    "region": "Brazil",
+    "name": "RareAtom",
+    "uri": "https://liquipedia.net/leagueoflegends/Rare_Atom",
+    "prizeMoney": "91916",
+    "region": "China",
     "players": [
       {
-        "nickName": "Kiari",
-        "realName": "Thiago Luiz"
+        "nickName": "Cube",
+        "realName": "Dai Yi"
       },
       {
-        "nickName": "AcceZ",
-        "realName": "Lucas Miranda dos Santos"
+        "nickName": "Leyan",
+        "realName": "Lu Jue"
       },
       {
-        "nickName": "Piloto",
-        "realName": "Elvis Vergara"
+        "nickName": "Strive",
+        "realName": "Chen Liang"
       },
       {
-        "nickName": "Juliera",
-        "realName": "Julio Henrique"
+        "nickName": "Assum",
+        "realName": "Zou Wei"
       },
       {
-        "nickName": "Cavalo",
-        "realName": "Alexandre Fernandes"
+        "nickName": "Southwind",
+        "realName": "Su Zhilin"
+      },
+      {
+        "nickName": "Bkr",
+        "realName": "Zhang Yuanbao"
       }
-    ]
+    ],
+    "rank": 53
   },
   {
-    "name": "LosGrandes",
-    "uri": "https://liquipedia.net/leagueoflegends/Los_Grandes",
-    "prizeMoney": "",
-    "region": "",
+    "name": "100Thieves Academy",
+    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves_Academy",
+    "prizeMoney": "89000",
+    "region": "United States",
     "players": [
       {
-        "nickName": "HiRit",
-        "realName": "Shin Tae-min"
+        "nickName": "Sniper",
+        "realName": "Rayan Shoura"
       },
       {
-        "nickName": "Ranger",
-        "realName": "Filipe Brombilla"
+        "nickName": "Yukino",
+        "realName": "Johnny Dang"
       },
       {
-        "nickName": "Lava",
-        "realName": "Kim Tae-hoon"
+        "nickName": "Pretty",
+        "realName": "Prodromos Kevezitidis"
       },
       {
-        "nickName": "Netuno",
-        "realName": "Lucas Flores"
+        "nickName": "UNF0RGIVEN",
+        "realName": "William Nieminen"
       },
       {
-        "nickName": "Zay",
-        "realName": "Vinicius Viana"
+        "nickName": "Destiny",
+        "realName": "Mitchell Shaw"
       }
-    ]
+    ],
+    "rank": 54
   },
   {
-    "name": "paiNGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/PaiN_Gaming",
-    "prizeMoney": "232723",
-    "region": "Brazil",
+    "name": "GGSAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/Golden_Guardians_Academy",
+    "prizeMoney": "70225",
+    "region": "United States",
     "players": [
       {
-        "nickName": "Wizer",
-        "realName": "Choi Ui-seok"
+        "nickName": "Concept",
+        "realName": "Micheal Su"
       },
       {
-        "nickName": "Cariok",
-        "realName": "Marcos Santos de Oliveira Junior"
+        "nickName": "RoseThorn",
+        "realName": "Kim Tae-ho"
       },
       {
-        "nickName": "dyNquedo",
-        "realName": "Matheus Rossini"
+        "nickName": "Young",
+        "realName": "Youngho Choi"
       },
       {
-        "nickName": "Bvoy",
-        "realName": "Ju Yeong-hoon"
+        "nickName": "Array",
+        "realName": "Jackson Moldenhauer"
       },
       {
-        "nickName": "Damage",
-        "realName": "Yan Sales Neves"
-      },
-      {
-        "nickName": "ProDelta",
-        "realName": "Fábio Marques"
+        "nickName": "Prismal",
+        "realName": "Jacob Feinstein"
       }
-    ]
+    ],
+    "rank": 55
   },
   {
-    "name": "REDCanids",
-    "uri": "https://liquipedia.net/leagueoflegends/RED_Canids",
-    "prizeMoney": "164280",
-    "region": "Brazil",
+    "name": "PEACE",
+    "uri": "https://liquipedia.net/leagueoflegends/PEACE",
+    "prizeMoney": "63938",
+    "region": "Australia",
     "players": [
       {
-        "nickName": "Boal",
-        "realName": "Felipe Boal"
+        "nickName": "Weizhe",
+        "realName": ""
       },
       {
-        "nickName": "Aegis",
-        "realName": "Gabriel Vinicius Saes de Lemos"
+        "nickName": "NuL1",
+        "realName": ""
       },
       {
-        "nickName": "Avenger",
-        "realName": "Adriano Perassoli"
+        "nickName": "Chayon",
+        "realName": "Wang Yuncheng"
       },
       {
-        "nickName": "TitaN",
-        "realName": "Alexandre Lima"
-      },
-      {
-        "nickName": "Kuri",
-        "realName": "Choi Won-yeong"
+        "nickName": "Koyee",
+        "realName": ""
       }
-    ]
-  },
-  {
-    "name": "AXIZ",
-    "uri": "https://liquipedia.net/leagueoflegends/AXIZ",
-    "prizeMoney": "",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "Ino",
-        "realName": "Fumiya Aino"
-      },
-      {
-        "nickName": "Hoglet",
-        "realName": "Kim Gwang-hyeop"
-      },
-      {
-        "nickName": "Megumiin",
-        "realName": "Hayate Kubo"
-      },
-      {
-        "nickName": "Cheoni",
-        "realName": "Cho Seung-mo"
-      },
-      {
-        "nickName": "Dice",
-        "realName": "Daisuke Ashida"
-      }
-    ]
-  },
-  {
-    "name": "BurningCore",
-    "uri": "https://liquipedia.net/leagueoflegends/Burning_Core",
-    "prizeMoney": "",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "RayFarky",
-        "realName": "Minato Shinohara"
-      },
-      {
-        "nickName": "CaD",
-        "realName": "Cho Seong-yong"
-      },
-      {
-        "nickName": "Dice",
-        "realName": "Hong Do-hyeon"
-      },
-      {
-        "nickName": "Yuhi",
-        "realName": "Yuhi Nakanishi"
-      },
-      {
-        "nickName": "Raina",
-        "realName": "Shin Okubo"
-      }
-    ]
-  },
-  {
-    "name": "CrestGaming Act",
-    "uri": "https://liquipedia.net/leagueoflegends/Crest_Gaming_Act",
-    "prizeMoney": "",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "Nap",
-        "realName": "Akihito Ohno"
-      },
-      {
-        "nickName": "Cassin",
-        "realName": "Kim Dae-hee"
-      },
-      {
-        "nickName": "HyBriD",
-        "realName": "Lee Woo-jin"
-      }
-    ]
-  },
-  {
-    "name": "DetonatioNFocusMe",
-    "uri": "https://liquipedia.net/leagueoflegends/DetonatioN_FocusMe",
-    "prizeMoney": "816755",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "Tol2",
-        "realName": "Haruki Shibata"
-      },
-      {
-        "nickName": "Steal",
-        "realName": "Moon Geon-yeong"
-      },
-      {
-        "nickName": "Aria",
-        "realName": "Lee Ga-eul"
-      },
-      {
-        "nickName": "Yutapon",
-        "realName": "Yuta Sugiura"
-      },
-      {
-        "nickName": "Harp",
-        "realName": "Lee Ji-yoong"
-      }
-    ]
-  },
-  {
-    "name": "FENNEL",
-    "uri": "https://liquipedia.net/leagueoflegends/FENNEL",
-    "prizeMoney": "",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "TaNa",
-        "realName": "Lee Sang-wook"
-      },
-      {
-        "nickName": "hachamecha",
-        "realName": "Dai Takai"
-      },
-      {
-        "nickName": "Recap",
-        "realName": "Norifumi Yamazaki"
-      },
-      {
-        "nickName": "Leo",
-        "realName": "Han Gyeo-re"
-      },
-      {
-        "nickName": "Corporal",
-        "realName": "Ian Pearse"
-      }
-    ]
-  },
-  {
-    "name": "FukuokaSoftBank HAWKS",
-    "uri": "https://liquipedia.net/leagueoflegends/Fukuoka_SoftBank_HAWKS_gaming",
-    "prizeMoney": "",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "Kinatu",
-        "realName": "Yuto Enomoto"
-      },
-      {
-        "nickName": "Blank",
-        "realName": "Kang Sun-gu"
-      },
-      {
-        "nickName": "Dasher",
-        "realName": "Kim Deok-beom"
-      },
-      {
-        "nickName": "Marble",
-        "realName": "Rei Shimaya"
-      },
-      {
-        "nickName": "Vsta",
-        "realName": "Oh Hyo-seong"
-      }
-    ]
-  },
-  {
-    "name": "SengokuGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Sengoku_Gaming",
-    "prizeMoney": "",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "eguto",
-        "realName": "Hayato Eguchi"
-      },
-      {
-        "nickName": "Once",
-        "realName": "Jang Se-yeong"
-      },
-      {
-        "nickName": "Jett",
-        "realName": "Bae Ho-young"
-      },
-      {
-        "nickName": "Honey",
-        "realName": "Park Bo-heon"
-      },
-      {
-        "nickName": "LokeN",
-        "realName": "Lee Dong-wook"
-      },
-      {
-        "nickName": "Enty",
-        "realName": "Ryosei Tanioka"
-      }
-    ]
-  },
-  {
-    "name": "V3Esports",
-    "uri": "https://liquipedia.net/leagueoflegends/V3_Esports",
-    "prizeMoney": "107449",
-    "region": "Japan",
-    "players": [
-      {
-        "nickName": "Washiday",
-        "realName": "Daito Suzuki"
-      },
-      {
-        "nickName": "HRK",
-        "realName": "Hiroki Lida"
-      },
-      {
-        "nickName": "Ace",
-        "realName": "Kotoji Mugita"
-      },
-      {
-        "nickName": "dresscode",
-        "realName": "Yoshiki Hashimoto"
-      }
-    ]
+    ],
+    "rank": 56
   },
   {
     "name": "AllKnights",
@@ -2527,7 +1801,66 @@
         "nickName": "Horus",
         "realName": "Facundo Hernán Utrero"
       }
-    ]
+    ],
+    "rank": 57
+  },
+  {
+    "name": "LOUD",
+    "uri": "https://liquipedia.net/leagueoflegends/LOUD",
+    "prizeMoney": "62251",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Robo",
+        "realName": "Leonardo Souza"
+      },
+      {
+        "nickName": "Croc",
+        "realName": "Park Jong-hoon"
+      },
+      {
+        "nickName": "TinOwns",
+        "realName": "Thiago Sartori"
+      },
+      {
+        "nickName": "Route",
+        "realName": "Moon Geom-su"
+      },
+      {
+        "nickName": "Ceos",
+        "realName": "Denilson Oliveira Gonçalves"
+      }
+    ],
+    "rank": 58
+  },
+  {
+    "name": "CLGAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/Counter_Logic_Gaming_Academy",
+    "prizeMoney": "62100",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Jenkins",
+        "realName": "Thomas Tran"
+      },
+      {
+        "nickName": "Kevy",
+        "realName": "Shane Allen"
+      },
+      {
+        "nickName": "Copy",
+        "realName": "Jouhan Pathmanathan"
+      },
+      {
+        "nickName": "Meech",
+        "realName": "Brandon Choi"
+      },
+      {
+        "nickName": "breezyyy",
+        "realName": "Brindon Keesey"
+      }
+    ],
+    "rank": 59
   },
   {
     "name": "EstralEsports",
@@ -2555,123 +1888,8 @@
         "nickName": "Shadow",
         "realName": "Facundo Cuello"
       }
-    ]
-  },
-  {
-    "name": "Infinity",
-    "uri": "https://liquipedia.net/leagueoflegends/Infinity",
-    "prizeMoney": "148929",
-    "region": "Mexico",
-    "players": [
-      {
-        "nickName": "Zerito",
-        "realName": "Tomas Colangelo"
-      },
-      {
-        "nickName": "SolidSnake",
-        "realName": "Diego Vallejo Trujillo"
-      },
-      {
-        "nickName": "Keine",
-        "realName": "Kim Joon-cheol"
-      },
-      {
-        "nickName": "5Kid",
-        "realName": "Park Jeong-hyeon"
-      },
-      {
-        "nickName": "Ackerman",
-        "realName": "Gabriel Aparicio"
-      }
-    ]
-  },
-  {
-    "name": "Isurus",
-    "uri": "https://liquipedia.net/leagueoflegends/Isurus",
-    "prizeMoney": "207709",
-    "region": "Mexico",
-    "players": [
-      {
-        "nickName": "Pan",
-        "realName": "Luis Andres Bonilla Rodriguez"
-      },
-      {
-        "nickName": "Grell",
-        "realName": "Jesús Loya"
-      },
-      {
-        "nickName": "Kaze",
-        "realName": "Lucas Sebastián Fe"
-      },
-      {
-        "nickName": "Gavotto",
-        "realName": "Omar André Gavotto Félix"
-      },
-      {
-        "nickName": "Jelly",
-        "realName": "Son Ho-gyeong"
-      }
-    ]
-  },
-  {
-    "name": "Rainbow7",
-    "uri": "https://liquipedia.net/leagueoflegends/Rainbow7",
-    "prizeMoney": "160585",
-    "region": "Mexico",
-    "players": [
-      {
-        "nickName": "Bong",
-        "realName": "Cho Bo-woong"
-      },
-      {
-        "nickName": "Oddie",
-        "realName": "Sebastián Alonso Niño Zavaleta"
-      },
-      {
-        "nickName": "Mireu",
-        "realName": "Jeong Jo-bin"
-      },
-      {
-        "nickName": "Ceo",
-        "realName": "Lorenzo Tévez"
-      },
-      {
-        "nickName": "Lyonz",
-        "realName": "Pedro Luis Peralta"
-      }
-    ]
-  },
-  {
-    "name": "SixKarma",
-    "uri": "https://liquipedia.net/leagueoflegends/Six_Karma",
-    "prizeMoney": "10104",
-    "region": "Mexico",
-    "players": [
-      {
-        "nickName": "Meaning",
-        "realName": "An Ji-min"
-      },
-      {
-        "nickName": "OnFleek",
-        "realName": "Kim Jang-gyeom"
-      },
-      {
-        "nickName": "cody",
-        "realName": "Cristian Sebastián Quispe Yampara"
-      },
-      {
-        "nickName": "Snaker",
-        "realName": "Brian Alejo Distefano"
-      },
-      {
-        "nickName": "Shu Hari",
-        "realName": "Diego Angel Placencia Mora"
-      },
-      {
-        "nickName": "Hika",
-        "realName": "Hika Bautista Reid"
-      }
-    ]
+    ],
+    "rank": 60
   },
   {
     "name": "TeamAze",
@@ -2703,7 +1921,558 @@
         "nickName": "Froststrike",
         "realName": "Lucas Antonio Espíndola Valverde"
       }
-    ]
+    ],
+    "rank": 61
+  },
+  {
+    "name": "Pentanet.GG",
+    "uri": "https://liquipedia.net/leagueoflegends/Pentanet.GG",
+    "prizeMoney": "57500",
+    "region": "Australia",
+    "players": [
+      {
+        "nickName": "Chippys",
+        "realName": "Ryan Short"
+      },
+      {
+        "nickName": "Shernfire",
+        "realName": "Shern Cherng Tai"
+      },
+      {
+        "nickName": "DONGGY",
+        "realName": "Kim Dong-geun"
+      },
+      {
+        "nickName": "Violet",
+        "realName": "Vincent Wong"
+      },
+      {
+        "nickName": "Apii",
+        "realName": "Yao Jianjing"
+      }
+    ],
+    "rank": 62
+  },
+  {
+    "name": "CERBERUSEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/CERBERUS_Esports",
+    "prizeMoney": "55692",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "Pun",
+        "realName": "Nguyễn Đăng Khoa"
+      },
+      {
+        "nickName": "Draktharr",
+        "realName": "Lê Ngọc Toàn"
+      },
+      {
+        "nickName": "Yado",
+        "realName": "Đoàn Minh Trung"
+      },
+      {
+        "nickName": "Artemis",
+        "realName": "Trần Quốc Hưng"
+      },
+      {
+        "nickName": "Ronop",
+        "realName": "Lê Thiên Hàn"
+      },
+      {
+        "nickName": "Hieu3",
+        "realName": "Ngô Minh Hiếu"
+      }
+    ],
+    "rank": 63
+  },
+  {
+    "name": "ExcelEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Excel_Esports",
+    "prizeMoney": "53557",
+    "region": "United Kingdom",
+    "players": [
+      {
+        "nickName": "Odoamne",
+        "realName": "Andrei Pascu"
+      },
+      {
+        "nickName": "Xerxe",
+        "realName": "Andrei Dragomir"
+      },
+      {
+        "nickName": "Vetheo",
+        "realName": "Vincent Berrié"
+      },
+      {
+        "nickName": "Patrik",
+        "realName": "Patrik Jírů"
+      },
+      {
+        "nickName": "Targamas",
+        "realName": "Raphaël Crabbé"
+      },
+      {
+        "nickName": "Abbedagge",
+        "realName": "Felix Braun"
+      }
+    ],
+    "rank": 64
+  },
+  {
+    "name": "TeamHeretics",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_Heretics",
+    "prizeMoney": "53487",
+    "region": "Spain",
+    "players": [
+      {
+        "nickName": "iBo",
+        "realName": "Marcin Lebuda"
+      },
+      {
+        "nickName": "bluerzor",
+        "realName": "Subicz Dániel"
+      },
+      {
+        "nickName": "Zwyroo",
+        "realName": "Artur Szymon Trojan"
+      },
+      {
+        "nickName": "Flakked",
+        "realName": "Victor Lirola"
+      },
+      {
+        "nickName": "marlon",
+        "realName": "Igor Tomczyk"
+      }
+    ],
+    "rank": 65
+  },
+  {
+    "name": "ImmortalsAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/Immortals_Academy",
+    "prizeMoney": "47500",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "ADD",
+        "realName": "Kang Geon-mo"
+      },
+      {
+        "nickName": "Chad",
+        "realName": "Maximilian Lisitsa"
+      },
+      {
+        "nickName": "Bolulu",
+        "realName": "Onur Can Demirol"
+      },
+      {
+        "nickName": "Wixxi",
+        "realName": "Micheal Fernandez"
+      },
+      {
+        "nickName": "Joey",
+        "realName": "Joseph Haslemann"
+      }
+    ],
+    "rank": 66
+  },
+  {
+    "name": "DignitasAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/Dignitas_Academy",
+    "prizeMoney": "46500",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Hoon",
+        "realName": "Lee Jang-hoon"
+      },
+      {
+        "nickName": "Exyu",
+        "realName": "Lawrence Xu"
+      },
+      {
+        "nickName": "Insanity",
+        "realName": "David Challe"
+      },
+      {
+        "nickName": "Tomo",
+        "realName": "Frank Lam"
+      },
+      {
+        "nickName": "Diamond",
+        "realName": "David Bérubé"
+      }
+    ],
+    "rank": 67
+  },
+  {
+    "name": "FURIAEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/FURIA_Esports",
+    "prizeMoney": "45910",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "fNb",
+        "realName": "Francisco Natanael Braz do Espirito Santo Miranda"
+      },
+      {
+        "nickName": "Goot",
+        "realName": "Gabriel Goot"
+      },
+      {
+        "nickName": "Envy",
+        "realName": "Bruno Farias"
+      },
+      {
+        "nickName": "Trigo",
+        "realName": "Matheus Trigo"
+      },
+      {
+        "nickName": "RedBert",
+        "realName": "Ygor Freitas"
+      }
+    ],
+    "rank": 68
+  },
+  {
+    "name": "ThunderTalkGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/ThunderTalk_Gaming",
+    "prizeMoney": "43010",
+    "region": "China",
+    "players": [
+      {
+        "nickName": "Hoya",
+        "realName": "Yoon Yong-ho"
+      },
+      {
+        "nickName": "Beichuan",
+        "realName": "Yang Ling"
+      },
+      {
+        "nickName": "Ucal",
+        "realName": "Son Woo-hyeon"
+      },
+      {
+        "nickName": "huanfeng",
+        "realName": "Tang Huanfeng"
+      },
+      {
+        "nickName": "Pudding",
+        "realName": "Bi Haotian"
+      },
+      {
+        "nickName": "XinLiu",
+        "realName": "Li Tanpanao"
+      }
+    ],
+    "rank": 69
+  },
+  {
+    "name": "NongshimRedForce",
+    "uri": "https://liquipedia.net/leagueoflegends/Nongshim_RedForce",
+    "prizeMoney": "39993",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Mihile",
+        "realName": "Baek Sang-hwi"
+      },
+      {
+        "nickName": "Sounda",
+        "realName": "Kong In-hyuk"
+      },
+      {
+        "nickName": "Calix",
+        "realName": "Syun Hyun-bin"
+      },
+      {
+        "nickName": "callme",
+        "realName": "Oh Ji-hoon"
+      },
+      {
+        "nickName": "Jiwoo",
+        "realName": "Jung Ji-woo"
+      },
+      {
+        "nickName": "HH",
+        "realName": "Lee Hyun-ho"
+      }
+    ],
+    "rank": 70
+  },
+  {
+    "name": "EvilGeniuses Academy",
+    "uri": "https://liquipedia.net/leagueoflegends/Evil_Geniuses_Academy",
+    "prizeMoney": "37500",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Soul",
+        "realName": "Alex Luo"
+      },
+      {
+        "nickName": "Sheiden",
+        "realName": "Jade Libut"
+      },
+      {
+        "nickName": "Ryoma",
+        "realName": "Tommy Le"
+      },
+      {
+        "nickName": "K1ng",
+        "realName": "Calvin Truong"
+      },
+      {
+        "nickName": "Smoothie",
+        "realName": "Andy Ta"
+      }
+    ],
+    "rank": 71
+  },
+  {
+    "name": "FlyQuestAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/FlyQuest_Academy",
+    "prizeMoney": "37100",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Philip",
+        "realName": "Philip Zeng"
+      },
+      {
+        "nickName": "Yuuji",
+        "realName": "Ganbat Ulziidelger"
+      },
+      {
+        "nickName": "Spirax",
+        "realName": "Djalar Djiar"
+      },
+      {
+        "nickName": "Massu",
+        "realName": "Fahad Abdulmalek"
+      },
+      {
+        "nickName": "Winsome",
+        "realName": "Kim Dong-keon"
+      }
+    ],
+    "rank": 72
+  },
+  {
+    "name": "TSMAcademy",
+    "uri": "https://liquipedia.net/leagueoflegends/TSM_Academy",
+    "prizeMoney": "35500",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Hauntzer",
+        "realName": "Kevin Yarnell"
+      },
+      {
+        "nickName": "Svenskeren",
+        "realName": "Dennis Johnsen"
+      },
+      {
+        "nickName": "Doxa",
+        "realName": "William Lee"
+      },
+      {
+        "nickName": "WildTurtle",
+        "realName": "Jason Tran"
+      },
+      {
+        "nickName": "Dragku",
+        "realName": "Dragon Guo"
+      }
+    ],
+    "rank": 73
+  },
+  {
+    "name": "TeamSecret",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_Secret",
+    "prizeMoney": "33898",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "Hiro02",
+        "realName": "Trần Lê Trung Hậu"
+      },
+      {
+        "nickName": "Penguin",
+        "realName": "Nguyễn Đăng Khoa"
+      },
+      {
+        "nickName": "Skewed",
+        "realName": "Nguyễn Hoàng Sơn"
+      },
+      {
+        "nickName": "Artifact",
+        "realName": "Nguyễn Văn Hậu"
+      },
+      {
+        "nickName": "Eddie",
+        "realName": "Nghĩa Hoàng"
+      },
+      {
+        "nickName": "Xuhao",
+        "realName": "Bùi Hoàng Sơn Vương"
+      }
+    ],
+    "rank": 74
+  },
+  {
+    "name": "KangaEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Kanga_Esports",
+    "prizeMoney": "32413",
+    "region": "Australia",
+    "players": [
+      {
+        "nickName": "Blue",
+        "realName": "Eum Ju-hyeok"
+      },
+      {
+        "nickName": "Meifan",
+        "realName": "Bryce Zhou"
+      },
+      {
+        "nickName": "Fighto",
+        "realName": "Dmitry Botov"
+      },
+      {
+        "nickName": "Hoopa",
+        "realName": "Dai Phu Mong"
+      },
+      {
+        "nickName": "Shinki",
+        "realName": "Brendan Ngo"
+      }
+    ],
+    "rank": 75
+  },
+  {
+    "name": "WeiboGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Weibo_Gaming",
+    "prizeMoney": "30209",
+    "region": "China",
+    "players": [
+      {
+        "nickName": "TheShy",
+        "realName": "Kang Seung-lok"
+      },
+      {
+        "nickName": "Karsa",
+        "realName": "Hung Hau-hsuan"
+      },
+      {
+        "nickName": "KennyChan",
+        "realName": "Chan Chi-yung"
+      },
+      {
+        "nickName": "Xiaohu",
+        "realName": "Li Yuanhao"
+      },
+      {
+        "nickName": "Light",
+        "realName": "Wang Guangyu"
+      },
+      {
+        "nickName": "Crisp",
+        "realName": "Liu Qingsong"
+      }
+    ],
+    "rank": 76
+  },
+  {
+    "name": "Liberty",
+    "uri": "https://liquipedia.net/leagueoflegends/Liberty",
+    "prizeMoney": "28256",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Kiari",
+        "realName": "Thiago Luiz"
+      },
+      {
+        "nickName": "AcceZ",
+        "realName": "Lucas Miranda dos Santos"
+      },
+      {
+        "nickName": "Piloto",
+        "realName": "Elvis Vergara"
+      },
+      {
+        "nickName": "Juliera",
+        "realName": "Julio Henrique"
+      },
+      {
+        "nickName": "Cavalo",
+        "realName": "Alexandre Fernandes"
+      }
+    ],
+    "rank": 77
+  },
+  {
+    "name": "Anyone'sLegend",
+    "uri": "https://liquipedia.net/leagueoflegends/Anyone%27s_Legend",
+    "prizeMoney": "22855",
+    "region": "China",
+    "players": [
+      {
+        "nickName": "Zdz",
+        "realName": "Zhu Dezhang"
+      },
+      {
+        "nickName": "Xiaohao",
+        "realName": "Peng Hao"
+      },
+      {
+        "nickName": "Harder",
+        "realName": "Zhou Shihao"
+      },
+      {
+        "nickName": "pinz",
+        "realName": "Lin Lipin"
+      },
+      {
+        "nickName": "Betty",
+        "realName": "Lu Yu-hung"
+      },
+      {
+        "nickName": "SwordArT",
+        "realName": "Hu Shuo-chieh"
+      }
+    ],
+    "rank": 78
+  },
+  {
+    "name": "BrionEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Brion_Esports",
+    "prizeMoney": "22491",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Frim",
+        "realName": "Kim Yeong-jun"
+      },
+      {
+        "nickName": "DDoiV",
+        "realName": "Bang Moon-yeong"
+      },
+      {
+        "nickName": "Ivory",
+        "realName": "Jeong Ye-chan"
+      },
+      {
+        "nickName": "Gamin",
+        "realName": "Ga Min-joon"
+      },
+      {
+        "nickName": "Pollu",
+        "realName": "Oh Dong-gyu"
+      }
+    ],
+    "rank": 79
   },
   {
     "name": "TheKings",
@@ -2735,106 +2504,140 @@
         "nickName": "Mun",
         "realName": "Alejandro Pineda Lucio"
       }
-    ]
+    ],
+    "rank": 80
   },
   {
-    "name": "ChiefsEsports Club",
-    "uri": "https://liquipedia.net/leagueoflegends/Chiefs_Esports_Club",
-    "prizeMoney": "122019",
-    "region": "Australia",
+    "name": "SBTCEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/SBTC_Esports",
+    "prizeMoney": "17290",
+    "region": "Vietnam",
     "players": [
       {
-        "nickName": "BioPanther",
-        "realName": "Brandon Alexander"
+        "nickName": "NPer",
+        "realName": "Trần Đình Tuấn"
       },
       {
-        "nickName": "Babip",
-        "realName": "Leo Romer"
+        "nickName": "DNK",
+        "realName": "Đỗ Ngọc Khải"
       },
       {
-        "nickName": "Kisee",
-        "realName": "Ronald Vo"
+        "nickName": "SPOT",
+        "realName": "Nguyễn Phan Đình Khôi"
       },
       {
-        "nickName": "Raes",
-        "realName": "Quin Korebrits"
+        "nickName": "Dia1",
+        "realName": "Lê Phú Quý"
       },
       {
-        "nickName": "Aladoric",
-        "realName": "Ryan Gregory Richardson"
+        "nickName": "Slayder",
+        "realName": "Nguyễn Linh Vương"
       },
       {
-        "nickName": "Thien",
-        "realName": "Romeo Tran"
+        "nickName": "Palette",
+        "realName": "Nguyễn Hải Trung"
+      },
+      {
+        "nickName": "Vinboiz",
+        "realName": "Lê Trần Quang Vinh"
       }
-    ]
+    ],
+    "rank": 81
   },
   {
-    "name": "DireWolves",
-    "uri": "https://liquipedia.net/leagueoflegends/Dire_Wolves",
-    "prizeMoney": "166238",
-    "region": "New Zealand",
+    "name": "GoldenGuardians",
+    "uri": "https://liquipedia.net/leagueoflegends/Golden_Guardians",
+    "prizeMoney": "17100",
+    "region": "United States",
     "players": [
       {
-        "nickName": "Zorenous",
-        "realName": "Cameron Abbott"
+        "nickName": "Concept",
+        "realName": "Micheal Su"
       },
       {
-        "nickName": "Poltron",
-        "realName": "Kim Zheng Nicholls"
+        "nickName": "RoseThorn",
+        "realName": "Kim Tae-ho"
       },
       {
-        "nickName": "Chazz",
-        "realName": "Jesse Mahoney"
+        "nickName": "Young",
+        "realName": "Youngho Choi"
       },
       {
-        "nickName": "Praedyth",
-        "realName": "Mark Lewis"
+        "nickName": "Array",
+        "realName": "Jackson Moldenhauer"
       },
       {
-        "nickName": "Decoy",
-        "realName": "Daniel Ealam"
-      },
-      {
-        "nickName": "Vxpir",
-        "realName": "Rhett Wiggins"
+        "nickName": "Prismal",
+        "realName": "Jacob Feinstein"
       }
-    ]
+    ],
+    "rank": 82
   },
   {
-    "name": "GroundZero Gaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Ground_Zero_Gaming",
-    "prizeMoney": "",
-    "region": "Australia",
-    "players": []
-  },
-  {
-    "name": "KangaEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/Kanga_Esports",
-    "prizeMoney": "32413",
-    "region": "Australia",
+    "name": "DeepCross Gaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Deep_Cross_Gaming",
+    "prizeMoney": "14000",
+    "region": "Taiwan",
     "players": [
       {
-        "nickName": "Blue",
-        "realName": "Eum Ju-hyeok"
+        "nickName": "Hanabi",
+        "realName": "Su Chia-hsiang"
       },
       {
-        "nickName": "Meifan",
-        "realName": "Bryce Zhou"
+        "nickName": "Hana",
+        "realName": "Chen Chih-hao"
       },
       {
-        "nickName": "Fighto",
-        "realName": "Dmitry Botov"
+        "nickName": "665",
+        "realName": "Wu Yi-han"
       },
       {
-        "nickName": "Hoopa",
-        "realName": "Dai Phu Mong"
+        "nickName": "Nestea",
+        "realName": "Hsu Bao-yuan"
       },
       {
-        "nickName": "Shinki",
-        "realName": "Brendan Ngo"
+        "nickName": "Cryscata",
+        "realName": "Chang Che-lin"
+      },
+      {
+        "nickName": "Orca",
+        "realName": "Kuo Cheng-Han"
       }
-    ]
+    ],
+    "rank": 83
+  },
+  {
+    "name": "Impunity",
+    "uri": "https://liquipedia.net/leagueoflegends/Impunity",
+    "prizeMoney": "12377",
+    "region": "Singapore",
+    "players": [
+      {
+        "nickName": "Driver",
+        "realName": "Shen Zong-hua"
+      },
+      {
+        "nickName": "Alex",
+        "realName": "Chen Yu-ming"
+      },
+      {
+        "nickName": "M1ssion",
+        "realName": "Chen Hsiao-hsien"
+      },
+      {
+        "nickName": "Anex",
+        "realName": "Chou Chun-an"
+      },
+      {
+        "nickName": "Atlen",
+        "realName": "Sung Ya-lun"
+      },
+      {
+        "nickName": "Natur3",
+        "realName": ""
+      }
+    ],
+    "rank": 84
   },
   {
     "name": "MAMMOTHEC",
@@ -2870,59 +2673,758 @@
         "nickName": "Ree",
         "realName": ""
       }
-    ]
+    ],
+    "rank": 85
   },
   {
-    "name": "PEACE",
-    "uri": "https://liquipedia.net/leagueoflegends/PEACE",
-    "prizeMoney": "63938",
-    "region": "Australia",
+    "name": "SixKarma",
+    "uri": "https://liquipedia.net/leagueoflegends/Six_Karma",
+    "prizeMoney": "10104",
+    "region": "Mexico",
     "players": [
       {
-        "nickName": "Weizhe",
-        "realName": ""
+        "nickName": "Meaning",
+        "realName": "An Ji-min"
       },
       {
-        "nickName": "NuL1",
-        "realName": ""
+        "nickName": "OnFleek",
+        "realName": "Kim Jang-gyeom"
       },
       {
-        "nickName": "Chayon",
-        "realName": "Wang Yuncheng"
+        "nickName": "cody",
+        "realName": "Cristian Sebastián Quispe Yampara"
       },
       {
-        "nickName": "Koyee",
-        "realName": ""
+        "nickName": "Snaker",
+        "realName": "Brian Alejo Distefano"
+      },
+      {
+        "nickName": "Shu Hari",
+        "realName": "Diego Angel Placencia Mora"
+      },
+      {
+        "nickName": "Hika",
+        "realName": "Hika Bautista Reid"
       }
-    ]
+    ],
+    "rank": 86
   },
   {
-    "name": "Pentanet.GG",
-    "uri": "https://liquipedia.net/leagueoflegends/Pentanet.GG",
-    "prizeMoney": "57500",
-    "region": "Australia",
+    "name": "FrankEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Frank_Esports",
+    "prizeMoney": "9000",
+    "region": "Hong Kong",
     "players": [
       {
-        "nickName": "Chippys",
-        "realName": "Ryan Short"
+        "nickName": "Kirt",
+        "realName": "Tsang Ka-kit"
       },
       {
-        "nickName": "Shernfire",
-        "realName": "Shern Cherng Tai"
+        "nickName": "Holo",
+        "realName": "Tsang Dek-lam"
       },
       {
-        "nickName": "DONGGY",
-        "realName": "Kim Dong-geun"
+        "nickName": "Pretender",
+        "realName": "Jason Ng Cheuk-lun"
       },
       {
-        "nickName": "Violet",
-        "realName": "Vincent Wong"
+        "nickName": "MnM",
+        "realName": "Wong Ka-chun"
       },
       {
-        "nickName": "Apii",
-        "realName": "Yao Jianjing"
+        "nickName": "K2",
+        "realName": "Law Chi-kit"
+      },
+      {
+        "nickName": "Rebirth",
+        "realName": "Fu Chun-kit"
       }
-    ]
+    ],
+    "rank": 87
+  },
+  {
+    "name": "KOI",
+    "uri": "https://liquipedia.net/leagueoflegends/KOI",
+    "prizeMoney": "7325",
+    "region": "Spain",
+    "players": [
+      {
+        "nickName": "Sinmivak",
+        "realName": "Jakub Rucki"
+      },
+      {
+        "nickName": "Koldo",
+        "realName": "Luis Pérez"
+      },
+      {
+        "nickName": "Baca",
+        "realName": "João Miguel Novais Bigas"
+      },
+      {
+        "nickName": "Lucker",
+        "realName": "Damian Konefał"
+      },
+      {
+        "nickName": "seaz",
+        "realName": "Daniel Binderhofer"
+      }
+    ],
+    "rank": 88
+  },
+  {
+    "name": "TeamBDS",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_BDS",
+    "prizeMoney": "4746",
+    "region": "Switzerland",
+    "players": [
+      {
+        "nickName": "Agresivoo",
+        "realName": "Tobiasz Ciba"
+      },
+      {
+        "nickName": "Maxi",
+        "realName": "Magnus Kristensen"
+      },
+      {
+        "nickName": "Reeker",
+        "realName": "Steven Chen"
+      },
+      {
+        "nickName": "xMatty",
+        "realName": "Matthew Coombs"
+      },
+      {
+        "nickName": "Erdote",
+        "realName": "Robert Nowak"
+      }
+    ],
+    "rank": 89
+  },
+  {
+    "name": "TeamWhales",
+    "uri": "https://liquipedia.net/leagueoflegends/Team_Whales",
+    "prizeMoney": "4245",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "Nagiya",
+        "realName": "Nguyễn Võ Anh Hoàng"
+      },
+      {
+        "nickName": "Killerqueen",
+        "realName": "Lê Lưu Bách Đạt"
+      },
+      {
+        "nickName": "Glory",
+        "realName": "Lê Ngọc Vinh"
+      },
+      {
+        "nickName": "Vit",
+        "realName": "Lê Hoài An"
+      },
+      {
+        "nickName": "CBL",
+        "realName": "Nguyễn Võ Thành Luân"
+      },
+      {
+        "nickName": "Bie",
+        "realName": "Trần Đức Hiếu"
+      },
+      {
+        "nickName": "Calm",
+        "realName": "Đinh Trọng Quyết"
+      }
+    ],
+    "rank": 90
+  },
+  {
+    "name": "CLGFaith",
+    "uri": "https://liquipedia.net/leagueoflegends/CLG_Faith",
+    "prizeMoney": "4000",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Bejjaniii",
+        "realName": "Gerardo Andres Leon Bijani"
+      },
+      {
+        "nickName": "Nxi",
+        "realName": "Hoangan \"Xin\" Dinh"
+      },
+      {
+        "nickName": "Seranok",
+        "realName": "Roodman Morón Granadillo"
+      },
+      {
+        "nickName": "BMFX",
+        "realName": "Bradley Lawson"
+      },
+      {
+        "nickName": "Sketchdreams",
+        "realName": "Braday Holmich"
+      }
+    ],
+    "rank": 91
+  },
+  {
+    "name": "WildcardGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Wildcard_Gaming",
+    "prizeMoney": "3913",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "MooseHater",
+        "realName": "Austin Murray"
+      },
+      {
+        "nickName": "Keel",
+        "realName": "Ryan Keel"
+      },
+      {
+        "nickName": "Soligo",
+        "realName": "Max Soong"
+      },
+      {
+        "nickName": "Lens",
+        "realName": "Emre Tanyeri"
+      },
+      {
+        "nickName": "Duoking",
+        "realName": "James Stephenson"
+      },
+      {
+        "nickName": "Qwacker",
+        "realName": "Micheal Zou"
+      }
+    ],
+    "rank": 92
+  },
+  {
+    "name": "CincinnatiFear",
+    "uri": "https://liquipedia.net/leagueoflegends/Cincinnati_Fear",
+    "prizeMoney": "3438",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Faisal",
+        "realName": "Faisal Kakar"
+      },
+      {
+        "nickName": "Perry",
+        "realName": "Perry Norman"
+      },
+      {
+        "nickName": "shochi",
+        "realName": "Chase Capello"
+      },
+      {
+        "nickName": "Minui",
+        "realName": "Mingshui \"Daniel\" Zhang"
+      },
+      {
+        "nickName": "Trevor",
+        "realName": "Trevor Roy"
+      }
+    ],
+    "rank": 93
+  },
+  {
+    "name": "ASEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/AS_Esports",
+    "prizeMoney": "3184",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "LLT",
+        "realName": "Đào Văn Tuân"
+      },
+      {
+        "nickName": "Hyo",
+        "realName": "Nguyễn Trung Hiếu"
+      },
+      {
+        "nickName": "2T",
+        "realName": "Tri Nguyen Trong"
+      },
+      {
+        "nickName": "EasyLove",
+        "realName": "Hứa Thành An"
+      },
+      {
+        "nickName": "Ouzi",
+        "realName": "Lại Trương Viết"
+      },
+      {
+        "nickName": "Zin",
+        "realName": "Nguyễn Tuấn Thọ"
+      }
+    ],
+    "rank": 94
+  },
+  {
+    "name": "GeniusEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/Genius_Esports",
+    "prizeMoney": "2759",
+    "region": "Vietnam",
+    "players": [
+      {
+        "nickName": "Coated",
+        "realName": "Đinh Văn Tráng"
+      },
+      {
+        "nickName": "YiJin",
+        "realName": "Nguyễn Lê Hải Đăng"
+      },
+      {
+        "nickName": "Blazes",
+        "realName": "Đỗ Đình Sang"
+      },
+      {
+        "nickName": "Killer",
+        "realName": "Nguyễn Trọng Nghĩa"
+      }
+    ],
+    "rank": 95
+  },
+  {
+    "name": "AOEEsports",
+    "uri": "https://liquipedia.net/leagueoflegends/AOE_Esports",
+    "prizeMoney": "2125",
+    "region": "United States",
+    "players": [
+      {
+        "nickName": "Gamsu",
+        "realName": "Noh Yeong-jin"
+      },
+      {
+        "nickName": "Winnie",
+        "realName": "Winston Herold"
+      },
+      {
+        "nickName": "DARKWINGS",
+        "realName": "Isaac Chou"
+      },
+      {
+        "nickName": "Links",
+        "realName": "Mohammad Daud Asif"
+      },
+      {
+        "nickName": "SkyTec",
+        "realName": "Daniel Soetikno"
+      }
+    ],
+    "rank": 96
+  },
+  {
+    "name": "DewishTeam",
+    "uri": "https://liquipedia.net/leagueoflegends/Dewish_Team",
+    "prizeMoney": "2000",
+    "region": "Taiwan",
+    "players": [
+      {
+        "nickName": "Lacunae",
+        "realName": "Huang Xu-chen"
+      },
+      {
+        "nickName": "WSL",
+        "realName": "Le Shao-wei"
+      },
+      {
+        "nickName": "aoliao",
+        "realName": "Li Junyao"
+      },
+      {
+        "nickName": "BangTwo",
+        "realName": "Huang Jyun-kai"
+      },
+      {
+        "nickName": "EnHoa",
+        "realName": "Cai Hao-en"
+      },
+      {
+        "nickName": "Happiness",
+        "realName": "Chen Hsin-Fu"
+      }
+    ],
+    "rank": 97
+  },
+  {
+    "name": "T.E.A.M DAO YWN",
+    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves",
+    "prizeMoney": "0",
+    "region": "Philippines",
+    "players": [
+      {
+        "nickName": "Sh1n",
+        "realName": "Shane V. Vidal",
+        "detail": "Captain/Baron Lane"
+      },
+      {
+        "nickName": "Parmie",
+        "realName": "Raisen Nille R. Salazar",
+        "detail": "Jungle"
+      },
+      {
+        "nickName": "N1LLE",
+        "realName": "Alfie Anthony Binuya",
+        "detail": "MID"
+      },
+      {
+        "nickName": "Zia",
+        "realName": "Romie Parayo",
+        "detail": "Support"
+      },
+      {
+        "nickName": "G4BO",
+        "realName": "Clint Bulacan",
+        "detail": "AD Carry",
+        "imgHard": "TEAM%20DAO%20G4BO%23T1NN.png"
+      },
+      {
+        "nickName": "Jules1",
+        "realName": "c Bonrostro",
+        "detail": "support",
+        "imgHard": "TEAM%20DAO%20Jules1%23YWN.png"
+      },
+      {
+        "nickName": "XXX",
+        "realName": "Nicoli Emmanuel Montenegro ",
+        "detail": "BRL/COACH",
+        "imgHard": "TEAM%20DAO%20XXX%23YWN.png"
+      }
+    ],
+    "rank": 98
+  },
+  {
+    "name": "Astralis",
+    "uri": "https://liquipedia.net/leagueoflegends/Astralis",
+    "prizeMoney": "",
+    "region": "Denmark",
+    "players": [
+      {
+        "nickName": "Finn",
+        "realName": "Finn Wiestål"
+      },
+      {
+        "nickName": "113",
+        "realName": "Doğukan Balcı"
+      },
+      {
+        "nickName": "Dajor",
+        "realName": "Oliver Ryppa"
+      },
+      {
+        "nickName": "Kobbe",
+        "realName": "Kasper Kobberup"
+      },
+      {
+        "nickName": "JeongHoon",
+        "realName": "Lee Jeong-hoon"
+      }
+    ],
+    "rank": 99
+  },
+  {
+    "name": "UltraPrime",
+    "uri": "https://liquipedia.net/leagueoflegends/Ultra_Prime",
+    "prizeMoney": "",
+    "region": "China",
+    "players": [
+      {
+        "nickName": "zs",
+        "realName": "Zhang Shuai"
+      },
+      {
+        "nickName": "Hery",
+        "realName": "Wang Heyong"
+      },
+      {
+        "nickName": "Ning",
+        "realName": "Gao Zhenning"
+      },
+      {
+        "nickName": "Qing",
+        "realName": "Hu Jia-Ju"
+      },
+      {
+        "nickName": "Doggo",
+        "realName": "Chiu Tzu-chuan"
+      },
+      {
+        "nickName": "Baolan",
+        "realName": "Wang Liuyi"
+      }
+    ],
+    "rank": 100
+  },
+  {
+    "name": "CNJesports",
+    "uri": "https://liquipedia.net/leagueoflegends/CNJ_esports",
+    "prizeMoney": "",
+    "region": "South Korea",
+    "players": [
+      {
+        "nickName": "Hasmed",
+        "realName": "Lâm Huỳnh Gia Huy"
+      },
+      {
+        "nickName": "Bean J",
+        "realName": "Trần Văn Chính"
+      },
+      {
+        "nickName": "Froggy",
+        "realName": "Bùi Hải Minh"
+      },
+      {
+        "nickName": "Shogun",
+        "realName": "Nguyễn Văn Huy"
+      },
+      {
+        "nickName": "Taki",
+        "realName": "Đinh Anh Tài"
+      },
+      {
+        "nickName": "P",
+        "realName": "Nguyễn Hoàng Phú"
+      }
+    ],
+    "rank": 101
+  },
+  {
+    "name": "Fluxo",
+    "uri": "https://liquipedia.net/leagueoflegends/Fluxo",
+    "prizeMoney": "",
+    "region": "Brazil",
+    "players": [
+      {
+        "nickName": "Tay",
+        "realName": "Rodrigo Panisa"
+      },
+      {
+        "nickName": "Disamis",
+        "realName": "Pedro Gonçalves"
+      },
+      {
+        "nickName": "Hauz",
+        "realName": "Bruno Ferreira"
+      },
+      {
+        "nickName": "Brance",
+        "realName": "Diego Amaral"
+      },
+      {
+        "nickName": "Jojo",
+        "realName": "Gabriel Dzelme de Oliveira"
+      }
+    ],
+    "rank": 102
+  },
+  {
+    "name": "LosGrandes",
+    "uri": "https://liquipedia.net/leagueoflegends/Los_Grandes",
+    "prizeMoney": "",
+    "region": "",
+    "players": [
+      {
+        "nickName": "HiRit",
+        "realName": "Shin Tae-min"
+      },
+      {
+        "nickName": "Ranger",
+        "realName": "Filipe Brombilla"
+      },
+      {
+        "nickName": "Lava",
+        "realName": "Kim Tae-hoon"
+      },
+      {
+        "nickName": "Netuno",
+        "realName": "Lucas Flores"
+      },
+      {
+        "nickName": "Zay",
+        "realName": "Vinicius Viana"
+      }
+    ],
+    "rank": 103
+  },
+  {
+    "name": "AXIZ",
+    "uri": "https://liquipedia.net/leagueoflegends/AXIZ",
+    "prizeMoney": "",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "Ino",
+        "realName": "Fumiya Aino"
+      },
+      {
+        "nickName": "Hoglet",
+        "realName": "Kim Gwang-hyeop"
+      },
+      {
+        "nickName": "Megumiin",
+        "realName": "Hayate Kubo"
+      },
+      {
+        "nickName": "Cheoni",
+        "realName": "Cho Seung-mo"
+      },
+      {
+        "nickName": "Dice",
+        "realName": "Daisuke Ashida"
+      }
+    ],
+    "rank": 104
+  },
+  {
+    "name": "BurningCore",
+    "uri": "https://liquipedia.net/leagueoflegends/Burning_Core",
+    "prizeMoney": "",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "RayFarky",
+        "realName": "Minato Shinohara"
+      },
+      {
+        "nickName": "CaD",
+        "realName": "Cho Seong-yong"
+      },
+      {
+        "nickName": "Dice",
+        "realName": "Hong Do-hyeon"
+      },
+      {
+        "nickName": "Yuhi",
+        "realName": "Yuhi Nakanishi"
+      },
+      {
+        "nickName": "Raina",
+        "realName": "Shin Okubo"
+      }
+    ],
+    "rank": 105
+  },
+  {
+    "name": "CrestGaming Act",
+    "uri": "https://liquipedia.net/leagueoflegends/Crest_Gaming_Act",
+    "prizeMoney": "",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "Nap",
+        "realName": "Akihito Ohno"
+      },
+      {
+        "nickName": "Cassin",
+        "realName": "Kim Dae-hee"
+      },
+      {
+        "nickName": "HyBriD",
+        "realName": "Lee Woo-jin"
+      }
+    ],
+    "rank": 106
+  },
+  {
+    "name": "FENNEL",
+    "uri": "https://liquipedia.net/leagueoflegends/FENNEL",
+    "prizeMoney": "",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "TaNa",
+        "realName": "Lee Sang-wook"
+      },
+      {
+        "nickName": "hachamecha",
+        "realName": "Dai Takai"
+      },
+      {
+        "nickName": "Recap",
+        "realName": "Norifumi Yamazaki"
+      },
+      {
+        "nickName": "Leo",
+        "realName": "Han Gyeo-re"
+      },
+      {
+        "nickName": "Corporal",
+        "realName": "Ian Pearse"
+      }
+    ],
+    "rank": 107
+  },
+  {
+    "name": "FukuokaSoftBank HAWKS",
+    "uri": "https://liquipedia.net/leagueoflegends/Fukuoka_SoftBank_HAWKS_gaming",
+    "prizeMoney": "",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "Kinatu",
+        "realName": "Yuto Enomoto"
+      },
+      {
+        "nickName": "Blank",
+        "realName": "Kang Sun-gu"
+      },
+      {
+        "nickName": "Dasher",
+        "realName": "Kim Deok-beom"
+      },
+      {
+        "nickName": "Marble",
+        "realName": "Rei Shimaya"
+      },
+      {
+        "nickName": "Vsta",
+        "realName": "Oh Hyo-seong"
+      }
+    ],
+    "rank": 108
+  },
+  {
+    "name": "SengokuGaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Sengoku_Gaming",
+    "prizeMoney": "",
+    "region": "Japan",
+    "players": [
+      {
+        "nickName": "eguto",
+        "realName": "Hayato Eguchi"
+      },
+      {
+        "nickName": "Once",
+        "realName": "Jang Se-yeong"
+      },
+      {
+        "nickName": "Jett",
+        "realName": "Bae Ho-young"
+      },
+      {
+        "nickName": "Honey",
+        "realName": "Park Bo-heon"
+      },
+      {
+        "nickName": "LokeN",
+        "realName": "Lee Dong-wook"
+      },
+      {
+        "nickName": "Enty",
+        "realName": "Ryosei Tanioka"
+      }
+    ],
+    "rank": 109
+  },
+  {
+    "name": "GroundZero Gaming",
+    "uri": "https://liquipedia.net/leagueoflegends/Ground_Zero_Gaming",
+    "prizeMoney": "",
+    "region": "Australia",
+    "players": [],
+    "rank": 110
   },
   {
     "name": "TeamBliss",
@@ -2954,259 +3456,8 @@
         "nickName": "Beats",
         "realName": "David Nguyen-Dang"
       }
-    ]
-  },
-  {
-    "name": "100Thieves Academy",
-    "uri": "https://liquipedia.net/leagueoflegends/100_Thieves_Academy",
-    "prizeMoney": "89000",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Sniper",
-        "realName": "Rayan Shoura"
-      },
-      {
-        "nickName": "Yukino",
-        "realName": "Johnny Dang"
-      },
-      {
-        "nickName": "Pretty",
-        "realName": "Prodromos Kevezitidis"
-      },
-      {
-        "nickName": "UNF0RGIVEN",
-        "realName": "William Nieminen"
-      },
-      {
-        "nickName": "Destiny",
-        "realName": "Mitchell Shaw"
-      }
-    ]
-  },
-  {
-    "name": "AOEEsports",
-    "uri": "https://liquipedia.net/leagueoflegends/AOE_Esports",
-    "prizeMoney": "2125",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Gamsu",
-        "realName": "Noh Yeong-jin"
-      },
-      {
-        "nickName": "Winnie",
-        "realName": "Winston Herold"
-      },
-      {
-        "nickName": "DARKWINGS",
-        "realName": "Isaac Chou"
-      },
-      {
-        "nickName": "Links",
-        "realName": "Mohammad Daud Asif"
-      },
-      {
-        "nickName": "SkyTec",
-        "realName": "Daniel Soetikno"
-      }
-    ]
-  },
-  {
-    "name": "CLGFaith",
-    "uri": "https://liquipedia.net/leagueoflegends/CLG_Faith",
-    "prizeMoney": "4000",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Bejjaniii",
-        "realName": "Gerardo Andres Leon Bijani"
-      },
-      {
-        "nickName": "Nxi",
-        "realName": "Hoangan \"Xin\" Dinh"
-      },
-      {
-        "nickName": "Seranok",
-        "realName": "Roodman Morón Granadillo"
-      },
-      {
-        "nickName": "BMFX",
-        "realName": "Bradley Lawson"
-      },
-      {
-        "nickName": "Sketchdreams",
-        "realName": "Braday Holmich"
-      }
-    ]
-  },
-  {
-    "name": "CincinnatiFear",
-    "uri": "https://liquipedia.net/leagueoflegends/Cincinnati_Fear",
-    "prizeMoney": "3438",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Faisal",
-        "realName": "Faisal Kakar"
-      },
-      {
-        "nickName": "Perry",
-        "realName": "Perry Norman"
-      },
-      {
-        "nickName": "shochi",
-        "realName": "Chase Capello"
-      },
-      {
-        "nickName": "Minui",
-        "realName": "Mingshui \"Daniel\" Zhang"
-      },
-      {
-        "nickName": "Trevor",
-        "realName": "Trevor Roy"
-      }
-    ]
-  },
-  {
-    "name": "Cloud9Academy",
-    "uri": "https://liquipedia.net/leagueoflegends/Cloud9_Academy",
-    "prizeMoney": "159100",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "FakeGod",
-        "realName": "Aaron Lee"
-      },
-      {
-        "nickName": "Tomio",
-        "realName": "Tomio Chan"
-      },
-      {
-        "nickName": "EMENES",
-        "realName": "Jang Min-soo"
-      },
-      {
-        "nickName": "Lost",
-        "realName": "Lawrence Sze Yuy Hui"
-      },
-      {
-        "nickName": "Zeyzal",
-        "realName": "Tristan Stidam"
-      }
-    ]
-  },
-  {
-    "name": "CLGAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/Counter_Logic_Gaming_Academy",
-    "prizeMoney": "62100",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Jenkins",
-        "realName": "Thomas Tran"
-      },
-      {
-        "nickName": "Kevy",
-        "realName": "Shane Allen"
-      },
-      {
-        "nickName": "Copy",
-        "realName": "Jouhan Pathmanathan"
-      },
-      {
-        "nickName": "Meech",
-        "realName": "Brandon Choi"
-      },
-      {
-        "nickName": "breezyyy",
-        "realName": "Brindon Keesey"
-      }
-    ]
-  },
-  {
-    "name": "DignitasAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/Dignitas_Academy",
-    "prizeMoney": "46500",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Hoon",
-        "realName": "Lee Jang-hoon"
-      },
-      {
-        "nickName": "Exyu",
-        "realName": "Lawrence Xu"
-      },
-      {
-        "nickName": "Insanity",
-        "realName": "David Challe"
-      },
-      {
-        "nickName": "Tomo",
-        "realName": "Frank Lam"
-      },
-      {
-        "nickName": "Diamond",
-        "realName": "David Bérubé"
-      }
-    ]
-  },
-  {
-    "name": "EvilGeniuses Academy",
-    "uri": "https://liquipedia.net/leagueoflegends/Evil_Geniuses_Academy",
-    "prizeMoney": "37500",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Soul",
-        "realName": "Alex Luo"
-      },
-      {
-        "nickName": "Sheiden",
-        "realName": "Jade Libut"
-      },
-      {
-        "nickName": "Ryoma",
-        "realName": "Tommy Le"
-      },
-      {
-        "nickName": "K1ng",
-        "realName": "Calvin Truong"
-      },
-      {
-        "nickName": "Smoothie",
-        "realName": "Andy Ta"
-      }
-    ]
-  },
-  {
-    "name": "FlyQuestAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/FlyQuest_Academy",
-    "prizeMoney": "37100",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Philip",
-        "realName": "Philip Zeng"
-      },
-      {
-        "nickName": "Yuuji",
-        "realName": "Ganbat Ulziidelger"
-      },
-      {
-        "nickName": "Spirax",
-        "realName": "Djalar Djiar"
-      },
-      {
-        "nickName": "Massu",
-        "realName": "Fahad Abdulmalek"
-      },
-      {
-        "nickName": "Winsome",
-        "realName": "Kim Dong-keon"
-      }
-    ]
+    ],
+    "rank": 111
   },
   {
     "name": "FlyQuestFAM",
@@ -3242,119 +3493,8 @@
         "nickName": "Mgutis",
         "realName": "Matthew Jurgutis"
       }
-    ]
-  },
-  {
-    "name": "GGSAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/Golden_Guardians_Academy",
-    "prizeMoney": "70225",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Concept",
-        "realName": "Micheal Su"
-      },
-      {
-        "nickName": "RoseThorn",
-        "realName": "Kim Tae-ho"
-      },
-      {
-        "nickName": "Young",
-        "realName": "Youngho Choi"
-      },
-      {
-        "nickName": "Array",
-        "realName": "Jackson Moldenhauer"
-      },
-      {
-        "nickName": "Prismal",
-        "realName": "Jacob Feinstein"
-      }
-    ]
-  },
-  {
-    "name": "ImmortalsAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/Immortals_Academy",
-    "prizeMoney": "47500",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "ADD",
-        "realName": "Kang Geon-mo"
-      },
-      {
-        "nickName": "Chad",
-        "realName": "Maximilian Lisitsa"
-      },
-      {
-        "nickName": "Bolulu",
-        "realName": "Onur Can Demirol"
-      },
-      {
-        "nickName": "Wixxi",
-        "realName": "Micheal Fernandez"
-      },
-      {
-        "nickName": "Joey",
-        "realName": "Joseph Haslemann"
-      }
-    ]
-  },
-  {
-    "name": "TSMAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/TSM_Academy",
-    "prizeMoney": "35500",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Hauntzer",
-        "realName": "Kevin Yarnell"
-      },
-      {
-        "nickName": "Svenskeren",
-        "realName": "Dennis Johnsen"
-      },
-      {
-        "nickName": "Doxa",
-        "realName": "William Lee"
-      },
-      {
-        "nickName": "WildTurtle",
-        "realName": "Jason Tran"
-      },
-      {
-        "nickName": "Dragku",
-        "realName": "Dragon Guo"
-      }
-    ]
-  },
-  {
-    "name": "LiquidAcademy",
-    "uri": "https://liquipedia.net/leagueoflegends/Team_Liquid_Academy",
-    "prizeMoney": "114200",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "Bradley",
-        "realName": "Bradley Benneyworth"
-      },
-      {
-        "nickName": "Mir",
-        "realName": "Park Mi-reu"
-      },
-      {
-        "nickName": "APA",
-        "realName": "Eain Stearns"
-      },
-      {
-        "nickName": "Arrow",
-        "realName": "Noh Dong-hyeon"
-      },
-      {
-        "nickName": "Kim Down",
-        "realName": "Ethan Song"
-      }
-    ]
+    ],
+    "rank": 112
   },
   {
     "name": "TeamLiquid First",
@@ -3382,38 +3522,7 @@
         "nickName": "rovex",
         "realName": "David Sin-Keo"
       }
-    ]
-  },
-  {
-    "name": "WildcardGaming",
-    "uri": "https://liquipedia.net/leagueoflegends/Wildcard_Gaming",
-    "prizeMoney": "3913",
-    "region": "United States",
-    "players": [
-      {
-        "nickName": "MooseHater",
-        "realName": "Austin Murray"
-      },
-      {
-        "nickName": "Keel",
-        "realName": "Ryan Keel"
-      },
-      {
-        "nickName": "Soligo",
-        "realName": "Max Soong"
-      },
-      {
-        "nickName": "Lens",
-        "realName": "Emre Tanyeri"
-      },
-      {
-        "nickName": "Duoking",
-        "realName": "James Stephenson"
-      },
-      {
-        "nickName": "Qwacker",
-        "realName": "Micheal Zou"
-      }
-    ]
+    ],
+    "rank": 113
   }
 ]
