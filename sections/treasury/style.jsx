@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 export const TreasuryWrap = styled.div`
+  position: relative;
+  margin-top: 0;
+  min-height: 100vh;
+  background-image: url("../../assets/bg-treasury.svg");
+  background-color: rgba(15, 199, 19, 0.06);
+  background-repeat: revert;
+  background-size: contain;
+  margin-bottom: 0;
+  padding-bottom: 100px;
   
   #treasury {
-    position: relative;
-    margin-top: 0;
-    min-height: 100vh;
-    background-image: url("../public/assets/bg-treasury.svg");
-    background-color: rgba(15, 199, 19, 0.06);
-    background-repeat: revert;
-    background-size: contain;
-    margin-bottom: 0;
-    padding-bottom: 100px;
+    
   }
 
   .z-top {
