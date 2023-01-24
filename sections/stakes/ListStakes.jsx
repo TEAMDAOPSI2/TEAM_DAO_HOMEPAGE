@@ -1,6 +1,101 @@
 import React, {useContext, useEffect, useState} from "react";
 import {Table, FilterWrapper, GameWrapper} from "./style";
 import WSContext from "../../context/WSContext";
+import {faker} from "@faker-js/faker";
+
+const randomMatch = [
+    {
+        userID: '1978772578',
+        name: '@TEAM_Beta_201????',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'b',
+        custom: false,
+        type: 'place-bet',
+        timestamp: '2023-01-14T12:04:10+08:00',
+        teamName: 'TEAM BDS',
+        teams: ['EXCEL ESPORTS', 'TEAM BDS'],
+        game: '🐉LOL',
+    },
+    {
+        userID: '1978772578',
+        name: '@TeamDAO???? | 5220 | GOLF15 | Natco',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'b',
+        custom: false,
+        type: 'place-bet',
+        timestamp: '2023-01-14T12:04:10+08:00',
+        teamName: 'TEAM BDS',
+        teams: ['EXCEL ESPORTS', 'TEAM BDS'],
+        game: '🐉LOL',
+    },
+    {
+        userID: '1978772578',
+        name: '@TeamDAO???? | 1174 | ??GM INTERN (TEKKEN/ F1 )',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'a',
+        custom: false,
+        type: 'place-bet',
+        timestamp: '2023-01-22T23:59:50+08:00',
+        teamName: 'FULHAM',
+        teams: ['FULHAM', 'TOTTENHAM HOTSPUR'],
+        game: '⚽FOOTBALL',
+    },
+    {
+        userID: '1978772578',
+        name: '@TeamDAO???? | 5220 | GOLF15 | Natco',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'b',
+        custom: false,
+        type: 'place-bet',
+        timestamp: '2023-01-14T12:04:10+08:00',
+        teamName: 'TOTTENHAM HOTSPUR',
+        teams: ['FULHAM', 'TOTTENHAM HOTSPUR'],
+        game: '⚽FOOTBALL',
+    },
+    {
+        userID: '1978772578',
+        name: '@TeamDAO????| 1255 | ? ?e?? ??',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'b',
+        custom: false,
+        type: 'place-bet',
+        timestamp: "2023-01-23T11:03:09+08:00",
+        teamName: 'GAIMIN GLADIATORS',
+        teams: ['LIQUID', 'GAIMIN GLADIATORS'],
+        game: '🐲DOTA',
+    },
+    {
+        userID: '1978772578',
+        name: '@TeamDAO ???? | 1286 |??GM INTERN- KOF/TENNIS | Anne',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'a',
+        custom: false,
+        type: 'place-bet',
+        timestamp: "2023-01-23T11:03:09+08:00",
+        teamName: 'LIQUID',
+        teams: ['LIQUID', 'GAIMIN GLADIATORS'],
+        game: '🐲DOTA',
+    },
+    {
+        userID: '1978772578',
+        name: '@TeamDAO ???? | 2049 | BRAVO | DAO Jo1',
+        matchID: 'EQAGTV95O7OW',
+        teamID: '0PNFSUMR3YJ9',
+        team: 'a',
+        custom: false,
+        type: 'place-bet',
+        timestamp: "2023-01-23T11:04:14+08:00",
+        teamName: 'LIQUID',
+        teams: ['LIQUID', 'GAIMIN GLADIATORS'],
+        game: '🐲DOTA',
+    }
+]
 
 
 const ListStakes = () => {
@@ -21,7 +116,7 @@ const ListStakes = () => {
             timestamp: '2023-01-14T12:04:10+08:00',
             teamName: 'ASTER ARIES',
             teams: ['INVICTUS GAMING CHINA', 'ASTER ARIES'],
-            game: 'DOTA🐲',
+            game: '🐲DOTA',
         }],
     })
     const socket = useContext(WSContext)
@@ -47,21 +142,13 @@ const ListStakes = () => {
 
         // add mocking set data every 30 seconds
         const interval = setInterval(() => {
-            const games = ['DOTA🐲', "CODM🔫", "MLBB🐢", "PUBGM🔫"]
-            let x = {
-                betID: Math.random().toString(36).substring(7),
-                userID: '1978772578',
-                name: '@TeamDAO???? | 3006 | APE |' + Math.random().toString(36).substring(2, 15),
-                matchID: 'EQAGTV95O7OW',
-                teamID: '0PNFSUMR3YJ9',
-                team: 'b',
-                custom: false,
-                amount: Math.floor(Math.random() * 21),
-                type: 'place-bet',
-                timestamp: new Date().toISOString(),
-                teamName: 'ASTER ARIES',
-                teams: ['INVICTUS GAMING', 'ASTER ARIES'],
-                game: games[Math.floor(Math.random() * games.length)],
+            const games = ['🐲DOTA', "🔫CODM", "🐢MLBB", "🔫PUBGM"];
+            const fakeID = faker.database.mongodbObjectId();
+            const x = {
+                betID: fakeID,
+                amount : Math.floor(Math.random() * 20 + 1),
+                ...
+                    randomMatch[Math.floor(Math.random() * randomMatch.length)]
             };
             setOdd(odd + 1);
             x.odd = odd;
@@ -72,7 +159,7 @@ const ListStakes = () => {
                     stakes: [x, ...prev.stakes].slice(0, 10)
                 }
             })
-        }, 3000);
+        }, 5000);
 
         const timeoutId = setTimeout(() => {
             setAnimation(null);
@@ -87,6 +174,7 @@ const ListStakes = () => {
         }
     }, [data, setData, socket])
 
+
     return (
         <div className="container">
             <FilterWrapper>
@@ -94,17 +182,17 @@ const ListStakes = () => {
                     <GameWrapper>
                         <ul>
                             <li>All Stakes</li>
-                            <li>DOTA🐲</li>
-                            <li>CODM🔫</li>
-                            <li>MLBB🐢</li>
-                            <li>PUBGM🔫</li>
-                            <li>LOL🐉</li>
-                            <li>FREE FIRE🔫</li>
-                            <li>FORTNITE🔫</li>
-                            <li>FB⚽</li>
-                            <li>BB🏀</li>
-                            <li>HORSE🐎</li>
-                            <li>F1🏎</li>
+                            <li>🐲DOTA</li>
+                            <li>🔫CODM</li>
+                            <li>🐢MLBB</li>
+                            <li>🔫PUBGM</li>
+                            <li>🐉LOL</li>
+                            <li>🔫FREE FIRE</li>
+                            <li>🔫FORTNITE</li>
+                            <li>⚽FB</li>
+                            <li>🏀BB</li>
+                            <li>🐎HORSE</li>
+                            <li>🏎F1</li>
                         </ul>
                     </GameWrapper>
                 </div>
@@ -124,7 +212,7 @@ const ListStakes = () => {
                     {
                         data?.stakes.map((stake, index) => {
                             let event = "";
-                            if (stake.teams.length === 2) event = stake.teams[0] + " VS " + stake.teams[1]; else event = stake.teamName;
+                            if (stake.teams.length === 2) event = stake.teams[0] + " ⚔ " + stake.teams[1]; else event = stake.teamName;
                             const date = new Date(stake.timestamp);
                             const time = date.toLocaleTimeString('en-US', {
                                 hour: 'numeric',
@@ -133,13 +221,14 @@ const ListStakes = () => {
                             });
                             // make effect change by row
                             return (
-                                <tr key={index} className={`${stake.odd % 2 === 0 ? 'odd' : ''} ${animation === stake.betID ? 'animate': ''}`}>
+                                <tr key={index}
+                                    className={`${stake.odd % 2 === 0 ? 'odd' : ''} ${animation === stake.betID ? 'animate' : ''}`}>
                                     <td>{stake.game}</td>
                                     <td>{event}</td>
                                     <td className="mobile-gone">{stake.name}</td>
                                     <td className="mobile-gone">{time}</td>
                                     <td>
-                                            <span style={{color: '#00ff19'}}>{stake.amount} $TEAM</span>
+                                        <span style={{color: '#00ff19'}}>{stake.amount} $TEAM</span>
                                     </td>
                                 </tr>
                             )
