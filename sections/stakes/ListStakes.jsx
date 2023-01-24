@@ -205,26 +205,26 @@ const ListStakes = () => {
             })
         });
 
-        // add mocking set data every 30 seconds
-        const interval = setInterval(() => {
-            const games = ['🐲DOTA', "🔫CODM", "🐢MLBB", "🔫PUBGM"];
-            const fakeID = faker.database.mongodbObjectId();
-            const x = {
-                betID: fakeID,
-                amount : Math.floor(Math.random() * 20 + 1),
-                ...
-                    randomMatch[Math.floor(Math.random() * randomMatch.length)]
-            };
-            setOdd(odd + 1);
-            x.odd = odd;
-            setAnimation(x.betID)
-            setData((prev) => {
-                return {
-                    ...prev,
-                    stakes: [x, ...prev.stakes].slice(0, 10)
-                }
-            })
-        }, 5000);
+        // // add mocking set data every 30 seconds
+        // const interval = setInterval(() => {
+        //     const games = ['🐲DOTA', "🔫CODM", "🐢MLBB", "🔫PUBGM"];
+        //     const fakeID = faker.database.mongodbObjectId();
+        //     const x = {
+        //         betID: fakeID,
+        //         amount : Math.floor(Math.random() * 20 + 1),
+        //         ...
+        //             randomMatch[Math.floor(Math.random() * randomMatch.length)]
+        //     };
+        //     setOdd(odd + 1);
+        //     x.odd = odd;
+        //     setAnimation(x.betID)
+        //     setData((prev) => {
+        //         return {
+        //             ...prev,
+        //             stakes: [x, ...prev.stakes].slice(0, 10)
+        //         }
+        //     })
+        // }, 5000);
 
         const timeoutId = setTimeout(() => {
             setAnimation(null);
