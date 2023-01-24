@@ -234,7 +234,7 @@ const ListStakes = () => {
             socket.off('status')
             socket.off('disconnect')
             socket.off('new_stake')
-            clearInterval(interval)
+            // clearInterval(interval)
             clearTimeout(timeoutId)
         }
     }, [data, setData, socket])

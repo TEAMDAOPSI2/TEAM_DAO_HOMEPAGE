@@ -8,7 +8,7 @@ import {io} from "socket.io-client";
 
 const MainDiv = styled.div`
   height: 1px;
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
 `;
 
