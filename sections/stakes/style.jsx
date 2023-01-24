@@ -183,6 +183,7 @@ export const GameWrapper = styled.div`
       font-family: "Roboto Mono", monospace;
       margin-bottom: 10px;
       transform: skew(-20deg);
+      white-space: nowrap;
 
       .skew-fix {
         display: inline-block;
@@ -205,7 +206,7 @@ export const Table = styled.table`
 
   tr {
     position: relative;
-    background: #050609;
+    background: rgb(31, 33, 37);
     transition: background-color 100ms 0ms;
     overflow: hidden;
   }
@@ -213,6 +214,32 @@ export const Table = styled.table`
   th:first-child, td:first-child {
     padding-left: 10px;
   }
+
+  // animate tbody tr every have new data
+  tbody tr:nth-child(odd) {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  tbody tr.animate {
+    animation: blink 0.3s ease-in-out;
+  }
+
+  @keyframes blink {
+    0% {
+      background-color: #00ff19;
+    }
+    50% {
+      background-color: #153300;
+    }
+    100% {
+      background-color: #00ff19;
+    }
+  }
+
+  .odd {
+    background: #000000;
+  }
+
 
   th {
     height: 40px;
@@ -222,7 +249,7 @@ export const Table = styled.table`
     color: #00ff19;
     white-space: nowrap;
     overflow: hidden;
-    background: #0f1510;
+    background: #2f3a2f;
     text-transform: uppercase;
     cursor: pointer;
   }
@@ -232,6 +259,14 @@ export const Table = styled.table`
     font: normal normal 400 14px/20px 'Roboto', sans-serif;
   }
 
+  td .rounded{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #2afe30;
+    border-radius: 50% !important;
+    display: inline-block;
+  }
 
   .number {
     font-size: 20px;
@@ -246,9 +281,6 @@ export const Table = styled.table`
     font-size: 16px;
   }
 
-  tbody tr:nth-of-type(odd) {
-    background: #1f2125;
-  }
 
   tbody tr:hover {
     background: #379341;

@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.7",
     "@trendyol-js/react-carousel": "^2.0.1",
     "bootstrap": "^5.2.0",
+    "framer-motion": "^8.5.0",
     "hamburger-react": "^2.4.1",
     "helpers": "^0.0.6",
     "next": "12.1.5",
@@ -19,14 +20,15 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^2.5.0",
     "react-dom": "18.0.0",
+    "react-flip-move": "^3.0.5",
     "react-scroll-parallax": "^3.0.5",
     "react-slick": "^0.28.1",
     "react-toastify": "^8.2.0",
     "react-tsparticles": "^1.42.4",
+    "recharts": "^2.1.16",
     "slick-carousel": "^1.8.1",
     "socket.io-client": "^4.5.4",
-    "styled-components": "5.3.1",
-    "recharts": "^2.1.16"
+    "styled-components": "5.3.1"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",

@@ -12,10 +12,9 @@ import WhitePaperIcon from 'public/assets/social-media/litepaper.png';
 import GithubIcon from 'public/assets/social-media/github_white.svg';
 import YoutubeIcon from 'public/assets/social-media/youtube.svg';
 import TwitchIcon from 'public/assets/social-media/iconmonstr-twitch-1-240.png';
-import LinksIcon from 'public/assets/social-media/iconmonstr-share-thin-240.png';
 import GamePadIcon from 'public/assets/social-media/icons8-gamepad-96.png';
 import BigoIcon from 'public/assets/social-media/bigo.png';
-import Image from "next/image";
+import EnvelopeIcon from 'public/assets/social-media/envelope.png';
 
 
 export default function FooterOld() {
@@ -164,6 +163,12 @@ export default function FooterOld() {
                                     <a href="https://goo.gl/maps/BjL2WXMcup4NSRqS7" target="_blank" rel="noreferrer">
                                         <img style={{width: '25px', height: '25px', objectFit: 'contain'}}
                                              src={GamePadIcon.src} alt="link"/>
+                                    </a>
+                                </div>
+                                <div className="social-group">
+                                    <a href="https://teamdao.substack.com/" target="_blank" rel="noreferrer">
+                                        <img style={{width: '25px', height: '25px', objectFit: 'contain'}}
+                                             src={EnvelopeIcon.src} alt="link"/>
                                     </a>
                                 </div>
                             </div>
