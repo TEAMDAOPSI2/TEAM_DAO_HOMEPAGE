@@ -2,9 +2,6 @@ import React, {useContext, useEffect, useState} from "react";
 import {Table, FilterWrapper, GameWrapper} from "./style";
 import WSContext from "../../context/WSContext";
 import categoryStakes from "@data/stakeCategories.json";
-import EmojiConvertor from 'emoji-js';
-
-const emojiConvertor = new EmojiConvertor();
 
 const ListStakes = ({bettors}) => {
     const [odd, setOdd] = useState(0)

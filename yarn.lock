@@ -2275,6 +2275,18 @@ electron-to-chromium@^1.4.84:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.109.tgz#74df3109e37f1feed6124f255f52c96aa62feb7f"
   integrity sha512-LCF+Oqs2Oqwf8M3oc8T59Wi9C0xpL1qVyqIR6bPTCl8uPvln7G184L39tO4SE4Dyg/Kp1RjAz//BKMvi0uvw4w==
 
+emoji-datasource@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/emoji-datasource/-/emoji-datasource-7.0.2.tgz#e32b9002c594334ea9ec74e11f21b20c5adcb74d"
+  integrity sha512-F5TTUSktTIfbjHIlaz8tjsQ8EAD0UpJtj1i5O13jQARWTddtFgam3nE1W5WgSQoqU/cuTnF1H9tK/wlCOyzfiA==
+
+emoji-js@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/emoji-js/-/emoji-js-3.7.0.tgz#60c479803ebe4cc4bed68ae7c1ef081a5ad31c5b"
+  integrity sha512-YNJCF8DOYI1AZnkSIcJbmIN6rtXtSv5DObqzvHuGAP8VLQc15MMN+DG9rQVSfHPXGFkFub9pGvbiO4FNz5+sjg==
+  dependencies:
+    emoji-datasource "7.0.2"
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
