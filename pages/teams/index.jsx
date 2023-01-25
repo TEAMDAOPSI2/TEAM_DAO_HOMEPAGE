@@ -296,9 +296,12 @@ const Index = () => {
         }, 5000);
         // count total page
         setTotalPages(Math.ceil(data.length / 15));
-    }, []);
+    }, [data]);
 
-    const handleDataGame = () => {
+
+    const handleGameFilter = (game) => {
+        setGame(game);
+        setPage(1);
         switch (game) {
             case 'codm':
                 setData(codmTeam);
@@ -334,16 +337,17 @@ const Index = () => {
             setDataFilter(newData);
             setTotalPages(Math.ceil(newData.length / 15));
         } else {
-            setPage(1);
-            handleDataGame();
+            setSearch('');
             setDataFilter(null);
+            setPage(1);
+            setData(data);
+            handleGameFilter(game);
             setTotalPages(Math.ceil(data.length / 15));
         }
     }
 
     const DataWrap = (props) => {
         const {showType, page, data, game} = props;
-        handleDataGame();
         if (showType) {
             return <GridSection page={page} data={data}/>
         } else {
@@ -379,9 +383,6 @@ const Index = () => {
                     }}>
                     <HeaderOld/>
                     <MainDiv/>
-                    {/*<CenterText>*/}
-                    {/*    <h3>Teams</h3>*/}
-                    {/*</CenterText>*/}
 
                     <FilterWrapper>
                         <div className="filter-top">
@@ -402,25 +403,25 @@ const Index = () => {
                             <GameWrapper>
                                 <ul>
                                     <li className={`${game === 'dota' && 'active'}`}
-                                        onClick={() => setGame('dota')}>DOTA
+                                        onClick={() => handleGameFilter('dota')}>DOTA
                                     </li>
                                     <li className={`${game === 'codm' && 'active'}`}
-                                        onClick={() => setGame('codm')}>CODM
+                                        onClick={() => handleGameFilter('codm')}>CODM
                                     </li>
                                     <li className={`${game === 'mlbb' && 'active'}`}
-                                        onClick={() => setGame('mlbb')}>MLBB
+                                        onClick={() => handleGameFilter('mlbb')}>MLBB
                                     </li>
                                     <li className={`${game === 'pubgm' && 'active'}`}
-                                        onClick={() => setGame('pubgm')}>PUBGM
+                                        onClick={() => handleGameFilter('pubgm')}>PUBGM
                                     </li>
                                     <li className={`${game === 'lol' && 'active'}`}
-                                        onClick={() => setGame('lol')}>LOL
+                                        onClick={() => handleGameFilter('lol')}>LOL
                                     </li>
                                     <li className={`${game === 'freefire' && 'active'}`}
-                                        onClick={() => setGame('freefire')}>FREE FIRE
+                                        onClick={() => handleGameFilter('freefire')}>FREE FIRE
                                     </li>
                                     <li className={`${game === 'fortnite' && 'active'}`}
-                                        onClick={() => setGame('fortnite')}>FORTNITE</li>
+                                        onClick={() => handleGameFilter('fortnite')}>FORTNITE</li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>

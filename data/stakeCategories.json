@@ -1,0 +1,114 @@
+[
+  {
+    "name": "TENNIS",
+    "gcid": "@TEAMDAOTENNIS",
+    "logo": "🎾",
+    "created": "2023-01-23T16:51:05+08:00",
+    "__v": 0
+  },
+  {
+    "name": "FOOTBALL",
+    "gcid": "@TeamALGOrand",
+    "logo": "⚽️",
+    "created": "2023-01-18T21:27:18+08:00",
+    "__v": 0
+  },
+  {
+    "name": "CODM",
+    "gcid": "@TEAM_CODMobile",
+    "logo": "🔫",
+    "created": "2022-12-08T22:39:16+08:00",
+    "__v": 0
+  },
+  {
+    "name": "FIFA",
+    "gcid": "@TEAM_FIFA22",
+    "logo": "⚽️",
+    "created": "2022-11-28T13:50:05+08:00",
+    "__v": 0
+  },
+  {
+    "name": "NBA",
+    "gcid": "@TEAM_NBA2K",
+    "logo": "🏀",
+    "created": "2022-11-28T13:49:50+08:00",
+    "__v": 0
+  },
+  {
+    "name": "MLBB",
+    "gcid": "@TEAM_MobileLegends",
+    "logo": "🐢",
+    "created": "2022-11-28T13:49:35+08:00",
+    "__v": 0
+  },
+  {
+    "name": "APEX",
+    "gcid": "@TEAM_APEXLEGENDS",
+    "logo": "🔫",
+    "created": "2022-11-28T13:49:21+08:00",
+    "__v": 0
+  },
+  {
+    "name": "PUBGM",
+    "gcid": "@TEAM_PUBG_M",
+    "logo": "🔫",
+    "created": "2022-11-28T13:49:05+08:00",
+    "__v": 0
+  },
+  {
+    "name": "HORSE RACING",
+    "gcid": "@TEAMHORSE",
+    "logo": "🐎",
+    "created": "2022-11-28T13:48:51+08:00",
+    "__v": 0
+  },
+  {
+    "name": "BOXING",
+    "gcid": "@TEAM_KOF",
+    "logo": "🥊",
+    "created": "2022-11-28T13:48:35+08:00",
+    "__v": 0
+  },
+  {
+    "name": "DOTA",
+    "gcid": "@TEAM_DOTA",
+    "logo": "🐲",
+    "created": "2022-11-28T13:48:21+08:00",
+    "__v": 0
+  },
+  {
+    "name": "STARCRAFT2",
+    "gcid": "@TeamKLAY",
+    "logo": "🚀",
+    "created": "2022-11-28T13:48:06+08:00",
+    "__v": 0
+  },
+  {
+    "name": "CRYPTOGOLF",
+    "gcid": "@TEAMGOLF",
+    "logo": "⛳️",
+    "created": "2022-11-28T13:47:51+08:00",
+    "__v": 0
+  },
+  {
+    "name": "LOL",
+    "gcid": "@TEAM_LeagueOfLegends",
+    "logo": "🐉",
+    "created": "2022-11-28T13:47:37+08:00",
+    "__v": 0
+  },
+  {
+    "name": "F1 DRIVER",
+    "gcid": "@TEAM_F1",
+    "logo": "🏎",
+    "created": "2022-11-28T13:47:22+08:00",
+    "__v": 0
+  },
+  {
+    "name": "F1 TEAM",
+    "gcid": "@TEAM_F1",
+    "logo": "🏎",
+    "created": "2022-11-28T13:47:11+08:00",
+    "__v": 0
+  }
+]
