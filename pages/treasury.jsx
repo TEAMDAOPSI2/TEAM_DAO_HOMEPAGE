@@ -64,6 +64,13 @@ const treasury = ({treasuryData, marketCap}) => {
                                             )
                                         })
                                     }
+                                    <tr className="green-border">
+                                        <td>Total</td>
+                                        <td>{` `}</td>
+                                        {/*sum total usd key*/}
+                                        <td className="number"><span>$</span>{formatNumber(treasuryData.reduce((a, b) => a + (b['usd'] || 0), 0))}</td>
+                                        <td colSpan="2"></td>
+                                    </tr>
 
                                     </tbody>
                                 </table>

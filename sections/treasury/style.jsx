@@ -331,6 +331,11 @@ export const TreasuryWrap = styled.div`
   #treasury .amounts .table table tr td:nth-child(5), #treasury .amounts .table table tr th:nth-child(5) {
     text-align: right;
   }
+  
+  #treasury .amounts .table .green-border td{
+    border-bottom: 2px solid #00ff19 !important;
+    border-top: 2px solid #00ff19 !important;
+  }
 
   #treasury .amounts .grows {
     margin-top: 120px;
