@@ -298,7 +298,7 @@
     font-weight: 600;
     color: #fff;
     border-top: none;
-    width: calc(100% / 3)
+    width: calc(100% / 5)
 }
 
 #treasury .amounts .table table tr td {

@@ -302,7 +302,8 @@ export const TreasuryWrap = styled.div`
     font-weight: 600;
     color: #fff;
     border-top: none;
-    width: calc(100% / 3)
+    width: calc(100% / 5);
+    font-size: 23px;
   }
 
   #treasury .amounts .table table tr td {
@@ -318,11 +319,16 @@ export const TreasuryWrap = styled.div`
     font-weight: normal;
   }
 
-  #treasury .amounts .table table tr td:nth-child(2), #treasury .amounts .table table tr th:nth-child(2) {
+  #treasury .amounts .table table tr td:nth-child(2), 
+  #treasury .amounts .table table tr th:nth-child(2), 
+  #treasury .amounts .table table tr th:nth-child(3), 
+  #treasury .amounts .table table tr th:nth-child(4), 
+  #treasury .amounts .table table tr td:nth-child(4), 
+  #treasury .amounts .table table tr td:nth-child(3) {
     text-align: center;
   }
 
-  #treasury .amounts .table table tr td:nth-child(3), #treasury .amounts .table table tr th:nth-child(3) {
+  #treasury .amounts .table table tr td:nth-child(5), #treasury .amounts .table table tr th:nth-child(5) {
     text-align: right;
   }
 
