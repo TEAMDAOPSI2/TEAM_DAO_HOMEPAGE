@@ -302,8 +302,12 @@ export const TreasuryWrap = styled.div`
     font-weight: 600;
     color: #fff;
     border-top: none;
-    width: calc(100% / 5);
+    //width: calc(100% / 5);
     font-size: 23px;
+  }
+
+  #treasury .amounts .table table tr td:first-child, #treasury .amounts .table table tr th:first-child {
+    width: calc(100% / 5 + 50px);
   }
 
   #treasury .amounts .table table tr td {
@@ -468,6 +472,7 @@ export const TreasuryWrap = styled.div`
     align-items: center;
     font-weight: normal;
     size: 0.8em;
+    font-size: 23px;
   }
 
   #treasury .utility ul li h5 svg {
@@ -483,6 +488,7 @@ export const TreasuryWrap = styled.div`
   #treasury .utility ul {
     padding: 0;
     color: #fff;
+    font-size: 23px;
   }
 
   #treasury .utility ul li span {
