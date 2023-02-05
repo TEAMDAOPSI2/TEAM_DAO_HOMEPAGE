@@ -603,3 +603,87 @@ export const TreasuryWrap = styled.div`
     }
   }    
 `
+
+export const TreasuryChartPrice = styled.div`
+
+  .header{
+    padding-top: 10px;
+    color: #fff;
+    p{
+      font-size: 1rem;
+      line-height: 1.25rem;
+    }
+    h3{
+      font-size: 3rem;
+      line-height: 1;
+      margin-bottom: 0;
+      margin-right: 7px;
+    }
+    span{
+      font-size: 1.2rem;
+      line-height: 1.25rem;
+      margin-right: 7px;
+    }
+  }
+
+  .cst-tooltip {
+    color: #fff;
+    background-color: rgb(23, 27, 47);
+    text-align: left;
+    padding: 10px;
+    min-width: 150px;
+    border-radius: 4px;
+    border: none !important;
+  }
+
+  /* hiding first and last lines in cartesian grid */
+  .recharts-wrapper .recharts-cartesian-grid-horizontal line:first-child,
+  .recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child {
+    stroke-opacity: 0;
+  }
+
+  .card-dark{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    min-height: 332px;
+    border-radius: 16px;
+    width: 100%;
+    height: 380px;
+    padding: 1rem 2rem 1rem 1rem;
+    display: flex;
+    background-color: rgb(23, 27, 47);
+    flex-direction: column;
+  }
+
+  .price-group{
+    color: white;
+  }
+
+  .price-card-title{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 600;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+  }
+  .price-card-sub-title{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(108, 114, 132);
+  }
+  .recharts-tooltip-wrapper{
+    border: none;
+  }
+  .recharts-tooltip-wrapper {
+    .customTooltip {
+      p {
+        margin:0;
+      }
+    }
+  }
+`
