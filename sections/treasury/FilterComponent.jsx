@@ -61,18 +61,18 @@ const FilterComponent = ({filter, setFilter}) => {
                     <Menu.Button as={ButtonToggle}>Filter</Menu.Button>
                     {open && (
                         <Menu.Items as={MenuItemsWrapper}>
-                            <Menu.Item as="div" disabled>
-                                <span>$TEAM</span>
-                                <input type="checkbox" checked={filter.team}
-                                       onChange={() => setFilter({...filter, team: !filter.team})}/>
-                            </Menu.Item>
+                            {/*<Menu.Item as="div" disabled>*/}
+                            {/*    <span>$TEAM</span>*/}
+                            {/*    <input type="checkbox" checked={filter.team}*/}
+                            {/*           onChange={() => setFilter({...filter, team: !filter.team})}/>*/}
+                            {/*</Menu.Item>*/}
                             <Menu.Item as="div" disabled>
                                 <span>USDT</span>
                                 <input type="checkbox" checked={filter?.usdt}
                                        onChange={() => setFilter({...filter, usdt: !filter.usdt})}/>
                             </Menu.Item>
                             <Menu.Item as="div" disabled>
-                                <span>USDT</span>
+                                <span>USDC</span>
                                 <input type="checkbox" checked={filter?.usdc}
                                        onChange={() => setFilter({...filter, usdc: !filter.usdc})}/>
                             </Menu.Item>
