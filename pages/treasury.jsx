@@ -6,22 +6,26 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import {formatNumber} from "../utils/money_format";
 import {TreasuryWrap} from "@sections/treasury/style";
+import ChartPrice from "@sections/treasury/ChartPrice";
 
 // get data from api
 export async function getServerSideProps() {
     const res = await fetch(`https://script.google.com/macros/s/AKfycbyCqi5hiqSn_c0te5qVMpQp7Zf2AS0jSQymU8lCgW9pRLH_RSRD0idUf1sUcIv4q6rW/exec?action=stats`);
     const resMarketCap = await fetch(`https://script.google.com/macros/s/AKfycbxjut-YkSj6wrLolorbDvZ3OI4aSTuNLhFMSJQvY1yFStdcOsMaiGk3nNglQZkTgKwh/exec?action=marketcap`);
+    const resMovingPrice = await fetch(`https://script.google.com/macros/s/AKfycbxAigVjruEbOCEQG-F6XIrOFk4Wv0Rn0GLCwxYuBlsKXIP3SRqkQAyWncgolQ92j6jQ/exec?action=moving-price`);
     const dataMarketCap = await resMarketCap.json();
     const data = await res.json();
+    const dataMovingPrice = await resMovingPrice.json();
     return {
         props: {
             treasuryData: data,
-            marketCap: dataMarketCap[0]
+            marketCap: dataMarketCap[0],
+            movingPrice: dataMovingPrice
         }
     }
 }
 
-const treasury = ({treasuryData, marketCap}) => {
+const treasury = ({treasuryData, marketCap, movingPrice}) => {
     return (
         <>
             <Head>
@@ -30,8 +34,12 @@ const treasury = ({treasuryData, marketCap}) => {
             <Navbar/>
             <TreasuryWrap>
                 <main id="treasury">
-                    <div style={{paddingTop: '40px'}}/>
                     <section className="amounts" id="">
+
+                        <div style={{paddingTop: '40px'}}/>
+
+                        <ChartPrice data={movingPrice}/>
+
                         <div className="container">
                             <div className="title">
                                 {/*<p>Total dollar amount of tokens held in T.E.A.M Dao treasury</p>*/}
@@ -58,17 +66,31 @@ const treasury = ({treasuryData, marketCap}) => {
                                                     <td className="number">{formatNumber(item.token)}
                                                         <span>{item.percentage}%</span></td>
                                                     <td className="number"><span>$</span>{formatNumber(item.usd)}</td>
-                                                    <td className="number"><span>$</span>{formatNumber(item.earned)}</td>
-                                                    <td className="number"><span>$</span>{formatNumber(item.rewarded)}</td>
+                                                    <td className="number"><span>$</span>{formatNumber(item.earned)}
+                                                    </td>
+                                                    <td className="number"><span>$</span>{formatNumber(item.rewarded)}
+                                                    </td>
                                                 </tr>
                                             )
                                         })
                                     }
                                     <tr className="green-border">
-                                        <td>Total</td>
+                                        <td>Total Assets</td>
                                         <td>{` `}</td>
                                         {/*sum total usd key*/}
-                                        <td className="number"><span>$</span>{formatNumber(treasuryData.reduce((a, b) => a + (b['usd'] || 0), 0))}</td>
+                                        <td className="number">
+                                            <span>$</span>{formatNumber(treasuryData.reduce((a, b) => a + (b['usd'] || 0), 0))}
+                                        </td>
+                                        <td colSpan="2"></td>
+                                    </tr>
+                                    <tr className="green-border">
+                                        <td>Total Liabilities</td>
+                                        <td>{` `}</td>
+                                        {/*sum total usd key*/}
+                                        <td className="number">
+                                            {/*<span>$</span>{formatNumber(treasuryData.reduce((a, b) => a + (b['usd'] || 0), 0))}*/}
+                                            0
+                                        </td>
                                         <td colSpan="2"></td>
                                     </tr>
 

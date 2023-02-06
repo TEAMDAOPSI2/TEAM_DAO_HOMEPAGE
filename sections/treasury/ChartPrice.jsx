@@ -4,18 +4,30 @@ import {faker} from "@faker-js/faker";
 import moment from "moment";
 import {TreasuryChartPrice} from "@sections/treasury/style";
 import {formatNumber} from "../../utils/money_format";
+import FilterComponent from "@sections/treasury/FilterComponent";
 
 
-function CustomTooltip({active, payload, label}) {
+function CustomTooltip({active, payload, label, filter}) {
     if (active) {
+        const count = Object.values(filter).filter(item => item).length;
         return (
             <div className="price-group cst-tooltip d-flex flex-column">
-                <p className="price-card-title">{`${payload[0].value.toLocaleString("en-US", {
-                    style: 'currency',
-                    currency: 'USD',
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2
-                })}`}</p>
+                <p className="price-card-title">{`${formatNumber(payload[0].value)}`}</p>
+                {
+                    count > 0 &&
+                    Object.keys(filter).map((item, index) => {
+                        if (filter[item]) {
+                            return (
+                                <div className="d-flex flex-column" key={index}>
+                                    <div className="d-flex align-items-center">
+                                        <div className="dot" style={{background: '#1ae120'}}/>
+                                        <p className="price-card-sub-title text-uppercase">${`${payload[index+1].dataKey}: ${formatNumber(payload[index+1].value)}`}</p>
+                                    </div>
+                                </div>
+                            )
+                        }
+                    })
+                }
                 <p className="price-card-sub-title">{`${moment(label).format('D MMMM YYYY, h:mm:ss a')}`}</p>
             </div>
         );
@@ -27,6 +39,11 @@ function CustomTooltip({active, payload, label}) {
 
 const ChartPrice = ({data}) => {
     const [xData, setData] = useState([]);
+    const [filter, setFilter] = useState({
+        team: false,
+        usdt: false,
+        usdc: false
+    });
     const [percentageMove, setPercentageMove] = useState({
         start: 0,
         end: 0,
@@ -35,7 +52,10 @@ const ChartPrice = ({data}) => {
     const colorMove = {
         green: '#8FFCE1',
         red: '#CD0404',
-        orange: '#f9cf29'
+        orange: '#f9cf29',
+        usdt : '#1F8A70',
+        usdc: '#B9F3FC',
+        team : '#1ae120'
     };
 
     useEffect(() => {
@@ -44,8 +64,8 @@ const ChartPrice = ({data}) => {
 
     useEffect(() => {
         // calculate percentage move
-        const start = xData[0]?.price_1;
-        const end = xData[xData.length - 1]?.price_1;
+        const start = xData[0]?.all;
+        const end = xData[xData.length - 1]?.all;
         const percentage = ((end - start) / start) * 100;
         setPercentageMove({
             start: start,
@@ -54,20 +74,30 @@ const ChartPrice = ({data}) => {
         })
     }, [xData]);
 
+    useEffect(() => {
+        // count data that have true value
+        const count = Object.values(filter).filter(item => item).length;
+        console.log(count)
+    }, [filter])
+
     return (
-        <TreasuryChartPrice className="container" style={{background: '#333'}}>
-            <div className="header">
-                <p>Share Price</p>
-                <div className="d-flex price-group flex-row mb-5 align-items-end">
-                    <h3>${formatNumber(percentageMove?.end)}</h3>
-                    <span>
+        <TreasuryChartPrice className="container" style={{background: 'rgba(51,51,51,0.75)', borderRadius: '8px'}}>
+            <div className="d-flex justify-content-between">
+                <div className="header">
+                    <p>NAV [Net Asset Value]</p>
+                    <div className="d-flex price-group flex-row mb-5 align-items-end">
+                        <h3>${formatNumber(percentageMove?.end)}</h3>
+                        <span>
                         {
                             percentageMove.percentage > 0 ?
                                 <span className="text-success">+{percentageMove.percentage.toFixed(2)}%</span> :
                                 <span className="text-danger">{percentageMove.percentage.toFixed(2)}%</span>
                         }
                     </span>
-                    <span>Past All</span>
+                    </div>
+                </div>
+                <div className="filter p-3">
+                    <FilterComponent filter={filter} setFilter={setFilter}/>
                 </div>
             </div>
             <ResponsiveContainer width="100%" height={400}>
@@ -100,18 +130,26 @@ const ChartPrice = ({data}) => {
 
                     <XAxis dataKey="date" tickFormatter={(date) => moment(date).format('MM/DD/YYYY')}/>
 
-                    <Area type="monotone" dataKey="price_1"
-                          stackId="1"  strokeWidth={3}
+                    <Area type="monotone" dataKey="all"
+                          stackId="1" strokeWidth={3}
                           stroke={percentageMove.percentage > 0 ? colorMove.green : colorMove.red}
                           fill={percentageMove.percentage > 0 ? 'url(#green-move)' : 'url(#red-move)'}/>
 
-                    <Area type="monotone" dataKey="price_3"
-                          strokeWidth={3} stackId="2" stroke="#85CDFD" fill="transparent"/>
+                    {
+                        filter.team &&
+                        <Area type="monotone" dataKey="team" strokeWidth={3} stroke={colorMove.team} fill="transparent"/>
+                    }
+                    {
+                        filter.usdc &&
+                        <Area type="monotone" dataKey="usdc" strokeWidth={3} stroke={colorMove.usdc} fill="transparent"/>
+                    }
+                    {
+                        filter.usdt &&
+                        <Area type="monotone" dataKey="usdt" strokeWidth={3} stroke={colorMove.usdt} fill="transparent"/>
+                    }
 
-                    <Area type="monotone" dataKey="price_2"
-                          stackId="3"  strokeWidth={3} stroke="#FFEA20" fill="transparent"/>
 
-                    <Tooltip wrapperStyle={{outline: "none"}} content={<CustomTooltip/>} cursor={false}/>
+                    <Tooltip wrapperStyle={{outline: "none"}} content={<CustomTooltip filter={filter} />} cursor={false}/>
 
                 </AreaChart>
             </ResponsiveContainer>

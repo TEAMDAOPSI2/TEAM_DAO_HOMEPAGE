@@ -10,9 +10,9 @@ export const TreasuryWrap = styled.div`
   background-size: contain;
   margin-bottom: 0;
   padding-bottom: 100px;
-  
+
   #treasury {
-    
+
   }
 
   .z-top {
@@ -323,11 +323,11 @@ export const TreasuryWrap = styled.div`
     font-weight: normal;
   }
 
-  #treasury .amounts .table table tr td:nth-child(2), 
-  #treasury .amounts .table table tr th:nth-child(2), 
-  #treasury .amounts .table table tr th:nth-child(3), 
-  #treasury .amounts .table table tr th:nth-child(4), 
-  #treasury .amounts .table table tr td:nth-child(4), 
+  #treasury .amounts .table table tr td:nth-child(2),
+  #treasury .amounts .table table tr th:nth-child(2),
+  #treasury .amounts .table table tr th:nth-child(3),
+  #treasury .amounts .table table tr th:nth-child(4),
+  #treasury .amounts .table table tr td:nth-child(4),
   #treasury .amounts .table table tr td:nth-child(3) {
     text-align: center;
   }
@@ -335,8 +335,8 @@ export const TreasuryWrap = styled.div`
   #treasury .amounts .table table tr td:nth-child(5), #treasury .amounts .table table tr th:nth-child(5) {
     text-align: right;
   }
-  
-  #treasury .amounts .table .green-border td{
+
+  #treasury .amounts .table .green-border td {
     border-bottom: 2px solid #00ff19 !important;
     border-top: 2px solid #00ff19 !important;
   }
@@ -419,7 +419,8 @@ export const TreasuryWrap = styled.div`
     font-family: 'Teamdao', sans-serif;
     letter-spacing: 0.1rem;
   }
-  .pie-legend-sub-title span{
+
+  .pie-legend-sub-title span {
     color: white;
   }
 
@@ -453,7 +454,7 @@ export const TreasuryWrap = styled.div`
     margin-bottom: 40px;
   }
 
-  .number{
+  .number {
     font-family: 'Teamdao', sans-serif;
     letter-spacing: 0.1em;
   }
@@ -554,6 +555,7 @@ export const TreasuryWrap = styled.div`
     #treasury .utility .chart {
       height: 370px;
     }
+
     #treasury .get-to-know .title h2 {
       font-size: 40px;
       line-height: 42px;
@@ -568,7 +570,7 @@ export const TreasuryWrap = styled.div`
       display: block;
     }
 
-    #treasury  .legend li .legend-color {
+    #treasury .legend li .legend-color {
       width: 10px;
       height: 10px;
       margin-right: 15px;
@@ -598,32 +600,46 @@ export const TreasuryWrap = styled.div`
     .mobile-gone {
       display: none;
     }
-    .recharts-pie-labels{
+
+    .recharts-pie-labels {
       display: none;
     }
-  }    
+  }
 `
 
 export const TreasuryChartPrice = styled.div`
 
-  .header{
+  .header {
     padding-top: 10px;
     color: #fff;
-    p{
+    width: 50%;
+
+    p {
       font-size: 1rem;
       line-height: 1.25rem;
     }
-    h3{
+
+    h3 {
       font-size: 3rem;
       line-height: 1;
       margin-bottom: 0;
       margin-right: 7px;
     }
-    span{
+
+    span {
       font-size: 1.2rem;
       line-height: 1.25rem;
       margin-right: 7px;
     }
+  }
+
+  .filter {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: flex-end;
+    position: relative;
   }
 
   .cst-tooltip {
@@ -637,12 +653,13 @@ export const TreasuryChartPrice = styled.div`
   }
 
   /* hiding first and last lines in cartesian grid */
+
   .recharts-wrapper .recharts-cartesian-grid-horizontal line:first-child,
   .recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child {
     stroke-opacity: 0;
   }
 
-  .card-dark{
+  .card-dark {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -656,11 +673,11 @@ export const TreasuryChartPrice = styled.div`
     flex-direction: column;
   }
 
-  .price-group{
+  .price-group {
     color: white;
   }
 
-  .price-card-title{
+  .price-card-title {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -668,7 +685,8 @@ export const TreasuryChartPrice = styled.div`
     font-size: 21px;
     color: rgb(255, 255, 255);
   }
-  .price-card-sub-title{
+
+  .price-card-sub-title {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
@@ -676,13 +694,15 @@ export const TreasuryChartPrice = styled.div`
     font-size: 16px;
     color: rgb(108, 114, 132);
   }
-  .recharts-tooltip-wrapper{
+
+  .recharts-tooltip-wrapper {
     border: none;
   }
+
   .recharts-tooltip-wrapper {
     .customTooltip {
       p {
-        margin:0;
+        margin: 0;
       }
     }
   }
