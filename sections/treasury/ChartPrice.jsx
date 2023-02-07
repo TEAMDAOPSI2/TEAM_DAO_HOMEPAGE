@@ -1,6 +1,5 @@
 import {Area, AreaChart, ResponsiveContainer, Tooltip, XAxis} from "recharts";
 import {useEffect, useState} from "react";
-import {faker} from "@faker-js/faker";
 import moment from "moment";
 import {TreasuryChartPrice} from "@sections/treasury/style";
 import {formatNumber} from "../../utils/money_format";
@@ -21,7 +20,7 @@ function CustomTooltip({active, payload, label, filter}) {
                                 <div className="d-flex flex-column" key={index}>
                                     <div className="d-flex align-items-center">
                                         <div className="dot" style={{background: '#1ae120'}}/>
-                                        <p className="price-card-sub-title text-uppercase">${`${payload[index+1].dataKey}: ${formatNumber(payload[index+1].value)}`}</p>
+                                        <p className="price-card-sub-title text-uppercase">${`${payload[index]?.dataKey}: ${formatNumber(payload[index]?.value)}`}</p>
                                     </div>
                                 </div>
                             )
@@ -53,9 +52,9 @@ const ChartPrice = ({data}) => {
         green: '#8FFCE1',
         red: '#CD0404',
         orange: '#f9cf29',
-        usdt : '#1F8A70',
+        usdt: '#1F8A70',
         usdc: '#B9F3FC',
-        team : '#1ae120'
+        team: '#1ae120'
     };
 
     useEffect(() => {
@@ -137,19 +136,23 @@ const ChartPrice = ({data}) => {
 
                     {
                         filter.team &&
-                        <Area type="monotone" dataKey="team" strokeWidth={3} stroke={colorMove.team} fill="transparent"/>
+                        <Area type="monotone" dataKey="team" strokeWidth={3} stroke={colorMove.team}
+                              fill="transparent"/>
                     }
                     {
                         filter.usdc &&
-                        <Area type="monotone" dataKey="usdc" strokeWidth={3} stroke={colorMove.usdc} fill="transparent"/>
+                        <Area type="monotone" dataKey="usdc" strokeWidth={3} stroke={colorMove.usdc}
+                              fill="transparent"/>
                     }
                     {
                         filter.usdt &&
-                        <Area type="monotone" dataKey="usdt" strokeWidth={3} stroke={colorMove.usdt} fill="transparent"/>
+                        <Area type="monotone" dataKey="usdt" strokeWidth={3} stroke={colorMove.usdt}
+                              fill="transparent"/>
                     }
 
 
-                    <Tooltip wrapperStyle={{outline: "none"}} content={<CustomTooltip filter={filter} />} cursor={false}/>
+                    <Tooltip wrapperStyle={{outline: "none"}} content={<CustomTooltip filter={filter}/>}
+                             cursor={false}/>
 
                 </AreaChart>
             </ResponsiveContainer>

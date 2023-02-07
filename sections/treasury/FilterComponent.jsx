@@ -25,6 +25,18 @@ const MenuItemsWrapper = styled.div`
       width: 15px;
       height: 15px;
       cursor: pointer;
+      // change color checkbox to green
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: #153300;
+      border: 1px solid #00ff19;
+      border-radius: 5px;
+        outline: none;
+        &:checked {
+          background-color: #00ff19;
+        }
+
     }
   }
 `;
