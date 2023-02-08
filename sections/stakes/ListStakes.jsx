@@ -2,6 +2,7 @@ import React, {useContext, useEffect, useState} from "react";
 import {Table, FilterWrapper, GameWrapper} from "./style";
 import WSContext from "../../context/WSContext";
 import categoryStakes from "@data/stakeCategories.json";
+import {flag_changer} from "../../utils/flag_changer";
 
 const ListStakes = ({bettors}) => {
     const [odd, setOdd] = useState(0)
@@ -107,7 +108,9 @@ const ListStakes = ({bettors}) => {
                                     className={`${stake.odd % 2 === 0 ? 'odd' : ''} ${animation === stake.betID ? 'animate' : ''}`}>
                                     <td>{`${categoryIcon} ${stake.category}`}</td>
                                     <td>{event}</td>
-                                    <td className="mobile-gone">{stake.name}</td>
+                                    <td className="mobile-gone">{
+                                        <span dangerouslySetInnerHTML={{__html: flag_changer(stake.name)}}/>
+                                    }</td>
                                     <td className="mobile-gone">{time}</td>
                                     <td>
                                         <span style={{color: '#00ff19'}}>{stake.amount} $TEAM</span>

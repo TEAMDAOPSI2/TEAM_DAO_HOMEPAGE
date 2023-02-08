@@ -215,6 +215,10 @@ export const Table = styled.table`
     padding-left: 10px;
   }
 
+  .flag {
+    font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+
   // animate tbody tr every have new data
   tbody tr:nth-child(odd) {
     animation: fadeIn 0.5s ease-in-out;
@@ -259,7 +263,7 @@ export const Table = styled.table`
     font: normal normal 400 14px/20px 'Roboto', sans-serif;
   }
 
-  td .rounded{
+  td .rounded {
     width: 20px;
     height: 20px;
     margin-right: 10px;
