@@ -17,18 +17,16 @@ export async function getServerSideProps() {
     const dataMarketCap = await resMarketCap.json();
     const data = await res.json();
     const dataMovingPrice = await resMovingPrice.json();
-    const dataTestPrice = await ressTestPrice.json();
     return {
         props: {
             treasuryData: data,
             marketCap: dataMarketCap[0],
-            movingPrice: dataMovingPrice,
-            testPrice: dataTestPrice
+            movingPrice: dataMovingPrice
         }
     }
 }
 
-const treasury = ({treasuryData, marketCap, movingPrice,testPrice}) => {
+const treasury = ({treasuryData, marketCap, movingPrice}) => {
     return (
         <>
             <Head>
@@ -41,7 +39,7 @@ const treasury = ({treasuryData, marketCap, movingPrice,testPrice}) => {
 
                         <div style={{paddingTop: '40px'}}/>
 
-                        <ChartPrice data={testPrice}/>
+                        <ChartPrice data={movingPrice}/>
 
                         <div className="container">
                             <div className="title">
