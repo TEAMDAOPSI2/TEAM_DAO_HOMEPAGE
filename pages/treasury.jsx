@@ -13,19 +13,22 @@ export async function getServerSideProps() {
     const res = await fetch(`https://script.google.com/macros/s/AKfycbyCqi5hiqSn_c0te5qVMpQp7Zf2AS0jSQymU8lCgW9pRLH_RSRD0idUf1sUcIv4q6rW/exec?action=stats`);
     const resMarketCap = await fetch(`https://script.google.com/macros/s/AKfycbxjut-YkSj6wrLolorbDvZ3OI4aSTuNLhFMSJQvY1yFStdcOsMaiGk3nNglQZkTgKwh/exec?action=marketcap`);
     const resMovingPrice = await fetch(`https://script.google.com/macros/s/AKfycbxAigVjruEbOCEQG-F6XIrOFk4Wv0Rn0GLCwxYuBlsKXIP3SRqkQAyWncgolQ92j6jQ/exec?action=moving-price`);
+    const ressTestPrice = await fetch('https://script.google.com/macros/s/AKfycbz3MtzqnbXlVLz5MICYNx0ZIlDCEb-Xx1uhDBgdqNYKxUpLdksrf469-EPcvBrgkOdl/exec?action=test');
     const dataMarketCap = await resMarketCap.json();
     const data = await res.json();
     const dataMovingPrice = await resMovingPrice.json();
+    const dataTestPrice = await ressTestPrice.json();
     return {
         props: {
             treasuryData: data,
             marketCap: dataMarketCap[0],
-            movingPrice: dataMovingPrice
+            movingPrice: dataMovingPrice,
+            testPrice: dataTestPrice
         }
     }
 }
 
-const treasury = ({treasuryData, marketCap, movingPrice}) => {
+const treasury = ({treasuryData, marketCap, movingPrice,testPrice}) => {
     return (
         <>
             <Head>
@@ -38,7 +41,7 @@ const treasury = ({treasuryData, marketCap, movingPrice}) => {
 
                         <div style={{paddingTop: '40px'}}/>
 
-                        <ChartPrice data={movingPrice}/>
+                        <ChartPrice data={testPrice}/>
 
                         <div className="container">
                             <div className="title">

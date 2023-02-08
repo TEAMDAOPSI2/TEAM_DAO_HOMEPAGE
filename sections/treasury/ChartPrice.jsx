@@ -1,4 +1,4 @@
-import {Area, AreaChart, ResponsiveContainer, Tooltip, XAxis} from "recharts";
+import {Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis} from "recharts";
 import {useEffect, useState} from "react";
 import moment from "moment";
 import {TreasuryChartPrice} from "@sections/treasury/style";
@@ -8,23 +8,20 @@ import FilterComponent from "@sections/treasury/FilterComponent";
 
 function CustomTooltip({active, payload, label, filter}) {
     if (active) {
-        const count = Object.values(filter).filter(item => item).length;
+        const countFilter = Object.values(filter).filter(item => item);
         return (
             <div className="price-group cst-tooltip d-flex flex-column">
-                <p className="price-card-title">{`${formatNumber(payload[0].value)}`}</p>
+                <p className="price-card-title">{`${formatNumber(payload[0].value.toFixed(3))}`}</p>
                 {
-                    count > 0 &&
-                    Object.keys(filter).map((item, index) => {
-                        if (filter[item]) {
-                            return (
-                                <div className="d-flex flex-column" key={index}>
-                                    <div className="d-flex align-items-center">
-                                        <div className="dot" style={{background: '#1ae120'}}/>
-                                        <p className="price-card-sub-title text-uppercase">${`${payload[index]?.dataKey}: ${formatNumber(payload[index]?.value)}`}</p>
-                                    </div>
+                    countFilter.map((item, index) => {
+                        return (
+                            <div className="d-flex flex-column tooltip-chart" key={index}>
+                                <div className="d-flex align-items-center">
+                                    <div className="dot" style={{background: payload[index+1]?.stroke}}/>
+                                    <p className="price-card-sub-title text-uppercase">{`${payload[index+1]?.dataKey}: ${formatNumber(payload[index+1]?.value)}`}</p>
                                 </div>
-                            )
-                        }
+                            </div>
+                        )
                     })
                 }
                 <p className="price-card-sub-title">{`${moment(label).format('D MMMM YYYY, h:mm:ss a')}`}</p>
@@ -39,7 +36,7 @@ function CustomTooltip({active, payload, label, filter}) {
 const ChartPrice = ({data}) => {
     const [xData, setData] = useState([]);
     const [filter, setFilter] = useState({
-        team: false,
+        dai: false,
         usdt: false,
         usdc: false
     });
@@ -54,11 +51,18 @@ const ChartPrice = ({data}) => {
         orange: '#f9cf29',
         usdt: '#1F8A70',
         usdc: '#B9F3FC',
-        team: '#1ae120'
+        dai: '#e1d01a'
     };
 
     useEffect(() => {
-        setData(data)
+        // append new property to data by month and year APR-22 MEI-22 JAN-23 FEB-23
+        const newData = data.map(item => {
+            return {
+                ...item,
+                month: moment(item.date).format('MMM-YY')
+            }
+        });
+        setData(newData)
     }, [data]);
 
     useEffect(() => {
@@ -99,9 +103,9 @@ const ChartPrice = ({data}) => {
                     <FilterComponent filter={filter} setFilter={setFilter}/>
                 </div>
             </div>
-            <ResponsiveContainer width="100%" height={400}>
+            <ResponsiveContainer width="100%" height={400} >
                 {/*  print two line  dataBTC and dataXRP */}
-                <AreaChart data={xData}>
+                <AreaChart data={xData} >
                     <defs>
                         <linearGradient id="green-move" x1="0" y1="0" x2="0" y2="1">
                             <stop offset="5%" stopColor="#06ce9c" stopOpacity="0.5"/>
@@ -127,7 +131,10 @@ const ChartPrice = ({data}) => {
                         </linearGradient>
                     </defs>
 
-                    <XAxis dataKey="date" tickFormatter={(date) => moment(date).format('MM/DD/YYYY')}/>
+
+                    <XAxis dataKey="month" xAxisId="1"  allowDuplicatedCategory={false} interval="preserveStartEnd" />
+                    <XAxis dataKey="date" xAxisId="0" axisLine={false} tickLine={false} tickFormatter={() => ''}/>
+
 
                     <Area type="monotone" dataKey="all"
                           stackId="1" strokeWidth={3}
@@ -135,18 +142,18 @@ const ChartPrice = ({data}) => {
                           fill={percentageMove.percentage > 0 ? 'url(#green-move)' : 'url(#red-move)'}/>
 
                     {
-                        filter.team &&
-                        <Area type="monotone" dataKey="team" strokeWidth={3} stroke={colorMove.team}
+                        filter.dai &&
+                        <Area type="monotone" dataKey="dai" strokeWidth={2} stroke={colorMove.dai}
                               fill="transparent"/>
                     }
                     {
                         filter.usdc &&
-                        <Area type="monotone" dataKey="usdc" strokeWidth={3} stroke={colorMove.usdc}
+                        <Area type="monotone" dataKey="usdc" strokeWidth={2} stroke={colorMove.usdc}
                               fill="transparent"/>
                     }
                     {
                         filter.usdt &&
-                        <Area type="monotone" dataKey="usdt" strokeWidth={3} stroke={colorMove.usdt}
+                        <Area type="monotone" dataKey="usdt" strokeWidth={2} stroke={colorMove.usdt}
                               fill="transparent"/>
                     }
 

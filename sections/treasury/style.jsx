@@ -651,6 +651,13 @@ export const TreasuryChartPrice = styled.div`
     border-radius: 4px;
     border: none !important;
   }
+  .tooltip-chart .dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    //border-radius: 50%;
+    margin-right: 5px;
+  }
 
   /* hiding first and last lines in cartesian grid */
 
