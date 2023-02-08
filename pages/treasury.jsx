@@ -146,6 +146,12 @@ const treasury = ({treasuryData, marketCap, movingPrice}) => {
                                     </div>
                                 </li>
                                 <li>
+                                    <h5>Circulation Supply</h5>
+                                    <div className="d-flex">
+                                        <span className="number">{formatNumber(0)}</span>
+                                    </div>
+                                </li>
+                                <li>
                                     <h5>Contract</h5>
                                     <div className="d-flex flex-row">
                                         <span>ETH</span>
