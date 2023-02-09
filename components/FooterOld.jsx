@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect, useState} from "react";
 import Link from "next/link";
-import TeamLogo from 'public/assets/team-logo.png';
+import TeamLogo from 'public/assets/team-dao-v2-footer.png';
 import TwitterIcon from 'public/assets/social-media/twitter.svg';
 import TelegramIcon from 'public/assets/social-media/telegram.svg';
 import FacebookIcon from 'public/assets/social-media/facebook.svg';

@@ -609,7 +609,8 @@ body::-webkit-scrollbar-track {
 }
 
 .footer-logo img {
-    width: 154px;
+    /*width: 154px;*/
+    height: 46px;
 }
 
 .social-group {
