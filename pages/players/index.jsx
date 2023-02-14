@@ -16,7 +16,8 @@ import lolPlayers from "@data/lolPlayers.json";
 import dota2Players from "@data/dota2WithDetailApprox.json";
 import fortnitePlayers from "@data/fortnite.json";
 import freefirePlayers from "@data/freefire.json";
-
+import starcraftPlayers from "@data/startcraft.json";
+import axiePlayers from "@data/axie.json";
 
 const MainDiv = styled.div`
   height: 1px;
@@ -291,6 +292,10 @@ const Index = () => {
         // have keyword
     }, []);
 
+    useEffect(() => {
+        setTotalPages(Math.ceil(data.length / 15));
+    }, [data])
+
     const handleSearch = (e) => {
         setSearch(e.target.value);
         if (e.target.value.length > 0) {
@@ -299,12 +304,10 @@ const Index = () => {
             });
             setPage(1);
             setData(newData);
-            setTotalPages(Math.ceil(newData.length / 15));
         } else {
             setPage(1);
             setData(data);
             handleGameFilter(gameFilter);
-            setTotalPages(Math.ceil(data.length / 15));
         }
     }
 
@@ -330,11 +333,16 @@ const Index = () => {
             case 'fortnite':
                 setData(fortnitePlayers);
                 break;
+            case 'starcraft':
+                setData(starcraftPlayers);
+                break;
+            case 'axie':
+                setData(axiePlayers);
+                break;
             case 'codm':
                 setData(codPlayers);
                 break;
         }
-        setTotalPages(Math.ceil(data.length / 15));
     }
 
     return (
@@ -400,9 +408,17 @@ const Index = () => {
                                         className={`${gameFilter === 'lol' ? 'active' : ''}`}>LOL
                                     </li>
                                     <li onClick={() => handleGameFilter('freefire')}
-                                        className={`${gameFilter === 'freefire' ? 'active' : ''}`}>FREEFIRE</li>
+                                        className={`${gameFilter === 'freefire' ? 'active' : ''}`}>FREEFIRE
+                                    </li>
                                     <li onClick={() => handleGameFilter('fortnite')}
-                                        className={`${gameFilter === 'fortnite' ? 'active' : ''}`}>FORTNITE</li>
+                                        className={`${gameFilter === 'fortnite' ? 'active' : ''}`}>FORTNITE
+                                    </li>
+                                    <li onClick={() => handleGameFilter('starcraft')}
+                                        className={`${gameFilter === 'starcraft' ? 'active' : ''}`}>STARCRAFT
+                                    </li>
+                                    <li onClick={() => handleGameFilter('axie')}
+                                        className={`${gameFilter === 'axie' ? 'active' : ''}`}> AXIE
+                                    </li>
                                     <li>FB</li>
                                     <li>BB</li>
                                     <li>HORSE</li>

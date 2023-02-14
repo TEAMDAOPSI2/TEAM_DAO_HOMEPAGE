@@ -5,6 +5,7 @@ import ISOCountry from "helper/ISOCountry";
 import getFlagEmoji from "../../helper/GetFlagsEmoji";
 import rank from "../../pages/teams/[name]";
 import {formatNumber} from "../../helper/number_format";
+import Router from "next/router";
 
 const ListSectionContainer = styled.div`
   margin: auto;
@@ -284,8 +285,15 @@ const ListSection = ({data, game, page}) => {
                 <tbody>
                 {data.slice((page - 1) * 15, page * 15).map((player, index) => (
                     <tr key={index} onClick={() => {
-                        game === 'dota2' ? window.location.href = `teams/player/${player.name}`
-                            : window.location.href = `teams/${game}/player/${changeHash(player.nickName)}`
+                        // if game is dota2
+                        if (game === 'dota2') {
+                            Router.push(`/teams/player/${player.name}`);
+                        } else if (game === 'axie') {
+                            // no redirect
+                        } else {
+                            Router.push(`/teams/${game}/player/${player.nickName}`);
+                        }
+
                     }}>
                         <td className="number">
                             <span className="cell-title">Rank</span>
@@ -298,8 +306,11 @@ const ListSection = ({data, game, page}) => {
                         </td>
                         <td className='text'>
                             <span className="cell-title">Player</span>
-                            <div className="team-name">
-                                {player.nickName}
+                            <div className="team-name" title={player.nickName}>
+                                {
+                                    // display ... if nickName is too long
+                                    player.nickName.length > 10 ? player.nickName.substring(0, 10) + '...' : player.nickName
+                                }
                             </div>
                         </td>
                         <td className="text mobile-gone" style={{textAlign: 'left'}}>

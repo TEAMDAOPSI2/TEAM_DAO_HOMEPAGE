@@ -3,7 +3,11 @@ function getFlagEmoji(countryCode) {
         .toUpperCase()
         .split('')
         .map(char =>  127397 + char.charCodeAt());
-    return String.fromCodePoint(...codePoints);
+    const flag = String.fromCodePoint(...codePoints);
+    if (flag !== '🇳🇺🇱🇱') {
+        return flag;
+    }
+    return '🌍';
 }
 
 export default getFlagEmoji;
