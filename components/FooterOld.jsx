@@ -15,6 +15,7 @@ import TwitchIcon from 'public/assets/social-media/iconmonstr-twitch-1-240.png';
 import GamePadIcon from 'public/assets/social-media/icons8-gamepad-96.png';
 import BigoIcon from 'public/assets/social-media/bigo.png';
 import EnvelopeIcon from 'public/assets/social-media/envelope.png';
+import KickIcon from 'public/assets/social-media/kick.svg';
 
 
 export default function FooterOld() {
@@ -53,7 +54,7 @@ export default function FooterOld() {
 
             let random = new Set();
             while (random.size < 3) {
-                random.add(Math.floor(Math.random() * 8) + 1);
+                random.add(Math.floor(Math.random() * 9) + 1);
             }
 
             setBulletsActive(random);
@@ -157,6 +158,13 @@ export default function FooterOld() {
                                     <a href="https://www.twitch.tv/teamdaoTV" target="_blank" rel="noreferrer">
                                         <img style={{width: '20px', height: '20px'}}
                                              src={TwitchIcon.src} alt="Twitch"/>
+                                    </a>
+                                </div>
+                                <div className={`social-group ${bulletsActive.has(9)? `active` : ``}`}>
+                                    <a href="https://kick.com/teamdao" target="_blank" rel="noreferrer">
+                                        {/*<img style={{width: '20px', height: '20px'}}*/}
+                                        {/*     src={KickIcon.src} alt="Twitch"/>*/}
+                                            <KickIcon />
                                     </a>
                                 </div>
                                 <div className="social-group">
