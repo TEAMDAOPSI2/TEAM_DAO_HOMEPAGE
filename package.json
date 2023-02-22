@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "@headlessui/react": "^1.7.7",
+    "@headlessui/react": "^1.7.11",
     "@trendyol-js/react-carousel": "^2.0.1",
     "bootstrap": "^5.2.0",
     "framer-motion": "^8.5.0",

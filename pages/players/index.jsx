@@ -18,6 +18,7 @@ import fortnitePlayers from "@data/fortnite.json";
 import freefirePlayers from "@data/freefire.json";
 import starcraftPlayers from "@data/startcraft.json";
 import axiePlayers from "@data/axie.json";
+import golfPlayers from "@data/golf.json";
 
 const MainDiv = styled.div`
   height: 1px;
@@ -339,6 +340,9 @@ const Index = () => {
             case 'axie':
                 setData(axiePlayers);
                 break;
+            case 'golf':
+                setData(golfPlayers);
+                break;
             case 'codm':
                 setData(codPlayers);
                 break;
@@ -418,6 +422,9 @@ const Index = () => {
                                     </li>
                                     <li onClick={() => handleGameFilter('axie')}
                                         className={`${gameFilter === 'axie' ? 'active' : ''}`}> AXIE
+                                    </li>
+                                    <li onClick={() => handleGameFilter('golf')}
+                                        className={`${gameFilter === 'golf' ? 'active' : ''}`}> GOLF
                                     </li>
                                     <li>FB</li>
                                     <li>BB</li>
