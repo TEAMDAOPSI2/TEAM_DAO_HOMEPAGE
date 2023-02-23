@@ -193,6 +193,7 @@ const StatsBox = styled.div`
     text-align: center;
     margin-bottom: 20px;
     font-family: "Roboto Mono", monospace;
+    font-size: 1.3rem;
   }
 `;
 
@@ -352,6 +353,38 @@ const HeroCard = styled.div`
 
 
 const PlayerSection = ({player, game}) => {
+
+    const Detail = () => {
+        if (player?.infos) {
+            // get all keys on infos
+            const {infos} = player;
+            const keys = Object.keys(infos);
+            return (
+                <StatsBox>
+                    {
+                        keys.map((key, index) => {
+                            return (
+                                <div key={index}>
+                                    <h3>{key}</h3>
+                                    {
+                                        Array.isArray(infos[key]) ?
+                                            infos[key].map((item, index) => {
+                                                return (
+                                                    <p key={index}>{item}</p>
+                                                )
+                                            })
+                                            :
+                                            <div dangerouslySetInnerHTML={{__html: infos[key]}}/>
+                                    }
+                                </div>
+                            )
+                        })
+                    }
+                </StatsBox>
+            )
+        }
+    }
+
     return (
         <>
             <Row>
@@ -418,8 +451,9 @@ const PlayerSection = ({player, game}) => {
                             </div>
                         </div>
                     </InfoGroup>
-
                 </InfoTeamBox>
+                <Detail/>
+
             </Row>
         </>
     )

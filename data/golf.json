@@ -1,6 +1,6 @@
 [
   {
-    "nickName": " Ancer ",
+    "nickName": "Ancer",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F64PjcGQvb4zzzG5oxO2Ix2%2Ffbad0db470382394659bed9a7c9d14b4%2FAncer-Abraham-L.png&w=3840&q=75",
     "team": "Fireballs GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2URGflVV6T4DvA6iyR6crb%2Fe59e4554cb8f08968e74418c5b51af97%2F9.png&w=3840&q=75",
@@ -11,10 +11,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Mexico",
+    "infos": {
+      "headline": "Mexico’s top ranked golfer turned pro in 2013 and has recorded three wins - including the 2019 Australian Open. He reached a career-high world ranking of 11th in 2021 and has represented his country in a variety of international team competitions. Known for his consistency, especially off the tee, Ancer was part of the Mexico team at the 2020 Olympics and is credited as a key figure in growing the game in his homeland.  ",
+      "careerHighlights": [
+        "Winner of four tournaments worldwide.",
+        "Each win has come in a different country – U.S., Canada, Australia, Saudi Arabia.",
+        "Won for the first time on the Asian Tour in 2023, claiming the PIF Saudi International presented by Softbank Investment Advisers.",
+        "Reached a career-best 11th in the world rankings in August 2021.",
+        "Has been a top 50 world player since August 2019.",
+        "Won two tournaments and finished runner-up seven times between 2017-21.",
+        "Represented Mexico in the Tokyo Olympics in 2021, finishing T-14 in the men’s competition."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 3<br>Best finish: 13th (2020)<br>Top 10s: 0<br>Cuts made: 2<b>PGA Championship</b><br>Starts: 4<br>Best finish: 8th (2021)<br>Top 10s: 2<br>Cuts made: 4<b>U.S. Open</b><br>Starts: 3<br>Best finish: 49th (2019)<br>Top 10s: 0<br>Cuts made: 2<b>Open Championship</b><br>Starts: 4<br>Best finish: 59th (2021)<br>Top 10s: 0<br>Cuts made: 2</p>"
+    }
   },
   {
-    "nickName": "Bland ",
+    "nickName": "Bland",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5QiMi8wh5yF7rtBoq0oWkF%2F783ff0bd7a09017d7801122d8e7d8af7%2FBland-Richard.png&w=3840&q=75",
     "team": "Cleeks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F156JkfXvm371MTXzr42yNI%2F25e6793591da64d00745fcd6deb1cbdb%2FCleeks.jpg&w=3840&q=75",
@@ -25,10 +39,22 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "England",
+    "infos": {
+      "headline": "Bland became the oldest golfer to win a DP World Tour event when he claimed the British Masters crown in 2021 at age 48. It was his 478th start, and the Englishman’s form on the course continues to improve with age. In 2022 he cracked the world top 50, reaching a career-high 48th. Bland’s best finish during the inaugural LIV Golf season in 2022 was a fourth place in Bangkok. He also partnered with Graeme McDowell to win the quarterfinals match at the Team Championship.  ",
+      "careerHighlights": [
+        "Has two professional wins and 66 top 10s in nearly 600 career starts.",
+        "Was the second-round co-leader at the 2021 U.S. Open. At age 48, became the oldest player to hold or share a U.S. Open lead after 36 holes.",
+        "In May 2021, became the oldest player to win an event on the European Tour when he won at age 48.",
+        "Cracked the top 50 in the world rankings in April 2022, reaching a career-best 48th.",
+        "Has spent more than 50 weeks of his career as a top 100 player."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 1<br>Best finish:<br>Top 10s:<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 2<br>Best finish: T-43 (2022)<br>Top 10s: 0<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 3<br>Best finish: T-67 (2021)<br>Top 10s: 0<br>Cuts made: 1</p>"
+    }
   },
   {
-    "nickName": "Burmester ",
+    "nickName": "Burmester",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3b1RKqxAQt22GISOS3JOS4%2F3a27ad0fdecf939d4e92cac3d7696392%2FPlayer-Placeholder.png&w=3840&q=75",
     "team": "Stinger GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F4ryz4wIEeEt3uONoqQmHdT%2Ffe8be2cf7c5d50d7e53cddd613a2c107%2F6.png&w=3840&q=75",
@@ -39,10 +65,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Republic of South Africa",
+    "infos": {
+      "headline": "Dean Burmester has sporting blood in his family – his father Mark was an elite cricket player and represented Zimbabwe in international competitions, while his mother Michelle was a top-notch golfer who owns the women’s course record at their home club. Burmester followed his mother’s footsteps into golf and has posted nine wins since turning pro in 2010. Born in Zimbabwe, the big-hitting Burmester represents South Africa and resides in that country. He’ll feel right at home as a member of Louis Oosthuizen’s all-South African Stinger GC.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Casey ",
+    "nickName": "Casey",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F6NeVDnLGvYGPGu2rDRugMy%2Fa0e6b9134287f78d7636c68bece31099%2FCasey-Paul.png&w=3840&q=75",
     "team": "Crushers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2Fgb27P0rygeST8nwVj9ghj%2F3149dbf19796bcc94b61a3c5f5edce2f%2F7.png&w=3840&q=75",
@@ -53,10 +85,29 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "England",
+    "infos": {
+      "headline": "British-born Casey has been a fixture among golf’s elite for more than 20 years. He’s won 21 tournaments across the globe, has represented Europe at five Ryder Cups, and has spent nearly 800 weeks in the world’s top 50. A familiar name on the leaderboard at the biggest events, he has finished in the top 10 at the majors 12 times. Casey enjoyed a consistent LIV Golf Invitational Series in 2022, with three top-10 finishes including a third place in Bangkok while playing for Crushers GC.",
+      "careerHighlights": [
+        "Winner of 21 worldwide events across multiple tours as a professional.",
+        "Reached career-best world ranking of No. 3 in 2009.",
+        "Ranked inside the world’s top 50 since March 2015.",
+        "Has spent nearly 800 weeks of his career inside the top 50.",
+        "Has won multiple events in six different years, most recently in 2019.",
+        "Has 150 top 10 finishes in more than 500 career starts.",
+        "Has 12 top 10 finishes in majors, with his best finish a tie for 2nd at the 2020 PGA Championship.",
+        "Finished in the top 10 of the Masters in three consecutive years (2015-17).",
+        "Played in five Ryder Cups for Europe and has represented his native England in several team competitions.",
+        "Member of winning Great Britain and Ireland team in 1999 Walker Cup, becoming just the third player in 77 years to go 4-0 in the international competition.",
+        "Played collegiately at Arizona State University, winning three Pac-12 championships.",
+        "Two-time winner of the English Amateur."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 15<br>Best finish: 4th (2016)<br>Top 10s: 5<br>Cuts made: 11</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 19<br>Best finish: 2nd (2002)<br>Top 10s: 3<br>Cuts made: 13</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 18<br>Best finish: 7th (2021)<br>Top 10s: 2<br>Cuts made: 12</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 19<br>Best finish: 3rd (2010)<br>Top 10s: 2<br>Cuts made: 14</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (5):</b>&nbsp;2004, 2006, 2008, 2018, 2020</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;4-7-5</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;16<b>Singles (W-L-H):</b>&nbsp;1-2-2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;1-3-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;2-2-3</p><p class=\"body-longform mb-4 md:mb-5\"></p><p class=\"body-longform mb-4 md:mb-5\"></p>"
+    }
   },
   {
-    "nickName": "Chacarra ",
+    "nickName": "Chacarra",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2FKuJnlXdncZjPydo3KzhNT%2F4f4750859866475152dc5f26fc5ee5c0%2FChacarra-Eugenio.png&w=3840&q=75",
     "team": "Fireballs GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2URGflVV6T4DvA6iyR6crb%2Fe59e4554cb8f08968e74418c5b51af97%2F9.png&w=3840&q=75",
@@ -67,10 +118,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Spain",
+    "infos": {
+      "headline": "After turning pro to join LIV Golf, Chacarra tapped into his enormous potential to win in just his fifth start, claiming a three-stroke victory in a dominant performance in Bangkok. No one who had seen the Spanish youngster as an amateur was surprised, given that he was ranked No. 2 in the world during his college days at Oklahoma State.Just four events later, Chacarra won our Bangkok tournament by three shots to record his first win as a pro – and surely not his last. ",
+      "careerHighlights": [
+        "Won the LIV Golf Invitational Bangkok in just his fifth professional start",
+        "Made his pro debut at LIV Golf Portland after ranking as the world No. 2 amateur.",
+        "Two-time All-American at Oklahoma State University.",
+        "Finalist for both the Ben Hogan Award and Haskins Award for top collegiate golfer.",
+        "In 14 starts as a senior in 2021-22, he won three times with seven other top 10 finishes.",
+        "Before turning pro, played in multiple professional tournaments across multiple tours, making one cut.",
+        "Younger sister Carolina is also a collegiate golfer (Wake Forest)."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p>"
+    }
   },
   {
-    "nickName": "DeChambeau ",
+    "nickName": "DeChambeau",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1RWerrnrmu4vR9COVtzDB8%2F2ab20df809df6623daeecf848f9007fe%2FDechambeau-Bryson.png&w=3840&q=75",
     "team": "Crushers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2Fgb27P0rygeST8nwVj9ghj%2F3149dbf19796bcc94b61a3c5f5edce2f%2F7.png&w=3840&q=75",
@@ -81,10 +146,27 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "One of golf’s biggest stars, the American thrills crowds with his power and led LIV Golf in driving distance in 2022 – averaging 327.1 yards during the inaugural season. DeChambeau has 10 professional wins, including his first major at the 2020 US Open. The Crushers GC captain has spent more than 140 weeks in the world’s top 10 and is one of the major draws on the LIV Golf roster. ",
+      "careerHighlights": [
+        "Winner of 10 tournaments worldwide, including the 2020 U.S. Open at Winged Foot.",
+        "Just the third golfer to win an NCAA individual championship, the U.S. Amateur and the U.S. Open, joining Jack Nicklaus and Tiger Woods.",
+        "Highest world ranking came in May 2021 when he moved to world No. 4 for three weeks.",
+        "Cracked the world top 10 for the first time in September 2018 and spent a full year ranked as a top 10 player.",
+        "Has spent more than 140 weeks in his career ranked inside the world top 10.",
+        "In 2015, became just the fifth golfer to win the NCAA individual championship and the U.S. Amateur in the same year.",
+        "Has represented the United States in several team competitions, including twice in the Ryder Cup.",
+        "One of golf’s longest drivers. Finished 7th in the 2021 Professional Long Drivers Association World Championships and 2nd in 2022.",
+        "Famously utilizes single-length shafts in his irons.",
+        "Suffered a wrist injury that required surgery in April 2022."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2020 U.S. Open</b>&nbsp;– Captured his first major at Winged Foot with a winning score of 6 under … Was the only player to finish under par, with runner-up Matthew Wolff at even par … Entered the final round two strokes behind Wolff and took the lead on the fifth hole … His 67 was the best final-round score in the field by three strokes … Only player to shoot par-or-better in every round … Said DeChambeau: “I hope that inspires people to say, hey, look, maybe there is a different way to do it.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 6<br>Best finish: 21st (2016)<br>Top 10s: 0<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 5<br>Best finish: 4th (2020)<br>Top 10s: 1<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 8<br>Best finish: Win (2020)<br>Top 10s: 1<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 5<br>Best finish: 8th (2022)<br>Top 10s: 1<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team USA)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (2):</b>&nbsp;2018, 2021</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;2-3-1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;6</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;1-1-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;0-2-0&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;1-0-1</p>"
+    }
   },
   {
-    "nickName": "Garcia ",
+    "nickName": "Garcia",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F34oaxqp2ZOTcmI21aQ3TfI%2F24b150c153aee69242e56e5df0503eb4%2FGarcia-Sergio.png&w=3840&q=75",
     "team": "Fireballs GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2URGflVV6T4DvA6iyR6crb%2Fe59e4554cb8f08968e74418c5b51af97%2F9.png&w=3840&q=75",
@@ -95,10 +177,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Spain",
+    "infos": {
+      "headline": "One of golf’s biggest names, the Spaniard is among the most talented and accomplished players of his generation. The winner of 36 tournaments worldwide - including the 2017 Masters - Garcia has a career-best ranking of No. 2 and has spent more than 450 weeks in the world top 10. A Ryder Cup specialist, he’s represented Europe on 10 occasions and his haul of 28.5 points is higher than any other player. Garcia was captain of the Spanish-speaking Fireballs GC in 2022 and led them to a first-place finish at LIV Golf Invitational Bangkok. ",
+      "careerHighlights": [
+        "Winner of 36 tournaments worldwide, including the 2017 Masters.",
+        "Has won tournaments in more than a dozen countries.",
+        "Recorded more than $80 million in earnings across multiple tours.",
+        "Has a career-best world ranking of No. 2 and has spent more than 450 weeks of his career inside the top 10.",
+        "Won his first professional tournament in just his sixth start after turning pro.",
+        "Has represented Europe in 10 Ryder Cups and has won more points (28.5) than any Ryder Cup player.",
+        "Won at least one worldwide event in 10 consecutive years from 2011-20."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2017 Masters</b>&nbsp;– Broke through by winning a playoff at Augusta National in his 74th start in a major ... Became the third Spanish player to win the Masters (Seve Ballesteros, Jose Maria Olazabal) ... Won on what would've been Ballesteros' 60th birthday ... Entered the final round as the co-leader with Justin Rose and both players shot 69 to force the playoff ... Won with a birdie to Rose's bogey in the first playoff hole ... Said Garcia: \"Obviously this is something I wanted to do for a long time but, you know, it (previously never winning a major) never felt like a horror movie. It felt like a little bit of a drama maybe, but obviously with a happy ending.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 23<br>Best finish: Win (2017)<br>Top 10s: 4<br>Cuts made: 15</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 24<br>Best finish: 2nd (1999, 2008)<br>Top 10s: 4<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 23<br>Best finish: 3rd (2005)<br>Top 10s: 5<br>Cuts made: 18</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 25<br>Best finish: 2nd (2007, 2014)<br>Top 10s: 10<br>Cuts made: 20</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (10):</b>&nbsp;1999, 2002, 2004, 2006, 2008, 2012, 2014, 2016, 2018, 2021</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;25-13-7</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;45</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;4-5-1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;12-4-3&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;9-4-3&nbsp;</p>"
+    }
   },
   {
-    "nickName": "Gooch ",
+    "nickName": "Gooch",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1JuvuCRqMBAK6TWYESCqvH%2F6f20f5f4f773768ed9f18d7a0c7c2efd%2FGooch-Taylor.png&w=3840&q=75",
     "team": "RangeGoats GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7FKBqzypOtcyxh3yRnjO5H%2F643b7dff85aadf38b7e41f700f94b199%2F11.png&w=3840&q=75",
@@ -109,10 +205,22 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "The American was one of LIV Golf’s most consistent performers in 2022, finishing inside the points in six of the seven regular-season points, with a season-best finish of sixth place in Boston. Gooch has two pro wins, with his most recent victory at Sea Island seeing him tie the tournament record of 22-under 260. He’s been a top-50 player since November 2021 and played for 4 Aces GC in the team’s four regular-season wins and Team Championship title. Talor’s name is intentionally Y-less thanks to a family custom on his mother’s side. ",
+      "careerHighlights": [
+        "Winner of two worldwide tournaments.",
+        "During a seven-start stretch in 2021, posted one win, two other top 10s and three other top 20s.",
+        "Has been a top 50 world player since November 2021.",
+        "One of the 12 original team captains for the inaugural LIV Golf Invitational London before becoming a member of 4 Aces GC.",
+        "Played collegiately at Oklahoma State University before turning pro in 2014."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 1<br>Best finish: 14th (2022)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 3<br>Best finish: 20th (2022)<br>Top 10s: 0<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 2<br>Best finish: 66th (2017)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 2<br>Best finish: 33rd (2021)<br>Top 10s: 0<br>Cuts made: 2</p>"
+    }
   },
   {
-    "nickName": "Grace ",
+    "nickName": "Grace",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5pBDr8je4UwVy7qFExbeNT%2F44ca5b96885babfe72680809859fb534%2FGrace-Branden.png&w=3840&q=75",
     "team": "Stinger GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F4ryz4wIEeEt3uONoqQmHdT%2Ffe8be2cf7c5d50d7e53cddd613a2c107%2F6.png&w=3840&q=75",
@@ -123,10 +231,26 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Republic of South Africa",
+    "infos": {
+      "headline": "A winner of 15 professional tournaments, one of Grace’s biggest achievements was finishing second in the season-long Individual Champion race to claim an $8million bonus. He also won the 2022 LIV Golf Invitational in Portland - the first LIV Golf event held in the United States. Grace is key member of the all-South African Stinger GC team which won LIV Golf’s first team title at the London Invitational. He holds the record for the lowest score in a single round of a men’s major, shooting 62 at The Open Championship in 2017. Grace achieved a career-best world No. 10 ranking in February 2016 and has spent more than 280 weeks as a top 50 player. ",
+      "careerHighlights": [
+        "Winner of 15 worldwide tournaments, including the 2022 LIV Golf Invitational Portland, the first LIV Golf event held in the U.S.",
+        "Has won five events as a pro in his native South Africa.",
+        "Only male golfer to shoot 62 in a single round of a major (2017 Open Championship).",
+        "Won five tournaments in 2012, rising from world No. 271 to No. 34.",
+        "Ranked a career-best world No. 10 for first time in February 2016.",
+        "Has spent more than 280 weeks of his career as a top 50 player.",
+        "Has six top 10 finishes in majors.",
+        "Has represented South Africa in multiple team events.",
+        "Participated as an amateur in the Ernie Els Foundation."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 7<br>Best finish: 18th (2013)<br>Top 10s: 0<br>Cuts made: 4</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 10<br>Best finish: 3rd (2015)<br>Top 10s: 2<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 10<br>Best finish: 4th (2015)<br>Top 10s: 3<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 10<br>Best finish: 6th (2017)<br>Top 10s: 1<br>Cuts made: 8</p>"
+    }
   },
   {
-    "nickName": "Horsfield ",
+    "nickName": "Horsfield",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5Q6YmOh5bfuzOek8lfK9oR%2F5506e8376dde3bb6e930307161dc2996%2FHorsfield-Sam.png&w=3840&q=75",
     "team": "Majesticks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2enUkNDUBSPms3pVH53xMY%2Fcd704ddd585174ce54a0feda8afc8d92%2F12.png&w=3840&q=75",
@@ -137,10 +261,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "England",
+    "infos": {
+      "headline": "Born in England, Horsfield moved to the United States as a child and began playing golf as a 5-year-old. He possessed a natural talent for the sport, beating future Majesticks GC teammate Ian Poulter over nine holes at the age of 14, leaving his older compatriot calling him “the best young player I’ve played with.” Horsfield was a standout player at the University of Florida, where he won multiple college events. He turned pro in 2017 and quickly established himself as one of the sport’s rising stars, claiming his first two pro wins in 2020. ",
+      "careerHighlights": [
+        "Winner of three tournaments since turning pro in 2017.",
+        "Won twice during a three-start stretch in 2020, moving from 224th to 80th in the world rankings.",
+        "Career-best 64th in the world rankings after his most recent win in May 2022.",
+        "Born in England but moved to the United States at age 5.",
+        "Played collegiately at the University of Florida.",
+        "Has won multiple golfer of the year awards."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 2<br>Best finish: 49th (2021)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 4<br>Best finish:<br>Top 10s: 0<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 2<br>Best finish: 67th (2021)<br>Top 10s: 0<br>Cuts made: 1</p>"
+    }
   },
   {
-    "nickName": "Howell III ",
+    "nickName": "Howell III",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3Bk0dNPdu1uhE9EULZTpoQ%2F253c207a4fc8e2e330c3f78d56355927%2FHowellIII-Charles-L.png&w=3840&q=75",
     "team": "Crushers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2Fgb27P0rygeST8nwVj9ghj%2F3149dbf19796bcc94b61a3c5f5edce2f%2F7.png&w=3840&q=75",
@@ -151,10 +288,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Born in Augusta, Georgia, home of the Masters, Howell has been a fixture at the highest level of golf since turning pro in 2000. He’s won three pro events in that time, finished in the top 10 more than 100 times, and spent more than 775 weeks in the world’s top 100. He played for Bryson DeChambeau’s Crushers GC after joining LIV Golf, producing a top-10 finish in Bangkok. Howell is supremely consistent and is also owner of one of golf’s great nicknames: Chucky Three Sticks.",
+      "careerHighlights": [
+        "Winner of three events in his professional career with more than 100 top 10 finishes.",
+        "One of golf’s most consistent performers, he’s made more than 600 starts since turning pro in 2000, with at least five top 10s in 13 different years.",
+        "Reached a career-best 15th in the world rankings in 2003 and duplicated that feat in 2007.",
+        "Has spent more than 775 weeks of his career as a world top 100 player.",
+        "Won the 2000 NCAA Division I individual men’s title while leading Oklahoma State to the team championship.",
+        "Won the Haskins Award in 2000 as the most outstanding collegiate golfer in the U.S.",
+        "Born and raised in Augusta, Georgia, and has made 10 Masters starts in his hometown."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 10<br>Best finish: 13th (2004)<br>Top 10s: 0<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 18<br>Best finish: 10th (2003)<br>Top 10s: 1<br>Cuts made: 13</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 12<br>Best finish: 18th (2002)<br>Top 10s: 0<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 10<br>Best finish: 28th (2011)<br>Top 10s: 0<br>Cuts made: 4</p>"
+    }
   },
   {
-    "nickName": "Johnson ",
+    "nickName": "Johnson",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2FMnGuuFFqxkTUaOQzvGYz3%2F062e7792e4c15edff9cfb1d697d57a96%2FJohnson-Dustin.png&w=3840&q=75",
     "team": "4Aces GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7sMNz0m3NH7Ivr8YpOBh08%2Feefd82e3ec49f738e00dadd12960507c%2F4_aces.jpg&w=3840&q=75",
@@ -165,10 +316,29 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Big-hitting Johnson is not only one of the biggest stars in golf, he was also the dominant force during the inaugural 2022 LIV Golf Invitational season. He won the season-long Individual Champion crown by a comfortable margin, his 4Aces GC team won four regular-season events and the Team Championship, and he authored one of the most dramatic shots of the first season with an eagle putt to win a three-man playoff in Boston. He's won tournaments in 14 of his first 15 seasons as a pro, including two Majors – the 2016 U.S. Open and the 2020 Masters. ",
+      "careerHighlights": [
+        "Winner of 29 tournaments worldwide, including two majors – 2016 U.S. Open and 2020 Masters – and the LIV Golf Invitational Boston.",
+        "Won in Boston by making a lengthy eagle putt on the first playoff hole to beat Anirban Lahiri and Joaquin Niemann.",
+        "Winner of LIV Golf's season-long Individual Champion crown in 2022.",
+        "Only player to record points in all seven regular-season LIV Golf events in 2022.",
+        "Won 2020 Masters with a record score of 20-under 268.",
+        "Ranked world No. 1 for more than 130 weeks in his career, including 64 consecutive weeks starting in February 2017.",
+        "Won at least one worldwide event each year between 2008-13 and 2015-21 (13 out of 14 years).",
+        "Posted multiple wins in seven different years – 2010 (2), 2013 (2), 2016 (3), 2017 (4), 2018 (3), 2019 (2), 2020 (3).",
+        "Has won three other 54-hole events shortened by weather issues.",
+        "Has won two events in Saudi Arabia.",
+        "Shot a career-low 60 while winning a tournament in Boston in 2020.",
+        "In 2021, became fifth American player in Ryder Cup history to win all five of his matches in a single Ryder Cup."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (2)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2016 U.S. Open</b>&nbsp;– Won his first major at Oakmont in his 29th career major start … Finished three strokes ahead of runners-up Shane Lowry, Jim Furyk and Scott Piercy … Was T-2 after 18 holes, the solo leader after 36 holes and tied for second after 54 holes … Shot a 1-under 69 in the final round … Said Johnson: “I think it's well deserved. After everything that I've been through in the majors, I've knocked on the door a bunch of times. To finally get that major win, it's huge.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2020 Masters</b>&nbsp;– Won at Augusta National in November after the tournament was rescheduled from its traditional April dates due to the COVID-19 pandemic … Shot 65-70-65-68 to set a Masters scoring record of 20 under … Won by 5 strokes over Sung-jae Im and Cameron Smith … Led by 4 strokes entering the final round … Became first player in Masters history to reach 20 under at any point of the tournament … Led or was tied for the lead after every round … Said Johnson: “It's the one I wanted to win the most. I'm just very proud of the way I handled myself and the way I finished off the golf tournament.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 12<br>Best finish: Win (2020)<br>Top 10s: 5<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 13<br>Best finish: 2nd (2019, 2020)<br>Top 10s: 6<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 15<br>Best finish: Win (2016)<br>Top 10s: 6<br>Cuts made: 13</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 13<br>Best finish: 2nd (2011)<br>Top 10s: 5<br>Cuts made: 11</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team USA)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (5):</b>&nbsp;2010, 2012, 2016, 2018, 2021</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;12-9-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;21</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;4-1-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;3-3-0&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;5-5-0&nbsp;</p>"
+    }
   },
   {
-    "nickName": "Jones ",
+    "nickName": "Jones",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2FrNf5eBjnxK8RH9dWnpK58%2F4bdfde682261c5503f6b04450d5e511e%2FJones-Matt__1_.png&w=3840&q=75",
     "team": "Ripper GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F15WLy3qey3BGp0HHKxPlDE%2F8d31355f4b0f8554338b6b492f1afde9%2F3.png&w=3840&q=75",
@@ -179,10 +349,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Australia",
+    "infos": {
+      "headline": "Jones was six years old when he first met Greg Norman and credits his fellow Aussie for inspiring him to become a professional golfer. Famed for his quick playing style, the Punch GC member has four wins since turning pro in 2001. His two triumphs at the Australian Open in 2015 and 2019 established him as a serious contender at the top level. Jones’s consistency has seen him spend more than 250 weeks in the world’s top 100.",
+      "careerHighlights": [
+        "Has four wins and 50-plus top 10s since turning pro in 2001.",
+        "Two-time winner of the Australian Open in his native country.",
+        "Reached a career-best 41st in the world rankings in April 2014.",
+        "Has spent more than 250 weeks of his career ranked inside the top 100.",
+        "Considered one of golf’s fastest players.",
+        "Played collegiately at Arizona State University."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 2<br>Best finish: T-26 (2021)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 8<br>Best finish: T-21 (2015)<br>Top 10s: 0<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 6<br>Best finish: T-65 (2021)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 5<br>Best finish: T-30 (2015)<br>Top 10s: 0<br>Cuts made: 3</p>"
+    }
   },
   {
-    "nickName": "Kaymer  ",
+    "nickName": "Kaymer",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1uW4jrIElMPsaKgPCxAArR%2F533520804e519ff333d1fb2641398e1e%2FKaymer-Martin.png&w=3840&q=75",
     "team": "Cleeks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F156JkfXvm371MTXzr42yNI%2F25e6793591da64d00745fcd6deb1cbdb%2FCleeks.jpg&w=3840&q=75",
@@ -193,10 +376,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Germany",
+    "infos": {
+      "headline": "Kaymer became only the second German - after Bernhard Langer - to hold the world No.1 spot when he topped the rankings in April 2011. The winner of 23 tournaments, he notably beat Bubba Watson in a three-hole playoff in 2010 to become his country’s first winner of the PGA Championship. Kaymer famously won the 2014 U.S. Open wire to wire, finishing eight strokes in front. He also set a tournament record by shooting consecutive 65s in his first two rounds.",
+      "careerHighlights": [
+        "Winner of 23 tournaments worldwide, including two majors – the 2010 PGA Championship and 2014 U.S. Open.",
+        "In 2011, became the world’s No. 1 player, spending eight consecutive weeks at that spot.",
+        "Has spent 110 weeks inside the top 10.",
+        "Beat Bubba Watson in a 3-hole playoff in 2010 to become first German to win the PGA Championship.",
+        "Won the 2014 U.S. Open wire to wire, winning by eight strokes. Set tournament record by shooting consecutive 65s in first two rounds.",
+        "Rolled in decisive putt during his singles match at the 2012 Ryder Cup to help rally Europe to victory at Medinah.",
+        "Was a 20-year-old amateur when he won a professional event in his native Germany."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (2)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2010 PGA Championship&nbsp;</b>– Defeated Bubba Watson in a three-hole aggregate playoff at Whistling Straits ... Entered the final round 4 strokes off the lead but shot 2-under 70 to make the playoff ... Became the first German player to win the PGA Championship ... Said Kaymer: \"The majors is the biggest tournaments that you can win in your career. I cannot win anything bigger. The majors, they are the biggest tournaments we play, and just knowing that I can win a tournament like that gives me huge confidence for any other tournament I will play for the rest of my career.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>2014 U.S. Open –&nbsp;</b>Led wire-to-wire in winning by 8 strokes at Pinehurst ... Opened with consecutive 5-under 65s to set a 36-hole scoring record (130) ... His 271 total was second-lowest in U.S. Open history ... Became the first player from continental Europe to win the U.S. Open ... Said Kaymer: \"Any major would have been nice, after the PGA. You want to win majors in your career, but if you can win one more, it means so much more.\"&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 12<br>Best finish: 16th (2017)<br>Top 10s: 0<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 14<br>Best finish: Win (2010)<br>Top 10s: 3<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 14<br>Best finish: Win (2014)<br>Top 10s: 2<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 12<br>Best finish: 7th (2010)<br>Top 10s: 1<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (4):</b>&nbsp;2010, 2012, 2014, 2016</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;5-6-3</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;14</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;3-1-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;0-1-2&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;2-4-1</p>"
+    }
   },
   {
-    "nickName": "Kim ",
+    "nickName": "Kim",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F50grhtHPXzt6N8j2sGoQaW%2Fc5437b304b46914df45ccfeb5da583b9%2FKim-Sihwan.png&w=3840&q=75",
     "team": "Iron Heads GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2KdSUYQVIdQFPbfBamzzb7%2F22a4f08373a8bc8330cdb4b77e98433e%2FIron_heads.jpg&w=3840&q=75",
@@ -207,10 +404,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Kim and his family moved to California from South Korea in 2000 and he now flies the flag for the United States. In 2004, he joined Tiger Woods as a 15-year-old winner of the U.S. Junior Championship. Kim turned pro in 2011 and made his debut on the Asian Tour in 2017, quickly establishing himself as a top player. His first two pro victories came on that Tour and he’s recorded three other top-10 finishes. Kim recorded his maiden Asian Tour title by winning the International Series Thailand in 2022.  ",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Koepka ",
+    "nickName": "Koepka",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2xXOAglPEqgNLpcUBbOiR1%2Fd4c1a68fc7cb9143796c896d02414943%2FKoepka-Brooks.png&w=3840&q=75",
     "team": "Smash GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1BtyfMM6IyJMG7xd4eG2eP%2F9fe5bab3feda343fee3ea71d64484651%2F2.png&w=3840&q=75",
@@ -221,10 +424,30 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "American star Koepka has won four Majors and became the first golfer to win consecutive titles in two Majors simultaneously, claiming the U.S. Open in 2017 and 2018 as well as the PGA Championship in 2018 and 2019. Koepka won the 2022 LIV Golf Invitational in Jeddah, beating his Smash GC team-mate Peter Uihlein with a birdie on the third playoff hole. His 8-under 62 in the first round of that tournament tied for the lowest score in LIV Golf’s inaugural season. Koepka became world No.1 in 2018 and stayed at the top for 47 weeks. The Smash GC captain is a fan favorite and a dominant force in the world of golf.",
+      "careerHighlights": [
+        "Winner of 16 tournaments worldwide, including four majors and the 2022 LIV Golf Invitational Jeddah.",
+        "Won in Jeddah by beating Smash GC teammate Peter Uihlein with a birdie on the third playoff hole.",
+        "Shot 8-under 62 in first round in Jeddah, tying for lowest score in LIV Golf's inaugural season.",
+        "Won U.S. Open in 2017 and 2018 and PGA Championship in 2018 and 2019, becoming first golfer to win consecutive titles in two majors simultaneously.",
+        "First golfer to win consecutive U.S. Opens since 1989.",
+        "First golfer to win consecutive PGA Championships since 2007.",
+        "Fifth golfer to win U.S. Open and PGA Championship in same year.",
+        "Tied major championship low score of 264 over 72 holes in winning 2018 PGA Championship at Bellerive.",
+        "Made the cut in 24 consecutive major starts from 2013-20.",
+        "Moved to world No. 1 in October 2018. Ranked No. 1 for 47 weeks.",
+        "Has won multiple player of the year awards.",
+        "Three-time All-America golfer at Florida State University.",
+        "Older brother of LIV Golf member Chase Koepka."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (4)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2017 U.S. Open</b>&nbsp;– Matched the lowest total posted in the U.S. Open with a 16-under total, winning by four strokes at Erin Hills … Started the final round one stroke behind but birdied his first two holes … Pulled away with three consecutive birdies on the back nine to shoot a 5-under 67 … Said Koepka: “That's probably the most emotion I've ever showed coming down the stretch. I mean, it feels amazing to get my name on this trophy with so many other great names. It's truly an honor.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2018 U.S. Open</b>&nbsp;– Became just the third player to successfully defend a U.S. Open, joining Ben Hogan (1951) and Curtis Strange (1989) … Shot a final-round 68 to finish at 1 over, winning by one stroke at Shinnecock Hills … His second-round 66 brought him back into the tournament after an opening 75 … Said Koepka: “To be honest with you, probably couldn't have dreamed of it in my wildest dreams. I'm at a loss for words right now, but it's really incredible. I mean, I couldn't be happier. We grinded our tail off this week to come back from 7-over and do what we did. It was pretty special.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2018 PGA Championship</b>&nbsp;– Won his second major of the year at 16 under, two strokes ahead of Tiger Woods … His aggregate 264 total at Bellerive set a tournament record … Followed his second-round 63 with a 66 to take a two-shot lead entering the final round … Became just the fifth American player to win three majors before the age of 29, joining Woods, Jack Nicklaus, Tom Watson and Jordan Spieth … Said Koepka: “I have a lot of self belief. I knew, even today, when everybody was making that charge, if I just hung in there, made one more shot, one good shot at a time, kept it rolling, I knew I was going to have a chance to kind of separate myself maybe a little bit.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2019 PGA Championship&nbsp;</b>– Became the first player to successfully defend both the PGA Championship and U.S. Open and the fourth to successfully defend two different majors in a career … Opened with a 7-under 63, followed with a 65 and went wire-to-wire at Bethpage Black … His 8-under total gave him a two-stroke win over Dustin Johnson … Said Koepka: “To be standing here today with four majors, it's mind-blowing.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 7<br>Best finish: 2nd (2019)<br>Top 10s: 2<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 10<br>Best finish: Win (2018, 2019)<br>Top 10s: 5<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 9<br>Best finish: Win (2017, 2018)<br>Top 10s: 5<br>Cuts made: 8</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 8<br>Best finish: 4th (2019)<br>Top 10s: 4<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team USA)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (3):</b>&nbsp;2016, 2018, 2021</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;6-5-1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;12</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;2-0-1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;2-2-0&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;2-3-0</p>"
+    }
   },
   {
-    "nickName": "Koepka ",
+    "nickName": "Koepka",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5grohdbKKYieIwnoiHp6G3%2F8995695c08fe7d59cc89c99c6982b031%2FKoepka-Chase.png&w=3840&q=75",
     "team": "Smash GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1BtyfMM6IyJMG7xd4eG2eP%2F9fe5bab3feda343fee3ea71d64484651%2F2.png&w=3840&q=75",
@@ -235,10 +458,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Koepka first showed his class at the University of South Florida, where he won four events. He has recorded six top-10 finishes at the highest level in Europe since turning pro in 2016. His highest finish in the LIV Golf Invitational Series in 2022 was a 9th place in Chicago. Part of Smash GC, there is clearly plenty still to come from a player who deserves to be known as much more than Brooks younger brother.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Kokrak ",
+    "nickName": "Kokrak",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7tMReVWHutEt11BQwd1dv6%2F2b08343a4bf5a8740132df2f690a5305%2FKokrak-Jason.png&w=3840&q=75",
     "team": "Smash GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1BtyfMM6IyJMG7xd4eG2eP%2F9fe5bab3feda343fee3ea71d64484651%2F2.png&w=3840&q=75",
@@ -249,10 +478,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Kokrak recorded three wins at the highest level across 2020 and 2021 following a steady career since turning pro in 2008. The big-hitter from Ohio broke into the top 50 in the world in 2020. Kokrak has finished in the top 10 more than 40 times in worldwide events, his most recent being a seventh place in the LIV Golf Invitational Boston in 2022.  ",
+      "careerHighlights": [
+        "Winner of 11 worldwide events, including three wins in 2021.",
+        "Cracked the world’s top 50 rankings for the first time in September 2020 and has been ranked inside the top 50 since October 2020.",
+        "Reached a career-best 20th in the world in November 2021.",
+        "Won the QBE Shootout with teammate and fellow LIV Golf member Kevin Na in December 2021.",
+        "Has more than 40 top-10 finishes in his career.",
+        "Won consecutive Ohio Amateur tournaments (2006, 2007) and played collegiately at Xavier University.",
+        "Born in Canada but moved shortly after his birth to the United States."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 3<br>Best finish: 14th (2022)<br>Top 10s: 0<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 9<br>Best finish: 19th (2018)<br>Top 10s: 0<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 6<br>Best finish: 17th (2020)<br>Top 10s: 0<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 4<br>Best finish: 26th (2021)<br>Top 10s: 0<br>Cuts made: 3</p>"
+    }
   },
   {
-    "nickName": "Lahiri ",
+    "nickName": "Lahiri",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5PASd5TYpUZ1cGNUKNRYSW%2F36160a5420486970fa1f0680e200dad4%2FLahiri-Anirban.png&w=3840&q=75",
     "team": "Crushers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2Fgb27P0rygeST8nwVj9ghj%2F3149dbf19796bcc94b61a3c5f5edce2f%2F7.png&w=3840&q=75",
@@ -263,10 +506,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "India",
+    "infos": {
+      "headline": "Lahiri has competed on most of the major tours, winning multiple tournaments on the Asian Tour and representing India in the World Cup of Golf. Lahiri is India’s top-ranked golfer and has spent time inside the world’s top 50. A two-time Olympian, Lahiri is only the third Indian national to play in the Masters. In his LIV Golf debut in 2022, he made a three-man playoff at the LIV Golf Invitational Boston, eventually finishing second.   ",
+      "careerHighlights": [
+        "Winner of 18 worldwide tournaments and one of India’s most decorated golfers",
+        "Made three-man playoff at LIV Golf Invitational Boston in his debut.",
+        "Broke into the world’s top 100 players for first time in March 2014",
+        "In 2015, became just the third player from India to play in the Masters",
+        "Hit tie for fifth at the 2015 PGA Championship set the record for best finish by an Indian professional golfer in a major",
+        "A two-time Olympian who played in the Rio Olympics (2016) and Tokyo Olympics (2021)",
+        "Has 12 wins on the Professional Golf Tour of India"
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 2<br>Best finish: 42nd (2016)<br>Top 10s: 0<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 6<br>Best finish: 5th (2015)<br>Top 10s: 1<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 3<br>Best finish:<br>Top 10s: 0<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 6<br>Best finish: 30th (2015)<br>Top 10s: 0<br>Cuts made: 2</p>"
+    }
   },
   {
-    "nickName": "Lee ",
+    "nickName": "Lee",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3b1RKqxAQt22GISOS3JOS4%2F3a27ad0fdecf939d4e92cac3d7696392%2FPlayer-Placeholder.png&w=3840&q=75",
     "team": "Iron Heads GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2KdSUYQVIdQFPbfBamzzb7%2F22a4f08373a8bc8330cdb4b77e98433e%2FIron_heads.jpg&w=3840&q=75",
@@ -277,10 +534,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "New Zealand",
+    "infos": {
+      "headline": "A former top-ranked amateur and winner of the 2008 U.S. Amateur at age 18, Danny Lee has carved out a solid professional career since turning pro, winning three times across multiple tours. Like his new Iron Heads GC teammates Kevin Na and Sihwan Kim, Lee was born in South Korea but moved to a different country when he was a youngster. Lee emigrated to New Zealand when he was 8 years old and has represented that country at international competitions, including the 2016 Olympics in Rio de Janeiro.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Leishman  ",
+    "nickName": "Leishman",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F58SASzmOjEBSIY2ftIc3Rm%2F729f2803989346a320e4e158dbab3339%2FLeishman-Marc.png&w=3840&q=75",
     "team": "Ripper GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F15WLy3qey3BGp0HHKxPlDE%2F8d31355f4b0f8554338b6b492f1afde9%2F3.png&w=3840&q=75",
@@ -291,10 +554,26 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Australia",
+    "infos": {
+      "headline": "Leishman turned pro in 2005 and has recorded 13 wins across multiple tours. A top 50 player for more than 350 weeks, the Australian reached 12th in the world rankings in October 2017. But the Punch GC member admits his true calling is grass, not golf. When he’s at home, Leishman mows and trims his lawn daily, saying “It’s become an obsession… me and my sports psychologist talk about it as my sort of therapy.” ",
+      "careerHighlights": [
+        "Winner of 13 professional events across multiple tours",
+        "Top 50 player for more than 350 weeks in his career",
+        "Achieved highest world ranking at No. 12 in October 2017",
+        "Part of a three-man playoff at the 2015 Open Championship in St Andrews",
+        "Participated in the men’s competition at the Tokyo Olympics in 2021",
+        "Partnered with fellow Australian Cameron Smith to win a two-man team event in New Orleans in 2021",
+        "First Australian player to win rookie of the year honors",
+        "Received the Greg Norman Medal in 2017 for best professional golfer, male or female, on the world stage",
+        "Has represented Australia in multiple team events"
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 10<br>Best finish: 4th (2013)<br>Top 10s: 3<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 12<br>Best finish: 12th (2013)<br>Top 10s: 0<br>Cuts made: 8</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 12<br>Best finish: 14th (2022)<br>Top 10s: 0<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 10<br>Best finish: 2nd (2015)<br>Top 10s: 3<br>Cuts made: 6</p>"
+    }
   },
   {
-    "nickName": "McDowell ",
+    "nickName": "McDowell",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F21WyD5bCM3WRnlpMEz0Wu7%2Fcd69a3f3cfde328956da56924a5c0d02%2FMcDowell-Graeme-L.png&w=3840&q=75",
     "team": "Cleeks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F156JkfXvm371MTXzr42yNI%2F25e6793591da64d00745fcd6deb1cbdb%2FCleeks.jpg&w=3840&q=75",
@@ -305,10 +584,25 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Northern Ireland",
+    "infos": {
+      "headline": "McDowell joined golf’s elite in 2010, when he became only the second European to win the U.S. Open in 85 years. He followed up that victory at Pebble Beach a few months later by sinking the putt that clinched the Ryder Cup for Europe. The Northern Irishman has won 16 pro events worldwide, with two top-10 finishes in other majors, and has spent nearly 400 weeks in the world’s top 50. ",
+      "careerHighlights": [
+        "Winner of 16 tournaments worldwide, including the 2010 U.S. Open.",
+        "His victory in the U.S. Open ended a 40-year drought for Europeans in that event.",
+        "Has won tournaments in more than 10 different countries.",
+        "Has spent more than 20 weeks of his career as a top-5 player and nearly 400 weeks inside the world top 50.",
+        "Was ranked a career-best 4th in the world in 2011.",
+        "Won his first professional event in just his fourth starter after turning pro.",
+        "Provided the clinching point for Europe at the 2010 Ryder Cup.",
+        "As a college senior at the University of Alabama-Birmingham in 2002, he won six of 12 events and received the Haskins Award for outstanding college golfer."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2010 U.S. Open&nbsp;</b>– Became the first European to win the U.S. Open since Tony Jacklin in 1970 ... Was only player to not finish over par at Pebble Beach, shooting a final-round 74 to win at even par 284, one stroke ahead of Gregory Havret ... Held the 36-hole lead before falling three strokes behind Dustin Johnson after 54 holes ... Said McDowell: \"I think I've died and gone to heaven for sure. This can't be really real. I don't think this will ever sink in.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 10<br>Best finish: 17th (2009)<br>Top 10s: 0<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 15<br>Best finish: 10th (2009)<br>Top 10s: 1<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 15<br>Best finish: Win (2010)<br>Top 10s: 2<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 14<br>Best finish: 5th (2012)<br>Top 10s: 2<br>Cuts made: 11</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (4):</b>&nbsp;2008, 2010, 2012, 2014</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;8-5-2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;15</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;3-1-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;4-2-1&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;1-2-1&nbsp;</p>"
+    }
   },
   {
-    "nickName": "Mickelson  ",
+    "nickName": "Mickelson",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F6jfzE0JiRVrucAaS0P2U5G%2F89c21c14d5a48914427200396204e492%2FMickelson-Phil.png&w=3840&q=75",
     "team": "HyFlyers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3TkvwTXeYVo023kHEuvIuD%2F72c6f67034bcc2d392dea7d99b97b451%2FMicrosoftTeams-image__27_.png&w=3840&q=75",
@@ -319,10 +613,29 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "A legendary name in the sport and a World Golf Hall of Famer, Mickelson has 57 career wins, including six majors – three of those at the Masters. At age 50, he became the oldest major winner when he claimed his second PGA Championship title in 2021 at Kiawah Island. Possessing one of golf's best short games, the Hy Flyers GC captain spent more than 25 years ranked in the world's top 50 and is a popular figure wherever he plays.",
+      "careerHighlights": [
+        "Inducted into World Golf Hall of Fame in 2012.",
+        "Winner of 57 worldwide professional events, including six majors – Masters in 2004, 2006 and 2010; PGA Championship in 2005 and 2021; and the Open Championship in 2013.",
+        "Highest position in world golf rankings: 2nd.",
+        "Became oldest major champion by winning 2021 PGA Championship at 50 years, 11 months, 7 days.",
+        "Has finished runner-up in majors 11 times, including six times in the U.S. Open.",
+        "Owns record for most U.S. Ryder Cup appearances (12) and matches played (47).",
+        "Member of three winning U.S. Ryder Cup teams (1999, 2008, 2016).",
+        "Spent more than 25 consecutive years inside the top 50 of the world rankings.",
+        "Won four tournaments in a single year five times.",
+        "Won three individual NCAA Championships and one team title while playing for Arizona State University.",
+        "Won 1990 U.S. Amateur.",
+        "Won pro tour event as a 20-year-old amateur."
+      ],
+      "majorChampionship": "<h2 class=\"primary-h2 mb-5 md:mb-10\">MAJOR CHAMPIONSHIP HISTORY</h2><p class=\"body-longform mb-4 md:mb-5\"><b>WINS (6)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2004 Masters</b>&nbsp;– Rolled in an 18-foot birdie putt on the 72nd hole to win his first major by one stroke over Ernie Els … Had made 46 major starts (pro and amateur) prior to winning … Became the third left-handed golfer to win a major … Shot 31 on the back nine in the final round at Augusta National. … Said Mickelson: “Ernie was really making a move, and this wasn't one of those things that you could just have fall in your lap. I had to go out and get it. To shoot 31, man, that feels great. I don't know what else to say. It just feels awesome.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2005 PGA Championship</b>&nbsp;– In a Monday finish due to poor weather conditions the previous day, he finished at 4 under at Baltusrol to beat Steve Elkington and Thomas Bjorn by one stroke … Birdied the 72nd hole from the greenside rough … Held a 3-shot lead after 36 holes and was tied with Davis Love III atop the 54-hole leaderboard … Said Mickelson: “It was a week where there were things didn't go perfectly the whole time. The first couple of days, the ball was going in the hole, but thereafter, it was not. Yet, I had to gut it out and just find a way to make some pars and find a way to make a couple birdies.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2006 Masters</b>&nbsp;– Won back-to-back majors by claiming his second Masters title … Shot 3-under in the final round to win by two strokes over Tim Clark … Moved to world No. 2, his highest career ranking … Said Mickelson: “The stress-free walk up 18 was incredible. I had been wanting that. I had actually been wanting like a 4- or 5-shot lead, but 3 was OK, too. It was a great feeling walking up there, knowing that I had the tournament in hand.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2010 Masters</b>&nbsp;– Won his third Masters by 3 strokes over Lee Westwood … Shot 67 in the final round to overtake Westwood, the third-round leader … It was an emotional victory after wife Amy’s battle with breast cancer the previous year, as well as his mother’s battle with cancer … &nbsp;Said Mickelson: “To have Amy and my kids here to share it with, I can't put into words. It just feels incredible, especially given what we've been through in the last year, to be able to share this kind of joy means a lot to us.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2013 Open Championship</b>&nbsp;– Won the Open for the first time in his 20th start in this major … Had recorded just two top-10 finishes in his previous 19 starts … Started the final round 5 strokes behind but shot 66 to overtake 54-hole leader Lee Westwood at Muirfield … Said Mickelson: “Just an amazing feeling winning this great championship. And to play probably the best round of my career and hit some of the best shots that I've ever hit. Certainly putt better than I've ever putted.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2021 PGA Championship</b>&nbsp;… Made major championship history by becoming the oldest major champion at age 50 … Shot a final-round 73 at Kiawah Island to finish at 6 under and beat Brooks Koepka and Louis Oosthuizen by 2 strokes. … Shared the 36-hole lead with Oosthuizen and led by 1 stroke after 54 holes … Said Mickelson: “Certainly one of the moments I'll cherish my entire life. I don't know how to describe the feeling of excitement and fulfillment and accomplishment to do something when -- you know, of this magnitude when very few people thought that I could.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 29<br>Best finish: Win (2004, 2006, 2010)<br>Top 10s: 15<br>Cuts made: 26</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 29<br>Best finish: Win (2005, 2021)<br>Top 10s: 10<br>Cuts made: 26</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 31<br>Best finish: 2nd (1999, 2002, 2004, 2006, 2009, 2013)<br>Top 10s: 10<br>Cuts made: 26</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 28<br>Best finish: Win (2013)<br>Top 10s: 4<br>Cuts made: 20</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team USA)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (12):</b>&nbsp;1995, 1997, 1999, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;18-22-7&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;47</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;8-6-1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;5-8-4&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;8-8-2&nbsp;</p>"
+    }
   },
   {
-    "nickName": "Morgan ",
+    "nickName": "Morgan",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2xuhHchva8oJU2bsuMsKOH%2F05d5bd257bf7ad94cb6af70eb59b037f%2FMorgan-Jediah.png&w=3840&q=75",
     "team": "Ripper GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F15WLy3qey3BGp0HHKxPlDE%2F8d31355f4b0f8554338b6b492f1afde9%2F3.png&w=3840&q=75",
@@ -333,10 +646,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Australia",
+    "infos": {
+      "headline": "Things are moving fast for Morgan, who as recently as 2020 was the amateur champion of Australia. Two months after turning pro in 2021, he finished runner-up at the inaugural Sandbelt Invitational and followed that by winning the Australian PGA Championship in January 2022 – just his fourth start in the paid ranks. The Queenslander went on to secure the 2021-22 Tour of Australasia Order of Merit and is now ready to mix it with some of the game’s greatest names in the LIV Golf League as part of Ripper GC.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Munoz ",
+    "nickName": "Munoz",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3b1RKqxAQt22GISOS3JOS4%2F3a27ad0fdecf939d4e92cac3d7696392%2FPlayer-Placeholder.png&w=3840&q=75",
     "team": "Torque GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5PZUCySPUM6QIeVxXgwjUK%2F6f084d3c0ad944493200b119adbe0e7a%2FTorque.jpg&w=3840&q=75",
@@ -347,10 +666,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Colombia",
+    "infos": {
+      "headline": "Colombia’s top-ranked golfer makes his LIV Golf debut this season. Having turned pro in 2015, Muñoz has four professional wins, including three in his native country. He has also represented Colombia on multiple occasions, including the Tokyo Olympics in 2021 when he was part of a seven-man playoff for the bronze medal. He is good friends with fellow LIV Golf newcomer Carlos Ortiz, the two having played college golf at the University of North Texas. ",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Na ",
+    "nickName": "Na",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5OhohmoxjM3IIsTHhH1V0N%2Fe1a055019efffcdff03d51c82c738823%2FNa-kevin.png&w=3840&q=75",
     "team": "Iron Heads GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2KdSUYQVIdQFPbfBamzzb7%2F22a4f08373a8bc8330cdb4b77e98433e%2FIron_heads.jpg&w=3840&q=75",
@@ -361,10 +686,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Na moved to the USA with his family from South Korea when he was eight, and turned pro at 17. He has since made more than 500 career starts across the world and won nine tournaments at the top level, as well as recording three runners-up finishes since 2018. He’s spent more than 240 weeks in the world’s top 50 and has finished in the top 12 at all three of the majors based in the U.S.  ",
+      "careerHighlights": [
+        "Winner of nine tournaments worldwide.",
+        "Has five wins with three runner-up finishes since 2018.",
+        "Has been a top 50 world player for more than three years.",
+        "Spent more than 340 weeks of his career inside the world top 50.",
+        "Reached career-best 19th in world in November 2015.",
+        "Has made more than 500 worldwide starts.",
+        "Born in South Korea and moved with his family to the United States when he was 8 years old."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 11<br>Best finish: 12th (2012, 2015, 2021)<br>Top 10s: 0<br>Cuts made: 8</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 14<br>Best finish: 10th (2011)<br>Top 10s: 1<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 11<br>Best finish: 7th (2016)<br>Top 10s: 1<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 9<br>Best finish: 22nd (2016)<br>Top 10s: 0<br>Cuts made: 6</p>"
+    }
   },
   {
-    "nickName": "Niemann ",
+    "nickName": "Niemann",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5kE90VEuThK3CyRXY8eZ5J%2F04aa7bb6afc0c93b0deccdbaae4c2191%2FNiemann-Joaquin.png&w=3840&q=75",
     "team": "Torque GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5PZUCySPUM6QIeVxXgwjUK%2F6f084d3c0ad944493200b119adbe0e7a%2FTorque.jpg&w=3840&q=75",
@@ -375,10 +714,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Chile",
+    "infos": {
+      "headline": "The Chilean star was the No.1-rated amateur in the world in 2017-18, and raced to the highest level of the game after turning pro. By April 2022 he had recorded nine worldwide wins across multiple tours and was ranked 15th in the world. Niemann also shone in the 2022 LIV Golf Invitational Series, with top-five finishes in Boston, Bangkok and Jeddah, while finishing seventh in the Individual Champion points list.",
+      "careerHighlights": [
+        "Has nine career wins on professional tours, including six as an amateur on the Chilean Tour prior to turning pro in 2018",
+        "Part of three-man playoff in LIV Golf debut in Boston.",
+        "Ranked as the world’s No. 1 amateur male golfer from May 2017 to April 2018",
+        "Reached a career-high 15th in world rankings in April 2022",
+        "Has been a top 50 player for more than two years",
+        "Has represented Chile in multiple team competitions and played in the Tokyo Olympics for Chile"
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><table class=\"w-full border-separate border-spacing-y-2\"><tbody class=\"table w-full\"><tr class=\"border-t\"><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Starts</b></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\">Best <b>finish</b></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Top 10s</b></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Cuts made</b></th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Masters</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">35th (2022)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">0</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">2</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">PGA Championship</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">5</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">23rd (2022)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">0</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">U.S. Open</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">4</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">23rd (2020)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">0</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Open Championship</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">53rd (2022)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">0</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">2</th></tr></tbody></table><p class=\"body-longform mb-4 md:mb-5\"></p>"
+    }
   },
   {
-    "nickName": "Oosthuizen  ",
+    "nickName": "Oosthuizen",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2OohafKjqVPYQlRjI1nJWR%2F3d121c12e32303007b27133837188aa8%2FOosthuizen-Louis.png&w=3840&q=75",
     "team": "Stinger GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F4ryz4wIEeEt3uONoqQmHdT%2Ffe8be2cf7c5d50d7e53cddd613a2c107%2F6.png&w=3840&q=75",
@@ -389,10 +741,26 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Republic of South Africa",
+    "infos": {
+      "headline": "Possessing one of golf’s smoothest swings, Oosthuizen has won 14 tournaments, the most famous being the 2010 Open Championship at St Andrews, where he became only the fourth South African to lift the Claret Jug, after Bobby Locke, Gary Player and Ernie Els. Oosthuizen has finished runner-up in all four Majors - the 2012 Masters, 2015 and 2021 US Open, 2015 Open Championship and 2017 and 2021 PGA Championship. He captained the all-South African Stinger GC to first place in LIV Golf’s inaugural 2022 event in London, followed by a second place in Portland. ",
+      "careerHighlights": [
+        "Winner of 14 tournaments worldwide, including the 2010 Open Championship at St Andrews.",
+        "Became the fourth South African to win the Open, joining Bobby Locke, Gary Player and Ernie Els.",
+        "Won the Open by seven strokes.",
+        "Has also finished runner-up in all four majors – 2012 Masters, 2015 and 2021 U.S. Open, 2015 Open Championship and 2017 and 2021 PGA Championship.",
+        "Moved inside world top 5 for the first time in 2012 and reached a career-best 4th in January 2013.",
+        "Has spent more than 380 weeks of his career as a top 25 player.",
+        "Has represented South Africa numerous times in a variety of team competitions.",
+        "Famously shot 57 as a 19-year-old at his home course in Mossel Bay while playing 18 holes with his friends.",
+        "Supported financially by the Ernie Els Foundation during the start of his golf career."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2010 Open Championship&nbsp;</b>– Won his first major at St Andrews by seven strokes over Lee Westwood … Shot 65-67 in first two rounds to surge into the lead … Finished at 16 under … Became the first South African to win the Open on the Old Course since Bobby Locke in 1957 … Said Oosthuizen: “To win an Open Championship is special, but to win it here at St. Andrews is just -- it's something you dream about.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 14<br>Best finish: 2nd (2012)<br>Top 10s: 1<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 13<br>Best finish: 2nd (2017, 2021)<br>Top 10s: 2<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 13<br>Best finish: 2nd (2015, 2021)<br>Top 10s: 5<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 15<br>Best finish: Win (2010)<br>Top 10s: 3<br>Cuts made: 8</p>"
+    }
   },
   {
-    "nickName": "Ortiz ",
+    "nickName": "Ortiz",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F21s7UN1R3oRBX8XBONNkcH%2Ffcefe31aa5e5509abfa3fe4ef85b2cb0%2FOrtiz-Carlos.png&w=3840&q=75",
     "team": "Fireballs GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2URGflVV6T4DvA6iyR6crb%2Fe59e4554cb8f08968e74418c5b51af97%2F9.png&w=3840&q=75",
@@ -403,10 +771,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Mexico",
+    "infos": {
+      "headline": "Born in Mexico and now based in Texas, Ortiz has spent more than 80 weeks of his career in the world’s top 100, with a highest ranking of 44th. He enjoyed two top-five finishes in the LIV Golf Invitational Series in 2022, at Portland and Bedminster. It was his birdie putt on the final hole in Portland that elevated Fireballs GC to its first podium finish. Ortiz has won once at the highest level since turning pro in 2013 and represented Mexico at the Tokyo 2020 Olympics.",
+      "careerHighlights": [
+        "Winner of four professional tournaments worldwide.",
+        "Represented his native Mexico in the Summer Olympics in Tokyo in 2021.",
+        "Won three times in his first full season as a pro in 2014.",
+        "Reached a career-best 44th in the world in February 2021.",
+        "Has spent 80 weeks of his career as a top 100 player.",
+        "Born in Guadalajara, Mexico, and attended college at the University of North Texas."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 1<br>Best finish: MC (2021)<br>Top 10s: 0<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 3<br>Best finish: 55th (2021)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 3<br>Best finish: 52nd (2019)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 1<br>Best finish: MC (2021)<br>Top 10s: 0<br>Cuts made: 0</p>"
+    }
   },
   {
-    "nickName": "Pereira ",
+    "nickName": "Pereira",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3b1RKqxAQt22GISOS3JOS4%2F3a27ad0fdecf939d4e92cac3d7696392%2FPlayer-Placeholder.png&w=3840&q=75",
     "team": "Torque GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5PZUCySPUM6QIeVxXgwjUK%2F6f084d3c0ad944493200b119adbe0e7a%2FTorque.jpg&w=3840&q=75",
@@ -417,10 +798,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Chile",
+    "infos": {
+      "headline": "Pereira is one of several exciting new stars on the LIV Golf roster and has been friends with his Torque teammate and captain Joaquin Niemann since they were kids. A 10-time winner as a pro, Pereira was the 54-hole leader at the 2022 PGA Championship, eventually finishing third. In 2021, he and Niemann represented their native Chile at the Tokyo Olympics, where Pereira lost in an incredible seven-man playoff for the bronze medal.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Perez ",
+    "nickName": "Perez",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2FnD7VxMVpzFf0tP2Gvf5t7%2F5cb2805e08fc6ca9b3dcb94e1256ce98%2FPerez-Pat.png&w=3840&q=75",
     "team": "4Aces GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7sMNz0m3NH7Ivr8YpOBh08%2Feefd82e3ec49f738e00dadd12960507c%2F4_aces.jpg&w=3840&q=75",
@@ -431,10 +818,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "A member of the 4 Aces GC that dominated the 2022 LIV Golf team competition, Perez has won four tournaments since turning pro in 1997. All three of his victories since 2009 have come in different countries: the U.S., Mexico and Malaysia. Perez is one of the biggest characters in golf and a joy to watch, with his mullet fluttering in the wind and his penchant for saying what’s on his mind.  ",
+      "careerHighlights": [
+        "Winner of four tournaments worldwide.",
+        "His three wins since 2009 have come in three different countries.",
+        "Has finished inside the top 10 in more than one-third of his worldwide starts.",
+        "Reached a career-best 16th in the world rankings in January 2018.",
+        "Has spent more than 70 weeks of his career as a top 50 player.",
+        "Has made the cut in 17 of 27 major starts."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 4<br>Best finish: 18th (2017)<br>Top 10s: 0<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 12<br>Best finish: 6th (2005)<br>Top 10s: 3<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 6<br>Best finish: 36th (2008, 2018)<br>Top 10s: 0<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 5<br>Best finish: 17th (2018)<br>Top 10s: 0<br>Cuts made: 3</p>"
+    }
   },
   {
-    "nickName": "Pieters ",
+    "nickName": "Pieters",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3b1RKqxAQt22GISOS3JOS4%2F3a27ad0fdecf939d4e92cac3d7696392%2FPlayer-Placeholder.png&w=3840&q=75",
     "team": "RangeGoats GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7FKBqzypOtcyxh3yRnjO5H%2F643b7dff85aadf38b7e41f700f94b199%2F11.png&w=3840&q=75",
@@ -445,10 +845,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Belgium",
+    "infos": {
+      "headline": "As one of Europe’s biggest hitters, Thomas Pieters is bringing his power game to Bubba Watson’s rebranded RangeGoats GC. The 31-year-old from Belgium once drove the green on a 407-yard hole, but his game is more than long drives. He’s won seven times since turning pro in 2013 and was the European team’s top performer at the 2016 Ryder Cup.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Piot ",
+    "nickName": "Piot",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5t2ETqlgZpsyO3svbeFwyF%2Fddda2a5ca08d6c3b22b095bfb6f976c6%2FPiot-James.png&w=3840&q=75",
     "team": "HyFlyers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3TkvwTXeYVo023kHEuvIuD%2F72c6f67034bcc2d392dea7d99b97b451%2FMicrosoftTeams-image__27_.png&w=3840&q=75",
@@ -459,10 +865,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Piot became the first man from Michigan to win the U.S Amateur when he took that historic title at Oakmont in 2021. He turned pro a year later and played in the Masters and U.S. Open before joining the LIV Golf Invitational Series, where he showcased his promise with a top-10 finish in Bangkok. There is clearly much more to come from Piot as he adjusts to life in the pro game.  ",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Poulter ",
+    "nickName": "Poulter",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1TBzKZvpumKWln8NL4vXZY%2Fc7af2d1b004a25e6e1087e57f1cf1491%2FPoulter-Ian.png&w=3840&q=75",
     "team": "Majesticks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2enUkNDUBSPms3pVH53xMY%2Fcd704ddd585174ce54a0feda8afc8d92%2F12.png&w=3840&q=75",
@@ -473,10 +885,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "England",
+    "infos": {
+      "headline": "Poulter has been a pro since 1995 and has won 17 tournaments at the highest level on numerous tours in that time. The British star is best known for his inspirational exploits at the Ryder Cup, in which he has a 15-8-2 record. His European teammates nicknamed him “The Postman” because he always delivers, especially in Singles with his undefeated 6-0-1 record. He has eight top-10 finishes in Majors, including a runner-up at the 2008 Open Championship, and has been ranked as high as No.5 in the world.",
+      "careerHighlights": [
+        "Winner of 17 tournaments worldwide across multiple tours.",
+        "Between 2009-12, won six events and finished runner-up four times.",
+        "Has played in seven Ryder Cups as a member of the European team.",
+        "Has represented his country in numerous team events.",
+        "In February 2010, reached a career-best 4th in the world rankings.",
+        "Has won match-play events on two continents."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>Starts and Finishes</b></p><table class=\"w-full border-separate border-spacing-y-2\"><tbody class=\"table w-full\"><tr class=\"border-t\"><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\">\n </th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Starts</b></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Best finish</b></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Top 10s</b></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"><b>Cuts made</b></th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Masters</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">16</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">6th (2015)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">15</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">PGA Championship</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">20</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3rd (2012)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">2</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">15</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">U.S. Open</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">16</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">12th (2006)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">0</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">11</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Open Championship</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">20</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">2nd (2006) </th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">3</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">13</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\"></th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\"></th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\"></th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\"></th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\"></th></tr></tbody></table><p class=\"body-longform mb-4 md:mb-5\"><b></b></p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><table class=\"w-full border-separate border-spacing-y-2\"><tbody class=\"table w-full\"><tr class=\"border-t\"><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"></th><th class=\"label-small pb-2.5 text-left uppercase md:pb-2\"></th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Appearances (7)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">2004, 2008, 2010, 2012, 2014, 2018, 2021</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Record (wins, losses, halves)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">15-8-2</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Total matches</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">25</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Singles (W-L-H)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">6-0-1</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Foursomes (W-L-H)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">5-3-0&nbsp;</th></tr><tr class=\"border-t\"><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">Four-balls (W-L-H)</th><th class=\"body-strong border-t py-4 text-left last:border-r md:py-6\">4-5-1&nbsp;</th></tr></tbody></table><p class=\"body-longform mb-4 md:mb-5\"></p>"
+    }
   },
   {
-    "nickName": "Puig ",
+    "nickName": "Puig",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5RobxIOPdGsmXZXCtUbWKV%2Facfdce25f8d7631bae00e2253306908c%2FPuig-David.png&w=3840&q=75",
     "team": "Torque GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5PZUCySPUM6QIeVxXgwjUK%2F6f084d3c0ad944493200b119adbe0e7a%2FTorque.jpg&w=3840&q=75",
@@ -487,10 +912,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Spain",
+    "infos": {
+      "headline": "One of the youngest players on the LIV Golf roster, rising star Puig joined LIV Golf in 2022 as an amateur. The Spaniard turned pro in September of that year, and his first event in the paid ranks was the LIV Golf Invitational Chicago. Puig’s prodigious exploits as an amateur in Spain earned him a place at Arizona State, and in under three full seasons there, he won three events and recorded seven top-10 finishes to highlight his talent and potential.",
+      "careerHighlights": [
+        "Making professional debut at LIV Golf Invitational Chicago",
+        "Ranked as No. 9 world amateur player at the time he turned pro",
+        "Two-time All-American at Arizona State",
+        "Reached Round of 16 at 2022 U.S. Amateur",
+        "Won three collegiate events and posting seven top 10 finishes in less than three full seasons at Arizona State",
+        "Stellar career as a junior player in his native Spain"
+      ],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Reed ",
+    "nickName": "Reed",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7LaLJdHYcvJnUkP6rDH2sh%2F922543a9a6578d31a3c10e46bdc001b6%2FReed-Patrick.png&w=3840&q=75",
     "team": "4Aces GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7sMNz0m3NH7Ivr8YpOBh08%2Feefd82e3ec49f738e00dadd12960507c%2F4_aces.jpg&w=3840&q=75",
@@ -501,10 +939,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "A key member of 4 Aces GC, Reed earned the nickname “Captain America” with his stellar exploits in three Ryder Cup appearances, including the U.S. victory at Hazeltine in 2016. The highlight of his nine career wins came at the 2018 Masters, where he took the 36-hole-lead and never relinquished it, to win by one stroke. Reed, who has been in the world top 50 since 2014, has top-10 finishes in all four Majors. In the 2022 LIV Golf Invitational Series, he was in the top five three times, including runner-up spot in Bangkok, and finished fourth in the Individual Champion standings. ",
+      "careerHighlights": [
+        "Winner of nine tournaments worldwide, including the 2018 Masters.",
+        "Achieved highest world ranking at No. 6 in June 2020.",
+        "Has top 10 finishes in each of the four majors.",
+        "Represented U.S. in three Ryder Cups, earning nickname as Captain America.",
+        "Has been a world top 50 player since January 19, 2014.",
+        "In 2014 in a professional tournament in California, opened with rounds of 63-63-63 to play the first 54 holes in 27 under.",
+        "Won at least one tournament in eight of the previous nine years."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2018 Masters</b>&nbsp;-- Led for each of the final three rounds at Augusta National, winning by one stroke at 15 under ... Made 13 birdies and two eagles in the middle two rounds while shooting 66-67 to take control of the tournament ... Said Reed: \"Every time you think about it as a kid growing up, it's always, you know, this putt is to win a green jacket; this putt's to win the Masters. I think that's just because of the history and everything that's gone on here at Augusta National and how special it is to all the golfers and special it is to just golf in general around the world.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 9<br>Best finish: Win (2018)<br>Top 10s: 3<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 9<br>Best finish: 2nd (2017)<br>Top 10s: 1<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 9<br>Best finish: 4th (2018)<br>Top 10s: 1<br>Cuts made: 8</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 8<br>Best finish: 10th (2019)<br>Top 10s: 1<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team USA)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (3):</b>&nbsp;2014, 2016, 2018</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;7-3-2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;12</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;3-0-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;1-0-2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;3-3-0</p>"
+    }
   },
   {
-    "nickName": "Schwartzel ",
+    "nickName": "Schwartzel",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F21QuvaPW5Po6WUkOyvY3o8%2Fee1434ee2a80c94176c5ff815b20592b%2FSchwartzel-Charl.png&w=3840&q=75",
     "team": "Stinger GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F4ryz4wIEeEt3uONoqQmHdT%2Ffe8be2cf7c5d50d7e53cddd613a2c107%2F6.png&w=3840&q=75",
@@ -515,10 +967,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "South Africa",
+    "infos": {
+      "headline": "Schwartzel has a permanent place in LIV Golf history as its first individual winner at the inaugural event in London. His victory also helped the all-South African Stinger GC to the first team title. Schwartzel shot to fame when he reeled off four consecutive birdies to win the 2011 US Masters and has 16 worldwide wins since turning pro in 2002. He has spent more than 440 weeks in the world top 50 and followed up his London win with two more top-10 LIV Golf finishes in Chicago and Jeddah. ",
+      "careerHighlights": [
+        "Winner of 16 tournaments worldwide, including the inaugural LIV Golf Invitational London at Centurion Club.",
+        "Won the 2011 Masters by making four consecutive birdies to end his final round, which had never been done by a Masters winner.",
+        "Became the third South African to win at Augusta National, following Gary Player and Trevor Immelman.",
+        "Has won multiple events in a single year five times, including four consecutive years from 2010-13.",
+        "Reached a career-best 6th in the world rankings in March 2012.",
+        "Has spent more than 440 weeks of his career as a top 50 player.",
+        "In 2012, he won an event in Thailand on the Asian Tour by 11 strokes, then followed that by winning an event in his native South Africa by 12 strokes."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2011 Masters</b>&nbsp;– Birdied the final four holes to win by two strokes over Adam Scott and Jason Day at Augusta National ... Emerged from a pack of contenders in a final round in which eight different players held a share of the lead ... His 66 was the low score in the final round ... Became third South African to win the Masters (Gary Player, Trevor Immelman) ... Said Schwartzel: \"It's a dream for me. It's obviously the highlight in my golfing career by a long way. You know, I always thought if there was one that I would win, it would be this one. This is the sort of golf course that suits my eye.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 13<br>Best finish: Win (2011)<br>Top 10s: 3<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 16<br>Best finish: 12th (2011)<br>Top 10s: 0<br>Cuts made: 12</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 13<br>Best finish: 7th (2015)<br>Top 10s: 2<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 14<br>Best finish: 7th (2014)<br>Top 10s: 1<br>Cuts made: 8</p>"
+    }
   },
   {
-    "nickName": "Smith ",
+    "nickName": "Smith",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2FcnD9etALLqDpxkYztxyIZ%2Fe56efb5f6b49d7305ecc417b19f26e9e%2FSmith-Cam.png&w=3840&q=75",
     "team": "Ripper GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F15WLy3qey3BGp0HHKxPlDE%2F8d31355f4b0f8554338b6b492f1afde9%2F3.png&w=3840&q=75",
@@ -529,10 +995,30 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Australia",
+    "infos": {
+      "headline": "2022 was a standout year for Smith, who won five times across multiple tours. The Australian star joined the immortals when he shot a final round of 64 to come from four shots back to win The 150th  Open Championship at St Andrews. He followed that up with his first LIV Golf Invitational Series victory in Chicago. He captained Punch GC to a second-place finish at the Miami Team championship, shooting a 7-under 65 – three shots better than any other player – on the final day. Smith, who has represented Australia in several team events and won three Australian PGA Championships, reached the heights of No.2 in the world.",
+      "careerHighlights": [
+        "Winner of 10 professional events, including the 2022 Open Championship, the 150th playing of golf’s oldest major",
+        "Won for the first time as a LIV Golf member in his second start (Chicago)",
+        "Won five times across multiple tours in 2022, including the Australian PGA Championship at Royal Queensland",
+        "Ranked world No. 2, the highest ranking among any LIV Golf player upon accepting membership",
+        "First Australian player to reach as high as world No. 2 since 2017",
+        "Played in the men’s competition at the Tokyo Olympics in 2021, finished tied for 10th",
+        "Has posted a career-best three wins in 2022",
+        "Shot final-round 64 at St Andrews to rally from four strokes down to win the Claret Jug",
+        "Has five additional top-10 finishes in majors",
+        "Won consecutive Australian PGA Championships in 2017-18, and won the event for a third time in 2022",
+        "Received the Greg Norman Medal in 2020 for best professional golfer, male or female, on the world stage",
+        "Has represented Australia in multiple team events",
+        "Began playing golf at age 2 at Wantima Country Club outside Brisbane"
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2022 Open Championship</b>&nbsp;– Claimed his first major on the strength of a red-hot putter … Made 255 feet of putts in shooting a second-round 64 … His 36-hole total of 131 was the lowest score in the first two rounds of any Open played at St Andrews … Shot another 64 in the final round to rally from four strokes down … It was the lowest score ever shot in the final round to win the Open at St Andrews … Said Smith: “To win an Open Championship in itself is probably going to be a golfer’s highlight in their career. To do it around St Andrews, I think, is just unbelievable.\"</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 6<br>Best finish: 2nd (2020<br>Top 10s: 4<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 7<br>Best finish: 13th (2022)<br>Top 10s: 0<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 7<br>Best finish: 4th (2015)<br>Top 10s: 1<br>Cuts made: 4</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 5<br>Best finish: Won (2022)<br>Top 10s: 1<br>Cuts made: 4</p>"
+    }
   },
   {
-    "nickName": "Steele ",
+    "nickName": "Steele",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3b1RKqxAQt22GISOS3JOS4%2F3a27ad0fdecf939d4e92cac3d7696392%2FPlayer-Placeholder.png&w=3840&q=75",
     "team": "HyFlyers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3TkvwTXeYVo023kHEuvIuD%2F72c6f67034bcc2d392dea7d99b97b451%2FMicrosoftTeams-image__27_.png&w=3840&q=75",
@@ -543,10 +1029,16 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Growing up in a small town in California that did not have a golf course or driving range, Brendan Steele was a late starter in the sport. He didn’t begin playing until he was 13 years old, yet he’s managed to put together an impressive professional career, with 10 worldwide victories in approximately 400 career starts. A practice partner and friend of fellow Californian Phil Mickelson, he’s now a member of Lefty’s HyFlyers GC.",
+      "careerHighlights": [],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Stenson ",
+    "nickName": "Stenson",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7LavRBK7nE9s8wkw1CqPc8%2F789e8dc583e4b48d4388e94e13d019b0%2FStenson-.png&w=3840&q=75",
     "team": "Majesticks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2enUkNDUBSPms3pVH53xMY%2Fcd704ddd585174ce54a0feda8afc8d92%2F12.png&w=3840&q=75",
@@ -557,10 +1049,24 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "",
+    "infos": {
+      "headline": "Nicknamed \"Iceman\" for his cool, calm demeanour, Stenson made his LIV Golf debut a memorable one, claiming the individual title in Bedminster. He's been one of golf's hottest properties for two decades. He became the first male Swede to win a major when he won The Open in 2016, and in the same year took silver at the Olympics in Rio. Stenson won his first LIV Golf Invitational Series event in Bedminster in 2022.  He has spent more than 300 weeks in the world’s top 10 and represented Europe five times in the Ryder Cup. ",
+      "careerHighlights": [
+        "One of Europe’s most accomplished golfers with 22 worldwide wins, including the 2016 Open Championship.",
+        "Won LIV Golf Bedminster in his first start after becoming a member.",
+        "Has represented Europe in five Ryder Cups, including team victories in 2006, 2014 and 2018.",
+        "Won the silver medal in the men’s competition at the 2016 Summer Olympics in Rio de Janeiro.",
+        "Has spent more than 300 weeks of his career ranked among the world’s top 10 golfers, reaching a career-best No. 2 in 2014.",
+        "Has earned more than a dozen honors as the top performing golfer on global tours and competitions, and is a five-time recipient of the Swedish Golfer of the Year award.",
+        "Finished inside the top 10 in 14 of his 64 starts in majors and has 149 career top 10s."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (1)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2016 Open Championship</b>&nbsp;– Became the first male Swede to win a major, outdueling Phil Mickelson on the weekend at Royal Troon … Shot a final-round 63 to tie Johnny Miller for lowest final round of any major winner … Overall score of 264 set a record for lowest total in any major … Beat Mickelson by three shots and was 14 shots ahead of the third-place finisher … Said Stenson: “It was a great match with Phil … I felt like this was going to be my turn. I knew I was going to have to battle back if it wasn't, but I think that was the extra self-belief that made me go all the way this week.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 16<br>Best finish: 5th (2018)<br>Top 10s: 1<br>Cuts made: 11</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 16<br>Best finish: 3rd (2013, 2014)<br>Top 10s: 5<br>Cuts made: 11</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 15<br>Best finish: 4th (2014)<br>Top 10s: 4<br>Cuts made: 9</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 17<br>Best finish: Win (2016)<br>Top 10s: 4<br>Cuts made: 13</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (5):</b>&nbsp;2006, 2008, 2014, 2016, 2018</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;10-7-2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;19</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;3-2-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;4-3-1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;3-2-1</p>"
+    }
   },
   {
-    "nickName": "Tringale ",
+    "nickName": "Tringale",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7vkVMcfqAlfC2mJsuZdEkl%2F065329935981c704fe1c8c0956dc4d9c%2FTringale-Cameron.png&w=3840&q=75",
     "team": "HyFlyers GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3TkvwTXeYVo023kHEuvIuD%2F72c6f67034bcc2d392dea7d99b97b451%2FMicrosoftTeams-image__27_.png&w=3840&q=75",
@@ -571,10 +1077,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "American Tringale has been playing at the highest level in golf since turning pro in 2009, during which time he has achieved one professional win. He moved into the top 100 in the world in August 2014 and has since spent more than 170 weeks in that illustrious company. Tringale, a graduate of Georgia Tech, was a member of Phil Mickelson’s Hy Flyers GC after joining LIV Golf last season.",
+      "careerHighlights": [
+        "Has one professional win since turning pro in 2009",
+        "Of his 34 career top 10s, four have been runner-up finishes",
+        "Reached career-best 44th in the world in February 2022",
+        "Became a top 100 player for first time in August 2014 and has spent more than 170 weeks of his career inside the top 100",
+        "Partnered with Jason Day to win the QBE Shootout in 2014",
+        "Three-time All-American while playing collegiately at Georgia Tech"
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 1<br>Best finish: 38th (2015)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 8<br>Best finish: 41st (2022)<br>Top 10s: 0<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 3<br>Best finish: 14th (2022)<br>Top 10s: 0<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 4<br>Best finish: 26th (2021)<br>Top 10s: 0<br>Cuts made: 3</p>"
+    }
   },
   {
-    "nickName": "Uihlein ",
+    "nickName": "Uihlein",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5Xmy3p04YHlsvOgZjQiPx7%2Faf155810f73e62baa5f85320b48d97ee%2FUihlein-Peter.png&w=3840&q=75",
     "team": "4Aces GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7sMNz0m3NH7Ivr8YpOBh08%2Feefd82e3ec49f738e00dadd12960507c%2F4_aces.jpg&w=3840&q=75",
@@ -585,10 +1104,27 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Uihlein enjoyed a stellar first year in the LIV Golf Invitational Series in 2022. Three top-five finishes, including runner-up spots in Chicago and Jeddah, helped earn him third place in the season-long Individual Champion standings. Following a glittering amateur career, during which he was ranked No.1 while winning the U.S. Amateur, Uihlein has won three times as a pro. And in case you’re wondering, it’s pronounced “You-line”!",
+      "careerHighlights": [
+        "Finished third in season-long Individual Champion standings in 2022 LIV Golf season.",
+        "Winner of three events since turning pro in 2011.",
+        "Runner-up to Cameron Smith in LIV Golf Invitational Chicago.",
+        "Lost to Smash GC teammate Brooks Koepka on third hole of playoff in LIV Golf Invitational Jeddah.",
+        "Former No. 1-ranked amateur player.",
+        "Won the 2010 U.S. Amateur.",
+        "In June 2018, ranked a career-best 48th in the world.",
+        "Has spent more than 125 weeks of his career inside the world’s top 100.",
+        "Played collegiately at Oklahoma State and was named the Ben Hogan Award winner in his junior year.",
+        "His dad Wally Uihlein is a retired president and CEO of the golf equipment and apparel manufacturer Acushnet Company."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 1<br>Best finish:<br>Top 10s:<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 3<br>Best finish:<br>Top 10s:<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 3<br>Best finish: 48th (2018)<br>Top 10s:<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 4<br>Best finish: 44th (2017)<br>Top 10s: 0<br>Cuts made: 2</p>"
+    }
   },
   {
-    "nickName": "Varner III ",
+    "nickName": "Varner III",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2FiJ2ZJnXk9fP131S5OweSt%2Fa6418bf5802b230af8391a35be059920%2FHarold_Verner_III_l.png&w=3840&q=75",
     "team": "RangeGoats GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7FKBqzypOtcyxh3yRnjO5H%2F643b7dff85aadf38b7e41f700f94b199%2F11.png&w=3840&q=75",
@@ -599,10 +1135,23 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Born in Ohio but raised in North Carolina, Varner has three wins at the top level since turning pro in 2012. They include the PIF Saudi International in 2022, where he rolled in a 92-foot eagle putt to defeat good friend and LIV Golf teammate Bubba Watson. After joining LIV Golf, he recorded a top-10 finish in Bangkok, then knocked off Brooks Koepka in a dominant performance in their Singles match at the Miami Team Championship.",
+      "careerHighlights": [
+        "Winner of two international events, the Australian PGA Championship (2016) and the PIF Saudi International (2022)",
+        "Won in Saudi Arabia by holing a 92-foot eagle putt to defeat Bubba Watson by one stroke",
+        "Reached a career-best 35th in the world ranking in June 2022",
+        "Played in the final group with eventual champion Brooks Koepka at the 2019 PGA Championship",
+        "Played collegiately at East Carolina University and was first player from his school to be named Conference USA player of the year",
+        "Introduced to golf by his father, Harold Varner Jr."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 1<br>Best finish: 23rd (2022)<br>Top 10s: 0<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 5<br>Best finish: 29th (2020)<br>Top 10s: 0<br>Cuts made: 4</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 3<br>Best finish:<br>Top 10s: 0<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 3<br>Best finish: 28th (2022)<br>Top 10s: 0<br>Cuts made: 2</p>"
+    }
   },
   {
-    "nickName": "Vincent ",
+    "nickName": "Vincent",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5yBfROZY71mnR7Q73opXdv%2F61910bc05f12fcb6e3eaa29c87dc54ca%2FVincent-Scott-R.png&w=3840&q=75",
     "team": "Iron Heads GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2KdSUYQVIdQFPbfBamzzb7%2F22a4f08373a8bc8330cdb4b77e98433e%2FIron_heads.jpg&w=3840&q=75",
@@ -613,10 +1162,21 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Zimbabwe",
+    "infos": {
+      "headline": "Vincent’s fearlessness and no-nonsense attitude saw his fellow Zimbabweans nickname him “Mhondoro.” The word relates to the lion and guardian spirit of the nation’s Shona tribe and sums up his style of play perfectly. Vincent - who represented his country at the 2016 Olympics - has racked up five career wins, with his most famous triumph coming in the 2022 International Series in England that preceded LIV Golf’s inaugural event in London. He also won the International Series Order of Merit during the 2022 Asian Tour season to secure playing privileges for the 2023 LIV Golf League. ",
+      "careerHighlights": [
+        "Won International Series Order of Merit during the 2022 Asian Tour season, giving him an exemption into the 2023 LIV Golf League",
+        "Has 5 career wins, including the International Series England leading up to LIV Golf's inaugural event in London",
+        "Represented Zimbabwe in the Tokyo Olympics, finishing tied for 16th",
+        "Played collegiately at Virginia Tech"
+      ],
+      "majorChampionship": null
+    }
   },
   {
-    "nickName": "Watson ",
+    "nickName": "Watson",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3090GaYYwAmNPA8JDqCTbo%2Fd286b27c45368ad662875e8f33748ae6%2FWatson-Bubba.png&w=3840&q=75",
     "team": "RangeGoats GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F7FKBqzypOtcyxh3yRnjO5H%2F643b7dff85aadf38b7e41f700f94b199%2F11.png&w=3840&q=75",
@@ -627,10 +1187,25 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Watson was a non-playing LIV Golf captain in 2022 as he recovered from knee surgery, but he’s back in ’23. The big-hitting American won the hearts of fans across the world with his emotional reaction to winning the Masters in 2012, and he has now won 14 pro tournaments – including another Augusta triumph in 2014. Watson reached No.2 in the world in 2015, the highest rating for a left-hander, an honor he shares with Phil Mickelson.",
+      "careerHighlights": [
+        "Winner of 14 professional tournaments, including two Masters (2012, 2014)",
+        "Became the 17th player to win two or more Masters with his win in 2014",
+        "Reached a career-high ranking of world No. 2 in February 2015, joining Phil Mickelson as the highest-ranked left-handed golfers of all time",
+        "In addition to his two Masters win, he was in a playoff at the 2010 PGA Championship",
+        "Has played in four Ryder Cups for the USA, and was a vice-captain in 2016",
+        "Known as one of golf’s biggest hitters, his longest drive in competition is 424 yards",
+        "Has finished atop the driving distance category five times in his career",
+        "Became LIV Golf’s first non-playing captain in 2022 while recovering from knee surgery"
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>WINS (2)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>2012 Masters</b>&nbsp;– Won his first major by beating Louis Oosthuizen on the second hole of a playoff. Produced one of the Masters’ most incredible recovery shots on the 10th hole, using a 52-degree gap wedge to hit a shot from the pine straw under the trees with 40 yards of hook. The ball stopped 15 feet from the pin; he then two-putted for par for the win. Said Watson: “I got in these trees and hit a crazy shot that I saw in my head and somehow I'm here talking to you with a green jacket on.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>2014 Masters</b>&nbsp;– Entered the final round tied for the lead and won by three shots at 8 under. Shot 69-68 to take a three-shot lead after 36 holes but fell back with a third-round 74. Shot a final-round 69, taking the lead with four birdies in a six-hole stretch. Became the 17th player to win the Masters at least two times. Said Watson: “To win twice, to be with the great names that you just said; again, small‑town guy named Bubba now has two green jackets, it's pretty wild.”</p><p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 14<br>Best finish: Win (2012, 2014)<br>Top 10s: 3<br>Cuts made: 13</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 16<br>Best finish: 2nd (2010)<br>Top 10s: 1<br>Cuts made: 10</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 15<br>Best finish: 5th (2007)<br>Top 10s: 1<br>Cuts made: 7</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 11<br>Best finish: 23rd (2012)<br>Top 10s: 0<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team USA)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (4):</b>&nbsp;2010, 2012, 2014, 2018</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;4-10-0&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;14</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;0-4-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;1-3-0&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;3-3-0&nbsp;</p>"
+    }
   },
   {
-    "nickName": "Westwood ",
+    "nickName": "Westwood",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F5ersi7hjiCgwLnKXzW3dt%2F4f053e2b14218c3fb56489a3039b3747%2FWestwood-Lee.png&w=3840&q=75",
     "team": "Majesticks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2enUkNDUBSPms3pVH53xMY%2Fcd704ddd585174ce54a0feda8afc8d92%2F12.png&w=3840&q=75",
@@ -641,10 +1216,26 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "England",
+    "infos": {
+      "headline": "One of England’s most decorated golfers, Westwood has won 44 tournaments over four different decades across five continents and 20 different countries. He’s topped the world rankings for 22 weeks and has played on seven Ryder Cup winning teams – a European record. Westwood finished as runner-up at the Masters in 2010 and 2016, as well as at the 2010 Open Championship. He shares the record for the lowest round in LIV Golf history, shooting 62 in the final round at Boston, and was one of the key components for Majesticks GC during the inaugural season.  ",
+      "careerHighlights": [
+        "Winner of 44 tournaments spread across five continents.",
+        "One of England’s most decorated and consistent golfers, with wins in four different decades.",
+        "Holds record for lowest round in LIV Golf history (62, final round, Boston).",
+        "Has won multiple golfer of the year awards.",
+        "In October 2010, began a 17-week stretch in which he ranked world No. 1, replacing Tiger Woods atop the rankings. Regained the No. 1 spot for five weeks in 2011.",
+        "Has spent more than 350 weeks of his career as a top 10 player.",
+        "Has represented Europe in 11 Ryder Cups, playing in a record 47 matches.",
+        "Has 12 top 5 finishes in 90 major starts.",
+        "Career rankings exceed $60 million."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 21<br>Best finish: 2nd (2010, 2016)<br>Top 10s: 6<br>Cuts made: 17</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 23<br>Best finish: 3rd (2009)<br>Top 10s: 2<br>Cuts made: 15</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 20<br>Best finish: 3rd (2008, 2011)<br>Top 10s: 5<br>Cuts made: 17</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 27<br>Best finish: 2nd (2010)<br>Top 10s: 6<br>Cuts made: 21</p><h2 class=\"primary-h2 mb-5 md:mb-10\">RYDER CUP HISTORY (Team Europe)</h2><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (11):</b> 1997, 1999, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2021</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b> 21-20-6</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b> 47</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;4-7-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b> 9-7-4&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;8-6-2&nbsp;</p>"
+    }
   },
   {
-    "nickName": "Wiesberger ",
+    "nickName": "Wiesberger",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F2GUCIMIvhfMTvw4fTnxFPt%2F2e750fab5e6146f8fa8a769df56f5e1f%2FWeisberger-Bernd.png&w=3840&q=75",
     "team": "Cleeks GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F156JkfXvm371MTXzr42yNI%2F25e6793591da64d00745fcd6deb1cbdb%2FCleeks.jpg&w=3840&q=75",
@@ -655,10 +1246,22 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "Austria",
+    "infos": {
+      "headline": "Wiesberger is Austria’s most successful golfer and has recorded 12 wins since turning professional in 2006. He reached a career-best ranking of 21st in 2019 and has spent more than 220 weeks inside the world’s top 50. A member of Europe’s Ryder Cup team in 2021, Wiesberger has cemented himself as one of Europe’s top golfers and a formidable opponent on the international stage. ",
+      "careerHighlights": [
+        "The most successful golfer from Austria with 12 wins among nearly 400 worldwide starts",
+        "Produced multiple victories in three separate years, including a career-best three wins in 2019.",
+        "Reached a career-best 21st in the world rankings in 2019.",
+        "Has spent more than 220 weeks of his career ranked inside the world’s top 50.",
+        "Played in his first Ryder Cup in 2021 as a member of the European team."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 6<br>Best finish: 22nd (2015)<br>Top 10s: 0<br>Cuts made: 6</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 9<br>Best finish: 15th (2014)<br>Top 10s: 0<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 7<br>Best finish: 16th (2017)<br>Top 10s: 0<br>Cuts made: 3</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 8<br>Best finish: T-32 (2019)<br>Top 10s: 0<br>Cuts made: 5</p><p class=\"body-longform mb-4 md:mb-5\"><b>RYDER CUP HISTORY (Team Europe)</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Appearances (1):</b>&nbsp;2021</p><p class=\"body-longform mb-4 md:mb-5\"><b>Record (wins, losses, halves):</b>&nbsp;0-3-0&nbsp;</p><p class=\"body-longform mb-4 md:mb-5\"><b>Total matches:</b>&nbsp;3</p><p class=\"body-longform mb-4 md:mb-5\"><b>Singles (W-L-H):</b>&nbsp;0-1-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Foursomes (W-L-H):</b>&nbsp;0-1-0</p><p class=\"body-longform mb-4 md:mb-5\"><b>Four-balls (W-L-H):</b>&nbsp;0-1-0</p>"
+    }
   },
   {
-    "nickName": "Wolff  ",
+    "nickName": "Wolff",
     "playerImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F3018Egpc0meN1GSHAdngHN%2F6eb5ebcb0d50e78f3cfc265b4cc535f0%2FWolff-Matt.png&w=3840&q=75",
     "team": "Smash GC",
     "teamImg": "/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F24ldqbofbj92%2F1BtyfMM6IyJMG7xd4eG2eP%2F9fe5bab3feda343fee3ea71d64484651%2F2.png&w=3840&q=75",
@@ -669,6 +1272,21 @@
     "recordLoss": 0,
     "points": 0,
     "details": {},
-    "approx": 0
+    "approx": 0,
+    "country": "United States of America",
+    "infos": {
+      "headline": "Renowned as one of the game’s big hitters, Wolff ranked second in driving distance in LIV Golf’s inaugural season with a 323.5-yard average. He made LIV Golf history by hitting the first hole-in-one at the LIV Golf Invitational Boston in September 2022. Wolff won his first pro tournament in only his third start after turning pro in 2019 and achieved a career-best No.12 world ranking just over a year later. He has already spent more than 90 weeks as a top 50 player and recorded top-five finishes at two majors in 2020 - the PGA Championship and the U.S. Open, where he was runner-up. ",
+      "careerHighlights": [
+        "Won his first professional event in July 2019, less than one month after turning pro.",
+        "Winner of the 2019 NCAA Division I individual golf championship while playing for Oklahoma State.",
+        "Won the Haskins Award in 2019 for most outstanding collegiate golfer.",
+        "Reached a career-best No. 12 in the world in October 2020.",
+        "Has spent 90 weeks of his career as a top 50 player.",
+        "Posted top 5 finishes in two majors in 2020 – the PGA Championship (T-4) and the U.S. Open (2).",
+        "Shot a third-round 65 to take the 54-hole lead at the 2020 U.S. Open at Winged Foot before finishing runner-up to Bryson DeChambeau.",
+        "One of golf’s longest hitters, with a driving distance average of nearly 320 yards in 2022."
+      ],
+      "majorChampionship": "<p class=\"body-longform mb-4 md:mb-5\"><b>STARTS AND FINISHES</b></p><p class=\"body-longform mb-4 md:mb-5\"><b>Masters</b><br>Starts: 3<br>Best finish: MC (2020, 2022)<br>Top 10s: 0<br>Cuts made: 0</p><p class=\"body-longform mb-4 md:mb-5\"><b>PGA Championship</b><br>Starts: 2<br>Best finish: 4th (2020)<br>Top 10s: 1<br>Cuts made: 1</p><p class=\"body-longform mb-4 md:mb-5\"><b>U.S. Open</b><br>Starts: 2<br>Best finish: 2nd (2020)<br>Top 10s: 1<br>Cuts made: 2</p><p class=\"body-longform mb-4 md:mb-5\"><b>Open Championship</b><br>Starts: 0<br>Best finish:<br>Top 10s:<br>Cuts made:</p>"
+    }
   }
 ]
