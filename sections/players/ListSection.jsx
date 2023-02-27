@@ -289,7 +289,7 @@ const ListSection = ({data, game, page}) => {
                         if (game === 'dota2') {
                             Router.push(`/teams/player/${player.name}`);
                         } else if (game === 'axie') {
-                            // no redirect
+                            Router.push(`/teams/${game}/player/${changeHash(player.nickName)}`);
                         } else {
                             Router.push(`/teams/${game}/player/${player.nickName}`);
                         }

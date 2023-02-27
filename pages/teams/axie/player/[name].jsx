@@ -167,7 +167,6 @@ const Name = ({player}) => {
                                         <a className="a"><span>Player</span></a>
                                     </Link>
                                 </li>
-                                <li><a style={{cursor: 'auto'}} href="#"><span>{player?.team}</span></a></li>
                                 <li><a style={{cursor: 'auto'}} href="#"><span>{player?.nickName}</span></a></li>
                             </ul>
                         </BreadCrumb>
