@@ -5,8 +5,9 @@ import Chart from "@sections/treasury/chart";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import {formatNumber} from "../utils/money_format";
-import {TreasuryWrap} from "@sections/treasury/style";
+import {SuccessButton, TreasuryWrap} from "@sections/treasury/style";
 import ChartPrice from "@sections/treasury/ChartPrice";
+import {useEffect, useState} from "react";
 
 // get data from api
 export async function getServerSideProps() {
@@ -14,6 +15,7 @@ export async function getServerSideProps() {
     const resMarketCap = await fetch(`https://script.google.com/macros/s/AKfycbxjut-YkSj6wrLolorbDvZ3OI4aSTuNLhFMSJQvY1yFStdcOsMaiGk3nNglQZkTgKwh/exec?action=marketcap`);
     const resMovingPrice = await fetch(`https://script.google.com/macros/s/AKfycbxAigVjruEbOCEQG-F6XIrOFk4Wv0Rn0GLCwxYuBlsKXIP3SRqkQAyWncgolQ92j6jQ/exec?action=moving-price`);
     const ressTestPrice = await fetch('https://script.google.com/macros/s/AKfycbz3MtzqnbXlVLz5MICYNx0ZIlDCEb-Xx1uhDBgdqNYKxUpLdksrf469-EPcvBrgkOdl/exec?action=test');
+    
     const dataMarketCap = await resMarketCap.json();
     const data = await res.json();
     const dataMovingPrice = await resMovingPrice.json();
@@ -27,6 +29,17 @@ export async function getServerSideProps() {
 }
 
 const treasury = ({treasuryData, marketCap, movingPrice}) => {
+
+    const [copySuccess, setCopySuccess] = useState(false);
+    useEffect(() => {
+        const setTimer = setTimeout(() => {
+            setCopySuccess(false);
+        }, 4000);
+        return () => {
+            clearTimeout(setTimer);
+        };
+    }, [copySuccess]);
+
     return (
         <>
             <Head>
@@ -146,7 +159,7 @@ const treasury = ({treasuryData, marketCap, movingPrice}) => {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Circulation Supply</h5>
+                                    <h5>Circulating Supply</h5>
                                     <div className="d-flex">
                                         <span className="number">{formatNumber(0)}</span>
                                     </div>
@@ -156,20 +169,36 @@ const treasury = ({treasuryData, marketCap, movingPrice}) => {
                                     <div className="d-flex flex-row">
                                         <span>ETH</span>
                                         0x9BADA086BAE4962037f14B0e79BaEa62e972dD21
-                                        <button onClick={
-                                            () => {
-                                                navigator.clipboard.writeText('0x9BADA086BAE4962037f14B0e79BaEa62e972dD21')
-                                            }
-                                        } className="copy">
-                                            <svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                                 width="16" height="17"
-                                                 className="text-bitdaoBlack-100 hover:text-bitdaoBlack-50">
-                                                <path
-                                                    d="M3.333 10.5h-.666a1.333 1.333 0 0 1-1.334-1.333v-6a1.333 1.333 0 0 1 1.334-1.334h6A1.333 1.333 0 0 1 10 3.167v.666M7.333 6.5h6c.737 0 1.334.597 1.334 1.333v6c0 .737-.597 1.334-1.334 1.334h-6A1.333 1.333 0 0 1 6 13.833v-6C6 7.097 6.597 6.5 7.333 6.5Z"
-                                                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"
-                                                    strokeLinejoin="round"/>
-                                            </svg>
-                                        </button>
+
+                                        {
+                                            copySuccess ? <SuccessButton>
+                                                    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                         width="30" height="30"
+                                                         className="text-bitdaoBlack-100 hover:text-bitdaoBlack-50">
+                                                        <path
+                                                            d="M6.667 10.667L3.333 7.333 4.333 6.333 6.667 8.667 11.667 3.667 12.667 4.667L6.667 10.667Z"
+                                                            fill="currentColor"/>
+                                                    </svg>
+                                                </SuccessButton> :
+                                                <button onClick={
+                                                    () => {
+                                                        navigator.clipboard.writeText('0x9BADA086BAE4962037f14B0e79BaEa62e972dD21');
+                                                        setCopySuccess(true);
+                                                    }
+                                                } className="copy">
+                                                    <svg viewBox="0 0 16 17" fill="none"
+                                                         xmlns="http://www.w3.org/2000/svg"
+                                                         width="16" height="17"
+                                                         className="text-bitdaoBlack-100 hover:text-bitdaoBlack-50">
+                                                        <path
+                                                            d="M3.333 10.5h-.666a1.333 1.333 0 0 1-1.334-1.333v-6a1.333 1.333 0 0 1 1.334-1.334h6A1.333 1.333 0 0 1 10 3.167v.666M7.333 6.5h6c.737 0 1.334.597 1.334 1.333v6c0 .737-.597 1.334-1.334 1.334h-6A1.333 1.333 0 0 1 6 13.833v-6C6 7.097 6.597 6.5 7.333 6.5Z"
+                                                            stroke="currentColor" strokeWidth="1.5"
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"/>
+                                                    </svg>
+                                                </button>
+                                        }
+
                                     </div>
                                 </li>
                             </ul>

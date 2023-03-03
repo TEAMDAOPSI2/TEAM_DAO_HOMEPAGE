@@ -651,7 +651,8 @@ export const TreasuryChartPrice = styled.div`
     border-radius: 4px;
     border: none !important;
   }
-  .tooltip-chart .dot{
+
+  .tooltip-chart .dot {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -712,5 +713,24 @@ export const TreasuryChartPrice = styled.div`
         margin: 0;
       }
     }
+  }
+`
+
+export const SuccessButton = styled.div`
+  background: #5bff00;
+  border: 4px solid #2f8414;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 23px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  svg{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -3px;
   }
 `
