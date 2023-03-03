@@ -15,7 +15,7 @@ export async function getServerSideProps() {
     const resMarketCap = await fetch(`https://script.google.com/macros/s/AKfycbxjut-YkSj6wrLolorbDvZ3OI4aSTuNLhFMSJQvY1yFStdcOsMaiGk3nNglQZkTgKwh/exec?action=marketcap`);
     const resMovingPrice = await fetch(`https://script.google.com/macros/s/AKfycbxAigVjruEbOCEQG-F6XIrOFk4Wv0Rn0GLCwxYuBlsKXIP3SRqkQAyWncgolQ92j6jQ/exec?action=moving-price`);
     const ressTestPrice = await fetch('https://script.google.com/macros/s/AKfycbz3MtzqnbXlVLz5MICYNx0ZIlDCEb-Xx1uhDBgdqNYKxUpLdksrf469-EPcvBrgkOdl/exec?action=test');
-    
+
     const dataMarketCap = await resMarketCap.json();
     const data = await res.json();
     const dataMovingPrice = await resMovingPrice.json();
@@ -164,7 +164,7 @@ const treasury = ({treasuryData, marketCap, movingPrice}) => {
                                         <span className="number">{formatNumber(0)}</span>
                                     </div>
                                 </li>
-                                <li>
+                                <li className='contract'>
                                     <h5>Contract</h5>
                                     <div className="d-flex flex-row">
                                         <span>ETH</span>

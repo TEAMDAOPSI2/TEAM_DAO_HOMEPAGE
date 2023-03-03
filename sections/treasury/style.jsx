@@ -247,6 +247,14 @@ export const TreasuryWrap = styled.div`
       font-size: 40px;
       line-height: 42px;
     }
+    
+    .contract{
+      display: flex;
+      flex-direction: column;
+      div{
+        font-size: 14px;
+      }
+    }
   }
 
   #treasury .amounts .title h2 span:first-child {
