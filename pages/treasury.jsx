@@ -80,9 +80,9 @@ const treasury = ({treasuryData, marketCap, movingPrice}) => {
                                                     <td className="number">{formatNumber(item.token)}
                                                         <span>{item.percentage}%</span></td>
                                                     <td className="number"><span>$</span>{formatNumber(item.usd)}</td>
-                                                    <td className="number"><span>$</span>{formatNumber(item.earned)}
+                                                    <td className="number"><span></span>{formatNumber(item.earned)}
                                                     </td>
-                                                    <td className="number"><span>$</span>{formatNumber(item.rewarded)}
+                                                    <td className="number"><span></span>{formatNumber(item.rewarded)}
                                                     </td>
                                                 </tr>
                                             )
