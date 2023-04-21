@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import TeamLogo from 'public/assets/team-dao-v2.png';
 import TeamMeta from 'public/assets/team-meta.png';
 import Image from "next/image";
@@ -20,7 +20,7 @@ const RBNavBar = () => {
     const ifWalletConnected = async () => {
         try {
             // make sure have access window ethereum
-            const { ethereum } = window;
+            const {ethereum} = window;
 
             if (!ethereum) {
                 console.log("No ethereum found");
@@ -29,7 +29,7 @@ const RBNavBar = () => {
             }
 
             // check if authorized using wallet connect
-            const accounts = await ethereum.request({ method: "eth_accounts" });
+            const accounts = await ethereum.request({method: "eth_accounts"});
 
             if (accounts.length !== 0) {
                 const account = accounts[0];
@@ -65,7 +65,7 @@ const RBNavBar = () => {
         // }
         // if not doing connect meta mask
         try {
-            const { ethereum } = window;
+            const {ethereum} = window;
             if (!ethereum) {
                 alert("get metamask");
                 return;
@@ -105,7 +105,8 @@ const RBNavBar = () => {
     console.log(isOpen);
     return (
         <>
-            <Navbar style={{ backgroundColor: 'rgba(0, 0, 0, 0.75) !important'}} className='fixed-top bg-black' expand='lg' id='myNavbar'>
+            <Navbar style={{backgroundColor: 'rgba(0, 0, 0, 0.75) !important'}} className='fixed-top bg-black'
+                    expand='lg' id='myNavbar'>
                 <div className='container'>
                     <Link className='navbar-brand text-white' href='/'>
                         <a>
@@ -116,7 +117,7 @@ const RBNavBar = () => {
                         onClick={() => setIsOpen(!isOpen)}
                         aria-controls='basic-navbar-nav'
                     >
-                        <span className={`navbar-toggler-icon ${isOpen ? `close` : ``}`} />
+                        <span className={`navbar-toggler-icon ${isOpen ? `close` : ``}`}/>
                     </Navbar.Toggle>
                     <Navbar.Collapse
                         id='basic-navbar-nav'
@@ -134,17 +135,20 @@ const RBNavBar = () => {
                             </Link>
                             <Link href='https://goo.gl/maps/BjL2WXMcup4NSRqS7'>
                                 <a target='_blank' className='nav-link'>GAMECAFE</a>
+                                <Link href='https://whitepaper.teamdao.com/'>
+                                    <a className='nav-link' target='_blank' rel='noreferrer'>
+                                        WHITEPAPER
+                                    </a>
+                                </Link>
+                                <Link href='/media-kit'>
+                                    <a target="_blank" className='nav-link'>MEDIAKIT</a>
+                                </Link>
+                                <Link href='/treasury'>
+                                    <a className='nav-link'>TREASURY</a>
+                                </Link>
                             </Link>
-                            <Link href='https://whitepaper.teamdao.com/'>
-                              <a className='nav-link' target='_blank' rel='noreferrer'>
-                                WHITEPAPER
-                              </a>
-                            </Link>
-                            <Link href='/media-kit'>
-                                <a target="_blank" className='nav-link'>MEDIAKIT</a>
-                            </Link>
-                            <Link href='/treasury'>
-                                <a className='nav-link'>TREASURY</a>
+                            <Link href='https://team.university/'>
+                                <a target='_blank' className='nav-link'>TEAM UNIVERSITY</a>
                             </Link>
 
                             {/*<Link href='#'>*/}
@@ -170,7 +174,7 @@ const RBNavBar = () => {
                                 className='btn_b me-2 reflect-left w-100'
                             >
                                 <div
-                                    style={{ width: 150 + "px" }}
+                                    style={{width: 150 + "px"}}
                                     className='d-flex btn_b--txt flex-row justify-content-center align-items-center flex-grow-1 add-meta btn_b--textwrap'
                                 >
                                     <Image src={TeamMeta} className='coin-link' width={25} height={25}/>
@@ -183,7 +187,7 @@ const RBNavBar = () => {
                                 </div>
                                 <div className='btn_b--bgwrap'>
                                     <div className='btn_b--bg'>
-                                        <div className='btn_b--fill no_full' />
+                                        <div className='btn_b--fill no_full'/>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +220,7 @@ const RBNavBar = () => {
                                 </div>
                                 <div className='btn_b--bgwrap'>
                                     <div className='btn_b--bg'>
-                                        <div className='btn_b--fill no_full' />
+                                        <div className='btn_b--fill no_full'/>
                                     </div>
                                 </div>
                             </div>
