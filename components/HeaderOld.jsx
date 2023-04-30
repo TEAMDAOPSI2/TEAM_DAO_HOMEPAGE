@@ -147,7 +147,7 @@ const RBNavBar = () => {
                                 <a className='nav-link'>TREASURY</a>
                             </Link>
 
-                            <Link href='https://www.team.university/'>
+                            <Link href='https://team.university/'>
                                 <a target='_blank' className='nav-link'>UNIVERSITY</a>
                             </Link>
 
