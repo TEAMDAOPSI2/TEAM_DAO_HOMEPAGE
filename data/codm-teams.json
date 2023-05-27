@@ -862,40 +862,40 @@
     "rank": 37
   },
   {
-    "name": "T.E.A.M $ALGO",
-    "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
-    "prizeMoney": "1276",
+    "name": "T.E.A.M $KLAY",
+    "uri": "https://liquipedia.net/callofduty/T.E.A.M._$KLAY",
+    "prizeMoney": "2033",
     "region": "Philippines",
     "players": [
       {
-        "nickName": "JABEE",
-        "realName": "Constantinni Mallare",
-        "detail": "Main 4"
+        "nickName": "SUCREH",
+        "realName": "CARL RASUGANTE",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "KUZMA",
-        "realName": "James Billy Gatbonton",
-        "detail": "Main 4"
+        "nickName": "ASSASSIN",
+        "realName": "HARYL MAGPANTAY",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "O10",
-        "realName": "Hans Gabriel Dacutanan",
-        "detail": "Main 4"
+        "nickName": "MERC",
+        "realName": "PAUL JOSEPH GONZALES",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "PAUL",
-        "realName": "John Paul Desamparado ",
-        "detail": "Main 4"
+        "nickName": "DUDA",
+        "realName": "TREZ P. BORLONGAN",
+        "detail": "MAIN 4"
       },
       {
-        "nickName": "JESUO",
-        "realName": "Jan Jesley Sunga",
-        "detail": "Sub player"
+        "nickName": "ALBS",
+        "realName": "ALBERT DANIELLE FLORES",
+        "detail": "MAIN 5"
       },
       {
-        "nickName": "GAYLE",
-        "realName": "ElaizaGayle Bagalanon",
-        "detail": "Manager"
+        "nickName": "GRASYA",
+        "realName": "FEMANNUELLE GRACE CARPIO",
+        "detail": "MANAGER"
       }
     ],
     "rank": 38
@@ -1002,40 +1002,45 @@
     "rank": 41
   },
   {
-    "name": "T.E.A.M $KLAY",
-    "uri": "https://liquipedia.net/callofduty/T.E.A.M._$KLAY",
-    "prizeMoney": "1165.72",
+    "name": "T.E.A.M $ALGO",
+    "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
+    "prizeMoney": "1276",
     "region": "Philippines",
     "players": [
       {
-        "nickName": "SUCREH",
-        "realName": "CARL RASUGANTE",
-        "detail": "MAIN 4"
+        "nickName": "JABEE",
+        "realName": "Constantinni Mallare",
+        "detail": "Main 4"
       },
       {
-        "nickName": "ASSASSIN",
-        "realName": "HARYL MAGPANTAY",
-        "detail": "MAIN 4"
+        "nickName": "KUZMA",
+        "realName": "James Billy Gatbonton",
+        "detail": "Main 4"
       },
       {
-        "nickName": "MERC",
-        "realName": "PAUL JOSEPH GONZALES",
-        "detail": "MAIN 4"
+        "nickName": "O10",
+        "realName": "Hans Gabriel Dacutanan",
+        "detail": "Main 4"
       },
       {
-        "nickName": "DUDA",
-        "realName": "TREZ P. BORLONGAN",
-        "detail": "MAIN 4"
+        "nickName": "PAUL",
+        "realName": "John Paul Desamparado ",
+        "detail": "Main 4"
       },
       {
-        "nickName": "ALBS",
-        "realName": "ALBERT DANIELLE FLORES",
-        "detail": "MAIN 5"
+        "nickName": "JESUO",
+        "realName": "Jan Jesley Sunga",
+        "detail": "Sub player"
       },
       {
-        "nickName": "GRASYA",
-        "realName": "FEMANNUELLE GRACE CARPIO",
-        "detail": "MANAGER"
+        "nickName": "ALGO IZUMI",
+        "realName": "Miguel D Canoy III",
+        "detail": "Main 4"
+      },
+      {
+        "nickName": "GAYLE",
+        "realName": "ElaizaGayle Bagalanon",
+        "detail": "Manager"
       }
     ],
     "rank": 42
