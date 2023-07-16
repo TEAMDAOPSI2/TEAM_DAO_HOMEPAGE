@@ -864,7 +864,7 @@
   {
     "name": "T.E.A.M $KLAY",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._$KLAY",
-    "prizeMoney": "2033",
+    "prizeMoney": "2524.1",
     "region": "Philippines",
     "players": [
       {
@@ -914,7 +914,7 @@
       {
         "nickName": "KURAMA",
         "realName": "Patrick Sindanum",
-        "detail": "Sub Player"
+        "detail": "Main 4"
       },
       {
         "nickName": "SHINICHI",
@@ -922,9 +922,9 @@
         "detail": "Main 4"
       },
       {
-        "nickName": "BLÂNK",
-        "realName": "Juan Paolo Eugenio",
-        "detail": "Main 4"
+        "nickName": "STLLR",
+        "realName": "Tyrel Cruz",
+        "detail": "Sub Player"
       },
       {
         "nickName": "Đrei",
@@ -1004,14 +1004,9 @@
   {
     "name": "T.E.A.M $ALGO",
     "uri": "https://liquipedia.net/callofduty/T.E.A.M._oscar4",
-    "prizeMoney": "1276",
+    "prizeMoney": "2538.12",
     "region": "Philippines",
     "players": [
-      {
-        "nickName": "JABEE",
-        "realName": "Constantinni Mallare",
-        "detail": "Main 4"
-      },
       {
         "nickName": "KUZMA",
         "realName": "James Billy Gatbonton",
@@ -1035,12 +1030,17 @@
       {
         "nickName": "ALGO IZUMI",
         "realName": "Miguel D Canoy III",
-        "detail": "Main 4"
+        "detail": "Sub player"
       },
       {
         "nickName": "GAYLE",
         "realName": "ElaizaGayle Bagalanon",
         "detail": "Manager"
+      },
+      {
+        "nickName": "JABEE",
+        "realName": "Constantinni Mallare",
+        "detail": "Coach"
       }
     ],
     "rank": 42
